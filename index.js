@@ -1,5 +1,6 @@
 'use strict';
 
+// isThirteen :: Int -> Bool
 function isThirteen(n, strictEquality) {
   return (strictEquality === true) ? n === 13 : n == 13;
 }
