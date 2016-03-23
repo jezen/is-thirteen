@@ -1,3 +1,5 @@
+'use strict';
+
 function isThirteen(n) {
   return n === 13;
 }
