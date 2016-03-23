@@ -1,5 +1,9 @@
-function isThirteen(n) {
-  return n === 13;
+function isThirteen(n, strictEquality) {
+  if (strictEquality === true) {
+    return n === 13;
+  }
+  
+  return n == 13;
 }
 
 module.exports = isThirteen;
