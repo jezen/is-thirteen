@@ -51,8 +51,9 @@ function is(x) {
         "kolmetoista", // Finnish
         "treize", // French
         "dreizehn", // German
-      "שלוש עשרה", // Hebrew
-      "तेरह", //Hindi
+        "δεκατρία", // Greek
+        "שלוש עשרה", // Hebrew
+        "तेरह", //Hindi
         "tizenhárom", // Hungarian
         "déag", // Irish
         "tredici", // Italian
