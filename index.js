@@ -17,6 +17,7 @@ function is(x) {
 
         // Languages
         "thirteen", // English
+        "שלוש עשרה", // Hebrew 
         "тринадцать", // Russia
         "trzynaście", // Polish
         "trece", // Spanish
