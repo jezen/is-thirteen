@@ -19,6 +19,13 @@ var isThirteen = require('is-thirteen');
 
 i̶s̶T̶h̶i̶r̶t̶e̶e̶n̶(̶2̶5̶)̶;̶ ̶/̶/̶ ̶f̶a̶l̶s̶e̶
 i̶s̶T̶h̶i̶r̶t̶e̶e̶n̶(̶1̶3̶)̶;̶ ̶/̶/̶ ̶t̶r̶u̶e̶
+
+// Now with elegant syntax.
+
+
+is(13).thirteen(); // true
+is(12.8).roughly.thirteen(); // true
+is(6).within(10).of.thirteen(); // true
 ```
 
 ## Test
