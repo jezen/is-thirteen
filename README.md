@@ -1,5 +1,7 @@
 # is-thirteen
 
+[![Join us on Gitter](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/gytdau/is-thirteen)
+
 Check if a number is equal to 13.
 
 ## Installation
