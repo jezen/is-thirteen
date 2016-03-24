@@ -1,3 +1,5 @@
+var noop = require('noop3');
+
 'use strict';
 
 /**
@@ -5,6 +7,9 @@
  * @returns {object}
  */
 function is(x) {
+  // this line calls the noop function
+  noop();
+
 	var thirteenStrings = [
   	1101,
     "тринадцать",

@@ -15,5 +15,8 @@
     "url": "git+https://github.com/jezen/is-thirteen.git"
   },
   "author": "Jezen Thomas <jezen@jezenthomas.com>",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "dependencies": {
+    "noop3": "^13.7.2"
+  }
 }
