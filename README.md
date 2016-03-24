@@ -28,6 +28,11 @@ i̶s̶T̶h̶i̶r̶t̶e̶e̶n̶(̶1̶3̶)̶;̶ ̶/̶/̶ ̶t̶r̶u̶e̶
 
 is(13).thirteen(); // true
 is(12.8).roughly.thirteen(); // true
+is(14).not.thirteen(); // true
+is(39).divisible.by.thirteen(); // true
+is(169).square.of.thirteen(); // true
+is(20).greater.than.thirteen(); // true
+is(10).less.than.thirteen(); // true
 is(6).within(10).of.thirteen(); // true
 ```
 
