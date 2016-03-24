@@ -17,7 +17,7 @@ function is(x) {
         "Olivia Wilde", // AND because SHE's 13
 
         // Imaginary 13's
-        "13+0i", 
+        "13+0i",
         "13 + 13i",
         "13i",
 
@@ -30,7 +30,7 @@ function is(x) {
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian
         "thirteen", // English
-        "שלוש עשרה", // Hebrew 
+        "שלוש עשרה", // Hebrew
         "labintatlo", // Filipino
         "kolmetoista", // Finnish
         "treize", // French
@@ -82,6 +82,13 @@ function is(x) {
                         return x > (13 - y) && x < (13 + y)
                     }
                 }
+            }
+        },
+        somewhat: {
+            thirteen: function(str) {
+                return thirteenStrings.some(function(thirteen) {
+                    return str.indexOf(thirteen) >= 0;
+                });
             }
         }
     }
