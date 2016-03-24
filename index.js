@@ -51,11 +51,14 @@ function is(x) {
         "kolmetoista", // Finnish
         "treize", // French
         "dreizehn", // German
-      "שלוש עשרה", // Hebrew
-      "तेरह", //Hindi
+        "שלוש עשרה", // Hebrew
+        "तेरह", //Hindi
         "tizenhárom", // Hungarian
         "déag", // Irish
         "tredici", // Italian
+        "十三", // Japanese (Kanji)
+        "じゅうさん"　// Japanese (Hiragana)
+        "ジュウサン"　// Japanese (Katakana)
         "열셋", // Korean
         "sêzdeh", // Kurdish
         "tredecim", // Latin
