@@ -1,4 +1,9 @@
 var noop = require('noop3');
+var isUrl = require('is-url');
+var isImageUrl = require('is-image-url');
+var pixelUtil = require('pixel-util');
+var ocrad = require('ocrad.js');
+var Canvas = require('canvas');
 
 'use strict';
 
@@ -6,7 +11,7 @@ var noop = require('noop3');
  * @param n {number} The number to compare but also sometimes not a number but not not !NaN
  * @returns {object}
  */
-function is(x) {
+function is(x, cb) {
     // this line calls the noop function
     noop();
 
@@ -90,11 +95,33 @@ function is(x) {
         "θərˈtiːn"
     ];
 
+
+    if (isUrl(x) && isImageUrl(x)) {
+        pixelUtil.createBuffer(x).then(function(data) {
+            try {
+                var image = new Canvas.Image();
+                image.src = data;
+
+                var canvas = new Canvas(image.width, image.height);
+                canvas.getContext('2d').drawImage(image, 0, 0, image.width, image.height);
+
+                x = ocrad(canvas.getContext('2d'));
+            }
+            catch(e) {
+                return finish(e);
+            }
+
+            finish();
+        });
+    }
+
     if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
         x = 13;
     }
 
-    return {
+
+    var api = {
+
         thirteen: function() {
             return x == 13;
         },
@@ -131,7 +158,14 @@ function is(x) {
                 }
             }
         }
+    };
+
+    function finish(err) {
+        if (cb) cb(err, api);
     }
+
+    return api;
+
 }
 
 module.exports = is;
