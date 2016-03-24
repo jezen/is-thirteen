@@ -27,6 +27,15 @@ function is(x) {
         "13 + 13i",
         "13i",
 
+        // Password variations
+        "th1rt33n",
+        "th1rte3n",
+        "th1rteen",
+        "thirt33n",
+        "thirt3en",
+        "thirt33n",
+        "thirte3n",
+
         // Languages
         "thirteen", // English
         "тринадцать", // Russia
@@ -56,8 +65,9 @@ function is(x) {
         "тринаесет", // Macedonian
         "tiga belas", // Malay
         "арван гурав", // Mongolian
+        "irteenthay", // Pig Latin
         "trzynaście", // Polish
-        "treze", // Portoguese
+        "treze", // Portuguese
         "ਤੀਹ", // Punjabi
         "treisprezece", // Romanian
         "тринадцать", // Russia
@@ -78,7 +88,7 @@ function is(x) {
 
         // Thirteen pronunciation
         "θərˈtiːn"
-    ]
+    ];
 
     if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
         x = 13;

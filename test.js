@@ -26,6 +26,13 @@ tap.equal(is("13i").thirteen(), true);
 tap.equal(is("13i+13").thirteen(), true);
 tap.equal(is("12i").thirteen(), false);
 
+tap.equal(is("th1rt33n").thirteen(), true);
+tap.equal(is("th1rte3n").thirteen(), true);
+tap.equal(is("th1rteen").thirteen(), true);
+tap.equal(is("thirt3en").thirteen(), true);
+tap.equal(is("thirt33n").thirteen(), true);
+tap.equal(is("thirte3n").thirteen(), true);
+
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch
 tap.equal(is("tretze").thirteen(), true); // Catalan
@@ -51,6 +58,7 @@ tap.equal(is("dräizéng").thirteen(), true); // Luxembourgish
 tap.equal(is("тринаесет").thirteen(), true); // Macedonian
 tap.equal(is("tiga belas").thirteen(), true); // Malay
 tap.equal(is("арван").thirteen(), true); // Mongolian
+tap.equal(is("irteenthay").thirteen(), true); // Pig Latin
 tap.equal(is("trzynaście").thirteen(), true); // Polish
 tap.equal(is("treze").thirteen(), true); // Portoguese
 tap.equal(is("ਤੀਹ").thirteen(), true); // Punjabi
