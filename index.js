@@ -22,6 +22,7 @@ function is(x) {
         "baker's dozen", // Bakers gonna bake
         "dr. remy beauregard hadley", // Why not 13's real name?!
 
+
         // Imaginary 13's
         "13+0i",
         "13 + 13i",
@@ -51,8 +52,8 @@ function is(x) {
         "kolmetoista", // Finnish
         "treize", // French
         "dreizehn", // German
-      "שלוש עשרה", // Hebrew
-      "तेरह", //Hindi
+        "שלוש עשרה", // Hebrew
+        "तेरह", //Hindi
         "tizenhárom", // Hungarian
         "déag", // Irish
         "tredici", // Italian
