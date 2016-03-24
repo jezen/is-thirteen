@@ -11,16 +11,16 @@ function is(x) {
     noop();
 
     var thirteenStrings = [
-        1101, // Binary 13
-        "XIII", // Roman numeral 13
+        '1101', // Binary 13
+        "xiii", // Roman numeral 13
         "0xD", // Hex 13
 
         "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
-        "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
-        "rem hadley", // And because he's 13
-        "Olivia Wilde", // AND because SHE's 13
+        "https://www.youtube.com/watch?v=pte3jg-2ax4", // Thirteen by Big Star
+        "remy hadley", // And because he's 13
+        "olivia wilde", // AND because SHE's 13
         "baker's dozen", // Bakers gonna bake
-        "Dr. Remy Beauregard Hadley", // Why not 13's real name?!
+        "dr. remy beauregard hadley", // Why not 13's real name?!
 
         // Imaginary 13's
         "13+0i",
@@ -47,12 +47,12 @@ function is(x) {
         "trinaest", // Croatian
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian
-        "שלוש עשרה", // Hebrew
         "labintatlo", // Filipino
         "kolmetoista", // Finnish
         "treize", // French
         "dreizehn", // German
-        "तेरह", //Hindi
+      "שלוש עשרה", // Hebrew
+      "तेरह", //Hindi
         "tizenhárom", // Hungarian
         "déag", // Irish
         "tredici", // Italian
