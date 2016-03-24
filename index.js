@@ -13,6 +13,7 @@ function is(x) {
     var thirteenStrings = [
         1101, // Binary 13
         "XIII", // Roman numeral 13
+        "0xD", // Hex 13
         
         "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
         "rem hadley", // And because he's 13
