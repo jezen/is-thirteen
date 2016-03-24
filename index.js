@@ -10,76 +10,36 @@ function is(x) {
     // this line calls the noop function
     noop();
 
-    var thirteenStrings = [
-        1101, // Binary 13
-        "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
-        "rem hadley", // And because he's 13
-        "Olivia Wilde", // AND because SHE's 13
+    var twelveStrings = [
+        1100, // Binary 12
 
-        // Imaginary 13's
-        "13+0i", 
-        "13 + 13i",
-        "13i",
+        // Imaginary 12's
+        "12+0i", 
+        "12 + 12i",
+        "12i",
 
         // Languages
-        "dertien", // Afrikaans / Dutch
-        "dertiendertien", // Double Dutch
-        "tretze", // Catalan
-        "十三", // Chinese (Traditional)
-        "trinaest", // Croatian
-        "tretten", // Danish / Norwegian
-        "kolmteist", // Estonian
-        "thirteen", // English
-        "שלוש עשרה", // Hebrew 
-        "labintatlo", // Filipino
-        "kolmetoista", // Finnish
-        "treize", // French
-        "dreizehn", // German
-        "tizenhárom", // Hungarian
-        "déag", // Irish
-        "tredici", // Italian
-        "열셋", // Korean
-        "sêzdeh", // Kurdish
-        "tredecim", // Latin
-        "trīspadsmit", // Latvian
-        "trylika", // Lithuanian
-        "dräizéng", // Luxembourgish
-        "тринаесет", // Macedonian
-        "арван", // Mongolian
-        "trzynaście", // Polish
-        "treze", // Portoguese
-        "ਤੀਹ", // Punjabi
-        "treisprezece", // Romanian
-        "тринадцать", // Russia
-        "trinásť", // Slovak
-        "trinajst", // Slovenian
-        "trece", // Spanish
-        "tretton", // Swedish
-        "สิบสาม", // Thai
-        "тринадцять", // Ukrainian
-        "تیرہ", // Urdu
-        "tri ar ddeg", // Welsh
-        "דרייַצן" // Yiddish
+        "twelve" // english is 
     ]
 
-    if (thirteenStrings.indexOf(x.toLowerCase()) > -1) {
-        x = 13;
+    if (twelveStrings.indexOf(x.toLowerCase()) > -1) {
+        x = 12;
     }
 
     return {
-        thirteen: function() {
-            return x == 13;
+        twelve: function() {
+            return x == 12;
         },
         roughly: {
-            thirteen: function() {
-                return x >= 12.5 && x < 13.5;
+            twelve: function() {
+                return x >= 11.5 && x < 12.5;
             }
         },
         within: function(y) {
             return {
                 of: {
-                    thirteen: function() {
-                        return x > (13 - y) && x < (13 + y)
+                    twelve: function() {
+                        return x > (12 - y) && x < (12 + y)
                     }
                 }
             }
