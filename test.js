@@ -9,6 +9,8 @@ tap.equal(isThirteen('13', false), true);
 
 tap.equal(isThirteen('thirteen'), true);
 tap.equal(isThirteen('Thirteen'), true);
+tap.equal(isThirteen('dertien'), true);
+tap.equal(isThirteen('dertIen'), true);
 tap.equal(isThirteen('Remy Hadley'), true);
 tap.equal(isThirteen('Olivia Wilde'), true);
 
