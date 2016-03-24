@@ -25,6 +25,7 @@ tap.equal(isThirteen("13i+13"), true);
 tap.equal(isThirteen("12i"), false);
 
 tap.equal(isThirteen("dertien"), true); // Afrikaans / Dutch
+tap.equal(isThirteen("dertiendertien"), true); // Double Dutch
 tap.equal(isThirteen("tretze"), true); // Catalan
 tap.equal(isThirteen("十三"), true); // Chinese (Traditional)
 tap.equal(isThirteen("trinaest"), true); // Croatian

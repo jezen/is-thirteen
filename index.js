@@ -28,6 +28,7 @@ function is(x) {
         "thirteen", // English
         "тринадцать", // Russia
         "dertien", // Afrikaans / Dutch
+        "dertiendertien", // Double Dutch
         "tretze", // Catalan
         "十三", // Chinese (Traditional)
         "trinaest", // Croatian
