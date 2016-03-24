@@ -24,9 +24,18 @@ function is(x) {
         "Dr. Remy Beauregard Hadley", // Why not 13's real name?!
 
         // Imaginary 13's
-        "13+0i", 
+        "13+0i",
         "13 + 13i",
         "13i",
+
+        // Password variations
+        "th1rt33n",
+        "th1rte3n",
+        "th1rteen",
+        "thirt33n",
+        "thirt3en",
+        "thirt33n",
+        "thirte3n",
 
         // Languages
         "thirteen", // English
@@ -39,7 +48,7 @@ function is(x) {
         "trinaest", // Croatian
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian
-        "שלוש עשרה", // Hebrew 
+        "שלוש עשרה", // Hebrew
         "labintatlo", // Filipino
         "kolmetoista", // Finnish
         "treize", // French
@@ -57,8 +66,9 @@ function is(x) {
         "тринаесет", // Macedonian
         "tiga belas", // Malay
         "арван", // Mongolian
+        "irteenthay", // Pig Latin
         "trzynaście", // Polish
-        "treze", // Portoguese
+        "treze", // Portuguese
         "ਤੀਹ", // Punjabi
         "treisprezece", // Romanian
         "тринадцать", // Russia
@@ -74,13 +84,9 @@ function is(x) {
         "تیرہ", // Urdu
         "tri ar ddeg", // Welsh
         "דרייַצן", // Yiddish,
+        "דרייצן", // Yiddish (without diacritics),
         "kumi na tatu", // Swahili
-        
-        //Imaginary 13's
-        "13+0i",
-        "13 + 13i",
-        "13i",
-        
+
         // Thirteen pronunciation
         "θərˈtiːn"
     ];
@@ -97,8 +103,7 @@ function is(x) {
             thirteen: function() {
                 for (var i = 0, len = thirteenStrings.length; i < len; i++) {
                     if (('' + x).toLowerCase().indexOf(('' + thirteenStrings[i])) > -1) {
-                        x = 13;
-                        break;
+                        return true;
                     }
                 }
                 
@@ -114,6 +119,13 @@ function is(x) {
             by: {
                 thirteen: function() {
                     return x % 13 === 0;
+                }
+            }
+        },
+        square: {
+            of: {
+                thirteen: function() {
+                    return x === 169;
                 }
             }
         },
