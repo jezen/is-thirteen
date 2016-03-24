@@ -7,40 +7,42 @@ var noop = require('noop3');
  * @returns {object}
  */
 function is(x) {
-  // this line calls the noop function
-  noop();
+    // this line calls the noop function
+    noop();
+    
+    var thirteenStrings = [
+        1101, // Binary 13
+        "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
+        "Rem Hadley", // And because he's 13
+        
+        // Languages
+        "thirteen", // English
+        "тринадцать" // Russia
+    ]
 
-	var thirteenStrings = [
-  	1101,
-    "тринадцать",
-    "thirteen",
-    "Rem Hadley",
-    "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg"
-  ]
-  
-  if (thirteenStrings.indexOf(x) > -1) {
-  	x = 13;
-  }
-  
-	return {
-  	thirteen: function() {
-    	return x == 13;
-    },
-    roughly: {
-    	thirteen: function() {
-      	return x > 12.5 && x < 13.5;
-      }
-    },
-    within: function(y) {
-    	return {
-      	of: {
-          thirteen: function() {
-            return x > (13 - y) && x < (13 + y)
-          }
-        }
-      }
+    if (thirteenStrings.indexOf(x) > -1) {
+        x = 13;
     }
-  }
+
+    return {
+        thirteen: function() {
+            return x == 13;
+        },
+        roughly: {
+            thirteen: function() {
+                return x > 12.5 && x < 13.5;
+            }
+        },
+        within: function(y) {
+            return {
+                of: {
+                    thirteen: function() {
+                        return x > (13 - y) && x < (13 + y)
+                    }
+                }
+            }
+        }
+    }
 }
 
 module.exports = is;
