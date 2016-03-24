@@ -9,15 +9,16 @@ var noop = require('noop3');
 function is(x) {
     // this line calls the noop function
     noop();
-
+    
+    // Every element should be lower case
     var thirteenStrings = [
         1101, // Binary 13
-        "XIII", // Roman numeral 13
-        "0xD", // Hex 13
+        "xiii", // Roman numeral 13
+        "0xd", // Hex 13
         
         "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
         "rem hadley", // And because he's 13
-        "Olivia Wilde", // AND because SHE's 13
+        "olivia wilde", // AND because SHE's 13
 
         // Imaginary 13's
         "13+0i", 
@@ -74,7 +75,7 @@ function is(x) {
         
         // Thirteen pronunciation
         "θərˈtiːn"
-    ]
+    ];
 
     if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
         x = 13;
@@ -86,6 +87,13 @@ function is(x) {
         },
         roughly: {
             thirteen: function() {
+                for (var i = 0, len = thirteenStrings.length; i < len; i++) {
+                    if (('' + x).toLowerCase().indexOf(('' + thirteenStrings[i])) > -1) {
+                        x = 13;
+                        break;
+                    }
+                }
+                
                 return x >= 12.5 && x < 13.5;
             }
         },
