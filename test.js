@@ -24,6 +24,15 @@ tap.equal(is("Dr. Remy Beauregard Hadley").thirteen(), true);
 
 // Imaginary 13's tests
 tap.equal(is("13+0i").thirteen(), true);
+
+tap.equal(is('https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg').thirteen(), true);
+tap.equal(is('http://www.metal-archives.com/images/1/5/3/7/153772.jpg').thirteen(), false);
+tap.equal(is('https://www.youtube.com/watch?v=pte3Jg-2Ax4').thirteen(), true);
+tap.equal(is('Movie that is a 2003 American semi-autobiographical drama film directed by Catherine Hardwicke, and written by Hardwicke and Nikki Reed based on events in Reed's life at age 12 and 13. It stars Holly Hunter and Evan Rachel Wood with Wood's character \"Tracy\" being loosely based upon Reed (Nikki Reed herself co-stars in the role of Evie Zamora). The script was written in six days.').thirteen(), true);
+
+tap.equal(is(1101).thirteen(), true);
+tap.equal(is('1101').thirteen(), true);
+
 tap.equal(is("13i").thirteen(), true);
 tap.equal(is("13 + 13i").thirteen(), true);
 tap.equal(is("12i").thirteen(), false);
