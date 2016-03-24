@@ -40,3 +40,6 @@ npm test
 ## License
 
 [WTFPL](http://www.wtfpl.net/txt/copying/)
+
+A helpful tool by [Jezen Thomas](https://twitter.com/jezenthomas) with helpful
+help from [Gytis Daujotas](https://twitter.com/gytdau) and many fine folk.

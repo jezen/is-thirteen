@@ -23,6 +23,7 @@ function is(x) {
 
         // Languages
         "dertien", // Afrikaans / Dutch
+        "dertiendertien", // Double Dutch
         "tretze", // Catalan
         "十三", // Chinese (Traditional)
         "trinaest", // Croatian
