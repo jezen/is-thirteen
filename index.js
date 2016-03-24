@@ -7,16 +7,19 @@
  */
 function isThirteen(n, strictEquality) {
 
-  // plz make way for Count Count.
-  if (n === 'https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg') return true;
+  // Array of string we want to test against n
+  var thirteens = [
+    'https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg', // plz make way for Count Count.
+    'Remy Hadley', // Cuz you know
+    
+    // Languages
+    'thirteen', // English
+    'тринадцать', // Russia
+    'dertien' // Dutch
+  ];
 
-  if (n === "Remy Hadley") return true;
-
-  if (typeof n === 'string' && n.toLowerCase() === "thirteen".toLowerCase()) return true;
-
-  // Запрещено разговаривать с незнакомцами
-  if (n === "тринадцать") return true;
-  if (n === "Тринадцать") return true;
+  // Test the thirteens array of strings against n
+  if (typeof n === 'string' && thirteens.indexOf(n.toLowerCase()) > -1) return true;
 
   return (strictEquality === true) ? n === 13 : n == 13;
 }
