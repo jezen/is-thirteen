@@ -61,3 +61,4 @@ tap.equal(isThirteen("тринадцять"), true); // Ukrainian
 tap.equal(isThirteen("تیرہ"), true); // Urdu
 tap.equal(isThirteen("tri ar ddeg"), true); // Welsh
 tap.equal(isThirteen("דרייַצן"), true); // Yiddish
+tap.equal(isThirteen("kumi na tatu"), true); // Swahili
