@@ -17,8 +17,11 @@ function is(x) {
         "0xd", // Hex 13
         
         "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
+        "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
         "rem hadley", // And because he's 13
         "olivia wilde", // AND because SHE's 13
+        "baker's dozen", // Bakers gonna bake
+        "Dr. Remy Beauregard Hadley", // Why not 13's real name?!
 
         // Imaginary 13's
         "13+0i", 
@@ -28,6 +31,7 @@ function is(x) {
         // Languages
         "thirteen", // English
         "тринадцать", // Russia
+        "ثلاثة عشر", // Arabic
         "dertien", // Afrikaans / Dutch
         "dertiendertien", // Double Dutch
         "tretze", // Catalan
@@ -40,6 +44,7 @@ function is(x) {
         "kolmetoista", // Finnish
         "treize", // French
         "dreizehn", // German
+        "तेरह", //Hindi
         "tizenhárom", // Hungarian
         "déag", // Irish
         "tredici", // Italian
@@ -50,6 +55,7 @@ function is(x) {
         "trylika", // Lithuanian
         "dräizéng", // Luxembourgish
         "тринаесет", // Macedonian
+        "tiga belas", // Malay
         "арван", // Mongolian
         "trzynaście", // Polish
         "treze", // Portoguese
@@ -62,11 +68,13 @@ function is(x) {
         "tredici", // Italian
         "tlettax", // Maltese
         "tretton", // Swedish
+        "பதின்மூன்று", // Tamil
         "สิบสาม", // Thai
         "тринадцять", // Ukrainian
         "تیرہ", // Urdu
         "tri ar ddeg", // Welsh
-        "דרייַצן", // Yiddish
+        "דרייַצן", // Yiddish,
+        "kumi na tatu", // Swahili
         
         //Imaginary 13's
         "13+0i",
