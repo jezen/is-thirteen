@@ -24,7 +24,7 @@ function is(x) {
         // Languages
         "dertien", // Afrikaans / Dutch
         "tretze", // Catalan
-        "十三", // Chinese (Traditional) ((Test Pls))
+        "十三", // Chinese (Traditional)
         "trinaest", // Croatian
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian
@@ -37,7 +37,7 @@ function is(x) {
         "tizenhárom", // Hungarian
         "déag", // Irish
         "tredici", // Italian
-        "열셋", // Korean (Test Pls)
+        "열셋", // Korean
         "sêzdeh", // Kurdish
         "tredecim", // Latin
         "trīspadsmit", // Latvian
@@ -47,14 +47,14 @@ function is(x) {
         "арван", // Mongolian
         "trzynaście", // Polish
         "treze", // Portoguese
-        "ਤੀਹ", // Punjabi (Test Pls)
+        "ਤੀਹ", // Punjabi
         "treisprezece", // Romanian
         "тринадцать", // Russia
         "trinásť", // Slovak
         "trinajst", // Slovenian
         "trece", // Spanish
         "tretton", // Swedish
-        "สิบสาม", // Thai (Test Pls)
+        "สิบสาม", // Thai
         "тринадцять", // Ukrainian
         "تیرہ", // Urdu
         "tri ar ddeg", // Welsh
