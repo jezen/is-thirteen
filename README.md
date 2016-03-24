@@ -15,8 +15,10 @@ npm --save i is-thirteen
 ```javascript
 var isThirteen = require('is-thirteen');
 
-isThirteen(25); // false
-isThirteen(13); // true
+// PLEAS READ THE SOURCE CODE BECAuse we moved fast and broke things
+
+i̶s̶T̶h̶i̶r̶t̶e̶e̶n̶(̶2̶5̶)̶;̶ ̶/̶/̶ ̶f̶a̶l̶s̶e̶
+i̶s̶T̶h̶i̶r̶t̶e̶e̶n̶(̶1̶3̶)̶;̶ ̶/̶/̶ ̶t̶r̶u̶e̶
 ```
 
 ## Test
