@@ -17,6 +17,7 @@ function is(x) {
 
         // Languages
         "thirteen", // English
+        "dreizehn", //German
         "тринадцать" // Russia
     ]
 
