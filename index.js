@@ -17,13 +17,54 @@ function is(x) {
         
         "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
         "rem hadley", // And because he's 13
+        "Olivia Wilde", // AND because SHE's 13
+
+        // Imaginary 13's
+        "13+0i", 
+        "13 + 13i",
+        "13i",
 
         // Languages
+        "thirteen", // English
         "тринадцать", // Russia
+        "dertien", // Afrikaans / Dutch
+        "tretze", // Catalan
+        "十三", // Chinese (Traditional)
+        "trinaest", // Croatian
+        "tretten", // Danish / Norwegian
+        "kolmteist", // Estonian
+        "שלוש עשרה", // Hebrew 
+        "labintatlo", // Filipino
+        "kolmetoista", // Finnish
+        "treize", // French
+        "dreizehn", // German
+        "tizenhárom", // Hungarian
+        "déag", // Irish
+        "tredici", // Italian
+        "열셋", // Korean
+        "sêzdeh", // Kurdish
+        "tredecim", // Latin
+        "trīspadsmit", // Latvian
+        "trylika", // Lithuanian
+        "dräizéng", // Luxembourgish
+        "тринаесет", // Macedonian
+        "арван", // Mongolian
         "trzynaście", // Polish
+        "treze", // Portoguese
+        "ਤੀਹ", // Punjabi
+        "treisprezece", // Romanian
+        "тринадцать", // Russia
+        "trinásť", // Slovak
+        "trinajst", // Slovenian
         "trece", // Spanish
         "tredici", // Italian
         "tlettax", // Maltese
+        "tretton", // Swedish
+        "สิบสาม", // Thai
+        "тринадцять", // Ukrainian
+        "تیرہ", // Urdu
+        "tri ar ddeg", // Welsh
+        "דרייַצן", // Yiddish
         
         //Imaginary 13's
         "13+0i",
