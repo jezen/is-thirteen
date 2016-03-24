@@ -54,6 +54,7 @@ function is(x) {
         "dreizehn", // German
         "तेरह", //Hindi
         "tizenhárom", // Hungarian
+        "þrettán", // Icelandic
         "déag", // Irish
         "tredici", // Italian
         "열셋", // Korean
