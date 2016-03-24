@@ -49,6 +49,7 @@ tap.equal(is("labintatlo").thirteen(), true); // Filipino
 tap.equal(is("kolmetoista").thirteen(), true); // Finnish
 tap.equal(is("treize").thirteen(), true); // French
 tap.equal(is("dreizehn").thirteen(), true); // German
+tap.equal(is("δεκατρία").thirteen(), true); // Greek
 tap.equal(is('שלוש עשרה').thirteen(), true); // Hebrew
 tap.equal(is("तेरह").thirteen(), true); // Hindi
 tap.equal(is("tizenhárom").thirteen(), true); // Hungarian
