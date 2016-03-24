@@ -73,6 +73,7 @@ function is(x) {
         "تیرہ", // Urdu
         "tri ar ddeg", // Welsh
         "דרייַצן", // Yiddish,
+        "דרייצן", // Yiddish (without diacritics),
         "kumi na tatu", // Swahili
 
         //Imaginary 13's
