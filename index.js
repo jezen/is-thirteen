@@ -57,7 +57,7 @@ function is(x) {
         "tiga belas", // Malay
         "арван", // Mongolian
         "trzynaście", // Polish
-        "treze", // Portoguese
+        "treze", // Portuguese
         "ਤੀਹ", // Punjabi
         "treisprezece", // Romanian
         "тринадцать", // Russia
