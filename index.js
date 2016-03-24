@@ -18,6 +18,7 @@ function is(x) {
         // Languages
         "thirteen", // English
         "тринадцать", // Russia
+        "trzynaście", // Polish
         "trece", // Spanish
         "13+0i", //Imaginary 13's
         "13 + 13i",
