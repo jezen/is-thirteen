@@ -16,3 +16,7 @@ tap.equal(isThirteen('http://www.metal-archives.com/images/1/5/3/7/153772.jpg'),
 
 tap.equal(isThirteen(1101), true);
 tap.equal(isThirteen('1101'), true);
+
+tap.equal(isThirteen("13i"), true);
+tap.equal(isThirteen("13i+13"), true);
+tap.equal(isThirteen("12i"), false);
