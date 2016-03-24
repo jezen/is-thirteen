@@ -21,7 +21,7 @@ function is(x) {
         "rem hadley", // And because he's 13
         "olivia wilde", // AND because SHE's 13
         "baker's dozen", // Bakers gonna bake
-        "Dr. Remy Beauregard Hadley", // Why not 13's real name?!
+        "dr. remy beauregard hadley", // Why not 13's real name?!
 
         // Imaginary 13's
         "13+0i",
@@ -48,12 +48,12 @@ function is(x) {
         "trinaest", // Croatian
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian
-        "שלוש עשרה", // Hebrew
         "labintatlo", // Filipino
         "kolmetoista", // Finnish
         "treize", // French
         "dreizehn", // German
-        "तेरह", //Hindi
+		"שלוש עשרה", // Hebrew
+		"तेरह", //Hindi
         "tizenhárom", // Hungarian
         "déag", // Irish
         "tredici", // Italian
