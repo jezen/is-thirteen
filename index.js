@@ -109,6 +109,13 @@ function is(x) {
                 }
             }
         },
+        square: {
+            of: {
+                thirteen: function() {
+                    return x === 169;
+                }
+            }
+        },
         within: function(y) {
             return {
                 of: {
