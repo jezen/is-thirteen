@@ -71,6 +71,7 @@ function is(x) {
         "ਤੀਹ", // Punjabi
         "treisprezece", // Romanian
         "тринадцать", // Russia
+        "දහතුන" // Sinhala
         "trinásť", // Slovak
         "trinajst", // Slovenian
         "trece", // Spanish
