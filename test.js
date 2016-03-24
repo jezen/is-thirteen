@@ -81,3 +81,30 @@ tap.equal(is("tri ar ddeg").thirteen(), true); // Welsh
 tap.equal(is("דרייַצן").thirteen(), true); // Yiddish
 tap.equal(is("דרייצן").thirteen(), true); // Yiddish (without diacritics),
 tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
+
+//roughly tests
+tap.equal(is(12.8).roughly.thirteen(), true);
+tap.equal(is(12.4).roughly.thirteen(), false);
+tap.equal(is(13.4).roughly.thirteen(), true);
+tap.equal(is(13.6).roughly.thirteen(), false);
+
+//not test
+tap.equal(is(12).not.thirteen(), true);
+tap.equal(is(13).not.thirteen(), false);
+
+
+//divisible by test
+tap.equal(is(39).divisible.by.thirteen(), true);
+tap.equal(is(38).divisible.by.thirteen(), false);
+
+//square of test
+tap.equal(is(169).divisible.by.thirteen(), true);
+tap.equal(is(100).divisible.by.thirteen(), false);
+
+//greater than test
+tap.equal(is(14).greater.than.thirteen(), true);
+tap.equal(is(12).greater.than.thirteen(), false);
+
+//less than test
+tap.equal(is(14).less.than.thirteen(), false);
+tap.equal(is(12).less.than.thirteen(), true);
