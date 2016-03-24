@@ -55,7 +55,7 @@ function is(x) {
         "dräizéng", // Luxembourgish
         "тринаесет", // Macedonian
         "tiga belas", // Malay
-        "арван", // Mongolian
+        "арван гурав", // Mongolian
         "trzynaście", // Polish
         "treze", // Portoguese
         "ਤੀਹ", // Punjabi
