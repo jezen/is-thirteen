@@ -65,7 +65,8 @@ function is(x) {
         "тринадцять", // Ukrainian
         "تیرہ", // Urdu
         "tri ar ddeg", // Welsh
-        "דרייַצן", // Yiddish
+        "דרייַצן", // Yiddish,
+        "kumi na tatu", // Swahili
         
         //Imaginary 13's
         "13+0i",
