@@ -18,6 +18,10 @@ function isThirteen(n, strictEquality) {
   if (n === "тринадцать") return true;
   if (n === "Тринадцать") return true;
 
+  // 13 as binary. 1101 or '1101'.
+  if(n === Number(13).toString(2)) return true;
+  if(n === parseInt(Number(13).toString(2))) return true;
+
   return (strictEquality === true) ? n === 13 : n == 13;
 }
 
