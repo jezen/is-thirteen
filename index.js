@@ -16,17 +16,21 @@ function is(x) {
         "rem hadley", // And because he's 13
 
         // Languages
-        "thirteen", // English
         "тринадцать", // Russia
         "trzynaście", // Polish
         "trece", // Spanish
         "tredici", // Italian
+        "tlettax", // Maltese
+        
         "13+0i", //Imaginary 13's
         "13 + 13i",
-        "13i"
+        "13i",
+        
+        // Thirteen pronunciation
+        "θərˈtiːn"
     ]
 
-    if (thirteenStrings.indexOf(x.toLowerCase()) > -1) {
+    if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
         x = 13;
     }
 
@@ -39,11 +43,23 @@ function is(x) {
                 return x >= 12.5 && x < 13.5;
             }
         },
+        not: {
+            thirteen: function() {
+                return x != 13;
+            }
+        },
+        divisible: {
+            by: {
+                thirteen: function() {
+                    return x % 13 === 0;
+                }
+            }
+        },
         within: function(y) {
             return {
                 of: {
                     thirteen: function() {
-                        return x > (13 - y) && x < (13 + y)
+                        return x > (13 - y) && x < (13 + y);
                     }
                 }
             }
