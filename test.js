@@ -1,5 +1,5 @@
 const tap = require('tap');
-const isThirteen = require('./');
+const is = require('./');
 
 
 tap.equal(is(13).thirteen(), true);
@@ -53,7 +53,7 @@ tap.equal(is("tiga belas").thirteen(), true); // Malay
 tap.equal(is("арван").thirteen(), true); // Mongolian
 tap.equal(is("trzynaście").thirteen(), true); // Polish
 tap.equal(is("treze").thirteen(), true); // Portoguese
-tap.equal(is("ਤੀਹ").thirteen(), true); // Punjabi 
+tap.equal(is("ਤੀਹ").thirteen(), true); // Punjabi
 tap.equal(is("treisprezece").thirteen(), true); // Romanian
 tap.equal(is("тринадцать").thirteen(), true); // Russia
 tap.equal(is("trinásť").thirteen(), true); // Slovak
