@@ -6,6 +6,7 @@
  * @returns {boolean}
  */
 function isThirteen(n, strictEquality) {
+  if (n === "Thirteen") return true;
   return (strictEquality === true) ? n === 13 : n == 13;
 }
 
