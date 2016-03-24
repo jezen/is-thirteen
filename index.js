@@ -16,9 +16,11 @@ function is(x) {
         "rem hadley", // And because he's 13
 
         // Languages
-        "thirteen", // English
-        "тринадцать", // Russia
-        "trece" // Spanish
+        "thirteen",     // English
+        "тринадцать",   // Russia
+        "trece",        // Spanish
+        "treze",        // Portuguese
+        "treize"        // French
     ]
 
     if (thirteenStrings.indexOf(x.toLowerCase()) > -1) {
