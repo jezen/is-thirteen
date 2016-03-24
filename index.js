@@ -1,4 +1,4 @@
-avar noop = require('noop3');
+var noop = require('noop3');
 
 'use strict';
 
