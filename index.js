@@ -21,6 +21,7 @@ function is(x) {
         "Olivia Wilde", // AND because SHE's 13
         "baker's dozen", // Bakers gonna bake
         "Dr. Remy Beauregard Hadley", // Why not 13's real name?!
+        "Movie that is a 2003 American semi-autobiographical drama film directed by Catherine Hardwicke, and written by Hardwicke and Nikki Reed based on events in Reed's life at age 12 and 13. It stars Holly Hunter and Evan Rachel Wood with Wood's character \"Tracy\" being loosely based upon Reed (Nikki Reed herself co-stars in the role of Evie Zamora). The script was written in six days.", //Thirteen the Movie
 
         // Imaginary 13's
         "13+0i",
