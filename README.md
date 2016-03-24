@@ -1,11 +1,11 @@
 <img src="http://i.imgur.com/OOs1kXW.png">
 
-_Special thanks to @casdr for the logo_
+_Special thanks to [@casdr](https://github.com/casdr) for the logo_
 # is-thirteen
 
 [![Join us on Gitter](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/gytdau/is-thirteen)
 
-Check if a number is equal to 13.
+An npm package to check if a number is equal to 13.
 
 ## Installation
 
@@ -39,4 +39,4 @@ npm test
 
 ## License
 
-WTFPL
+[WTFPL](http://www.wtfpl.net/txt/copying/)
