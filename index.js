@@ -122,6 +122,20 @@ function is(x) {
                 }
             }
         },
+        greater: {
+            than: {
+                thirteen: function() {
+                    return x > 13
+                }
+            }
+        },
+        less: {
+            than: {
+                thirteen: function() {
+                    return x < 13
+                }
+            }
+        },
         within: function(y) {
             return {
                 of: {
