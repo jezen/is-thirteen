@@ -75,11 +75,6 @@ function is(x) {
         "דרייַצן", // Yiddish,
         "kumi na tatu", // Swahili
         
-        //Imaginary 13's
-        "13+0i",
-        "13 + 13i",
-        "13i",
-        
         // Thirteen pronunciation
         "θərˈtiːn"
     ]
