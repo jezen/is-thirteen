@@ -2,27 +2,40 @@
 
 /**
  * @param n {number} The number to compare but also sometimes not a number but not not !NaN
- * @param strictEquality {boolean} Whether strict equality should be used
- * @returns {boolean}
+ * @returns {object}
  */
-function isThirteen(n, strictEquality) {
-
-  // plz make way for Count Count.
-  if (n === 'https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg') return true;
-
-  if (n === "Remy Hadley") return true;
-
-  if (typeof n === 'string' && n.toLowerCase() === "thirteen".toLowerCase()) return true;
-
-  // Запрещено разговаривать с незнакомцами
-  if (n === "тринадцать") return true;
-  if (n === "Тринадцать") return true;
-
-  // 13 as binary. 1101 or '1101'.
-  if(n === Number(13).toString(2)) return true;
-  if(n === parseInt(Number(13).toString(2))) return true;
-
-  return (strictEquality === true) ? n === 13 : n == 13;
+function is(x) {
+	var thirteenStrings = [
+  	1101,
+    "тринадцать",
+    "thirteen",
+    "Rem Hadley",
+    "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg"
+  ]
+  
+  if (thirteenStrings.indexOf(x) > -1) {
+  	x = 13;
+  }
+  
+	return {
+  	thirteen: function() {
+    	return x == 13;
+    },
+    roughly: {
+    	thirteen: function() {
+      	return x > 12.5 && x < 13.5;
+      }
+    },
+    within: function(y) {
+    	return {
+      	of: {
+          thirteen: function() {
+            return x > (13 - y) && x < (13 + y)
+          }
+        }
+      }
+    }
+  }
 }
 
-module.exports = isThirteen;
+module.exports = is;
