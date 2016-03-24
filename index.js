@@ -22,6 +22,8 @@ function is(x) {
         "trzynaście", // Polish
         "trece", // Spanish
         "tredici", // Italian
+        "dreizehn", // German
+        "שלוש עשרה", // Hebrew
         "13+0i", //Imaginary 13's
         "13 + 13i",
         "13i"
