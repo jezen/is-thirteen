@@ -19,6 +19,7 @@ function is(x) {
         "thirteen", // English
         "тринадцать", // Russia
         "trece", // Spanish
+        "十三", // Chinese and Japanese
         "13+0i", //Imaginary 13's
         "13 + 13i",
         "13i"
