@@ -30,7 +30,7 @@ function is(x) {
         },
         roughly: {
             thirteen: function() {
-                return x > 12.5 && x < 13.5;
+                return x >= 12.5 && x < 13.5;
             }
         },
         within: function(y) {
