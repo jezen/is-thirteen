@@ -18,7 +18,10 @@ function is(x) {
         // Languages
         "thirteen", // English
         "тринадцать", // Russia
-        "trece" // Spanish
+        "trece", // Spanish
+        "13+0i", //Imaginary 13's
+        "13 + 13i",
+        "13i"
     ]
 
     if (thirteenStrings.indexOf(x.toLowerCase()) > -1) {
