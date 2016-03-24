@@ -19,6 +19,7 @@ function is(x) {
         "thirteen", // English
         "тринадцать", // Russia
         "trzynaście", // Polish
+        "dertien", // Dutch
         "trece", // Spanish
         "tredici", // Italian
         "13+0i", //Imaginary 13's
