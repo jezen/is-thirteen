@@ -1,4 +1,4 @@
-<img src="is-thirteen-logo.png">
+<img src="assets/img/is-thirteen-logo.png">
 
 _Special thanks to [@casdr](https://github.com/casdr) for the logo_
 # is-thirteen
