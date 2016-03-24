@@ -16,6 +16,7 @@ function is(x) {
         "0xD", // Hex 13
         
         "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
+        "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
         "rem hadley", // And because he's 13
         "Olivia Wilde", // AND because SHE's 13
         "Dr. Remy Beauregard Hadley", // Why not 13's real name?!
