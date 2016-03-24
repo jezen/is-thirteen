@@ -14,6 +14,10 @@ function isThirteen(n, strictEquality) {
 
   if (typeof n === 'string' && n.toLowerCase() === "thirteen".toLowerCase()) return true;
 
+  // Запрещено разговаривать с незнакомцами
+  if (n === "тринадцать") return true;
+  if (n === "Тринадцать") return true;
+
   return (strictEquality === true) ? n === 13 : n == 13;
 }
 
