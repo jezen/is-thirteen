@@ -20,7 +20,7 @@ function is(x) {
         "тринадцать" // Russia
     ]
 
-    if (thirteenStrings.indexOf(x) > -1) {
+    if (thirteenStrings.indexOf(x.toLowerCase()) > -1) {
         x = 13;
     }
 
