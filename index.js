@@ -19,6 +19,7 @@ function is(x) {
         "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
         "rem hadley", // And because he's 13
         "Olivia Wilde", // AND because SHE's 13
+        "baker's dozen", // Bakers gonna bake
         "Dr. Remy Beauregard Hadley", // Why not 13's real name?!
 
         // Imaginary 13's
