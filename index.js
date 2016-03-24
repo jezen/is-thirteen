@@ -71,6 +71,7 @@ function is(x) {
         "サーティーン", // Japanese
         "１３", // Japanese full-width
         "trinaest", // Croatian
+        "třináct", // Czech
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian
         "labintatlo", // Filipino
