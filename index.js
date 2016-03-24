@@ -52,6 +52,7 @@ function is(x) {
         "trylika", // Lithuanian
         "dräizéng", // Luxembourgish
         "тринаесет", // Macedonian
+        "tiga belas", // Malay
         "арван", // Mongolian
         "trzynaście", // Polish
         "treze", // Portoguese
@@ -64,6 +65,7 @@ function is(x) {
         "tredici", // Italian
         "tlettax", // Maltese
         "tretton", // Swedish
+        "பதின்மூன்று", // Tamil
         "สิบสาม", // Thai
         "тринадцять", // Ukrainian
         "تیرہ", // Urdu

@@ -48,6 +48,7 @@ tap.equal(isThirteen("trīspadsmit"), true); // Latvian
 tap.equal(isThirteen("trylika"), true); // Lithuanian
 tap.equal(isThirteen("dräizéng"), true); // Luxembourgish
 tap.equal(isThirteen("тринаесет"), true); // Macedonian
+tap.equal(isThirteen("tiga belas"), true); // Malay
 tap.equal(isThirteen("арван"), true); // Mongolian
 tap.equal(isThirteen("trzynaście"), true); // Polish
 tap.equal(isThirteen("treze"), true); // Portoguese
@@ -58,6 +59,7 @@ tap.equal(isThirteen("trinásť"), true); // Slovak
 tap.equal(isThirteen("trinajst"), true); // Slovenian
 tap.equal(isThirteen("trece"), true); // Spanish
 tap.equal(isThirteen("tretton"), true); // Swedish
+tap.equal(isThirteen("பதின்மூன்று"), true); // Tamil
 tap.equal(isThirteen("สิบสาม"), true); // Thai
 tap.equal(isThirteen("тринадцять"), true); // Ukrainian
 tap.equal(isThirteen("تیرہ"), true); // Urdu
