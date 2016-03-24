@@ -98,8 +98,8 @@ tap.equal(is(39).divisible.by.thirteen(), true);
 tap.equal(is(38).divisible.by.thirteen(), false);
 
 //square of test
-tap.equal(is(169).divisible.by.thirteen(), true);
-tap.equal(is(100).divisible.by.thirteen(), false);
+tap.equal(is(169).square.of.thirteen(), true);
+tap.equal(is(100).square.of.thirteen(), false);
 
 //greater than test
 tap.equal(is(14).greater.than.thirteen(), true);
