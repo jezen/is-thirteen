@@ -22,6 +22,9 @@ function is(x) {
         "baker's dozen", // Bakers gonna bake
         "dr. remy beauregard hadley", // Why not 13's real name?!
 
+        // B is 13 in letter form
+        "B",
+
         // Imaginary 13's
         "13+0i",
         "13 + 13i",
