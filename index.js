@@ -15,6 +15,7 @@ function is(x) {
         "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
         "rem hadley", // And because he's 13
         "Olivia Wilde", // AND because SHE's 13
+        "Dr. Remy Beauregard Hadley", // Why not 13's real name?!
 
         // Imaginary 13's
         "13+0i", 
