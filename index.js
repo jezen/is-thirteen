@@ -16,18 +16,49 @@ function is(x) {
         "rem hadley", // And because he's 13
         "Olivia Wilde", // AND because SHE's 13
 
+        // Imaginary 13's
+        "13+0i", 
+        "13 + 13i",
+        "13i",
+
         // Languages
+        "dertien", // Afrikaans / Dutch
+        "tretze", // Catalan
+        "十三", // Chinese (Traditional) ((Test Pls))
+        "trinaest", // Croatian
+        "tretten", // Danish / Norwegian
+        "kolmteist", // Estonian
         "thirteen", // English
         "שלוש עשרה", // Hebrew 
-        "тринадцать", // Russia
-        "trzynaście", // Polish
-        "trece", // Spanish
-        "tredici", // Italian
+        "labintatlo", // Filipino
+        "kolmetoista", // Finnish
+        "treize", // French
         "dreizehn", // German
-        "שלוש עשרה", // Hebrew
-        "13+0i", //Imaginary 13's
-        "13 + 13i",
-        "13i"
+        "tizenhárom", // Hungarian
+        "déag", // Irish
+        "tredici", // Italian
+        "열셋", // Korean (Test Pls)
+        "sêzdeh", // Kurdish
+        "tredecim", // Latin
+        "trīspadsmit", // Latvian
+        "trylika", // Lithuanian
+        "dräizéng", // Luxembourgish
+        "тринаесет", // Macedonian
+        "арван", // Mongolian
+        "trzynaście", // Polish
+        "treze", // Portoguese
+        "ਤੀਹ", // Punjabi (Test Pls)
+        "treisprezece", // Romanian
+        "тринадцать", // Russia
+        "trinásť", // Slovak
+        "trinajst", // Slovenian
+        "trece", // Spanish
+        "tretton", // Swedish
+        "สิบสาม", // Thai (Test Pls)
+        "тринадцять", // Ukrainian
+        "تیرہ", // Urdu
+        "tri ar ddeg", // Welsh
+        "דרייַצן" // Yiddish
     ]
 
     if (thirteenStrings.indexOf(x.toLowerCase()) > -1) {
