@@ -85,6 +85,9 @@ function is(x) {
         "דרייַצן", // Yiddish,
         "דרייצן", // Yiddish (without diacritics),
         "kumi na tatu", // Swahili
+        "mẹtala", // Yoruba
+        "iri na atọ", // Igbo
+        "goma sha uku", // Hausa
 
         // Thirteen pronunciation
         "θərˈtiːn"
