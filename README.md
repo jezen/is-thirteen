@@ -17,6 +17,12 @@ isThirteen(25); // false
 isThirteen(13); // true
 ```
 
+## Test
+
+```javascript
+npm test
+```
+
 ## License
 
 WTFPL
