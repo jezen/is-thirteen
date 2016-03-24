@@ -16,6 +16,7 @@ tap.equal(isThirteen('Olivia Wilde'), true);
 
 tap.equal(isThirteen('https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg'), true);
 tap.equal(isThirteen('http://www.metal-archives.com/images/1/5/3/7/153772.jpg'), false);
+tap.equal(isThirteen('https://www.youtube.com/watch?v=pte3Jg-2Ax4'), true);
 
 tap.equal(isThirteen(1101), true);
 tap.equal(isThirteen('1101'), true);
