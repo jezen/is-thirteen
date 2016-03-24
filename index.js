@@ -56,6 +56,7 @@ function is(x) {
         "тринаесет", // Macedonian
         "tiga belas", // Malay
         "арван", // Mongolian
+        "irteenthay", // Pig Latin
         "trzynaście", // Polish
         "treze", // Portuguese
         "ਤੀਹ", // Punjabi
