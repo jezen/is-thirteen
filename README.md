@@ -1,3 +1,6 @@
+<img src="http://i.imgur.com/OOs1kXW.png">
+
+_Special thanks to @casdr for the logo_
 # is-thirteen
 
 [![Join us on Gitter](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/gytdau/is-thirteen)
