@@ -96,7 +96,11 @@ function is(x) {
         "kumi na tatu", // Swahili
 
         // Thirteen pronunciation
-        "θərˈtiːn"
+        "θərˈtiːn",
+        
+        // Thirteen is thirteen any way you look at it
+        "neetriht",
+        "uǝǝʇɹıɥʇ"
     ];
 
     if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
