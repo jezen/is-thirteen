@@ -42,6 +42,8 @@ function is(x) {
         "ثلاثة عشر", // Arabic
         "dertien", // Afrikaans / Dutch
         "dertiendertien", // Double Dutch
+        "⠞⠓⠊⠗⠞⠑⠑⠝", //Grade 1 Braille
+        "⠹⠊⠗⠞⠑⠑⠝",//Grade 2 Braille
         "tretze", // Catalan
         "十三", // Chinese (Traditional)
         "trinaest", // Croatian
@@ -51,8 +53,8 @@ function is(x) {
         "kolmetoista", // Finnish
         "treize", // French
         "dreizehn", // German
-      "שלוש עשרה", // Hebrew
-      "तेरह", //Hindi
+        "שלוש עשרה", // Hebrew
+        "तेरह", //Hindi
         "tizenhárom", // Hungarian
         "déag", // Irish
         "tredici", // Italian
@@ -65,6 +67,7 @@ function is(x) {
         "тринаесет", // Macedonian
         "tiga belas", // Malay
         "арван", // Mongolian
+        "- .... .. .-. - . . -.", //Morse Code
         "irteenthay", // Pig Latin
         "trzynaście", // Polish
         "treze", // Portuguese
