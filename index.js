@@ -44,6 +44,7 @@ function is(x) {
         "dertiendertien", // Double Dutch
         "tretze", // Catalan
         "十三", // Chinese (Traditional)
+        "十三", // Chinese (Simplified) yes, they are the same.
         "trinaest", // Croatian
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian
