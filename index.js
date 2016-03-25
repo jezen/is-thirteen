@@ -93,7 +93,9 @@ function is(x) {
         "tri ar ddeg", // Welsh
         "דרייַצן", // Yiddish,
         "דרייצן", // Yiddish (without diacritics),
-        "kumi na tatu", // Swahili
+        "kumi na tatu", // Swahili,
+        "onüç", // Turkish
+        "on üç", // Turkish (alternative spelling)
 
         // Thirteen pronunciation
         "θərˈtiːn"
