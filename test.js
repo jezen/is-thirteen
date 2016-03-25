@@ -6,7 +6,7 @@ const is = require('./');
 tap.equal(is(13).thirteen(), true);
 tap.equal(is('13').thirteen(), true);
 tap.equal(is(1101).thirteen(), true);
-tap.equal(is('1101').thirteen(), true);
+tap.equal(is('0b1101').thirteen(), true);
 tap.equal(is('XIII').thirteen(), true);
 tap.equal(is('xiii').thirteen(), true);
 tap.equal(is('0xD').thirteen(), true);
