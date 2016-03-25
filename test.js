@@ -76,6 +76,7 @@ tap.equal(is("trece").thirteen(), true); // Spanish
 tap.equal(is("tretton").thirteen(), true); // Swedish
 tap.equal(is("பதின்மூன்று").thirteen(), true); // Tamil
 tap.equal(is("สิบสาม").thirteen(), true); // Thai
+tap.equal(is("onüç").thirteen(), true); // Turkish
 tap.equal(is("тринадцять").thirteen(), true); // Ukrainian
 tap.equal(is("تیرہ").thirteen(), true); // Urdu
 tap.equal(is("tri ar ddeg").thirteen(), true); // Welsh
