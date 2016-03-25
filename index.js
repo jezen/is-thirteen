@@ -54,6 +54,7 @@ function is(x) {
       "שלוש עשרה", // Hebrew
       "तेरह", //Hindi
         "tizenhárom", // Hungarian
+        "tiga belas", // Bahasa Indonesia
         "déag", // Irish
         "tredici", // Italian
         "열셋", // Korean
