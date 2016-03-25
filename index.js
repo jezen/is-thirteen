@@ -44,6 +44,7 @@ function is(x) {
         "dertiendertien", // Double Dutch
         "tretze", // Catalan
         "十三", // Chinese (Traditional)
+        "拾叁", // Chinese (Amount)
         "trinaest", // Croatian
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian
