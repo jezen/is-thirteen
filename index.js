@@ -37,6 +37,9 @@ function is(x) {
         "thirte3n",
 
         // Languages
+        "trembëdhjetë", // Albanian
+        "አስራ ሶስት", // Amharic
+        "տասներեք", // Armenian
         "thirteen", // English
         "тринадцать", // Russia
         "ثلاثة عشر", // Arabic
@@ -51,8 +54,9 @@ function is(x) {
         "kolmetoista", // Finnish
         "treize", // French
         "dreizehn", // German
-      "שלוש עשרה", // Hebrew
-      "तेरह", //Hindi
+        "שלוש עשרה", // Hebrew
+        "तेरह", // Hindi
+        "তের", // Bengali
         "tizenhárom", // Hungarian
         "déag", // Irish
         "tredici", // Italian
