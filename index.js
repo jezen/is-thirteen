@@ -79,7 +79,7 @@ function is(x) {
         "tretton", // Swedish
         "பதின்மூன்று", // Tamil
         "สิบสาม", // Thai
-        "๑๓", //Thai Numeral
+        "๑๓", // Thai Numeral
         "SipSam", // Thai Transcription
         "Sip Sam", // Thai Transcription with space
         "тринадцять", // Ukrainian
