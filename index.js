@@ -47,7 +47,37 @@ function is(x) {
         "dertien", // Afrikaans / Dutch
         "dertiendertien", // Double Dutch
         "tretze", // Catalan
-        "十三", // Chinese (Traditional) / Japanese
+        "十三", // Chinese (Traditional / Simplified) / Japanese
+        "拾參", // Chinese (Traditional Captial)
+        "拾叁", // Chinese (Simplified Captial)
+        // Chinese variations
+          "十參",
+          "十叁",
+          "十参",
+          "十叄",
+          "拾三",
+          "拾参",
+          "拾叄",
+          "一十三",
+          "一十參",
+          "一十叁",
+          "一十参",
+          "一十叄",
+          "一拾三",
+          "一拾參",
+          "一拾叁",
+          "一拾参",
+          "一拾叄",
+          "壹十三",
+          "壹十參",
+          "壹十叁",
+          "壹十参",
+          "壹十叄",
+          "壹拾三",
+          "壹拾參",
+          "壹拾叁",
+          "壹拾参",
+          "壹拾叄",
         "サーティーン", // Japanese
         "trinaest", // Croatian
         "tretten", // Danish / Norwegian
