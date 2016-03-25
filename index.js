@@ -11,7 +11,7 @@ function is(x) {
     noop();
 
     var thirteenStrings = [
-        '1101', // Binary 13
+        '0b1101', // Binary 13
         "xiii", // Roman numeral 13
         "0xD", // Hex 13
 
