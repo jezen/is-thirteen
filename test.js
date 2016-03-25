@@ -1,5 +1,6 @@
 'use strict';
 
+const tapromise = require('tapromise');
 const tap = require('tap');
 const is = require('./');
 
@@ -86,4 +87,7 @@ tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
 
-
+// Async thirteen
+tapromise(tap).ok(is(13).eventually.thirteen());
+tapromise(tap).ok(is(12).eventually.not.thirteen());
+tapromise(tap).ok(is(12.9999).eventually.roughly.thirteen());

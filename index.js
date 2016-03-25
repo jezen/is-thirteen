@@ -153,8 +153,26 @@ function is(x) {
                     }
                 }
             }
+        },
+        get eventually() {
+            return asyncWrap(this, x);
         }
     }
+}
+
+function asyncWrap(api, x) {
+    return Object.keys(api).reduce((acc, name) => {
+        if (name === "eventually") {
+            return acc;
+        }
+        const _api = api[name];
+        if (typeof _api === "object") {
+            acc[name] = asyncWrap(_api, x);
+        } else if (typeof _api === "function") {
+            acc[name] = () => Promise.resolve(x).then(_api);
+        }
+        return acc;
+    }, {});
 }
 
 module.exports = is;
