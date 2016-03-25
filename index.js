@@ -38,7 +38,6 @@ function is(x) {
 
         // Languages
         "thirteen", // English
-        "тринадцать", // Russia
         "ثلاثة عشر", // Arabic
         "dertien", // Afrikaans / Dutch
         "dertiendertien", // Double Dutch
@@ -70,7 +69,7 @@ function is(x) {
         "treze", // Portuguese
         "ਤੀਹ", // Punjabi
         "treisprezece", // Romanian
-        "тринадцать", // Russia
+        "тринадцать", // Russian
         "trinásť", // Slovak
         "trinajst", // Slovenian
         "trece", // Spanish
