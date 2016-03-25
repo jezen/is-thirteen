@@ -51,6 +51,7 @@ function is(x) {
         "kolmetoista", // Finnish
         "treize", // French
         "dreizehn", // German
+        "તેર", // Gujarati
       "שלוש עשרה", // Hebrew
       "तेरह", //Hindi
         "tizenhárom", // Hungarian
