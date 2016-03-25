@@ -37,6 +37,7 @@ function is(x) {
         "thirte3n",
 
         // Languages
+        "1️⃣3️⃣", // Emoji
         "thirteen", // English
         "тринадцать", // Russia
         "ثلاثة عشر", // Arabic
