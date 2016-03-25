@@ -42,6 +42,7 @@ function is(x) {
         "ثلاثة عشر", // Arabic
         "dertien", // Afrikaans / Dutch
         "dertiendertien", // Double Dutch
+        "трынаццаць", // Belarusian
         "tretze", // Catalan
         "十三", // Chinese (Traditional)
         "trinaest", // Croatian
@@ -85,7 +86,6 @@ function is(x) {
         "דרייַצן", // Yiddish,
         "דרייצן", // Yiddish (without diacritics),
         "kumi na tatu", // Swahili
-        "трынаццаць", // Belarusian
 
         // Thirteen pronunciation
         "θərˈtiːn"
