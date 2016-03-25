@@ -17,7 +17,6 @@
   "author": "Jezen Thomas <jezen@jezenthomas.com>",
   "license": "WTFPL",
   "dependencies": {
-    "get-pixels": "^3.3.0",
     "is-image-url": "^1.1.8",
     "is-url": "^1.2.1",
     "noop3": "^13.7.2",
