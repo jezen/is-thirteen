@@ -15,6 +15,7 @@ tap.equal(is('0xd').thirteen(), true);
 tap.equal(is('https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg').thirteen(), true);
 tap.equal(is('http://www.metal-archives.com/images/1/5/3/7/153772.jpg').thirteen(), false);
 tap.equal(is('https://www.youtube.com/watch?v=pte3Jg-2Ax4').thirteen(), true);
+tap.equal(is('https://www.youtube.com/watch?v=33Kv5D2zwyc').thirteen(), true);
 tap.equal(is('thirteen').thirteen(), true);
 tap.equal(is('Thirteen').thirteen(), true);
 tap.equal(is('Remy Hadley').thirteen(), true);
@@ -81,3 +82,8 @@ tap.equal(is("tri ar ddeg").thirteen(), true); // Welsh
 tap.equal(is("דרייַצן").thirteen(), true); // Yiddish
 tap.equal(is("דרייצן").thirteen(), true); // Yiddish (without diacritics),
 tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
+
+tap.equal(is("B").thirteen(), true); // B looks like 13
+tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
+
+
