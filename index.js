@@ -27,6 +27,9 @@ function is(x) {
         "13 + 13i",
         "13i",
 
+        // B just looks like 13 written closer
+        "b",
+
         // Password variations
         "th1rt33n",
         "th1rte3n",
