@@ -56,6 +56,7 @@ function is(x) {
         "tizenhárom", // Hungarian
         "déag", // Irish
         "tredici", // Italian
+        "十三", // Japanese
         "열셋", // Korean
         "sêzdeh", // Kurdish
         "tredecim", // Latin
