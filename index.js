@@ -85,6 +85,7 @@ function is(x) {
         "דרייַצן", // Yiddish,
         "דרייצן", // Yiddish (without diacritics),
         "kumi na tatu", // Swahili
+        "трынаццаць", // Belarusian
 
         // Thirteen pronunciation
         "θərˈtiːn"
