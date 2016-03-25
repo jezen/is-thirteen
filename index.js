@@ -79,6 +79,9 @@ function is(x) {
         "tretton", // Swedish
         "பதின்மூன்று", // Tamil
         "สิบสาม", // Thai
+        "๑๓", //Thai Numeral
+        "SipSam", // Thai Transcription
+        "Sip Sam", // Thai Transcription with space
         "тринадцять", // Ukrainian
         "تیرہ", // Urdu
         "tri ar ddeg", // Welsh
