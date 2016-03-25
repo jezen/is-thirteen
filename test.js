@@ -83,6 +83,9 @@ tap.equal(is("דרייַצן").thirteen(), true); // Yiddish
 tap.equal(is("דרייצן").thirteen(), true); // Yiddish (without diacritics),
 tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
 
+tap.equal(is("neetriht").thirteen(), true); // backwards
+tap.equal(is("uǝǝʇɹıɥʇ").thirteen(), true); // upside-down
+
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
 
