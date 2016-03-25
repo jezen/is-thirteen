@@ -127,7 +127,7 @@ function is(x) {
         square: {
             of: {
                 thirteen: function() {
-                    return x === 169;
+                    return x == 169;
                 }
             }
         },
