@@ -51,6 +51,7 @@ function is(x) {
         "サーティーン", // Japanese
         "trinaest", // Croatian
         "tretten", // Danish / Norwegian
+        "dektri", // Esperanto
         "kolmteist", // Estonian
         "labintatlo", // Filipino
         "kolmetoista", // Finnish
