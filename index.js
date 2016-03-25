@@ -21,7 +21,7 @@ function is(x) {
         "olivia wilde", // AND because SHE's 13
         "baker's dozen", // Bakers gonna bake
         "dr. remy beauregard hadley", // Why not 13's real name?!
-        "http://www.imdb.com/title/tt0328538/", // The movie "Thriteen"
+        "http://www.imdb.com/title/tt0328538", // The movie "Thriteen"
 
         // Imaginary 13's
         "13+0i",
