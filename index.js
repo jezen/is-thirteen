@@ -153,6 +153,13 @@ function is(x) {
                     }
                 }
             }
+        },
+        similar: {
+            to: {
+                thirteen: function() {
+                    return x == 31;
+                }
+            }
         }
     }
 }
