@@ -38,7 +38,6 @@ function is(x) {
 
         // Languages
         "thirteen", // English
-        "тринадцать", // Russia
         "ثلاثة عشر", // Arabic
         "dertien", // Afrikaans / Dutch
         "dertiendertien", // Double Dutch
