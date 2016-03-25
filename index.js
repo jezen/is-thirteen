@@ -17,6 +17,7 @@ function is(x) {
 
         "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
         "https://www.youtube.com/watch?v=pte3jg-2ax4", // Thirteen by Big Star
+        "https://www.youtube.com/watch?v=33Kv5D2zwyc", // The best Johny Cash's song
         "remy hadley", // And because he's 13
         "olivia wilde", // AND because SHE's 13
         "baker's dozen", // Bakers gonna bake
