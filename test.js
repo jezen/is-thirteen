@@ -21,6 +21,7 @@ tap.equal(is('Remy Hadley').thirteen(), true);
 tap.equal(is('Olivia Wilde').thirteen(), true);
 tap.equal(is("baker's dozen").thirteen(), true);
 tap.equal(is("Dr. Remy Beauregard Hadley").thirteen(), true);
+tap.equal(is("http://www.imdb.com/title/tt0328538").thirteen(), true);
 
 // Imaginary 13's tests
 tap.equal(is("13+0i").thirteen(), true);
