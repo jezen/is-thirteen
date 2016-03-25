@@ -45,6 +45,7 @@ function is(x) {
         "tretze", // Catalan
         "十三", // Chinese (Traditional)
         "十三", // Chinese (Simplified) yes, they are the same.
+        "一十三", // Chinese (another written)
         "trinaest", // Croatian
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian
