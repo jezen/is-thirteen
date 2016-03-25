@@ -55,6 +55,7 @@ tap.equal(is("tizenhárom").thirteen(), true); // Hungarian
 tap.equal(is("déag").thirteen(), true); // Irish
 tap.equal(is("tredici").thirteen(), true); // Italian
 tap.equal(is("열셋").thirteen(), true); // Korean
+tap.equal(is("십삼").thirteen(), true); // Korean (Another expression)
 tap.equal(is("sêzdeh").thirteen(), true); // Kurdish
 tap.equal(is("tredecim").thirteen(), true); // Latin
 tap.equal(is("trīspadsmit").thirteen(), true); // Latvian
