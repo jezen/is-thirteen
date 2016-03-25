@@ -81,3 +81,4 @@ tap.equal(is("tri ar ddeg").thirteen(), true); // Welsh
 tap.equal(is("דרייַצן").thirteen(), true); // Yiddish
 tap.equal(is("דרייצן").thirteen(), true); // Yiddish (without diacritics),
 tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
+tap.equal(is("mười ba").thirteen(), true); // Vietnamese
