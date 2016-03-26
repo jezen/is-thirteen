@@ -1,7 +1,8 @@
 'use strict';
 
 const tap = require('tap');
-const is = require('./');
+const is = require('./is');
+const does = require('./does');
 
 tap.equal(is(13).thirteen(), true);
 tap.equal(is('13').thirteen(), true);
@@ -83,7 +84,10 @@ tap.equal(is("דרייַצן").thirteen(), true); // Yiddish
 tap.equal(is("דרייצן").thirteen(), true); // Yiddish (without diacritics),
 tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
 
-tap.equal(is("B").thirteen(), true); // B looks like 13
-tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
+// Lookalikes don't equal 13
+tap.equal(is("B").thirteen(), false); // B looks like 13
+tap.equal(is("b").thirteen(), false); // b looks like 13 when upper case
 
-
+// Lookalike tests
+tap.equal(does("B").look.like.a.thirteen(), true); // B looks like a 13
+tap.equal(does("-13").look.like.a.thirteen(), true); // -13 looks almost exactly like 13

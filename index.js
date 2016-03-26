@@ -157,4 +157,30 @@ function is(x) {
     }
 }
 
-module.exports = is;
+function does(x) {
+    // this line calls the noop function
+    noop();
+
+    thirteenLookalikeStrings = [
+        "-13",
+        "B"
+    ];
+
+    return {
+        look: {
+            // does('B').look.like.a.thirteen()
+            // does('-13').look.like.a.thirteen()
+            like: {
+                a: {
+                    thirteen: function() {
+                        return thirteenLookalikeStrings.indexOf(x) > -1;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+module.exports.is = is;
+module.exports.does = does;
