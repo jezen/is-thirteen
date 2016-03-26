@@ -31,8 +31,8 @@ function is(x) {
 
         // B just looks like 13 written closer
         "b",
-		
-		//Adding "l" 3, "i"3 and |3 because they basically look like thirteen 
+
+		//Adding "l" 3, "i"3 and |3 because they basically look like thirteen
 		"i3",
 		"l3",
 		"|3",
@@ -64,8 +64,9 @@ function is(x) {
         "treize", // French
         "dreizehn", // German
         "drizäh", // Swiss German
-      "שלוש עשרה", // Hebrew
-      "तेरह", //Hindi
+        "שלוש עשרה", // Hebrew
+        "तेरह", //Hindi
+        "তের", //Bengali
         "tizenhárom", // Hungarian
         "déag", // Irish
         "tredici", // Italian
