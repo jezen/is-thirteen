@@ -17,16 +17,21 @@ function is(x) {
         "0xd", // Hex 13
         
         "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
-        "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
+        "https://www.youtube.com/watch?v=pte3jg-2ax4", // Thirteen by Big Star
+        "https://www.youtube.com/watch?v=33Kv5D2zwyc", // The best Johny Cash's song
         "remy hadley", // And because he's 13
         "olivia wilde", // AND because SHE's 13
         "baker's dozen", // Bakers gonna bake
         "dr. remy beauregard hadley", // Why not 13's real name?!
+        "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
         // Imaginary 13's
         "13+0i",
         "13 + 13i",
         "13i",
+
+        // B just looks like 13 written closer
+        "b",
 
         // Password variations
         "th1rt33n",
@@ -39,12 +44,12 @@ function is(x) {
 
         // Languages
         "thirteen", // English
-        "тринадцать", // Russia
         "ثلاثة عشر", // Arabic
         "dertien", // Afrikaans / Dutch
         "dertiendertien", // Double Dutch
         "tretze", // Catalan
-        "十三", // Chinese (Traditional)
+        "十三", // Chinese (Traditional) / Japanese
+        "サーティーン", // Japanese
         "trinaest", // Croatian
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian
@@ -52,6 +57,7 @@ function is(x) {
         "kolmetoista", // Finnish
         "treize", // French
         "dreizehn", // German
+        "drizäh", // Swiss German
 		"שלוש עשרה", // Hebrew
 		"तेरह", //Hindi
         "tizenhárom", // Hungarian
@@ -71,7 +77,7 @@ function is(x) {
         "treze", // Portuguese
         "ਤੀਹ", // Punjabi
         "treisprezece", // Romanian
-        "тринадцать", // Russia
+        "тринадцать", // Russian
         "trinásť", // Slovak
         "trinajst", // Slovenian
         "trece", // Spanish
@@ -80,6 +86,9 @@ function is(x) {
         "tretton", // Swedish
         "பதின்மூன்று", // Tamil
         "สิบสาม", // Thai
+        "๑๓", // Thai Numeral
+        "SipSam", // Thai Transcription
+        "Sip Sam", // Thai Transcription with space
         "тринадцять", // Ukrainian
         "تیرہ", // Urdu
         "tri ar ddeg", // Welsh
@@ -126,6 +135,20 @@ function is(x) {
             of: {
                 thirteen: function() {
                     return x === 169;
+                }
+            }
+        },
+        greater: {
+            than: {
+                thirteen: function() {
+                    return x > 13
+                }
+            }
+        },
+        less: {
+            than: {
+                thirteen: function() {
+                    return x < 13
                 }
             }
         },
