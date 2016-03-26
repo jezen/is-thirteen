@@ -29,9 +29,6 @@ function is(x) {
         "13 + 13i",
         "13i",
 
-        // B just looks like 13 written closer
-        "b",
-
         // Password variations
         "th1rt33n",
         "th1rte3n",
@@ -99,7 +96,7 @@ function is(x) {
         "θərˈtiːn"
     ];
 
-    if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
+    if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1 || thirteenStrings.indexOf('' + x) > -1) {
         x = 13;
     }
 

@@ -1,8 +1,9 @@
 'use strict';
 
 const tap = require('tap');
-const is = require('./is');
-const does = require('./does');
+const isThirteen = require('./');
+const is = isThirteen.is;
+const does = isThirteen.does;
 
 tap.equal(is(13).thirteen(), true);
 tap.equal(is('13').thirteen(), true);
