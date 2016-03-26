@@ -41,6 +41,7 @@ tap.equal(is("thirte3n").thirteen(), true);
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch
 tap.equal(is("tretze").thirteen(), true); // Catalan
+tap.equal(is("napulo ug tulo").thirteen(), true); // Cebuano
 tap.equal(is("十三").thirteen(), true); // Chinese (Traditional)
 tap.equal(is("trinaest").thirteen(), true); // Croatian
 tap.equal(is("tretten").thirteen(), true); // Danish / Norwegian
@@ -64,6 +65,7 @@ tap.equal(is("dräizéng").thirteen(), true); // Luxembourgish
 tap.equal(is("тринаесет").thirteen(), true); // Macedonian
 tap.equal(is("tiga belas").thirteen(), true); // Malay
 tap.equal(is("арван").thirteen(), true); // Mongolian
+tap.equal(is(".---- ...--").thirtees(), true); // Morse code
 tap.equal(is("irteenthay").thirteen(), true); // Pig Latin
 tap.equal(is("trzynaście").thirteen(), true); // Polish
 tap.equal(is("treze").thirteen(), true); // Portoguese
@@ -85,5 +87,12 @@ tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
 
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
+
+tap.equal(is("i3").thirteen(),true); //i3 looks like 13 when upper case
+tap.equal(is("I3").thirteen(),true); //I3 looks like 13
+tap.equal(is("l3").thirteen(),true); //l3 looks like 13
+tap.equal(is("L3").thirteen(),true); //l3 looks like 13 when lower case
+tap.equal(is("|3").thirteen(),true); //|3 looks like 13
+
 
 
