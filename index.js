@@ -70,6 +70,7 @@ function is(x) {
         "dräizéng", // Luxembourgish
         "тринаесет", // Macedonian
         "tiga belas", // Malay
+        "तेरा", // Marathi (१३)
         "арван", // Mongolian
         "irteenthay", // Pig Latin
         "trzynaście", // Polish
