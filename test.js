@@ -42,6 +42,7 @@ tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch
 tap.equal(is("tretze").thirteen(), true); // Catalan
 tap.equal(is("十三").thirteen(), true); // Chinese (Traditional)
+tap.equal(is("拾叁")).thirteen(), true); //Chinese characters for cheque numbers
 tap.equal(is("trinaest").thirteen(), true); // Croatian
 tap.equal(is("tretten").thirteen(), true); // Danish / Norwegian
 tap.equal(is("kolmteist").thirteen(), true); // Estonian
@@ -85,5 +86,3 @@ tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
 
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
-
-
