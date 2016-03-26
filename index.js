@@ -45,6 +45,7 @@ function is(x) {
         "tretze", // Catalan
         "十三", // Chinese (Traditional)
         "shisan", // Chinese Pinyin
+        "shi san", // Chinese Pinyin(with space)
         "trinaest", // Croatian
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian

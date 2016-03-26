@@ -42,6 +42,7 @@ tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch
 tap.equal(is("tretze").thirteen(), true); // Catalan
 tap.equal(is("十三").thirteen(), true); // Chinese (Traditional)
 tap.equal(is("shisan").thirteen(), true); // Chinese Pinyin
+tap.equal(is("shi san").thirteen(), true); // Chinese Pinyin(with space)
 tap.equal(is("trinaest").thirteen(), true); // Croatian
 tap.equal(is("tretten").thirteen(), true); // Danish / Norwegian
 tap.equal(is("kolmteist").thirteen(), true); // Estonian
