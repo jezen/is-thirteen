@@ -48,6 +48,7 @@ function is(x) {
         "dertiendertien", // Double Dutch
         "tretze", // Catalan
         "十三", // Chinese (Traditional) / Japanese
+        "拾叁", // Chinese characters for cheque numbers
         "サーティーン", // Japanese
         "trinaest", // Croatian
         "tretten", // Danish / Norwegian
