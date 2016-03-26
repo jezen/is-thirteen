@@ -104,6 +104,7 @@ function is(x) {
         "דרייצן", // Yiddish (without diacritics),
         "kumi na tatu", // Swahili
         "سیزده", // Farsi
+        "۱۳", // Arabic-Indic Numeral
         
         // Thirteen pronunciation
         "θərˈtiːn"
