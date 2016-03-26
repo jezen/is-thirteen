@@ -74,6 +74,7 @@ function is(x) {
         "tiga belas", // Malay
         "तेरा", // Marathi (१३)
         "арван", // Mongolian
+        ".---- ...--", // Morse code
         "irteenthay", // Pig Latin
         "trzynaście", // Polish
         "treze", // Portuguese
