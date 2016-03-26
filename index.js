@@ -120,9 +120,12 @@ function is(x) {
         thirteen: function() {
             return x == 13;
         },
-        roughly: {
-            thirteen: function() {
-                return x >= 12.5 && x < 13.5;
+        roughly: function (delta) {
+            if (typeof delta == "undefined") delta = 0.5;
+            return {
+                thirteen: function() {
+                    return x >= 13 - delta && x < 13 + delta;
+                }
             }
         },
         not: {

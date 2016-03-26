@@ -94,5 +94,6 @@ tap.equal(is("l3").thirteen(),true); //l3 looks like 13
 tap.equal(is("L3").thirteen(),true); //l3 looks like 13 when lower case
 tap.equal(is("|3").thirteen(),true); //|3 looks like 13
 
-
-
+// roughly
+tap.equal(is(12.9999).roughly(0.2).thirteen(), true);
+tap.equal(is(12.9999).roughly(0.000001).thirteen(), false);
