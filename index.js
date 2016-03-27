@@ -60,7 +60,7 @@ function is(x) {
         "拾叄", // Chinese (Traditional) (Upper case)
         "サーティーン", // Japanese
         "trinaest", // Croatian
-        "třináct",
+        "třináct", // Czech
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian
         "labintatlo", // Filipino
