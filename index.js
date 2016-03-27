@@ -31,11 +31,11 @@ function is(x) {
 
         // B just looks like 13 written closer
         "b",
-		
-		//Adding "l" 3, "i"3 and |3 because they basically look like thirteen 
-		"i3",
-		"l3",
-		"|3",
+
+        //Adding "l" 3, "i"3 and |3 because they basically look like thirteen
+        "i3",
+        "l3",
+        "|3",
 
         // Password variations
         "th1rt33n",
@@ -64,8 +64,8 @@ function is(x) {
         "treize", // French
         "dreizehn", // German
         "drizäh", // Swiss German
-      "שלוש עשרה", // Hebrew
-      "तेरह", //Hindi
+        "שלוש עשרה", // Hebrew
+        "तेरह", //Hindi
         "tizenhárom", // Hungarian
         "déag", // Irish
         "tredici", // Italian
@@ -143,14 +143,14 @@ function is(x) {
         greater: {
             than: {
                 thirteen: function() {
-                    return x > 13
+                    return x > 13;
                 }
             }
         },
         less: {
             than: {
                 thirteen: function() {
-                    return x < 13
+                    return x < 13;
                 }
             }
         },
@@ -162,7 +162,16 @@ function is(x) {
                     }
                 }
             }
-        }
+        },
+        power: function(y)
+            return {
+                of: {
+                    thirteen: function() {
+                        return x === Math.pow(13, y);
+                    }
+                }
+            }
+        },
     }
 }
 
