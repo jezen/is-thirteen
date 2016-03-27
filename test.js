@@ -40,6 +40,8 @@ tap.equal(is("thirte3n").thirteen(), true);
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch
+tap.equal(is("тринадесет").thirteen(), true); // Bulgarian
+tap.equal(is("тринайсе").thirteen(), true); // Also Bulgarian
 tap.equal(is("tretze").thirteen(), true); // Catalan
 tap.equal(is("napulo ug tulo").thirteen(), true); // Cebuano
 tap.equal(is("十三").thirteen(), true); // Chinese (Traditional)
@@ -54,7 +56,7 @@ tap.equal(is("dreizehn").thirteen(), true); // German
 tap.equal(is('שלוש עשרה').thirteen(), true); // Hebrew
 tap.equal(is("तेरह").thirteen(), true); // Hindi
 tap.equal(is("tizenhárom").thirteen(), true); // Hungarian
-tap.equal(is("déag").thirteen(), true); // Irish
+tap.equal(is("trí déag").thirteen(), true); // Irish
 tap.equal(is("tredici").thirteen(), true); // Italian
 tap.equal(is("열셋").thirteen(), true); // Korean
 tap.equal(is("sêzdeh").thirteen(), true); // Kurdish
@@ -73,6 +75,7 @@ tap.equal(is("ਤੀਹ").thirteen(), true); // Punjabi
 tap.equal(is("treisprezece").thirteen(), true); // Romanian
 tap.equal(is("тринадцать").thirteen(), true); // Russia
 tap.equal(is("trinásť").thirteen(), true); // Slovak
+tap.equal(id("wa’maH wej").thirteen(), true); // Klingon
 tap.equal(is("trinajst").thirteen(), true); // Slovenian
 tap.equal(is("trece").thirteen(), true); // Spanish
 tap.equal(is("tretton").thirteen(), true); // Swedish
