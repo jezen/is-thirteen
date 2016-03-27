@@ -16,15 +16,13 @@ npm --save i is-thirteen
 ## Usage
 
 ```javascript
-var isThirteen = require('is-thirteen');
-
 // PLEAS READ THE SOURCE CODE BECAuse we moved fast and broke things
-
+v̶a̶r̶ ̶i̶s̶T̶h̶i̶r̶t̶e̶e̶n̶ ̶=̶ ̶r̶e̶q̶u̶i̶r̶e̶(̶'̶i̶s̶-̶t̶h̶i̶r̶t̶e̶e̶n̶'̶)̶;̶
 i̶s̶T̶h̶i̶r̶t̶e̶e̶n̶(̶2̶5̶)̶;̶ ̶/̶/̶ ̶f̶a̶l̶s̶e̶
 i̶s̶T̶h̶i̶r̶t̶e̶e̶n̶(̶1̶3̶)̶;̶ ̶/̶/̶ ̶t̶r̶u̶e̶
 
 // Now with elegant syntax.
-
+var is = require('is-thirteen');
 
 is(13).thirteen(); // true
 is(12.8).roughly.thirteen(); // true
