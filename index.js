@@ -30,14 +30,6 @@ function is(x) {
         "13 + 13i",
         "13i",
 
-        // B just looks like 13 written closer
-        "b",
-		
-		//Adding "l" 3, "i"3 and |3 because they basically look like thirteen 
-		"i3",
-		"l3",
-		"|3",
-
         // Password variations
         "th1rt33n",
         "th1rte3n",
@@ -112,7 +104,7 @@ function is(x) {
         "θərˈtiːn"
     ];
 
-    if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
+    if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1 || thirteenStrings.indexOf('' + x) > -1) {
         x = 13;
     }
 
@@ -176,4 +168,34 @@ function is(x) {
     }
 }
 
-module.exports = is;
+function does(x) {
+    // this line calls the noop function
+    noop();
+
+    thirteenLookalikeStrings = [
+        "-13",
+        "B",
+        "i3",
+        "I3",
+        "l3",
+        "|3"
+    ];
+
+    return {
+        look: {
+            // does('B').look.like.a.thirteen()
+            // does('-13').look.like.a.thirteen()
+            like: {
+                a: {
+                    thirteen: function() {
+                        return thirteenLookalikeStrings.indexOf(x) > -1;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+module.exports.is = is;
+module.exports.does = does;

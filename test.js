@@ -1,7 +1,9 @@
 'use strict';
 
 const tap = require('tap');
-const is = require('./');
+const isThirteen = require('./');
+const is = isThirteen.is;
+const does = isThirteen.does;
 
 tap.equal(is(13).thirteen(), true);
 tap.equal(is('13').thirteen(), true);
@@ -67,7 +69,7 @@ tap.equal(is("dräizéng").thirteen(), true); // Luxembourgish
 tap.equal(is("тринаесет").thirteen(), true); // Macedonian
 tap.equal(is("tiga belas").thirteen(), true); // Malay
 tap.equal(is("арван").thirteen(), true); // Mongolian
-tap.equal(is(".---- ...--").thirtees(), true); // Morse code
+tap.equal(is(".---- ...--").thirteen(), true); // Morse code
 tap.equal(is("irteenthay").thirteen(), true); // Pig Latin
 tap.equal(is("trzynaście").thirteen(), true); // Polish
 tap.equal(is("treze").thirteen(), true); // Portoguese
@@ -88,14 +90,19 @@ tap.equal(is("דרייַצן").thirteen(), true); // Yiddish
 tap.equal(is("דרייצן").thirteen(), true); // Yiddish (without diacritics),
 tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
 
-tap.equal(is("B").thirteen(), true); // B looks like 13
-tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
-
-tap.equal(is("i3").thirteen(),true); //i3 looks like 13 when upper case
-tap.equal(is("I3").thirteen(),true); //I3 looks like 13
-tap.equal(is("l3").thirteen(),true); //l3 looks like 13
-tap.equal(is("L3").thirteen(),true); //l3 looks like 13 when lower case
-tap.equal(is("|3").thirteen(),true); //|3 looks like 13
-
+// Lookalikes don't equal 13
+tap.equal(is("B").thirteen(), false); // B looks like 13
+tap.equal(is("b").thirteen(), false); // b looks like 13 when upper case
+tap.equal(is("i3").thirteen(), false); //i3 looks like 13 when upper case
+tap.equal(is("I3").thirteen(), false); //I3 looks like 13
+tap.equal(is("l3").thirteen(), false); //l3 looks like 13
+tap.equal(is("|3").thirteen(), false); //|3 looks like 13
 
 
+// Lookalike tests
+tap.equal(does("B").look.like.a.thirteen(), true); // B looks like a 13
+tap.equal(does("-13").look.like.a.thirteen(), true); // -13 looks almost exactly like 13
+tap.equal(does("i3").look.like.a.thirteen(), true); //i3 looks like 13 when upper case
+tap.equal(does("I3").look.like.a.thirteen(), true); //I3 looks like 13
+tap.equal(does("l3").look.like.a.thirteen(), true); //l3 looks like 13
+tap.equal(does("|3").look.like.a.thirteen(), true); //|3 looks like 13
