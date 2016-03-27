@@ -97,5 +97,16 @@ tap.equal(is("l3").thirteen(),true); //l3 looks like 13
 tap.equal(is("L3").thirteen(),true); //l3 looks like 13 when lower case
 tap.equal(is("|3").thirteen(),true); //|3 looks like 13
 
-
+// Test for roughly and other features.
+tap.equal(is("12.99999").roughly.thirteen(), true);
+tap.equal(is("13.50001").roughly.thirteen(), false);
+tap.equal(is("12.49999").roughly.thirteen(), false);
+tap.equal(is(13).not.thirteen(), true);
+tap.equal(is(26).divisible.by.thirteen(), true);
+tap.equal(is(13 * 1024).divisible.by.thirteen(), true);
+tap.equal(is(168).square.of.thirteen(), false);
+tap.equal(is(14).greater.than.thirteen(), true);
+tap.equal(is(15).less.than.thirteen(), false);
+tap.equal(is(17).within(5).of.thirteen(), true);
+// TOO LAUGH TO CONTINUE...
 
