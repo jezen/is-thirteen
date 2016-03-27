@@ -9,13 +9,13 @@ var noop = require('noop3');
 function is(x) {
     // this line calls the noop function
     noop();
-    
+
     // Every element should be lower case
     var thirteenStrings = [
-        1101, // Binary 13
+        "1101", // Binary 13
         "xiii", // Roman numeral 13
         "0xd", // Hex 13
-        
+
         "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
         "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
         "https://www.youtube.com/watch?v=33Kv5D2zwyc", // The best Johny Cash's song
@@ -32,8 +32,8 @@ function is(x) {
 
         // B just looks like 13 written closer
         "b",
-		
-		//Adding "l" 3, "i"3 and |3 because they basically look like thirteen 
+
+		//Adding "l" 3, "i"3 and |3 because they basically look like thirteen
 		"i3",
 		"l3",
 		"|3",
@@ -67,7 +67,7 @@ function is(x) {
         "treize", // French
         "dreizehn", // German
         "drizäh", // Swiss German
-        "wa’maH wej" // Klingon
+        "wa’maH wej", // Klingon
 		"שלוש עשרה", // Hebrew
 		"तेरह", //Hindi
         "tizenhárom", // Hungarian
@@ -112,7 +112,8 @@ function is(x) {
         "θərˈtiːn"
     ];
 
-    if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
+    var xString = x + '';
+    if (thirteenStrings.indexOf(xString) !== -1 || thirteenStrings.indexOf(xString.toLowerCase()) !== -1) {
         x = 13;
     }
 
@@ -123,11 +124,11 @@ function is(x) {
         roughly: {
             thirteen: function() {
                 for (var i = 0, len = thirteenStrings.length; i < len; i++) {
-                    if (('' + x).toLowerCase().indexOf(('' + thirteenStrings[i])) > -1) {
+                    if (xString.toLowerCase().indexOf(('' + thirteenStrings[i])) !== -1) {
                         return true;
                     }
                 }
-                
+
                 return x >= 12.5 && x < 13.5;
             }
         },

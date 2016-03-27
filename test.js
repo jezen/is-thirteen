@@ -1,5 +1,4 @@
 'use strict';
-
 const tap = require('tap');
 const is = require('./');
 
@@ -67,7 +66,7 @@ tap.equal(is("dräizéng").thirteen(), true); // Luxembourgish
 tap.equal(is("тринаесет").thirteen(), true); // Macedonian
 tap.equal(is("tiga belas").thirteen(), true); // Malay
 tap.equal(is("арван").thirteen(), true); // Mongolian
-tap.equal(is(".---- ...--").thirtees(), true); // Morse code
+tap.equal(is(".---- ...--").thirteen(), true); // Morse code
 tap.equal(is("irteenthay").thirteen(), true); // Pig Latin
 tap.equal(is("trzynaście").thirteen(), true); // Polish
 tap.equal(is("treze").thirteen(), true); // Portoguese
@@ -75,7 +74,7 @@ tap.equal(is("ਤੀਹ").thirteen(), true); // Punjabi
 tap.equal(is("treisprezece").thirteen(), true); // Romanian
 tap.equal(is("тринадцать").thirteen(), true); // Russia
 tap.equal(is("trinásť").thirteen(), true); // Slovak
-tap.equal(id("wa’maH wej").thirteen(), true); // Klingon
+tap.equal(is("wa’maH wej").thirteen(), true); // Klingon
 tap.equal(is("trinajst").thirteen(), true); // Slovenian
 tap.equal(is("trece").thirteen(), true); // Spanish
 tap.equal(is("tretton").thirteen(), true); // Swedish
@@ -91,11 +90,20 @@ tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
 
-tap.equal(is("i3").thirteen(),true); //i3 looks like 13 when upper case
-tap.equal(is("I3").thirteen(),true); //I3 looks like 13
-tap.equal(is("l3").thirteen(),true); //l3 looks like 13
-tap.equal(is("L3").thirteen(),true); //l3 looks like 13 when lower case
-tap.equal(is("|3").thirteen(),true); //|3 looks like 13
+tap.equal(is("i3").thirteen(), true); //i3 looks like 13 when upper case
+tap.equal(is("I3").thirteen(), true); //I3 looks like 13
+tap.equal(is("l3").thirteen(), true); //l3 looks like 13
+tap.equal(is("L3").thirteen(), true); //l3 looks like 13 when lower case
+tap.equal(is("|3").thirteen(), true); //|3 looks like 13
 
-
-
+// Negative tests
+tap.equal(is().thirteen(), false);
+tap.equal(is('0').thirteen(), false);
+tap.equal(is(false).thirteen(), false);
+tap.equal(is(void 0).thirteen(), false);
+tap.equal(is(NaN).thirteen(), false);
+tap.equal(is(12).thirteen(), false);
+tap.equal(is(144).square.of.thirteen(), false);
+tap.equal(is(-Infinity).greater.than.thirteen(), false);
+tap.equal(is(Infinity).less.than.thirteen(), false);
+tap.equal(is(18).within(4).of.thirteen(), false);
