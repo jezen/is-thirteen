@@ -12,7 +12,7 @@ function is(x) {
 
     // Every element should be lower case
     var thirteenStrings = [
-        1101, // Binary 13
+        "1101", // Binary 13
         "xiii", // Roman numeral 13
         "0xd", // Hex 13
 
@@ -112,7 +112,8 @@ function is(x) {
         "θərˈtiːn"
     ];
 
-    if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
+    var xString = x + '';
+    if (thirteenStrings.indexOf(xString) !== -1 || thirteenStrings.indexOf(xString.toLowerCase()) !== -1) {
         x = 13;
     }
 
@@ -123,7 +124,7 @@ function is(x) {
         roughly: {
             thirteen: function() {
                 for (var i = 0, len = thirteenStrings.length; i < len; i++) {
-                    if (('' + x).toLowerCase().indexOf(('' + thirteenStrings[i])) > -1) {
+                    if (xString.toLowerCase().indexOf(('' + thirteenStrings[i])) !== -1) {
                         return true;
                     }
                 }

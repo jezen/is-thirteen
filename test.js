@@ -66,7 +66,7 @@ tap.equal(is("dräizéng").thirteen(), true); // Luxembourgish
 tap.equal(is("тринаесет").thirteen(), true); // Macedonian
 tap.equal(is("tiga belas").thirteen(), true); // Malay
 tap.equal(is("арван").thirteen(), true); // Mongolian
-tap.equal(is(".---- ...--").thirtees(), true); // Morse code
+tap.equal(is(".---- ...--").thirteen(), true); // Morse code
 tap.equal(is("irteenthay").thirteen(), true); // Pig Latin
 tap.equal(is("trzynaście").thirteen(), true); // Polish
 tap.equal(is("treze").thirteen(), true); // Portoguese
@@ -74,7 +74,7 @@ tap.equal(is("ਤੀਹ").thirteen(), true); // Punjabi
 tap.equal(is("treisprezece").thirteen(), true); // Romanian
 tap.equal(is("тринадцать").thirteen(), true); // Russia
 tap.equal(is("trinásť").thirteen(), true); // Slovak
-tap.equal(id("wa’maH wej").thirteen(), true); // Klingon
+tap.equal(is("wa’maH wej").thirteen(), true); // Klingon
 tap.equal(is("trinajst").thirteen(), true); // Slovenian
 tap.equal(is("trece").thirteen(), true); // Spanish
 tap.equal(is("tretton").thirteen(), true); // Swedish
