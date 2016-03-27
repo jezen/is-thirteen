@@ -107,7 +107,9 @@ function is(x) {
         "דרייַצן", // Yiddish,
         "דרייצן", // Yiddish (without diacritics),
         "kumi na tatu", // Swahili
-
+        "mười ba", // full Vietnamese
+        "muoi ba", // simplied Vietnamse
+        
         // Thirteen pronunciation
         "θərˈtiːn"
     ];
