@@ -40,6 +40,8 @@ tap.equal(is("thirte3n").thirteen(), true);
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch
+tap.equal(is("тринадесет").thirteen(), true); // Bulgarian
+tap.equal(is("тринайсе").thirteen(), true); // Also Bulgarian
 tap.equal(is("tretze").thirteen(), true); // Catalan
 tap.equal(is("napulo ug tulo").thirteen(), true); // Cebuano
 tap.equal(is("十三").thirteen(), true); // Chinese (Traditional)
