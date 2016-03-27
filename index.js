@@ -51,6 +51,8 @@ function is(x) {
         "ثلاثة عشر", // Arabic
         "dertien", // Afrikaans / Dutch
         "dertiendertien", // Double Dutch
+        "тринадесет", // Bulgarian
+        "тринайсе", // Also Bulgarian
         "tretze", // Catalan
         "napulo ug tulo", // Cebuano
         "十三", // Chinese (Traditional) / Japanese
