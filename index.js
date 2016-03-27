@@ -92,7 +92,6 @@ function is(x) {
         "trinásť", // Slovak
         "trinajst", // Slovenian
         "trece", // Spanish
-        "tredici", // Italian
         "tlettax", // Maltese
         "tretton", // Swedish
         "பதின்மூன்று", // Tamil
