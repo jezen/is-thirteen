@@ -73,6 +73,7 @@ tap.equal(is("ਤੀਹ").thirteen(), true); // Punjabi
 tap.equal(is("treisprezece").thirteen(), true); // Romanian
 tap.equal(is("тринадцать").thirteen(), true); // Russia
 tap.equal(is("trinásť").thirteen(), true); // Slovak
+tap.equal(id("wa’maH wej").thirteen(), true); // Klingon
 tap.equal(is("trinajst").thirteen(), true); // Slovenian
 tap.equal(is("trece").thirteen(), true); // Spanish
 tap.equal(is("tretton").thirteen(), true); // Swedish
