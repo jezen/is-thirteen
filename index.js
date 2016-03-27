@@ -107,6 +107,8 @@ function is(x) {
         "דרייַצן", // Yiddish,
         "דרייצן", // Yiddish (without diacritics),
         "kumi na tatu", // Swahili
+        "on üç", // Turkish
+        
 
         // Thirteen pronunciation
         "θərˈtiːn"
