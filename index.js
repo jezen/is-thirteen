@@ -64,6 +64,7 @@ function is(x) {
         "treize", // French
         "dreizehn", // German
         "drizäh", // Swiss German
+        "wa’maH wej" // Klingon
       "שלוש עשרה", // Hebrew
       "तेरह", //Hindi
         "tizenhárom", // Hungarian
