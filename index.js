@@ -23,6 +23,7 @@ function is(x) {
         "olivia wilde", // AND because SHE's 13
         "baker's dozen", // Bakers gonna bake
         "dr. remy beauregard hadley", // Why not 13's real name?!
+        "http://www.amazon.com/13-2-CD-Deluxe-Edition/dp/B00BTHWFBK", //Black Sabbath's album '13'
         "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
         // Imaginary 13's
