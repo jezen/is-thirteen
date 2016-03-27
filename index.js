@@ -67,7 +67,7 @@ function is(x) {
       "שלוש עשרה", // Hebrew
       "तेरह", //Hindi
         "tizenhárom", // Hungarian
-        "déag", // Irish
+        "trí déag", // Irish
         "tredici", // Italian
         "열셋", // Korean
         "sêzdeh", // Kurdish
