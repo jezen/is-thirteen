@@ -65,6 +65,7 @@ function is(x) {
         "dreizehn", // German
         "drizäh", // Swiss German
       "שלוש עשרה", // Hebrew
+      "שלושה עשר", // Hebrew (male)
       "तेरह", //Hindi
         "tizenhárom", // Hungarian
         "déag", // Irish
