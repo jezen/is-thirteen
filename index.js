@@ -67,8 +67,10 @@ function is(x) {
         "dreizehn", // German
         "drizäh", // Swiss German
         "wa’maH wej" // Klingon
-      "שלוש עשרה", // Hebrew
-      "तेरह", //Hindi
+        "שלוש עשרה", // Hebrew (feminine form)
+        "שלושה עשר", // Hebrew (masculine form)
+        'י"ג', // Gematria (https://en.wikipedia.org/wiki/Gematria)
+        "तेरह", //Hindi
         "tizenhárom", // Hungarian
         "trí déag", // Irish
         "tredici", // Italian
