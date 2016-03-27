@@ -106,6 +106,9 @@ function is(x) {
 
         // Thirteen pronunciation
         "θərˈtiːn"
+        
+        //Github account
+        "https://github.com/13"
     ];
 
     if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
