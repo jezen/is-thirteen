@@ -50,6 +50,7 @@ function is(x) {
         // Languages
         "thirteen", // English
         "ثلاثة عشر", // Arabic
+        "տասներեք", // Armenian
         "dertien", // Afrikaans / Dutch
         "dertiendertien", // Double Dutch
         "тринадесет", // Bulgarian
