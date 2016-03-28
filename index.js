@@ -1,4 +1,5 @@
 var noop = require('noop3');
+var volkswagen = require('volkswagen');
 
 'use strict';
 
