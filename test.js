@@ -65,7 +65,7 @@ tap.equal(is("labintatlo").thirteen(), true); // Filipino
 tap.equal(is("kolmetoista").thirteen(), true); // Finnish
 tap.equal(is("treize").thirteen(), true); // French
 tap.equal(is("dreizehn").thirteen(), true); // German
-tap.equal(is("‘umikūmākolu").thirteen(),true); //Hawaiian
+tap.equal(is("‘umikūmākolu").thirteen(), true); //Hawaiian
 tap.equal(is('שלוש עשרה').thirteen(), true); // Hebrew
 tap.equal(is('שלושעשרה').thirteen(), true); // Hebrew (without space)
 tap.equal(is('ֹשְלֹש- עֶשְֹרֵה').thirteen(), true); // Hebrew (with punctuation)
@@ -124,17 +124,17 @@ tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
 
 tap.equal(is("β").thirteen(), true); // β looks like 13
 
-tap.equal(is("i3").thirteen(),true); //i3 looks like 13 when upper case
-tap.equal(is("I3").thirteen(),true); //I3 looks like 13
-tap.equal(is("l3").thirteen(),true); //l3 looks like 13
-tap.equal(is("L3").thirteen(),true); //l3 looks like 13 when lower case
-tap.equal(is("|3").thirteen(),true); //|3 looks like 13
+tap.equal(is("i3").thirteen(), true); //i3 looks like 13 when upper case
+tap.equal(is("I3").thirteen(), true); //I3 looks like 13
+tap.equal(is("l3").thirteen(), true); //l3 looks like 13
+tap.equal(is("L3").thirteen(), true); //l3 looks like 13 when lower case
+tap.equal(is("|3").thirteen(), true); //|3 looks like 13
 
 
 tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil is 13, amigo
 
-tap.equal(is(25).minus(12).thirteen(),true); // 25 - 12 === 13
-tap.equal(is(1).plus(12).thirteen(),true);   // 1  + 12 === 13
+tap.equal(is(25).minus(12).thirteen(), true); // 25 - 12 === 13
+tap.equal(is(1).plus(12).thirteen(), true);   // 1  + 12 === 13
 
 tap.equal(is(13).base(10).thirteen(), true);
 tap.equal(is(14).base(10).thirteen(), false);
