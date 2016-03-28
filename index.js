@@ -88,6 +88,7 @@ function is(x) {
         "trinaest", // Croatian / Serbian (latin)
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian
+        "dek tri", // Esperanto
         "labintatlo", // Filipino
         "kolmetoista", // Finnish
         "treize", // French
