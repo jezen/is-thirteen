@@ -172,6 +172,13 @@ function is(x) {
                     }
                 }
             }
+        },
+        of: {
+            length: {
+                thirteen: function() {
+                    return x.length === 13;
+                }
+            }
         }
     }
 }
