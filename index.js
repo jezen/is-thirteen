@@ -61,6 +61,7 @@ function is(x) {
         "サーティーン", // Japanese
         "trinaest", // Croatian
         "tretten", // Danish / Norwegian
+        "dektri" // Esperanto
         "kolmteist", // Estonian
         "labintatlo", // Filipino
         "kolmetoista", // Finnish
@@ -68,8 +69,8 @@ function is(x) {
         "dreizehn", // German
         "drizäh", // Swiss German
         "wa’maH wej" // Klingon
-		"שלוש עשרה", // Hebrew
-		"तेरह", //Hindi
+		    "שלוש עשרה", // Hebrew
+		    "तेरह", //Hindi
         "tizenhárom", // Hungarian
         "trí déag", // Irish
         "tredici", // Italian
