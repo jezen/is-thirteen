@@ -70,6 +70,8 @@ function is(x) {
         "wa’maH wej" // Klingon
 		"שלוש עשרה", // Hebrew
 		"तेरह", //Hindi
+		"१३", //Devanagari
+        "तेह्र",//Nepali
         "tizenhárom", // Hungarian
         "trí déag", // Irish
         "tredici", // Italian
