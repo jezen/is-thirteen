@@ -89,6 +89,8 @@ function is(x) {
         "יג", // Hebrew (gematria)
         "י״ג", // Hebrew (gematria - apostrophes)
 		"तेरह", //Hindi
+		"१३", //Devanagari
+        "तेह्र",//Nepali
         "tizenhárom", // Hungarian
         "trí déag", // Irish
         "tredici", // Italian
