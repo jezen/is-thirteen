@@ -87,6 +87,8 @@ tap.equal(is("tri ar ddeg").thirteen(), true); // Welsh
 tap.equal(is("דרייַצן").thirteen(), true); // Yiddish
 tap.equal(is("דרייצן").thirteen(), true); // Yiddish (without diacritics),
 tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
+tap.equal(is("quainel").thirteen(), true); // Quenya
+tap.equal(is("mînuiug").thirteen(), true); // Sindarin
 
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
