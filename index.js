@@ -115,6 +115,7 @@ function is(x) {
         "trece", // Spanish
         "trese", // Tagalog
         "tredici", // Italian
+        "on üç", // Turkish
         "tlettax", // Maltese
         "tretton", // Swedish
         "பதின்மூன்று", // Tamil
