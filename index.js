@@ -138,7 +138,7 @@ function is(x) {
     if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
         x = 13;
     }
-    // check agin without lower case
+    // check again without lower case
     else if (thirteenStrings.indexOf(('' + x)) > -1) {
         x = 13;
     }
@@ -206,6 +206,20 @@ function is(x) {
                 return false
             }
             return currYear - parseInt(x) == 13 
+        },
+        canSpell: {
+          thirteen: function(){
+            return x.toLowerCase().includes("t","h","i","r","t","e","e","n");
+          }
+        },
+        anagramOf:{
+          thirteen:function(){
+            if(x.toLowerCase().split('').sort().join('').trim() == "thirteen".split('').sort().join('').trim()){
+              return true;
+            }else{
+              return false;
+            }
+          }
         }
     }
 }
