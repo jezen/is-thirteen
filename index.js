@@ -102,7 +102,7 @@ function is(x) {
         "irteenthay", // Pig Latin
         "trzynaście", // Polish
         "treze", // Portuguese
-        "ਤੀਹ", // Punjabi
+        "ਤੇਰਾਂ", // Punjabi
         "treisprezece", // Romanian
         "тринадцать", // Russian
         "trinásť", // Slovak
