@@ -66,6 +66,7 @@ function is(x) {
         "kolmetoista", // Finnish
         "treize", // French
         "dreizehn", // German
+        "δεκατρία", // Greek
         "drizäh", // Swiss German
         "wa’maH wej" // Klingon
 		"שלוש עשרה", // Hebrew
