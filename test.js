@@ -49,7 +49,7 @@ tap.equal(is("th1rte3n").thirteen(), true);
 tap.equal(is("th1rteen").thirteen(), true);
 tap.equal(is("thirt3en").thirteen(), true);
 tap.equal(is("thirt33n").thirteen(), true);
-tap.equal(is("thirte3n").thirteen(), true);
+tap.equal(is("thirte3n").thirteen(), truet
 
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
@@ -99,6 +99,7 @@ tap.equal(is("trinásť").thirteen(), true); // Slovak
 tap.equal(is("wa’maH wej").thirteen(), true); // Klingon
 tap.equal(is("trinajst").thirteen(), true); // Slovenian
 tap.equal(is("trece").thirteen(), true); // Spanish
+tap.equal(is("dektri").thirteen(), true); // Speranto
 tap.equal(is("trese").thirteen(), true); // Tagalog
 tap.equal(is("tretton").thirteen(), true); // Swedish
 tap.equal(is("பதின்மூன்று").thirteen(), true); // Tamil
