@@ -36,16 +36,16 @@ function is(x) {
         // B just looks like 13 written closer
         "b",
 
-		//Adding "l" 3, "i"3 and |3 because they basically look like thirteen
-		"i3",
-		"l3",
-		"|3",
+        //Adding "l" 3, "i"3 and |3 because they basically look like thirteen
+        "i3",
+        "l3",
+        "|3",
         
-		//Looks like 13 (flipped horizontally) - E equal to 3 
-		"ei",
-		"e1",
-		"el",
-		"e|",
+        //Looks like 13 (flipped horizontally) - E equal to 3 
+        "ei",
+        "e1",
+        "el",
+        "e|",
 
         // Password variations
         "th1rt33n",
@@ -131,7 +131,10 @@ function is(x) {
         "דרייַצן", // Yiddish,
         "דרייצן", // Yiddish (without diacritics),
         "kumi na tatu", // Swahili
-
+        "तेह्र", //Nepali
+        "१३", //Devanagari
+        "तेरह", //Hindi
+        "β", //Think this is beta, which looks like a long 1 mashed together with a 3
         // Thirteen pronunciation
         "θərˈtiːn"
     ];
@@ -141,6 +144,9 @@ function is(x) {
     }
     // check agin without lower case
     else if (thirteenStrings.indexOf(('' + x)) > -1) {
+        x = 13;
+    } 
+    else if( (typeof x) === "string" && /^[Il1]{13,13}$/.test(x) ) {
         x = 13;
     }
 
@@ -221,22 +227,23 @@ function is(x) {
                     return x - y === 13;
                 }
             }
-        }
+        },
         times: function(y) {
             return {
                 thirteen: function() {
                     return x * y === 13;
                 }
             }
-        }
+        },
         dividedby: function(y) {
-            return {
-                thirteen: function() {
-                    return x/y === 13;
+          return {
+    	          thirteen: function(){
+                        return x/y === 13;
                 }
             }
         }
     }
 }
+
 
 module.exports = is;
