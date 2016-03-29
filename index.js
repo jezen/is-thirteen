@@ -207,6 +207,20 @@ function is(x) {
             }
             return currYear - parseInt(x) == 13 
         },
+         plus: function(y) {
+            return {
+                thirteen: function() {
+                    return x + y === 13;
+                }
+            }
+        },
+        minus: function(y) {
+            return {
+                thirteen: function() {
+                    return x - y === 13;
+                }
+            }
+        },
         canSpell: {
           thirteen: function(){
             return x.toLowerCase().includes("t","h","i","r","t","e","e","n");
