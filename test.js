@@ -67,6 +67,7 @@ tap.equal(is("labintatlo").thirteen(), true); // Filipino
 tap.equal(is("kolmetoista").thirteen(), true); // Finnish
 tap.equal(is("treize").thirteen(), true); // French
 tap.equal(is("dreizehn").thirteen(), true); // German
+tap.equal(is("‘umikūmākolu").thirteen(),true); //Hawaiian
 tap.equal(is('שלוש עשרה').thirteen(), true); // Hebrew
 tap.equal(is('שלושעשרה').thirteen(), true); // Hebrew (without space)
 tap.equal(is('ֹשְלֹש- עֶשְֹרֵה').thirteen(), true); // Hebrew (with punctuation)
