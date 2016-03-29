@@ -88,8 +88,8 @@ function is(x) {
         "ֹשְלֹשָה- עָשָֹר", // Hebrew (male form, with punctuation)
         "יג", // Hebrew (gematria)
         "י״ג", // Hebrew (gematria - apostrophes)
-        "quainel" // Quenya
-        "mînuiug" // Sindarin
+        "quainel", // Quenya
+        "mînuiug", // Sindarin
         "tizenhárom", // Hungarian
         "trí déag", // Irish
         "tredici", // Italian
