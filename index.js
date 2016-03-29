@@ -28,6 +28,9 @@ function is(x) {
         "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
         "jason fly", // XIII of The XX
 
+        // B is 13 in letter form
+        "B",
+
         // Imaginary 13's
         "13+0i",
         "13 + 13i",
