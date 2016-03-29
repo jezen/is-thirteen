@@ -243,7 +243,7 @@ function is(x) {
                         return x/y === 13;
                 }
             }
-        }
+        },
         canSpell: {
           thirteen: function(){
             return x.toLowerCase().includes("t","h","i","r","t","e","e","n");
