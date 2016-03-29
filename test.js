@@ -91,7 +91,7 @@ tap.equal(is("арван").thirteen(), true); // Mongolian
 tap.equal(is(".---- ...--").thirteen(), true); // Morse code
 tap.equal(is("irteenthay").thirteen(), true); // Pig Latin
 tap.equal(is("trzynaście").thirteen(), true); // Polish
-tap.equal(is("treze").thirteen(), true); // Portoguese
+tap.equal(is("treze").thirteen(), true); // Portuguese
 tap.equal(is("ਤੀਹ").thirteen(), true); // Punjabi
 tap.equal(is("treisprezece").thirteen(), true); // Romanian
 tap.equal(is("тринадцать").thirteen(), true); // Russia
