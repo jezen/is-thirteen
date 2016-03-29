@@ -20,7 +20,7 @@ tap.equal(is('thirteen').thirteen(), true);
 tap.equal(is('Thirteen').thirteen(), true);
 tap.equal(is('Remy Hadley').thirteen(), true);
 tap.equal(is('Olivia Wilde').thirteen(), true);
-tap.equal(is('Weedle').thirteen(), true);
+tap.equal(is('weedle').thirteen(), true);
 tap.equal(is("baker's dozen").thirteen(), true);
 tap.equal(is("Dr. Remy Beauregard Hadley").thirteen(), true);
 
