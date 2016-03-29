@@ -142,6 +142,13 @@ function is(x) {
     else if (thirteenStrings.indexOf(('' + x)) > -1) {
         x = 13;
     }
+    // check 13 length string with the same character
+    else if (typeof x === 'string') {
+        var chars = (x).split('');
+        if (chars.length == 13 && chars.every(function(e) { return e === chars[0]})) {
+            x = 13;
+        }
+    }
 
     return {
         thirteen: function() {
