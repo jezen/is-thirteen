@@ -214,10 +214,7 @@ function is(x) {
         },
         anagramOf:{
           thirteen:function(){
-            if(x.toLowerCase().split('').sort().join('').trim() == "thirteen".split('').sort().join('').trim()){
-              return true;
-            }else{
-              return false;
+            return x.toLowerCase().split('').sort().join('').trim() == "thirteen".split('').sort().join('').trim();
             }
           }
         }
