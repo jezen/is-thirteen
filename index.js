@@ -74,6 +74,7 @@ function is(x) {
         "trí déag", // Irish
         "tredici", // Italian
         "열셋", // Korean
+        "십삼", // Korean
         "sêzdeh", // Kurdish
         "tredecim", // Latin
         "trīspadsmit", // Latvian
