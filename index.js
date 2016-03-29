@@ -206,6 +206,20 @@ function is(x) {
                 return false
             }
             return currYear - parseInt(x) == 13 
+        },
+        plus: function(y) {
+            return {
+                thirteen: function() {
+                    return x + y === 13;
+                }
+            }
+        },
+        minus: function(y) {
+            return {
+                thirteen: function() {
+                    return x - y === 13;
+                }
+            }
         }
     }
 }
