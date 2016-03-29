@@ -49,7 +49,7 @@ tap.equal(is("th1rte3n").thirteen(), true);
 tap.equal(is("th1rteen").thirteen(), true);
 tap.equal(is("thirt3en").thirteen(), true);
 tap.equal(is("thirt33n").thirteen(), true);
-tap.equal(is("thirte3n").thirteen(), truet
+tap.equal(is("thirte3n").thirteen(), true);
 
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
