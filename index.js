@@ -50,6 +50,8 @@ function is(x) {
         // Languages
         "thirteen", // English
         "ثلاثة عشر", // Arabic
+        "سیزده", // Persian
+        "۱۳", // Persian number
         "dertien", // Afrikaans / Dutch
         "dertiendertien", // Double Dutch
         "тринадесет", // Bulgarian
