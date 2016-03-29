@@ -117,6 +117,9 @@ tap.equals(is("तेह्र").thirteen(), true); //Nepali
 tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
 
+tap.equal(is("neetriht").thirteen(), true); // backwards
+tap.equal(is("uǝǝʇɹıɥʇ").thirteen(), true); // upside-down
+
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
 

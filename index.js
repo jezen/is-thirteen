@@ -138,7 +138,11 @@ function is(x) {
         "तेरह", //Hindi
         "β", //Think this is beta, which looks like a long 1 mashed together with a 3
         // Thirteen pronunciation
-        "θərˈtiːn"
+        "θərˈtiːn",
+        
+        // Thirteen is thirteen any way you look at it
+        "neetriht",
+        "uǝǝʇɹıɥʇ"
     ];
 
     if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
