@@ -80,15 +80,16 @@ function is(x) {
         "δεκατρία", // Greek
         "drizäh", // Swiss German
         "wa’maH wej", // Klingon
-		"שלוש עשרה", // Hebrew 
-		"שלושעשרה", // Hebrew (without space)
+        "שלוש עשרה", // Hebrew 
+        "שלושעשרה", // Hebrew (without space)
         "ֹשְלֹש- עֶשְֹרֵה", // Hebrew (with punctuation)
-		"שלושה עשר", // Hebrew (male form)
-		"שלושהעשר", // Hebrew (male form, without space)
+        "שלושה עשר", // Hebrew (male form)
+        "שלושהעשר", // Hebrew (male form, without space)
         "ֹשְלֹשָה- עָשָֹר", // Hebrew (male form, with punctuation)
         "יג", // Hebrew (gematria)
         "י״ג", // Hebrew (gematria - apostrophes)
-		"तेरह", //Hindi
+        "quainel" // Quenya
+        "mînuiug" // Sindarin
         "tizenhárom", // Hungarian
         "trí déag", // Irish
         "tredici", // Italian
