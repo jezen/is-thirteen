@@ -118,7 +118,8 @@ function is(x) {
         "Sip Sam", // Thai Transcription with space
         "тринадцять", // Ukrainian
         "تیرہ", // Urdu
-        "tri ar ddeg", // Welsh
+        "tri ar ddeg", // Welsh,
+        "mười ba", // Vietnamese
         "דרייַצן", // Yiddish,
         "דרייצן", // Yiddish (without diacritics),
         "kumi na tatu", // Swahili
