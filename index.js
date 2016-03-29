@@ -66,6 +66,9 @@ function is(x) {
         "kolmetoista", // Finnish
         "treize", // French
         "dreizehn", // German
+        "treiskaideka", // Greek
+        "triskaideka",  // also Greek
+        "triskaideca",  // no one knows how to spell Greek things
         "drizäh", // Swiss German
         "wa’maH wej" // Klingon
 		"שלוש עשרה", // Hebrew
@@ -109,7 +112,15 @@ function is(x) {
         "kumi na tatu", // Swahili
 
         // Thirteen pronunciation
-        "θərˈtiːn"
+        "θərˈtiːn",
+
+        // Numerical Prefixes
+        "tredec",       // Latin prefix
+        "trideca",      // Greek prefix
+
+        // Base 13
+        "tridecimal"	
+
     ];
 
     if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
