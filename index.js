@@ -107,7 +107,8 @@ function is(x) {
         "irteenthay", // Pig Latin
         "trzynaście", // Polish
         "treze", // Portuguese
-        "ਤੇਰਾਂ", // Punjabi
+        "ਤੇਰਾਂ", // Punjabi - thirteen
+        "੧੩", // Punjabi Numeral - 13
         "treisprezece", // Romanian
         "тринадцать", // Russian
         "trinásť", // Slovak
