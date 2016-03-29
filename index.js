@@ -81,6 +81,7 @@ function is(x) {
         "δεκατρία", // Greek
         "drizäh", // Swiss German
         "wa’maH wej", // Klingon
+        "‘umikūmākolu", // Hawaiian
         "שלוש עשרה", // Hebrew 
         "שלושעשרה", // Hebrew (without space)
         "ֹשְלֹש- עֶשְֹרֵה", // Hebrew (with punctuation)
