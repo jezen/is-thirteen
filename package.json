@@ -17,6 +17,7 @@
   "author": "Jezen Thomas <jezen@jezenthomas.com>",
   "license": "WTFPL",
   "dependencies": {
-    "noop3": "^13.7.2"
+    "noop3": "^13.7.2",
+    "webpack": "^1.12.14"
   }
 }

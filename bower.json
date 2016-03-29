@@ -1,0 +1,18 @@
+{
+  "name": "is-thirteen",
+  "description": "Check if a number is equal to 13",
+  "main": "index.js",
+  "authors": [
+    "Jezen Thomas <jezen@jezenthomas.com>"
+  ],
+  "license": "WTFPL",
+  "homepage": "https://github.com/jezen/is-thirteen",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
