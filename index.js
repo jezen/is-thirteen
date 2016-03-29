@@ -215,7 +215,6 @@ function is(x) {
         anagramOf:{
           thirteen:function(){
             return x.toLowerCase().split('').sort().join('').trim() == "thirteen".split('').sort().join('').trim();
-            }
           }
         }
     }
