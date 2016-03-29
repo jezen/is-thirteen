@@ -27,7 +27,11 @@ function is(x) {
         "patty tsai", // 蔡依珊 is a public figure in Taiwan. Her Chinese name sounds like "13".
         "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous Puerto Rican band
         "jason fly", // XIII of The XX
+
         "dilma", //Dilma, president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
+
+        "PT", // PT is Brazilian political party represented by the number 13
+
 
         // Imaginary 13's
         "13+0i",
