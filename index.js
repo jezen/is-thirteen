@@ -92,6 +92,8 @@ function is(x) {
         "tizenhárom", // Hungarian
         "trí déag", // Irish
         "tredici", // Italian
+        "ಹದಿಮೂರು", //Kannada (for thirteen)
+        "೧೩",//Kannada (for 13)
         "열셋", // Korean
         "sêzdeh", // Kurdish
         "tredecim", // Latin
