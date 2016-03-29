@@ -12,6 +12,7 @@ tap.equal(is('xiii').thirteen(), true);
 tap.equal(is('0xD').thirteen(), true);
 tap.equal(is('0xd').thirteen(), true);
 
+tap.equal(is('https://en.wikipedia.org/wiki/This_Is_Thirteen').thirteen(), true); // Because it is thirteen
 tap.equal(is('https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg').thirteen(), true);
 tap.equal(is('http://www.metal-archives.com/images/1/5/3/7/153772.jpg').thirteen(), false);
 tap.equal(is('https://www.youtube.com/watch?v=pte3Jg-2Ax4').thirteen(), true);
@@ -78,6 +79,7 @@ tap.equal(is("trinásť").thirteen(), true); // Slovak
 tap.equal(id("wa’maH wej").thirteen(), true); // Klingon
 tap.equal(is("trinajst").thirteen(), true); // Slovenian
 tap.equal(is("trece").thirteen(), true); // Spanish
+tap.equal(is("trese").thirteen(), true); // Tagalog
 tap.equal(is("tretton").thirteen(), true); // Swedish
 tap.equal(is("பதின்மூன்று").thirteen(), true); // Tamil
 tap.equal(is("สิบสาม").thirteen(), true); // Thai
