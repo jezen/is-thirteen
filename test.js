@@ -58,6 +58,7 @@ tap.equal(is("तेरह").thirteen(), true); // Hindi
 tap.equal(is("tizenhárom").thirteen(), true); // Hungarian
 tap.equal(is("trí déag").thirteen(), true); // Irish
 tap.equal(is("tredici").thirteen(), true); // Italian
+tap.equal(is("tiga belas").thirteen(), true); // Indonesian
 tap.equal(is("열셋").thirteen(), true); // Korean
 tap.equal(is("sêzdeh").thirteen(), true); // Kurdish
 tap.equal(is("tredecim").thirteen(), true); // Latin

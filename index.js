@@ -73,6 +73,7 @@ function is(x) {
         "tizenhárom", // Hungarian
         "trí déag", // Irish
         "tredici", // Italian
+        "tiga belas", // Indonesian
         "열셋", // Korean
         "sêzdeh", // Kurdish
         "tredecim", // Latin
