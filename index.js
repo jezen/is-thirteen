@@ -221,6 +221,20 @@ function is(x) {
                 }
             }
         }
+        times: function(y) {
+            return {
+                thirteen: function() {
+                    return x * y === 13;
+                }
+            }
+        }
+        dividedby: function(y) {
+            return {
+                thirteen: function() {
+                    return x/y === 13;
+                }
+            }
+        }
     }
 }
 
