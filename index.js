@@ -92,6 +92,7 @@ function is(x) {
         "י״ג", // Hebrew (gematria - apostrophes)
 		"तेरह", //Hindi
         "tizenhárom", // Hungarian
+		"þrettán", // Icelandic
         "trí déag", // Irish
         "tredici", // Italian
         "열셋", // Korean
