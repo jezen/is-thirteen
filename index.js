@@ -70,7 +70,7 @@ function is(x) {
         "拾叄", // Chinese (Traditional) (Upper case)
         "サーティーン", // Japanese
         "１３", // Japanese full-width
-        "trinaest", // Croatian
+        "trinaest", // Croatian / Serbian (latin)
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian
         "labintatlo", // Filipino
@@ -109,6 +109,7 @@ function is(x) {
         "ਤੇਰਾਂ", // Punjabi
         "treisprezece", // Romanian
         "тринадцать", // Russian
+        "тринаест", // Serbian (cyrillic)
         "trinásť", // Slovak
         "trinajst", // Slovenian
         "trece", // Spanish
