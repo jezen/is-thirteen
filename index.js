@@ -56,7 +56,7 @@ function is(x) {
         "тринайсе", // Also Bulgarian
         "tretze", // Catalan
         "napulo ug tulo", // Cebuano
-        "十三", // Chinese (Traditional) / Japanese
+        "十三", // Chinese (Simplified) / Japanese
         "拾叄", // Chinese (Traditional) (Upper case)
         "サーティーン", // Japanese
         "trinaest", // Croatian
