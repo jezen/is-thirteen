@@ -15,6 +15,7 @@ function is(x) {
         1101, // Binary 13
         "xiii", // Roman numeral 13
         "0xd", // Hex 13
+        "015", // Octal 13
         
         "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
         "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
