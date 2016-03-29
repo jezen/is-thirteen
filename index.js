@@ -128,6 +128,8 @@ function is(x) {
         "דרייַצן", // Yiddish,
         "דרייצן", // Yiddish (without diacritics),
         "kumi na tatu", // Swahili
+        "سیزده", // Persian
+        "۱۳", // Persian numeric
 
         // Thirteen pronunciation
         "θərˈtiːn"
