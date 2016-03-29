@@ -111,6 +111,8 @@ tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
 
+tap.equal(is("β").thirteen(), true); // β looks like 13
+
 tap.equal(is("i3").thirteen(),true); //i3 looks like 13 when upper case
 tap.equal(is("I3").thirteen(),true); //I3 looks like 13
 tap.equal(is("l3").thirteen(),true); //l3 looks like 13
