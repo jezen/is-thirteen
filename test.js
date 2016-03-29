@@ -128,5 +128,10 @@ tap.equal(is("l3").thirteen(),true); //l3 looks like 13
 tap.equal(is("L3").thirteen(),true); //l3 looks like 13 when lower case
 tap.equal(is("|3").thirteen(),true); //|3 looks like 13
 
+
 tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil is 13, amigo
+
+tap.equal(is(25).minus(12).thirteen(),true); // 25 - 12 === 13
+tap.equal(is(1).plus(12).thirteen(),true);   // 1  + 12 === 13
+
 
