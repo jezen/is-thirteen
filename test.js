@@ -63,11 +63,11 @@ tap.equal(is("sêzdeh").thirteen(), true); // Kurdish
 tap.equal(is("tredecim").thirteen(), true); // Latin
 tap.equal(is("trīspadsmit").thirteen(), true); // Latvian
 tap.equal(is("trylika").thirteen(), true); // Lithuanian
-tap.equal(is("dräizéng").thirteen(), true); // Luxembourgish
+tap.equal(is("dräizéng").thirteen(), true); // Luxembourgishthirtees
 tap.equal(is("тринаесет").thirteen(), true); // Macedonian
 tap.equal(is("tiga belas").thirteen(), true); // Malay
 tap.equal(is("арван").thirteen(), true); // Mongolian
-tap.equal(is(".---- ...--").thirtees(), true); // Morse code
+tap.equal(is(".---- ...--").thirteen(), true); // Morse code
 tap.equal(is("irteenthay").thirteen(), true); // Pig Latin
 tap.equal(is("trzynaście").thirteen(), true); // Polish
 tap.equal(is("treze").thirteen(), true); // Portoguese
