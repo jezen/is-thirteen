@@ -12,7 +12,7 @@ function is(x) {
     
     // Every element should be lower case
     var thirteenStrings = [
-        1101, // Binary 13
+        "1101", // Binary 13
         "xiii", // Roman numeral 13
         "0xd", // Hex 13
         
@@ -37,6 +37,12 @@ function is(x) {
 		"i3",
 		"l3",
 		"|3",
+        
+		//Looks like 13 (flipped horizontally) - E equal to 3 
+		"ei",
+		"e1",
+		"el",
+		"e|",
 
         // Password variations
         "th1rt33n",
@@ -50,6 +56,7 @@ function is(x) {
         // Languages
         "thirteen", // English
         "ثلاثة عشر", // Arabic
+        "يج", //Arabic (gematria)
         "dertien", // Afrikaans / Dutch
         "dertiendertien", // Double Dutch
         "тринадесет", // Bulgarian
@@ -68,8 +75,15 @@ function is(x) {
         "dreizehn", // German
         "δεκατρία", // Greek
         "drizäh", // Swiss German
-        "wa’maH wej" // Klingon
-		"שלוש עשרה", // Hebrew
+        "wa’maH wej", // Klingon
+		"שלוש עשרה", // Hebrew 
+		"שלושעשרה", // Hebrew (without space)
+        "ֹשְלֹש- עֶשְֹרֵה", // Hebrew (with punctuation)
+		"שלושה עשר", // Hebrew (male form)
+		"שלושהעשר", // Hebrew (male form, without space)
+        "ֹשְלֹשָה- עָשָֹר", // Hebrew (male form, with punctuation)
+        "יג", // Hebrew (gematria)
+        "י״ג", // Hebrew (gematria - apostrophes)
 		"तेरह", //Hindi
         "tizenhárom", // Hungarian
         "trí déag", // Irish
@@ -114,6 +128,10 @@ function is(x) {
     ];
 
     if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
+        x = 13;
+    }
+    // check agin without lower case
+    else if (thirteenStrings.indexOf(('' + x)) > -1) {
         x = 13;
     }
 
@@ -173,6 +191,13 @@ function is(x) {
                     }
                 }
             }
+        },
+        yearOfBirth: function() {
+            var currYear = new Date().getFullYear()
+            if(isNaN(x)) {
+                return false
+            }
+            return currYear - parseInt(x) == 13 
         }
     }
 }
