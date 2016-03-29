@@ -23,11 +23,21 @@ tap.equal(is('Olivia Wilde').thirteen(), true);
 tap.equal(is("baker's dozen").thirteen(), true);
 tap.equal(is("Dr. Remy Beauregard Hadley").thirteen(), true);
 
+//year of birth test
+tap.equal(is("2003").yearOfBirth(), true)
+
 // Imaginary 13's tests
 tap.equal(is("13+0i").thirteen(), true);
 tap.equal(is("13i").thirteen(), true);
 tap.equal(is("13 + 13i").thirteen(), true);
 tap.equal(is("12i").thirteen(), false);
+
+// upside down tests
+tap.equal(is("Ei").thirteen(), true);
+tap.equal(is("EI").thirteen(), true);
+tap.equal(is("E1").thirteen(), true);
+tap.equal(is("El").thirteen(), true);
+tap.equal(is("E|").thirteen(), true);
 
 // Password variations tests
 tap.equal(is("th1rt33n").thirteen(), true);
@@ -54,6 +64,13 @@ tap.equal(is("kolmetoista").thirteen(), true); // Finnish
 tap.equal(is("treize").thirteen(), true); // French
 tap.equal(is("dreizehn").thirteen(), true); // German
 tap.equal(is('שלוש עשרה').thirteen(), true); // Hebrew
+tap.equal(is('שלושעשרה').thirteen(), true); // Hebrew (without space)
+tap.equal(is('ֹשְלֹש- עֶשְֹרֵה').thirteen(), true); // Hebrew (with punctuation)
+tap.equal(is('שלושה עשר').thirteen(), true); // Hebrew (male form)
+tap.equal(is('שלושהעשר').thirteen(), true); // Hebrew (male form, without space)
+tap.equal(is('ֹשְלֹשָה- עָשָֹר').thirteen(), true); // Hebrew (male form, with punctuation)
+tap.equal(is('יג').thirteen(), true); // Hebrew (gematria)
+tap.equal(is('י״ג').thirteen(), true); // Hebrew (gematria - apostrophes)
 tap.equal(is("तेरह").thirteen(), true); // Hindi
 tap.equal(is("tizenhárom").thirteen(), true); // Hungarian
 tap.equal(is("trí déag").thirteen(), true); // Irish
@@ -67,7 +84,7 @@ tap.equal(is("dräizéng").thirteen(), true); // Luxembourgish
 tap.equal(is("тринаесет").thirteen(), true); // Macedonian
 tap.equal(is("tiga belas").thirteen(), true); // Malay
 tap.equal(is("арван").thirteen(), true); // Mongolian
-tap.equal(is(".---- ...--").thirtees(), true); // Morse code
+tap.equal(is(".---- ...--").thirteen(), true); // Morse code
 tap.equal(is("irteenthay").thirteen(), true); // Pig Latin
 tap.equal(is("trzynaście").thirteen(), true); // Polish
 tap.equal(is("treze").thirteen(), true); // Portoguese
@@ -75,7 +92,7 @@ tap.equal(is("ਤੀਹ").thirteen(), true); // Punjabi
 tap.equal(is("treisprezece").thirteen(), true); // Romanian
 tap.equal(is("тринадцать").thirteen(), true); // Russia
 tap.equal(is("trinásť").thirteen(), true); // Slovak
-tap.equal(id("wa’maH wej").thirteen(), true); // Klingon
+tap.equal(is("wa’maH wej").thirteen(), true); // Klingon
 tap.equal(is("trinajst").thirteen(), true); // Slovenian
 tap.equal(is("trece").thirteen(), true); // Spanish
 tap.equal(is("tretton").thirteen(), true); // Swedish
