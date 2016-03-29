@@ -68,6 +68,8 @@ function is(x) {
         "dreizehn", // German
         "drizäh", // Swiss German
         "wa’maH wej" // Klingon
+        "quainel" // Quenya
+        "mînuiug" // Sindarin
 		"שלוש עשרה", // Hebrew
 		"तेरह", //Hindi
         "tizenhárom", // Hungarian
