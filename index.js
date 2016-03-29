@@ -24,7 +24,8 @@ function is(x) {
         "baker's dozen", // Bakers gonna bake
         "dr. remy beauregard hadley", // Why not 13's real name?!
         "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
-
+        "weedle", //#13 Pokémon
+        
         // Imaginary 13's
         "13+0i",
         "13 + 13i",
