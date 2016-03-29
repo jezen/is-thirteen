@@ -9,6 +9,8 @@ tap.equal(is(1101).thirteen(), true);
 tap.equal(is('1101').thirteen(), true);
 tap.equal(is('XIII').thirteen(), true);
 tap.equal(is('xiii').thirteen(), true);
+tap.equal(is('IIIIIIIIIIIII').thirteen(), true); //Alternative form of roman numeral.
+tap.equal(is('IlIlIlIlIlIlI').thirteen(), true); //Looks like an alternative form for roman numeral.
 tap.equal(is('0xD').thirteen(), true);
 tap.equal(is('0xd').thirteen(), true);
 
