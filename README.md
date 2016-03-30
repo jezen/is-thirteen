@@ -3,6 +3,7 @@
 _Special thanks to [@casdr](https://github.com/casdr) for the logo_
 # is-thirteen
 
+[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
 [![Join us on Gitter](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/gytdau/is-thirteen)
 
 An npm package to check if a number is equal to 13.
