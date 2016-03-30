@@ -174,6 +174,9 @@ function is(x) {
         thirteen: function() {
             return x == 13;
         },
+        now: function(maybeThirteen) {
+          return is(maybeThirteen);
+        },
         roughly: {
             thirteen: function() {
                 for (var i = 0, len = thirteenStrings.length; i < len; i++) {
@@ -272,10 +275,10 @@ function is(x) {
             return x.toLowerCase().split('').sort().join('').trim() == "thirteen".split('').sort().join('').trim();
           }
         },
-	backwards: {
-	  thirteen: function() {
- 	    return parseInt(x.toString().split("").reverse().join("")) == 13;
-	  }
+	      backwards: {
+	        thirteen: function() {
+ 	          return parseInt(x.toString().split("").reverse().join("")) == 13;
+	        }
         }
     }
 }
