@@ -63,7 +63,6 @@ function is(x) {
         "th1rteen",
         "thirt33n",
         "thirt3en",
-        "thirt33n",
         "thirte3n",
 
         // Languages
