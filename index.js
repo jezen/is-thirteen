@@ -91,6 +91,7 @@ function is(x) {
         "trinaest", // Croatian / Serbian (latin)
         "tretten", // Danish / Norwegian
         "kolmteist", // Estonian
+        "dek tri", // Esperanto
         "labintatlo", // Filipino
         "kolmetoista", // Finnish
         "treize", // French
@@ -139,7 +140,6 @@ function is(x) {
         "trese", // Tagalog
         "tredici", // Italian
         "on üç", // Turkish
-        "dektri", //Speranto
         "tlettax", // Maltese
         "tretton", // Swedish
         "பதின்மூன்று", // Tamil
