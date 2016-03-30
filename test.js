@@ -5,14 +5,10 @@ const is = require('./');
 
 tap.equal(is(13).thirteen(), true);
 tap.equal(is('13').thirteen(), true);
-tap.equal(is(1101).thirteen(), true);
-tap.equal(is('1101').thirteen(), true);
 tap.equal(is('XIII').thirteen(), true);
 tap.equal(is('xiii').thirteen(), true);
 tap.equal(is('IIIIIIIIIIIII').thirteen(), true); //Alternative form of roman numeral.
 tap.equal(is('IlIlIlIlIlIlI').thirteen(), true); //Looks like an alternative form for roman numeral.
-tap.equal(is('0xD').thirteen(), true);
-tap.equal(is('0xd').thirteen(), true);
 
 tap.equal(is('https://en.wikipedia.org/wiki/This_Is_Thirteen').thirteen(), true); // Because it is thirteen
 tap.equal(is('https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg').thirteen(), true);
@@ -140,4 +136,12 @@ tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil 
 tap.equal(is(25).minus(12).thirteen(),true); // 25 - 12 === 13
 tap.equal(is(1).plus(12).thirteen(),true);   // 1  + 12 === 13
 
-
+tap.equal(is(13).base(10).thirteen(), true);
+tap.equal(is(14).base(10).thirteen(), false);
+tap.equal(is("1101").base(2).thirteen(), true);
+tap.equal(is("1111").base(2).thirteen(), false);
+tap.equal(is("15").base(8).thirteen(), true);
+tap.equal(is("13").base(8).thirteen(), false);
+tap.equal(is("d").base(16).thirteen(), true);
+tap.equal(is("D").base(16).thirteen(), true);
+tap.equal(is("A").base(16).thirteen(), false);

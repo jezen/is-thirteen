@@ -129,10 +129,18 @@ var is = function is(x) {
             return x.toLowerCase().split('').sort().join('').trim() == "thirteen".split('').sort().join('').trim();
           }
         },
-	backwards: {
-	  thirteen: function() {
- 	    return parseInt(x.toString().split("").reverse().join("")) == THIRTEEN;
-	  }
+        backwards: {
+          thirteen: function() {
+            return parseInt(x.toString().split("").reverse().join("")) == THIRTEEN;
+          }
+        },
+        base: function(y) {
+            return {
+                thirteen: function() {
+                    var basedNumber = parseInt(x, y);
+                    return !isNaN(basedNumber) && basedNumber == THIRTEEN;
+                }
+            }
         }
     }
 };
