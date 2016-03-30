@@ -271,6 +271,11 @@ function is(x) {
           thirteen:function(){
             return x.toLowerCase().split('').sort().join('').trim() == "thirteen".split('').sort().join('').trim();
           }
+        },
+	backwards: {
+	  thirteen: function() {
+ 	    return parseInt(x.toString().split("").reverse().join("")) == 13;
+	  }
         }
     }
 }
