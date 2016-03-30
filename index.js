@@ -33,9 +33,11 @@ function is(x) {
 
 
         "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
+
         "sharon carter", // Agent 13
 
-
+        "weedle", //#13 Pokémon
+        
         // Imaginary 13's
         "13+0i",
         "13 + 13i",
