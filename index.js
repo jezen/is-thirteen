@@ -2,6 +2,9 @@ var noop = require('noop3');
 
 'use strict';
 
+const THIRTEEN = 13;
+const THIRTEEN_FUZZ = 0.5;
+
 /**
  * @param n {number} The number to compare but also sometimes not a number but not not !NaN
  * @returns {object}
@@ -160,19 +163,19 @@ function is(x) {
     ];
 
     if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
-        x = 13;
+        x = THIRTEEN;
     }
     // check agin without lower case
     else if (thirteenStrings.indexOf(('' + x)) > -1) {
-        x = 13;
+        x = THIRTEEN;
     } 
     else if( (typeof x) === "string" && /^[Il1]{13,13}$/.test(x) ) {
-        x = 13;
+        x = THIRTEEN;
     }
 
     return {
         thirteen: function() {
-            return x == 13;
+            return x == THIRTEEN;
         },
         roughly: {
             thirteen: function() {
@@ -181,40 +184,39 @@ function is(x) {
                         return true;
                     }
                 }
-
-                return x >= 12.5 && x < 13.5;
+                return x >= (THIRTEEN - THIRTEEN_FUZZ) && x < (THIRTEEN + THIRTEEN_FUZZ);
             }
         },
         not: {
             thirteen: function() {
-                return x != 13;
+                return x != THIRTEEN;
             }
         },
         divisible: {
             by: {
                 thirteen: function() {
-                    return x % 13 === 0;
+                    return x % THIRTEEN === 0;
                 }
             }
         },
         square: {
             of: {
                 thirteen: function() {
-                    return x === 169;
+                    return x === THIRTEEN * THIRTEEN;
                 }
             }
         },
         greater: {
             than: {
                 thirteen: function() {
-                    return x > 13
+                    return x > THIRTEEN
                 }
             }
         },
         less: {
             than: {
                 thirteen: function() {
-                    return x < 13
+                    return x < THIRTEEN
                 }
             }
         },
@@ -222,7 +224,7 @@ function is(x) {
             return {
                 of: {
                     thirteen: function() {
-                        return x > (13 - y) && x < (13 + y);
+                        return x > (THIRTEEN - y) && x < (THIRTEEN + y);
                     }
                 }
             }
@@ -232,33 +234,33 @@ function is(x) {
             if(isNaN(x)) {
                 return false
             }
-            return currYear - parseInt(x) == 13 
+            return currYear - parseInt(x) == THIRTEEN
         },
         plus: function(y) {
             return {
                 thirteen: function() {
-                    return x + y === 13;
+                    return x + y === THIRTEEN;
                 }
             }
         },
         minus: function(y) {
             return {
                 thirteen: function() {
-                    return x - y === 13;
+                    return x - y === THIRTEEN;
                 }
             }
         },
         times: function(y) {
             return {
                 thirteen: function() {
-                    return x * y === 13;
+                    return x * y === THIRTEEN;
                 }
             }
         },
         dividedby: function(y) {
           return {
     	          thirteen: function(){
-                        return x/y === 13;
+                        return x/y === THIRTEEN;
                 }
             }
         },
@@ -274,7 +276,7 @@ function is(x) {
         },
 	backwards: {
 	  thirteen: function() {
- 	    return parseInt(x.toString().split("").reverse().join("")) == 13;
+ 	    return parseInt(x.toString().split("").reverse().join("")) == THIRTEEN;
 	  }
         }
     }
