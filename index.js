@@ -7,8 +7,20 @@ var noop = require('noop3');
  * @returns {object}
  */
 function is(x) {
-    // this line calls the noop function
+    // this section calls the noop function 13 times
     noop();
+    noop();
+    noop();
+    noop();
+    noop();
+    noop();
+    noop();
+    noop();
+    noop();
+    noop();
+    noop();
+    noop();
+    noop();      
 
     // Every element should be lower case
     var thirteenStrings = [
