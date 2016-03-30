@@ -160,6 +160,9 @@ function is(x) {
         "β", //Think this is beta, which looks like a long 1 mashed together with a 3
         // Thirteen pronunciation
         "θərˈtiːn"
+        
+        //Github account
+        "https://github.com/13"
     ];
 
     if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
