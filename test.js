@@ -126,5 +126,10 @@ tap.equal(is("l3").thirteen(),true); //l3 looks like 13
 tap.equal(is("L3").thirteen(),true); //l3 looks like 13 when lower case
 tap.equal(is("|3").thirteen(),true); //|3 looks like 13
 
-
-
+// Same 13 characters tests
+tap.equal(is("|||||||||||||").thirteen(), true);
+tap.equal(is("/////////////").thirteen(), true);
+tap.equal(is("oooooooooooooo").thirteen(), false);
+tap.equal(is("bbbbbbbbbbb").thirteen(), false);
+tap.equal(is("||h||||||||||").thirteen(), false);
+tap.equal(is("///i/////////").thirteen(), false);
