@@ -71,8 +71,11 @@ var thirteenStrings = [
     "тринайсе", // Also Bulgarian
     "tretze", // Catalan
     "napulo ug tulo", // Cebuano
-    "十三", // Chinese (Simplified) / Japanese
-    "拾叄", // Chinese (Traditional) (Upper case)
+    "十三", // Chinese / Japanese
+    "拾參", // Chinese (traditional, upper case)
+    "拾叁", // Chinese (simplified, upper case)
+    "拾叄", // Chinese (variant)
+    "拾参", // Chinese (variant)
     "サーティーン", // Japanese
     "１３", // Japanese full-width
     "trinaest", // Croatian / Serbian (latin)
