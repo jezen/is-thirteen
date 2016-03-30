@@ -115,6 +115,7 @@ function is(x) {
         "ಹದಿಮೂರು", //Kannada (for thirteen)
         "೧೩",//Kannada (for 13)
         "열셋", // Korean
+        "십삼", // Korean (with chinese letters)
         "sêzdeh", // Kurdish
         "tredecim", // Latin
         "trīspadsmit", // Latvian
