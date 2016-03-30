@@ -137,7 +137,6 @@ function is(x) {
         "trese", // Tagalog
         "tredici", // Italian
         "on üç", // Turkish
-        "dektri", //Speranto
         "tlettax", // Maltese
         "tretton", // Swedish
         "பதின்மூன்று", // Tamil
