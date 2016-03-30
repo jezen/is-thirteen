@@ -18,6 +18,8 @@ function is(x) {
         "1101", // Binary 13
         "xiii", // Roman numeral 13
         "0xd", // Hex 13
+		"31", // 13 in Base-10 is 31 in Base-4
+		"21", // 13 in Base-10 is 21 in Base-6
 
         "https://en.wikipedia.org/wiki/This_Is_Thirteen", // Because it is thirteen
         "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
@@ -110,6 +112,7 @@ function is(x) {
         "quainel", // Quenya
         "mînuiug", // Sindarin
         "tizenhárom", // Hungarian
+		"þrettán", // Icelandic
         "trí déag", // Irish
         "tredici", // Italian
         "ಹದಿಮೂರು", //Kannada (for thirteen)
