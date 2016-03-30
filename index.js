@@ -204,6 +204,15 @@ function is(x) {
                 }
             }
         },
+        relatively: {
+            prime: {
+                to: {
+                    thirteen: function() {
+                        return x % 13 !== 0;
+                    }
+                }
+            }
+        },
         greater: {
             than: {
                 thirteen: function() {
