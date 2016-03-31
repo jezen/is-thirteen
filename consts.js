@@ -19,7 +19,7 @@ var thirteenStrings = [
     "jason fly", // XIII of The XX
     "http://www.imdb.com/title/tt0798817/", // 13 (2010)
 
-    // Kleber Bambam & Felipe Franco are two Brazilian bodybuilders which had one of their videos viralized
+    // Kleber Bambam & Felipe Franco are two Brazilian bodybuilders which had one of their training videos viralized
     // And guess what? They mention the number 13 in their workouts - as can be seen here (https://www.youtube.com/watch?v=XHn7OrxM_Bk).
     // All words/sentences in the sequence below are related to the video.
     "kleber bambam",
