@@ -42,6 +42,11 @@ var is = function is(x) {
                 return x >= (THIRTEEN - THIRTEEN_FUZZ) && x < (THIRTEEN + THIRTEEN_FUZZ);
             }
         },
+        returning : {
+            thirteen : function(){
+                return is(x()).thirteen();
+            } 
+        },
         not: {
             thirteen: function() {
                 return x != THIRTEEN;
