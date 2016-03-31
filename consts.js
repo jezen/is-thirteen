@@ -21,7 +21,7 @@ var thirteenStrings = [
     "dilma", //Dilma, president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
     "PT", // PT is Brazilian political party represented by the number 13
     "Washington Luís", // Brazil's thirteenth president
-
+    "Millard Fillmore", // Thirteenth President of the United States
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
     "sharon carter", // Agent 13
