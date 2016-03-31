@@ -51,7 +51,6 @@ var thirteenStrings = [
     "th1rt33n",
     "th1rte3n",
     "th1rteen",
-    "thirt33n",
     "thirt3en",
     "thirt33n",
     "thirte3n",
