@@ -27,6 +27,12 @@ var is = function is(x) {
     else if( (typeof x) === "string" && /^[Il1]{13,13}$/.test(x) ) {
         x = THIRTEEN;
     }
+    else if (typeof x === 'string') {
+        var chars = (x).split('');
+        if (chars.length == 13 && chars.every(function(e) { return e === chars[0]})) {
+             x = 13;
+        }
+    }
 
     return {
         thirteen: function() {

@@ -135,7 +135,6 @@ tap.equal(is("l3").thirteen(),true); //l3 looks like 13
 tap.equal(is("L3").thirteen(),true); //l3 looks like 13 when lower case
 tap.equal(is("|3").thirteen(),true); //|3 looks like 13
 
-
 tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil is 13, amigo
 
 tap.equal(is(25).minus(12).thirteen(),true); // 25 - 12 === 13
@@ -153,3 +152,11 @@ tap.equal(is("A").base(16).thirteen(), false);
 
 //test function that is returning 13
 tap.equals(is(function(){return 13;}).returning.thirteen(),true);
+
+// Same 13 characters tests
+tap.equal(is("|||||||||||||").thirteen(), true);
+tap.equal(is("/////////////").thirteen(), true);
+tap.equal(is("oooooooooooooo").thirteen(), false);
+tap.equal(is("bbbbbbbbbbb").thirteen(), false);
+tap.equal(is("||h||||||||||").thirteen(), false);
+tap.equal(is("///i/////////").thirteen(), false);
