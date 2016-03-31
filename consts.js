@@ -80,6 +80,26 @@ var thirteenStrings = [
     "１３", // Japanese full-width
     "trinaest", // Croatian / Serbian (latin)
     "tretten", // Danish / Norwegian
+    "þrettán", // Icelandic, following are different inflections
+    "þrettándi", // e. the thirteenth
+    "þrettánda",
+    "þrettándinn",
+    "þrettándann",
+    "þrettándanum",
+    "þrettándans",
+    "þrettándar", // e. the multiple thirteenths
+    "þrettándu",
+    "þrettándum",
+    "threttan", // strings without special icelandic characters
+    "threttandi",
+    "threttanda",
+    "threttandinn",
+    "threttandann",
+    "threttandanum",
+    "threttandans",
+    "threttandar",
+    "threttandu",
+    "threttandum", // end of Icelandic
     "kolmteist", // Estonian
     "labintatlo", // Filipino
     "kolmetoista", // Finnish
