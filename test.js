@@ -24,7 +24,7 @@ tap.equal(is("baker's dozen").thirteen(), true);
 tap.equal(is("Dr. Remy Beauregard Hadley").thirteen(), true);
 tap.equal(is("Patty Tsai").thirteen(), true);
 tap.equal(is("PT").thirteen(), true);
-
+tap.equal(is("Washington Luís").thirteen(), true);
 //year of birth test
 tap.equal(is("2003").yearOfBirth(), true)
 
