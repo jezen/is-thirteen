@@ -81,15 +81,19 @@ var thirteenStrings = [
     "trinaest", // Croatian / Serbian (latin)
     "tretten", // Danish / Norwegian
     "þrettán", // Icelandic, following are different inflections
-    "þrettándi", // e. the thirteenth
+    "þrettándi", // e. thirteenth
     "þrettánda",
-    "þrettándinn",
+    "þrettándinn", // e. the thirteenth
     "þrettándann",
     "þrettándanum",
     "þrettándans",
-    "þrettándar", // e. the multiple thirteenths
+    "þrettándar", // e. multiple thirteenths
     "þrettándu",
     "þrettándum",
+    "þrettándarnir", // e. the multiple thirteenths
+    "þrettándana",
+    "þrettándunum",
+    "þrettándanna",
     "threttan", // strings without special icelandic characters
     "threttandi",
     "threttanda",
@@ -99,7 +103,11 @@ var thirteenStrings = [
     "threttandans",
     "threttandar",
     "threttandu",
-    "threttandum", // end of Icelandic
+    "threttandum",
+    "threttandarnir",
+    "threttandana",
+    "threttandunum",
+    "threttandanna",// end of Icelandic
     "kolmteist", // Estonian
     "labintatlo", // Filipino
     "kolmetoista", // Finnish
