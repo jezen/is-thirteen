@@ -49,7 +49,7 @@ var is = function is(x) {
         },
         not: {
             thirteen: function() {
-                return x != THIRTEEN;
+                return !is(x).thirteen();
             }
         },
         divisible: {
