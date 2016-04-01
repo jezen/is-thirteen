@@ -167,3 +167,7 @@ tap.equal(is("oooooooooooooo").thirteen(), false);
 tap.equal(is("bbbbbbbbbbb").thirteen(), false);
 tap.equal(is("||h||||||||||").thirteen(), false);
 tap.equal(is("///i/////////").thirteen(), false);
+
+// Algerian Phone Number tests (213)
+tap.equal(is().algerianPhoneNumber("+21326132639"), true);
+tap.equal(is().algerianPhoneNumber("+21026132639"), false);
