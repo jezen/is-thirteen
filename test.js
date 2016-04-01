@@ -168,7 +168,9 @@ tap.equal(is("bbbbbbbbbbb").thirteen(), false);
 tap.equal(is("||h||||||||||").thirteen(), false);
 tap.equal(is("///i/////////").thirteen(), false);
 
-tap.equal(is(13).binary(), true);
-tap.equal(is(10).binary(), false);
-tap.equal(is(13).octal(), true);
-tap.equal(is(10).octal(), false);
+tap.equal(is(13).binaryThirteen(), true);
+tap.equal(is(10).binaryThirteen(), false);
+tap.equal(is(13).octalThirteen(), true);
+tap.equal(is(10).octalThirteen(), false);
+tap.equal(is(13).hexThirteen(), true);
+tap.equal(is(10).hexThirteen(), false);

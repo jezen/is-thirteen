@@ -137,11 +137,14 @@ var is = function is(x) {
                 }
             }
         },
-        binary: function() {
+        binaryThirteen: function() {
           return x === 0b1101;
         },
-        octal: function() {
+        octalThirteen: function() {
           return x === 0o15;
+        },
+        hexThirteen: function() {
+          return x === 0xD;
         }
     }
 };
