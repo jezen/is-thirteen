@@ -136,6 +136,9 @@ var is = function is(x) {
                     return !isNaN(basedNumber) && basedNumber == THIRTEEN;
                 }
             }
+        },
+        binary: function() {
+          return x.toString(2) === "1101";
         }
     }
 };
