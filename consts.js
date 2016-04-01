@@ -103,11 +103,16 @@ var thirteenStrings = [
     "threttandans",
     "threttandar",
     "threttandu",
+
     "threttandum",
     "threttandarnir",
     "threttandana",
     "threttandunum",
     "threttandanna",// end of Icelandic
+
+    "threttandum", // end of Icelandic
+    "třináct", // Czech
+
     "kolmteist", // Estonian
     "labintatlo", // Filipino
     "kolmetoista", // Finnish
