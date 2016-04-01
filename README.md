@@ -45,7 +45,7 @@ is(26).divideby(2).thirteen();  //true
 
 ## Test
 
-```javascript
+```shell
 npm test
 ```
 
