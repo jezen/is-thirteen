@@ -138,7 +138,10 @@ var is = function is(x) {
             }
         },
         binary: function() {
-          return x.toString(2) === "1101";
+          return x === 0b1101;
+        },
+        octal: function() {
+          return x === 0o15;
         }
     }
 };
