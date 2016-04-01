@@ -140,6 +140,11 @@ tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil 
 tap.equal(is(25).minus(12).thirteen(),true); // 25 - 12 === 13
 tap.equal(is(1).plus(12).thirteen(),true);   // 1  + 12 === 13
 
+tap.equal(is(2).times(8).plus(11).minus(1).dividedby(2).thirteen(), true) // (((2 * 8) + 11) - 1) / 2 === 13
+tap.equal(is(10).minus(1).plus(32).dividedby(4).times(3).thirteen(), false) // (((10 - 1) + 32) / 4) * 3 === 30.75
+
+tap.equal(is(5.3).plus(0.5).times(5).minus(4).dividedby(2).roughly.thirteen(), true) // (((12.5 * 2) + 4) / 5) - .5
+
 tap.equal(is(13).base(10).thirteen(), true);
 tap.equal(is(14).base(10).thirteen(), false);
 tap.equal(is("1101").base(2).thirteen(), true);

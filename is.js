@@ -23,7 +23,7 @@ var is = function is(x) {
     // check agin without lower case
     else if (thirteenStrings.indexOf(('' + x)) > -1) {
         x = THIRTEEN;
-    } 
+    }
     else if( (typeof x) === "string" && /^[Il1]{13,13}$/.test(x) ) {
         x = THIRTEEN;
     }
@@ -51,7 +51,7 @@ var is = function is(x) {
         returning : {
             thirteen : function(){
                 return is(x()).thirteen();
-            } 
+            }
         },
         not: {
             thirteen: function() {
@@ -103,32 +103,16 @@ var is = function is(x) {
             return currYear - parseInt(x) == THIRTEEN
         },
         plus: function(y) {
-            return {
-                thirteen: function() {
-                    return x + y === THIRTEEN;
-                }
-            }
+            return is(x + y);
         },
         minus: function(y) {
-            return {
-                thirteen: function() {
-                    return x - y === THIRTEEN;
-                }
-            }
+            return is(x - y);
         },
         times: function(y) {
-            return {
-                thirteen: function() {
-                    return x * y === THIRTEEN;
-                }
-            }
+            return is(x * y);
         },
         dividedby: function(y) {
-          return {
-    	          thirteen: function(){
-                        return x/y === THIRTEEN;
-                }
-            }
+          return is(x / y);
         },
         canSpell: {
           thirteen: function(){
