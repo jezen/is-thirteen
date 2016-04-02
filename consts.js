@@ -137,7 +137,8 @@ var thirteenStrings = [
     "tredici", // Italian
     "ಹದಿಮೂರು", //Kannada (for thirteen)
     "೧೩",//Kannada (for 13)
-    "열셋", // Korean
+    "열셋", // Korean (native Korean)
+    "십삼", // Korean (Sino-Korean)
     "sêzdeh", // Kurdish
     "tredecim", // Latin
     "trīspadsmit", // Latvian
