@@ -80,6 +80,7 @@ var thirteenStrings = [
     "１３", // Japanese full-width
     "trinaest", // Croatian / Serbian (latin)
     "tretten", // Danish / Norwegian
+    "तेरां", // Dogri
     "þrettán", // Icelandic, following are different inflections
     "þrettándi", // e. thirteenth
     "þrettánda",
