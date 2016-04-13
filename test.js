@@ -26,6 +26,9 @@ tap.equal(is("Patty Tsai").thirteen(), true);
 tap.equal(is("PT").thirteen(), true);
 tap.equal(is("Washington Luís").thirteen(), true);
 tap.equal(is("Millard Fillmore").thirteen(), true);
+tap.equal(is("puberty").thirteen(), true);
+tap.equal(is("pbs").thirteen(), true);
+tap.equal(is("apollo 13").thirteen(), true);
 //year of birth test
 tap.equal(is("2003").yearOfBirth(), true)
 
@@ -51,6 +54,7 @@ tap.equal(is("thirt33n").thirteen(), true);
 tap.equal(is("thirte3n").thirteen(), true);
 
 // Languages tests
+tap.equal(is("يج").thirteen(), true); // Arabic
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch
 tap.equal(is("тринадесет").thirteen(), true); // Bulgarian
