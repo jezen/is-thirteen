@@ -25,9 +25,13 @@ var thirteenStrings = [
     "Millard Fillmore", // Thirteenth President of the United States
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
+	"puberty" // age 13 is which both males & females share for puberty time
+	"pbs" // Channel 13
+	"apollo 13" // https://en.wikipedia.org/wiki/Apollo_13_%28film%29
+	
     "sharon carter", // Agent 13
 
-    "weedle", //#13 Pokémon
+    "weedle", // #13 Pokémon
     
     // Imaginary 13's
     "13+0i",
@@ -59,12 +63,9 @@ var thirteenStrings = [
     // Languages
     "thirteen", // English
     "ثلاثة عشر", // Arabic
-
     "يج", //Arabic (gematria)
-
     "سیزده", // Persian
     "۱۳", // Persian number
-
     "dertien", // Afrikaans / Dutch
     "dertiendertien", // Double Dutch
     "тринадесет", // Bulgarian
@@ -103,16 +104,13 @@ var thirteenStrings = [
     "threttandans",
     "threttandar",
     "threttandu",
-
     "threttandum",
     "threttandarnir",
     "threttandana",
     "threttandunum",
     "threttandanna",// end of Icelandic
-
     "threttandum", // end of Icelandic
     "třináct", // Czech
-
     "kolmteist", // Estonian
     "labintatlo", // Filipino
     "kolmetoista", // Finnish
