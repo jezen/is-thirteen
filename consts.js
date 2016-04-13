@@ -24,7 +24,6 @@ var thirteenStrings = [
     "Washington Luís", // Brazil's thirteenth president
     "Millard Fillmore", // Thirteenth President of the United States
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
-
 	"puberty" // age 13 is which both males & females share for puberty time
 	"pbs" // Channel 13
 	"apollo 13" // https://en.wikipedia.org/wiki/Apollo_13_%28film%29
