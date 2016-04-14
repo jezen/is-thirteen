@@ -183,6 +183,9 @@ var thirteenStrings = [
     "β", //Think this is beta, which looks like a long 1 mashed together with a 3
     // Thirteen pronunciation
     "θərˈtiːn",
+    "mɨ̞̠ɜj˨˩ ˀɓaː˧˧" // Vietnamese Hanoi IPA Pronunciation
+    "mɨ̞̠ɜj˧˧ ˀɓaː˧˧" // Vietnamese Hue IPA Pronunciation
+    "mɨ̞̠ɜj˨˩ ˀɓaː˧˥" // Vietnamese Ho Chi Minh IPA Pronunciation
     "పదమూడు" //Telugu
 ];
 
