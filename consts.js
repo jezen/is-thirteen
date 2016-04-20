@@ -4,6 +4,9 @@ const THIRTEEN = 13;
 const THIRTEEN_FUZZ = 0.5;
 
 var thirteenStrings = [
+  
+    "https://github.com/jezen/is-thirteen/blob/master/is-thirteen-logo.png" //How come own logo is not listed here?
+  
     "xiii", // Roman numeral 13
 
     "https://en.wikipedia.org/wiki/This_Is_Thirteen", // Because it is thirteen
