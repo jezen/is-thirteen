@@ -37,10 +37,11 @@ var thirteenStrings = [
     // B just looks like 13 written closer
     "b",
 
-    //Adding "l" 3, "i"3 and |3 because they basically look like thirteen
+    //Adding "l" 3, "i"3, |3 and !3 because they basically look like thirteen
     "i3",
     "l3",
     "|3",
+    "!3",
     
     //Looks like 13 (flipped horizontally) - E equal to 3 
     "ei",
@@ -80,6 +81,7 @@ var thirteenStrings = [
     "１３", // Japanese full-width
     "trinaest", // Croatian / Serbian (latin)
     "tretten", // Danish / Norwegian
+    "senthi", //Dothraki
     "þrettán", // Icelandic, following are different inflections
     "þrettándi", // e. thirteenth
     "þrettánda",
@@ -145,6 +147,7 @@ var thirteenStrings = [
     "dräizéng", // Luxembourgish
     "тринаесет", // Macedonian
     "tiga belas", // Malay
+    "പതിമൂന്ന്", //Malayasm
     "तेरा", // Marathi (१३)
     "арван", // Mongolian
     ".---- ...--", // Morse code
