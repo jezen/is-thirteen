@@ -52,6 +52,7 @@ var thirteenStrings = [
     // Password variations
     "th1rt33n",
     "th1rte3n",
+    "th1rt3en",
     "th1rteen",
     "thirt3en",
     "thirt33n",
