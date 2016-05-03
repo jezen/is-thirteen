@@ -57,9 +57,23 @@ var thirteenStrings = [
     "thirt33n",
     "thirte3n",
 
+    // Number systems
+    "1101", // Binary (base 2)
+    "111", // Ternary (base 3)
+    "31", // Quaternary (base 4)
+    "23", // Quinary (base 5)
+    "21", // Senary (base 6)
+    "15", // Octal (base 8)
+    "11", // Duodecimal (base 12)
+    "D", // Hexadecimal (base 16) [and above]
+
     // Languages
     "thirteen", // English
     "ثلاثة عشر", // Arabic
+    "ثلاث عشرة", // Arabic (variant)
+    "تلاتاشر", // Arabic (Slang)
+    "تلاتاش", // Arabic (Slang, variant)
+
 
     "يج", //Arabic (gematria)
 
