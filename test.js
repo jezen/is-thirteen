@@ -46,6 +46,7 @@ tap.equal(is("E|").thirteen(), true);
 tap.equal(is("th1rt33n").thirteen(), true);
 tap.equal(is("th1rte3n").thirteen(), true);
 tap.equal(is("th1rteen").thirteen(), true);
+tap.equal(is("th1rt3en").thirteen(), true);
 tap.equal(is("thirt3en").thirteen(), true);
 tap.equal(is("thirt33n").thirteen(), true);
 tap.equal(is("thirte3n").thirteen(), true);
