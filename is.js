@@ -102,6 +102,9 @@ var is = function is(x) {
             }
             return currYear - parseInt(x) == THIRTEEN
         },
+        fridayTheThirteenth: function() {
+            return x.getDay() === 5 && x.getDate() === 13
+        },        
         plus: function(y) {
             return is(x + y);
         },
