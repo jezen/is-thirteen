@@ -50,6 +50,19 @@ tap.equal(is("thirt3en").thirteen(), true);
 tap.equal(is("thirt33n").thirteen(), true);
 tap.equal(is("thirte3n").thirteen(), true);
 
+// Binary tests
+tap.equal(is("1101").thirteen(), true);
+tap.equal(is("0b1101").thirteen(), true);
+tap.equal(is(0b1101).thirteen(), true);
+
+// Octal tests
+tap.equal(is("0o15").thirteen(), true);
+tap.equal(is(0o15).thirteen(), true);
+
+// Hex tests
+tap.equal(is("0xD").thirteen(), true);
+tap.equal(is(0xD).thirteen(), true);
+
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch

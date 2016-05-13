@@ -57,6 +57,16 @@ var thirteenStrings = [
     "thirt33n",
     "thirte3n",
 
+    // Binary
+    "1101",
+    "0b1101",
+
+    // Octal
+    "0o15",
+
+    // Hex
+    "0xD",
+
     // Languages
     "thirteen", // English
     "ثلاثة عشر", // Arabic
