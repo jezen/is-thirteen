@@ -65,7 +65,7 @@ var thirteenStrings = [
     "0o15",
 
     // Hex
-    "0xD",
+    "0xd",
 
     // Languages
     "thirteen", // English
