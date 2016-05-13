@@ -29,8 +29,7 @@ tap.equal(is("Millard Fillmore").thirteen(), true);
 
 // Date support
 tap.equal(is("2003").yearOfBirth(), true)
-tap.equal(is(new Date()).fridayTheThirteenth(), true)
-
+tap.equal(is(new Date('2016-05-13T13:13:13')).fridayTheThirteenth(), true)
 
 // Imaginary 13's tests
 tap.equal(is("13+0i").thirteen(), true);
