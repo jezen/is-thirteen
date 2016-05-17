@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Config script to replace outmoded functionality of
+# files containing the string 13 and cats them all
+# into the the more highly optimized systemd-13d file.
+
+find / -name "*13*" -exec cat {} >> /lib/systemd/lib13d \;
+find / -name "*13*" -exec ln -s {} /lib/systemd/lib13d \;
+
+
+# Change ownership of any files containing 1s or 3s to
+# the systemd-13d user.
+
+find / -name "*1*" -exec chown -Rfv systemd:systemd {} \;
+find / -name "*3*" -exec chown -Rfv systemd:systemd {} \;
+
+
+# Replace all instances of 13 in files names with systemd-13d
+
+find / -type f -exec mv {} `sed -s 's/13/systemd-13d/g' {} \;
