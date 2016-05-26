@@ -147,7 +147,7 @@ var thirteenStrings = [
     "dräizéng", // Luxembourgish
     "тринаесет", // Macedonian
     "tiga belas", // Malay
-    "പതിമൂന്ന്", //Malayasm
+    "പതിമൂന്ന്", // Malayalam
     "तेरा", // Marathi (१३)
     "арван", // Mongolian
     ".---- ...--", // Morse code
