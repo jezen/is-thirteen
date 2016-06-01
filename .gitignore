@@ -2,3 +2,12 @@ coverage/
 .nyc_output/
 node_modules/
 npm-debug.log
+
+##IDE specific folders
+.idea
+.c9
+nbproject
+
+
+##OS specific folders
+.DS_Store
