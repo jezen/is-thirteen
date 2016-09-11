@@ -62,6 +62,8 @@ var thirteenStrings = [
     "ثلاثة عشر", // Arabic
 
     "يج", //Arabic (gematria)
+    
+    "তের", //Bengali
 
     "سیزده", // Persian
     "۱۳", // Persian number
