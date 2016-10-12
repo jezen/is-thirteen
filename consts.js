@@ -28,7 +28,7 @@ var thirteenStrings = [
     "sharon carter", // Agent 13
 
     "weedle", //#13 Pokémon
-    
+
     // Imaginary 13's
     "13+0i",
     "13 + 13i",
@@ -42,8 +42,8 @@ var thirteenStrings = [
     "l3",
     "|3",
     "!3",
-    
-    //Looks like 13 (flipped horizontally) - E equal to 3 
+
+    //Looks like 13 (flipped horizontally) - E equal to 3
     "ei",
     "e1",
     "el",
@@ -56,6 +56,38 @@ var thirteenStrings = [
     "thirt3en",
     "thirt33n",
     "thirte3n",
+
+    // code variations
+    // binary
+    "00001101",
+    "0b1101",
+
+    // Octal
+    "0o15",
+
+    // Morse
+    ".---- ...--",
+    "- .... .. .-. - . . -.",
+    "- .... .. .-. - . . -.",
+
+    // Caesar shift
+    "wkluwhhq",
+    "Wkluwhhq",
+    "WKLUWHHQ",
+
+    // hex
+    "74 68 69 72 74 65 65 6e",
+    "54 48 49 52 54 45 45 4e",
+    "31 33",
+    "74 68 69 72 74 65 65 6e 0d 0a",
+    "54 68 69 72 74 65 65 6e 0d 0a",
+    "54 48 49 52 54 45 45 4e 0d 0a 0d 0a",
+
+    // base64
+    "dGhpcnRlZW4=",
+    "VGhpcnRlZW4=",
+    "VEhJUlRFRU4=",
+    "MTM=",
 
     // Languages
     "thirteen", // English
@@ -124,7 +156,7 @@ var thirteenStrings = [
     "drizäh", // Swiss German
     "wa’maH wej", // Klingon
     "‘umikūmākolu", // Hawaiian
-    "שלוש עשרה", // Hebrew 
+    "שלוש עשרה", // Hebrew
     "שלושעשרה", // Hebrew (without space)
     "ֹשְלֹש- עֶשְֹרֵה", // Hebrew (with punctuation)
     "שלושה עשר", // Hebrew (male form)
