@@ -1,5 +1,6 @@
 var noop = require('noop3');
 var consts = require('./consts');
+var libphonenumber = require('libphonenumber-node');
 
 const THIRTEEN = consts.THIRTEEN;
 const THIRTEEN_FUZZ = consts.THIRTEEN_FUZZ;
@@ -136,6 +137,9 @@ var is = function is(x) {
                     return !isNaN(basedNumber) && basedNumber == THIRTEEN;
                 }
             }
+        },
+        algerianPhoneNumber: function(num) {
+          return libphonenumber.getCountryCode(num) === "DZ";
         }
     }
 };
