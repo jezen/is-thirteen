@@ -17,7 +17,7 @@ npm --save i is-thirteen
 ## Usage
 
 ```javascript
-var isThirteen = require('is-thirteen');
+var is = require('is-thirteen');
 
 // PLEAS READ THE SOURCE CODE BECAuse we moved fast and broke things
 
