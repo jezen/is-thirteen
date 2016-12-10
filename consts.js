@@ -218,6 +218,7 @@ var thirteenStrings = [
     "β", //Think this is beta, which looks like a long 1 mashed together with a 3
     // Thirteen pronunciation
     "θərˈtiːn",
+    "dek tri", // Esperanto
     "పదమూడు" //Telugu
 ];
 
