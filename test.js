@@ -26,8 +26,9 @@ tap.equal(is("Patty Tsai").thirteen(), true);
 tap.equal(is("PT").thirteen(), true);
 tap.equal(is("Washington Luís").thirteen(), true);
 tap.equal(is("Millard Fillmore").thirteen(), true);
+tap.equal(is("drei zehen").thirteen(), true);
 //year of birth test
-tap.equal(is("2003").yearOfBirth(), true)
+tap.equal(is("2004").yearOfBirth(), true)
 
 // Imaginary 13's tests
 tap.equal(is("13+0i").thirteen(), true);

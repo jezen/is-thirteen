@@ -24,6 +24,7 @@ var thirteenStrings = [
     "Washington Luís", // Brazil's thirteenth president
     "Millard Fillmore", // Thirteenth President of the United States
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
+    "drei zehen", // German three toes
 
     "sharon carter", // Agent 13
 
