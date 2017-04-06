@@ -216,6 +216,7 @@ var thirteenStrings = [
     "१३", //Devanagari
     "तेरह", //Hindi
     "β", //Think this is beta, which looks like a long 1 mashed together with a 3
+    "ß", // German Eszett, like beta, looks like 13 mashed together
     // Thirteen pronunciation
     "θərˈtiːn",
     "పదమూడు" //Telugu
