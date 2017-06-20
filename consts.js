@@ -26,7 +26,7 @@ var thirteenStrings = [
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
     "sharon carter", // Agent 13
-
+    "http://www.imdb.com/title/tt0086034/", //Octopussy, James Bond's 13th Theatrical Thriller
     "weedle", //#13 Pokémon
 
     // Imaginary 13's
