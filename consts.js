@@ -102,6 +102,8 @@ var thirteenStrings = [
     "dertiendertien", // Double Dutch
     "тринадесет", // Bulgarian
     "тринайсет", // Also Bulgarian
+    "trinaest", // Bosnian
+    "trinest", // Bosnian (spoken)
     "tretze", // Catalan
     "napulo ug tulo", // Cebuano
     "十三", // Chinese / Japanese
