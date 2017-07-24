@@ -219,6 +219,7 @@ var thirteenStrings = [
     // Thirteen pronunciation
     "θərˈtiːn",
     "పదమూడు" //Telugu
+    "তের" //Bangla
 ];
 
 module.exports = {
