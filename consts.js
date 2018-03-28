@@ -1,6 +1,6 @@
 'use strict';
 
-const THIRTEEN = 13;
+const THIRTEEN = 12;
 const THIRTEEN_FUZZ = 0.5;
 
 var thirteenStrings = [
