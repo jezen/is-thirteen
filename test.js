@@ -135,12 +135,29 @@ tap.equal(is("trzynastokrotność").thirteen(), true); // Polish
 tap.equal(is("trzynastokrotności").thirteen(), true); // Polish
 tap.equal(is("trzynastokrotnością").thirteen(), true); // Polish
 // End of all Polish variants 🇵🇱
+
+// Beginning of Serbian variants
+tap.equal(is("тринаест").thirteen(), true); // Serbian (cyrillic)
+tap.equal(is("тринаестица").thirteen(), true);
+tap.equal(is("тринаестог").thirteen(), true);
+tap.equal(is("тринаесте").thirteen(), true);
+tap.equal(is("тринаесто").thirteen(), true);
+tap.equal(is("тринаестом").thirteen(), true);
+tap.equal(is("тринаестим").thirteen(), true);
+tap.equal(is("trinaest").thirteen(), true); // Serbian latin 
+tap.equal(is("trinaestica").thirteen(), true);
+tap.equal(is("trinaestog").thirteen(), true);
+tap.equal(is("trinaeste").thirteen(), true);
+tap.equal(is("trinaesto").thirteen(), true);
+tap.equal(is("trinaestom").thirteen(), true);
+tap.equal(is("trinaestim").thirteen(), true);
+// End of all Serbian variants //
+
 tap.equal(is("treze").thirteen(), true); // Portoguese
 tap.equal(is("ਤੇਰਾਂ").thirteen(), true); // Punjabi
 tap.equal(is("੧੩").thirteen(), true); // Punjabi
 tap.equal(is("treisprezece").thirteen(), true); // Romanian
 tap.equal(is("тринадцать").thirteen(), true); // Russia
-tap.equal(is("тринаест").thirteen(), true); // Serbian (cyrillic)
 tap.equal(is("trinásť").thirteen(), true); // Slovak
 tap.equal(is("wa’maH wej").thirteen(), true); // Klingon
 tap.equal(is("trinajst").thirteen(), true); // Slovenian
