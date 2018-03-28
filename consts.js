@@ -172,6 +172,7 @@ var thirteenStrings = [
     "ಹದಿಮೂರು", //Kannada (for thirteen)
     "೧೩",//Kannada (for 13)
     "열셋", // Korean
+    "십삼",, // Sino-Korean
     "sêzdeh", // Kurdish
     "tredecim", // Latin
     "trīspadsmit", // Latvian
