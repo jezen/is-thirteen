@@ -90,6 +90,7 @@ tap.equal(is("ಹದಿಮೂರು").thirteen(), true); //Kannada (thirteen)
 tap.equal(is("పదమూడు").thirteen(), true); //Telugu
 tap.equal(is("೧೩").thirteen(), true); //Kannada (13)
 tap.equal(is("열셋").thirteen(), true); // Korean
+tap.equal(is("십삽").thirteen(), true); // Korean
 tap.equal(is("sêzdeh").thirteen(), true); // Kurdish
 tap.equal(is("tredecim").thirteen(), true); // Latin
 tap.equal(is("trīspadsmit").thirteen(), true); // Latvian
