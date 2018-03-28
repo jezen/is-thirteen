@@ -27,7 +27,7 @@ var thirteenStrings = [
 
     "sharon carter", // Agent 13
 
-    "Dragon Ball Z: Wrath of the Dragon", // 13th Dragon Ball Z movie
+    "Wrath of the Dragon", // 13th Dragon Ball Z movie
 
     "weedle", //#13 Pokémon
 
