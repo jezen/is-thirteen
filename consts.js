@@ -184,7 +184,43 @@ var thirteenStrings = [
     "арван", // Mongolian
     ".---- ...--", // Morse code
     "irteenthay", // Pig Latin
+
+    // Beginning of all Polish variants 🇵🇱
     "trzynaście", // Polish
+    "trzynasty", // Polish
+    "trzynasta", // Polish
+    "trzynaste", // Polish
+    "trzynaści", // Polish
+    "trzynastego", // Polish
+    "trzynastej", // Polish
+    "trzynastych", // Polish
+    "trzynastemu", // Polish
+    "trzynastym", // Polish
+    "trzynastą", // Polish
+    "trzynastymi", // Polish
+    "trzynastu", // Polish
+    "trzynastek", // Polish
+    "trzynastoma", // Polish
+    "trzynaścioro", // Polish
+    "trzynastka", // Polish
+    "trzynastki", // Polish
+    "trzynastką", // Polish
+    "trzynastce", // Polish
+    "trzynastko", // Polish
+    "trzynaściorgiem", // Polish
+    "trzynaściorgu", // Polish
+    "trzynaściorga", // Polish
+    "trzynastokrotny", // Polish
+    "trzynastokrotnie", // Polish
+    "trzynastokrotną", // Polish
+    "trzynastokrotnemu", // Polish
+    "trzynastokrotnej", // Polish
+    "trzynastokrotnych", // Polish
+    "trzynastokrotność", // Polish
+    "trzynastokrotności", // Polish
+    "trzynastokrotnością", // Polish
+    // End of all Polish variants 🇵🇱
+
     "treze", // Portuguese
     "ਤੇਰਾਂ", // Punjabi - thirteen
     "੧੩", // Punjabi Numeral - 13
