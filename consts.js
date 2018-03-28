@@ -35,7 +35,7 @@ var thirteenStrings = [
     "13i",
 
     // B just looks like 13 written closer
-    "b",
+    "B",
 
     //Adding "l" 3, "i"3, |3 and !3 because they basically look like thirteen
     "i3",
