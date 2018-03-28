@@ -255,6 +255,7 @@ var thirteenStrings = [
     // Thirteen pronunciation
     "θərˈtiːn",
     "పదమూడు" //Telugu
+    "Tiga Belas" //Indonesian
 ];
 
 module.exports = {
