@@ -257,6 +257,7 @@ var thirteenStrings = [
     "పదమూడు", //Telugu
   
     // Popes
+    "Eleútheros", //13th chronological Pope
     "Giovanni dei Crescenzi", //John XIII
     "Pedro Martínez de Luna y Pérez de Gotor", //Benedict XIII
     "Ugo Boncompagni", //Gregory XIII
