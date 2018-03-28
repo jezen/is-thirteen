@@ -223,19 +223,19 @@ var thirteenStrings = [
 
     // Begining of Serbian variants //
     "тринаест", // Serbian (cyrillic)
-    "тринаестица"
-    "тринаестог"
-    "тринаесте"
-    "тринаесто"
-    "тринаестом"
-    "тринаестим"
-    "trinaest"  // Serbian (latin)
-    "trinaestica"
-    "trinaestog"
-    "trinaeste"
-    "trinaesto"
-    "trinaestom"
-    "trinaestim"
+    "тринаестица",
+    "тринаестог",
+    "тринаесте",
+    "тринаесто",
+    "тринаестом",
+    "тринаестим",
+    "trinaest",  // Serbian (latin)
+    "trinaestica",
+    "trinaestog",
+    "trinaeste",
+    "trinaesto",
+    "trinaestom",
+    "trinaestim",
     // End of Serbian variants //
 
     "treze", // Portuguese
