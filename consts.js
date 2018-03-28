@@ -29,6 +29,8 @@ var thirteenStrings = [
 
     "weedle", //#13 Pokémon
 
+    "NGC 6205" //M13, (Hercules Globular Cluster) in Messier Catalog of astrological objects
+
     // Imaginary 13's
     "13+0i",
     "13 + 13i",
