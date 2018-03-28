@@ -254,7 +254,22 @@ var thirteenStrings = [
     "β", //Think this is beta, which looks like a long 1 mashed together with a 3
     // Thirteen pronunciation
     "θərˈtiːn",
-    "పదమూడు" //Telugu
+    "పదమూడు", //Telugu
+
+    // The original thirteen American colonies
+    "New Hampshire",
+    "New York",
+    "Pennsylvania",
+    "Massachusetts",
+    "Rhode Island",
+    "Connecticut",
+    "New Jersey",
+    "Delaware",
+    "Maryland",
+    "Virginia",
+    "North Carolina",
+    "South Carolina",
+    "Georgia"
 ];
 
 module.exports = {
