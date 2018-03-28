@@ -29,7 +29,21 @@ var thirteenStrings = [
 
     "weedle", //#13 Pokémon
 
-    "NGC 6205" //M13, (Hercules Globular Cluster) in Messier Catalog of astrological objects
+    //M13, (Hercules Globular Cluster) in Messier Catalog of astrological objects in all languages from wiki
+    "NGC 6205",
+    "Hercules Globular Cluster", 
+    "Great Globular Cluster in Hercules",
+    "Вялікае скопішча Геркулес", //belarusian
+    "Herkuleshaufen", //german
+    "Wielka Gromada Herkulesa" //polish
+    "Gromada Herkulesa" //another in polish
+    "Gran Cúmulo de Hércules", //spanish
+    "Cúmulo de Hércules", //still spanish
+    "Кулясте скупчення Геркулеса", //ukrainian
+    "武仙座球狀星團", //chinese
+    "仙座星團", //also chinese
+
+
 
     // Imaginary 13's
     "13+0i",
