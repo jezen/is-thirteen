@@ -100,7 +100,41 @@ tap.equal(is("tiga belas").thirteen(), true); // Malay
 tap.equal(is("арван").thirteen(), true); // Mongolian
 tap.equal(is(".---- ...--").thirteen(), true); // Morse code
 tap.equal(is("irteenthay").thirteen(), true); // Pig Latin
+// Beginning of all Polish variants 🇵🇱
 tap.equal(is("trzynaście").thirteen(), true); // Polish
+tap.equal(is("trzynasty").thirteen(), true); // Polish
+tap.equal(is("trzynasta").thirteen(), true); // Polish
+tap.equal(is("trzynaste").thirteen(), true); // Polish
+tap.equal(is("trzynaści").thirteen(), true); // Polish
+tap.equal(is("trzynastego").thirteen(), true); // Polish
+tap.equal(is("trzynastej").thirteen(), true); // Polish
+tap.equal(is("trzynastych").thirteen(), true); // Polish
+tap.equal(is("trzynastemu").thirteen(), true); // Polish
+tap.equal(is("trzynastym").thirteen(), true); // Polish
+tap.equal(is("trzynastą").thirteen(), true); // Polish
+tap.equal(is("trzynastymi").thirteen(), true); // Polish
+tap.equal(is("trzynastu").thirteen(), true); // Polish
+tap.equal(is("trzynastek").thirteen(), true); // Polish
+tap.equal(is("trzynastoma").thirteen(), true); // Polish
+tap.equal(is("trzynaścioro").thirteen(), true); // Polish
+tap.equal(is("trzynastka").thirteen(), true); // Polish
+tap.equal(is("trzynastki").thirteen(), true); // Polish
+tap.equal(is("trzynastką").thirteen(), true); // Polish
+tap.equal(is("trzynastce").thirteen(), true); // Polish
+tap.equal(is("trzynastko").thirteen(), true); // Polish
+tap.equal(is("trzynaściorgiem").thirteen(), true); // Polish
+tap.equal(is("trzynaściorgu").thirteen(), true); // Polish
+tap.equal(is("trzynaściorga").thirteen(), true); // Polish
+tap.equal(is("trzynastokrotny").thirteen(), true); // Polish
+tap.equal(is("trzynastokrotnie").thirteen(), true); // Polish
+tap.equal(is("trzynastokrotną").thirteen(), true); // Polish
+tap.equal(is("trzynastokrotnemu").thirteen(), true); // Polish
+tap.equal(is("trzynastokrotnej").thirteen(), true); // Polish
+tap.equal(is("trzynastokrotnych").thirteen(), true); // Polish
+tap.equal(is("trzynastokrotność").thirteen(), true); // Polish
+tap.equal(is("trzynastokrotności").thirteen(), true); // Polish
+tap.equal(is("trzynastokrotnością").thirteen(), true); // Polish
+// End of all Polish variants 🇵🇱
 tap.equal(is("treze").thirteen(), true); // Portoguese
 tap.equal(is("ਤੇਰਾਂ").thirteen(), true); // Punjabi
 tap.equal(is("੧੩").thirteen(), true); // Punjabi
