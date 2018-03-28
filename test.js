@@ -121,6 +121,7 @@ tap.equal(is("trzynastka").thirteen(), true); // Polish
 tap.equal(is("trzynastki").thirteen(), true); // Polish
 tap.equal(is("trzynastką").thirteen(), true); // Polish
 tap.equal(is("trzynastce").thirteen(), true); // Polish
+tap.equal(is("trzynastkę").thirteen(), true); // Polish
 tap.equal(is("trzynastko").thirteen(), true); // Polish
 tap.equal(is("trzynaściorgiem").thirteen(), true); // Polish
 tap.equal(is("trzynaściorgu").thirteen(), true); // Polish
