@@ -3,7 +3,7 @@
 _Special thanks to [@casdr](https://github.com/casdr) for the logo_
 # is-thirteen
 
-[![Build Status](https://travis-ci.org/jezen/is-thirteen.svg?branch=master)](https://travis-ci.org/jezen/is-thirteen) 
+[![Build Status](https://travis-ci.org/jezen/is-thirteen.svg?branch=master)](https://travis-ci.org/jezen/is-thirteen)
 [![Join us on Gitter](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/gytdau/is-thirteen)
 
 An npm package to check if a number is equal to 13.
@@ -11,13 +11,17 @@ An npm package to check if a number is equal to 13.
 ## Installation
 
 ```sh
-npm --save i is-thirteen
+yarn add --dev is-thirteen
 ```
 
 ## Usage
 
 ```javascript
-var isThirteen = require('is-thirteen');
+// ES6 import
+import is from 'is-thirteen'
+
+// require
+const is = require('is-thirteen')
 
 // PLEAS READ THE SOURCE CODE BECAuse we moved fast and broke things
 
@@ -46,7 +50,7 @@ is(26).divideby(2).thirteen();  //true
 ## Test
 
 ```shell
-npm test
+yarn test
 ```
 
 ## License
