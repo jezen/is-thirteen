@@ -114,6 +114,9 @@ var is = function is(x) {
         dividedby: function(y) {
           return is(x / y);
         },
+        modulo: function(y) {
+          return is(x % y);
+        },
         canSpell: {
           thirteen: function(){
             return x.toLowerCase().includes("t","h","i","r","t","e","e","n");
