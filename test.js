@@ -161,6 +161,8 @@ tap.equals(is("१३").thirteen(), true); //Devanagari
 tap.equals(is("तेह्र").thirteen(), true); //Nepali
 tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
+tap.equal(is("১৩").thirteen(), true); // Bengali
+tap.equal(is("তেরো").thirteen(), true); // Bengali
 
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
