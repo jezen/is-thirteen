@@ -1,9 +1,5 @@
 var noop = require('noop3');
-var consts = require('./consts');
-
-const THIRTEEN = consts.THIRTEEN;
-const THIRTEEN_FUZZ = consts.THIRTEEN_FUZZ;
-const thirteenStrings = consts.thirteenStrings;
+const { THIRTEEN, THIRTEEN_FUZZ, thirteenStrings } = require('./consts');
 
 'use strict';
 

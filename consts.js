@@ -258,7 +258,7 @@ var thirteenStrings = [
 ];
 
 module.exports = {
-    THIRTEEN: THIRTEEN,
-    THIRTEEN_FUZZ: THIRTEEN_FUZZ,
-    thirteenStrings: thirteenStrings
+    THIRTEEN,
+    THIRTEEN_FUZZ,
+    thirteenStrings
 };
