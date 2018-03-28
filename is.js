@@ -102,6 +102,14 @@ var is = function is(x) {
             }
             return currYear - parseInt(x) == THIRTEEN
         },
+        barely: {
+            thirteen: function() {
+                return x == THIRTEEN || (x > THIRTEEN && x < (THIRTEEN + 0.2));
+            }
+        },
+        thirteenthCentury: function() {
+            return x > 1201 && x < 1300;
+        },
         plus: function(y) {
             return is(x + y);
         },

@@ -32,7 +32,9 @@ var is = require('is-thirteen');
 is(13).thirteen(); // true
 is(12.8).roughly.thirteen(); // true
 is(6).within(10).of.thirteen(); // true
-is(2003).yearOfBirth(); // true
+is(2004).yearOfBirth(); // true
+is(13.1).barely.thirteen(); // true
+is(1248).thirteenthCentury(); // true
 
 // check your math skillz
 is(4).plus(5).thirteen();      // false
