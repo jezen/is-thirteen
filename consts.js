@@ -109,7 +109,8 @@ var thirteenStrings = [
     "拾叁", // Chinese (simplified, upper case)
     "拾叄", // Chinese (variant)
     "拾参", // Chinese (variant)
-    "サーティーン", // Japanese
+    "サーティーン", // Japanese (Katakana)
+    "じゅうさん", // Japanese (Hiragana)
     "１３", // Japanese full-width
     "trinaest", // Croatian / Serbian (latin)
     "tretten", // Danish / Norwegian
@@ -171,7 +172,8 @@ var thirteenStrings = [
     "tredici", // Italian
     "ಹದಿಮೂರು", //Kannada (for thirteen)
     "೧೩",//Kannada (for 13)
-    "열셋", // Korean
+    "열셋", // Korean (Native)
+    "십삼", // Korean (Sino)
     "sêzdeh", // Kurdish
     "tredecim", // Latin
     "trīspadsmit", // Latvian
