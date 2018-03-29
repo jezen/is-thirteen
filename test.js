@@ -27,7 +27,7 @@ tap.equal(is("PT").thirteen(), true);
 tap.equal(is("Washington Luís").thirteen(), true);
 tap.equal(is("Millard Fillmore").thirteen(), true);
 //year of birth test
-tap.equal(is("2003").yearOfBirth(), true)
+tap.equal(is("2003").yearOfBirth(), false);
 
 // Imaginary 13's tests
 tap.equal(is("13+0i").thirteen(), true);
@@ -163,9 +163,12 @@ tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
 
 tap.equal(is("B").thirteen(), true); // B looks like 13
-tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
-
-tap.equal(is("β").thirteen(), true); // β looks like 13
+tap.equal(is("b").thirteen(), false); // b does not look like 13
+tap.equal(is("ß").thirteen(), true); // German: looks like 13
+tap.equal(is("ẞ").thirteen(), true); // German: looks like 13
+tap.equal(is("Β").thirteen(), true); // Upper case beta, looks like 13
+tap.equal(is("β").thirteen(), true); // lower case beta
+tap.equal(is("阝").thirteen(), true); // Chinese Kangxi radical: Looks like 13
 
 tap.equal(is("i3").thirteen(),true); //i3 looks like 13 when upper case
 tap.equal(is("I3").thirteen(),true); //I3 looks like 13
