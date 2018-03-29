@@ -163,9 +163,12 @@ tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
 
 tap.equal(is("B").thirteen(), true); // B looks like 13
-tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
-
-tap.equal(is("β").thirteen(), true); // β looks like 13
+tap.equal(is("b").thirteen(), false); // b does not look like 13
+tap.equal(is("ß").thirteen(), true); // German: looks like 13
+tap.equal(is("ẞ").thirteen(), true); // German: looks like 13
+tap.equal(is("Β").thirteen(), true); // Upper case beta, looks like 13
+tap.equal(is("β").thirteen(), true); // lower case beta
+tap.equal(is("阝").thirteen(), true); // Chinese Kangxi radical: Looks like 13
 
 tap.equal(is("i3").thirteen(),true); //i3 looks like 13 when upper case
 tap.equal(is("I3").thirteen(),true); //I3 looks like 13
