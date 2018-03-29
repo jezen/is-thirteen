@@ -5,6 +5,7 @@ const is = require('./');
 
 tap.equal(is(13).thirteen(), true);
 tap.equal(is('13').thirteen(), true);
+tap.equal(is([13]).thirteen(), true);
 tap.equal(is('XIII').thirteen(), true);
 tap.equal(is('xiii').thirteen(), true);
 tap.equal(is('IIIIIIIIIIIII').thirteen(), true); //Alternative form of roman numeral.
