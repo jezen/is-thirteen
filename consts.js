@@ -271,7 +271,12 @@ var thirteenStrings = [
     "β", //Think this is beta, which looks like a long 1 mashed together with a 3
     // Thirteen pronunciation
     "θərˈtiːn",
-    "పదమూడు" //Telugu
+    "పదమూడు", //Telugu
+    // Beginning of all Lojban variants
+    "paci", //Lojban
+    "pa ci", //Lojban
+    "jau" //Lojban: hex digit D (decimal 13)
+    // End of all Lojban variants
 ];
 
 module.exports = {
