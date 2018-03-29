@@ -189,6 +189,8 @@ var thirteenStrings = [
     "ಹದಿಮೂರು", //Kannada (for thirteen)
     "೧೩",//Kannada (for 13)
     "열셋", // Korean
+    "열세", // Korean (Sino-Korean number system)
+    "십삼", // Korean (Sometime when use in a sentence)
     "sêzdeh", // Kurdish
     "tredecim", // Latin
     "trīspadsmit", // Latvian
