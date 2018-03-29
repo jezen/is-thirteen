@@ -14,6 +14,8 @@ var thirteenStrings = [
     "olivia wilde", // AND because SHE's "Thirteen"
     "baker's dozen", // Bakers gonna bake
     "dr. remy beauregard hadley", // Why not 13's real name?!
+    "Jodie Whittaker", // We can't forget the 13th doctor !
+    "https://en.wikipedia.org/wiki/Thirteenth_Doctor",
     "patty tsai", // 蔡依珊 is a public figure in Taiwan. Her Chinese name sounds like "13".
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous Puerto Rican band
     "jason fly", // XIII of The XX
