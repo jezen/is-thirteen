@@ -184,6 +184,7 @@ var thirteenStrings = [
     "арван", // Mongolian
     ".---- ...--", // Morse code
     "irteenthay", // Pig Latin
+    "irteen-thay", // Pig Latin (With Hyphen)
 
     // Beginning of all Polish variants 🇵🇱
     "trzynaście", // Polish
