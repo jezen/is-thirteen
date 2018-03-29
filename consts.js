@@ -26,6 +26,7 @@ var thirteenStrings = [
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
     "sharon carter", // Agent 13
+    "Antonio Banderas", // He was the thirteenth warrior
 
     "weedle", //#13 Pokémon
 
