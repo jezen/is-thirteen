@@ -204,3 +204,9 @@ tap.equal(is("oooooooooooooo").thirteen(), false);
 tap.equal(is("bbbbbbbbbbb").thirteen(), false);
 tap.equal(is("||h||||||||||").thirteen(), false);
 tap.equal(is("///i/////////").thirteen(), false);
+
+// Class tests
+class Thirteen{}
+class NotThirteen{}
+tap.equal(is(new Thirteen()).thirteen(), true);
+tap.equal(is(new NotThirteen()).thirteen(), false);

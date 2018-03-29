@@ -33,6 +33,9 @@ var is = function is(x) {
              x = 13;
         }
     }
+    else if (is(x.constructor.name).thirteen()) {
+      x = THIRTEEN;
+    }
 
     return {
         thirteen: function() {
