@@ -97,6 +97,7 @@ tap.equal(is("trylika").thirteen(), true); // Lithuanian
 tap.equal(is("dräizéng").thirteen(), true); // Luxembourgishthirtees
 tap.equal(is("тринаесет").thirteen(), true); // Macedonian
 tap.equal(is("tiga belas").thirteen(), true); // Malay
+tap.equal(is("tekau mā toru").thirteen(), true); // Maori
 tap.equal(is("арван").thirteen(), true); // Mongolian
 tap.equal(is(".---- ...--").thirteen(), true); // Morse code
 tap.equal(is("irteenthay").thirteen(), true); // Pig Latin
