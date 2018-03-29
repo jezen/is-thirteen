@@ -43,12 +43,18 @@ tap.equal(is("El").thirteen(), true);
 tap.equal(is("E|").thirteen(), true);
 
 // Password variations tests
-tap.equal(is("th1rt33n").thirteen(), true);
-tap.equal(is("th1rte3n").thirteen(), true);
-tap.equal(is("th1rteen").thirteen(), true);
-tap.equal(is("thirt3en").thirteen(), true);
-tap.equal(is("thirt33n").thirteen(), true);
-tap.equal(is("thirte3n").thirteen(), true);
+tap.equal(is("thirteen").thirteen(), true),
+tap.equal(is("thirt33n").thirteen(), true),
+tap.equal(is("thirt3en").thirteen(), true),
+tap.equal(is("thirte3n").thirteen(), true),
+tap.equal(is("th1rteen").thirteen(), true),
+tap.equal(is("th1rt33n").thirteen(), true),
+tap.equal(is("th1rte3n").thirteen(), true),
+tap.equal(is("th1rt3en").thirteen(), true),
+tap.equal(is("thjrteen").thirteen(), true),
+tap.equal(is("thjrt33n").thirteen(), true),
+tap.equal(is("thjrte3n").thirteen(), true),
+tap.equal(is("thjrt3en").thirteen(), true),
 
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch

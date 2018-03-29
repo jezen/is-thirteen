@@ -50,12 +50,18 @@ var thirteenStrings = [
     "e|",
 
     // Password variations
+    "thirteen",
+    "thirt33n",
+    "thirt3en",
+    "thirte3n",
+    "th1rteen",
     "th1rt33n",
     "th1rte3n",
-    "th1rteen",
-    "thirt3en",
-    "thirt33n",
-    "thirte3n",
+    "th1rt3en",
+    "thjrteen",
+    "thjrt33n",
+    "thjrte3n",
+    "thjrt3en",
 
     // code variations
     // binary
