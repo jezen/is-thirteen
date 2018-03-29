@@ -105,6 +105,11 @@ var thirteenStrings = [
     "thirteen", // English
     "ثلاثة عشر", // Arabic
 
+    "تلطاشر", // Arabic Slang
+    "تلتاشر", // Arabic Slang
+    "طلتاشر", // Arabic Slang
+    "طلطاشر", // Arabic Slang
+
     "يج", //Arabic (gematria)
 
     "سیزده", // Persian
