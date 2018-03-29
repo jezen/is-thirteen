@@ -40,10 +40,10 @@ var thirteenStrings = [
     "ß",
     "ẞ",
     //Also greek
-    "β"
-    "Β" //actually upper case Beta, not B
+    "β",
+    "Β", //actually upper case Beta, not B
     //And Chinese
-    "阝" //(Kangxi radical)
+    "阝", //(Kangxi radical)
     
 
     //Adding "l" 3, "i"3, |3 and !3 because they basically look like thirteen
