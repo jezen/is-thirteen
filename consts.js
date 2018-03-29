@@ -27,6 +27,9 @@ var thirteenStrings = [
 
     "sharon carter", // Agent 13
 
+    // Television characters
+    "Jodie Whittaker",  // the 13th Doctor in the BBC series, "Doctor Who"
+  
     "weedle", //#13 Pokémon
 
     // Imaginary 13's
