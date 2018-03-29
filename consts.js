@@ -82,6 +82,11 @@ var thirteenStrings = [
     "- .... .. .-. - . . -.",
     "- .... .. .-. - . . -.",
 
+    // ROT13
+    "guvegrra",
+    "Guvegrra",
+    "GUVEGRRA",
+
     // Caesar shift
     "wkluwhhq",
     "Wkluwhhq",
