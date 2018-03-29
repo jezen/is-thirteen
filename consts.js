@@ -127,6 +127,7 @@ var thirteenStrings = [
     "拾叁", // Chinese (simplified, upper case)
     "拾叄", // Chinese (variant)
     "拾参", // Chinese (variant)
+    "〸〣", // Chinese (Suzhow numerals)
     "サーティーン", // Japanese
     "１３", // Japanese full-width
     "trinaest", // Croatian / Serbian (latin)
