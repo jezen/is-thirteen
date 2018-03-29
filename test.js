@@ -50,7 +50,7 @@ tap.equal(is("thirt3en").thirteen(), true);
 tap.equal(is("thirt33n").thirteen(), true);
 tap.equal(is("thirte3n").thirteen(), true);
 
-//Messeit Catalog test
+//Messier Catalog test
 tap.equal(is("NGC 6205").thirteen(), true);
 tap.equal(is("Hercules Globular Cluster").thirteen(), true);
 tap.equal(is("Great Globular Cluster in Hercules").thirteen(), true);
