@@ -35,7 +35,10 @@ var thirteenStrings = [
     "13i",
 
     // B just looks like 13 written closer
-    "b",
+    "B",
+    //For cultural inclusiveness also include German variants
+    "ß",
+    "ẞ",
 
     //Adding "l" 3, "i"3, |3 and !3 because they basically look like thirteen
     "i3",
