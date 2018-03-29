@@ -7,7 +7,6 @@ var thirteenStrings = [
     "xiii", // Roman numeral 13
 
     "https://en.wikipedia.org/wiki/This_Is_Thirteen", // Because it is thirteen
-    "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
     "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
     "https://www.youtube.com/watch?v=33Kv5D2zwyc", // The best Johny Cash's song
     "remy hadley", // And because she's "Thirteen"
@@ -15,7 +14,6 @@ var thirteenStrings = [
     "baker's dozen", // Bakers gonna bake
     "dr. remy beauregard hadley", // Why not 13's real name?!
     "patty tsai", // 蔡依珊 is a public figure in Taiwan. Her Chinese name sounds like "13".
-    "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous Puerto Rican band
     "jason fly", // XIII of The XX
     "http://www.imdb.com/title/tt0798817/", // 13 (2010)
 
@@ -23,11 +21,16 @@ var thirteenStrings = [
     "PT", // PT is Brazilian political party represented by the number 13
     "Washington Luís", // Brazil's thirteenth president
     "Millard Fillmore", // Thirteenth President of the United States
-    "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
     "sharon carter", // Agent 13
 
     "weedle", //#13 Pokémon
+
+    // Images of 13
+    "https://raw.githubusercontent.com/jezen/is-thirteen/master/is-thirteen-logo.png", // Our project logo xD
+    "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous Puerto Rican band
+    "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
+    "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
 
     // Imaginary 13's
     "13+0i",
