@@ -50,6 +50,10 @@ tap.equal(is("thirt3en").thirteen(), true);
 tap.equal(is("thirt33n").thirteen(), true);
 tap.equal(is("thirte3n").thirteen(), true);
 
+// Case insensitive tests.
+tap.equal(is("THIRTEEN").thirteen(), true);
+tap.equal(is("ThirTeen").thirteen(), true);
+
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch
