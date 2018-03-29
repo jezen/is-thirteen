@@ -271,7 +271,17 @@ var thirteenStrings = [
     "β", //Think this is beta, which looks like a long 1 mashed together with a 3
     // Thirteen pronunciation
     "θərˈtiːn",
-    "పదమూడు" //Telugu
+    "పదమూడు", //Telugu
+  
+    // Popes
+    "Eleútheros", //13th chronological Pope
+    "Giovanni dei Crescenzi", //John XIII
+    "Pedro Martínez de Luna y Pérez de Gotor", //Benedict XIII
+    "Ugo Boncompagni", //Gregory XIII
+    "Michelangelo dei Conti", //Innocent XIII
+    "Pietro Francesco Orsini, O.P.", //S.D. Benedict XIII
+    "Carlo della Torre di Rezzonico", //Clement XIII
+    "Gioacchino Vincenzo Raffaele Luigi Pecci" //Leo XIII
 ];
 
 module.exports = {
