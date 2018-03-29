@@ -5,6 +5,7 @@ const is = require('./');
 
 tap.equal(is(13).thirteen(), true);
 tap.equal(is('13').thirteen(), true);
+tap.equal(is('۱۳').thirteen(), true); //Arabic
 tap.equal(is('XIII').thirteen(), true);
 tap.equal(is('xiii').thirteen(), true);
 tap.equal(is('IIIIIIIIIIIII').thirteen(), true); //Alternative form of roman numeral.
@@ -61,6 +62,11 @@ tap.equal(is("thjrt3en").thirteen(), true),
 
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
+tap.equal(is("ثلاثة عشر").thirteen(), true); // Arabic
+tap.equal(is("تلطاشر").thirteen(), true); // Arabic Slang 
+tap.equal(is("تلتاشر").thirteen(), true); // Arabic Slang
+tap.equal(is("طلتاشر").thirteen(), true); // Arabic Slang
+tap.equal(is("طلطاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch
 tap.equal(is("тринадесет").thirteen(), true); // Bulgarian
 tap.equal(is("тринайсет").thirteen(), true); // Also Bulgarian
@@ -173,9 +179,12 @@ tap.equal(is("mînuiug").thirteen(), true); // Sindarin
 tap.equal(is('mười ba').thirteen(), true); // Vietnamese
 
 tap.equal(is("B").thirteen(), true); // B looks like 13
-tap.equal(is("b").thirteen(), true); // b looks like 13 when upper case
-
-tap.equal(is("β").thirteen(), true); // β looks like 13
+tap.equal(is("b").thirteen(), false); // b does not look like 13
+tap.equal(is("ß").thirteen(), true); // German: looks like 13
+tap.equal(is("ẞ").thirteen(), true); // German: looks like 13
+tap.equal(is("Β").thirteen(), true); // Upper case beta, looks like 13
+tap.equal(is("β").thirteen(), true); // lower case beta
+tap.equal(is("阝").thirteen(), true); // Chinese Kangxi radical: Looks like 13
 
 tap.equal(is("i3").thirteen(),true); //i3 looks like 13 when upper case
 tap.equal(is("I3").thirteen(),true); //I3 looks like 13
