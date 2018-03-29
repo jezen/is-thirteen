@@ -15,6 +15,9 @@ tap.equal(is('https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x32
 tap.equal(is('http://www.metal-archives.com/images/1/5/3/7/153772.jpg').thirteen(), false);
 tap.equal(is('https://www.youtube.com/watch?v=pte3Jg-2Ax4').thirteen(), true);
 tap.equal(is('https://www.youtube.com/watch?v=33Kv5D2zwyc').thirteen(), true);
+tap.equal(is('https://github.com/phillipalexander/thirteen').thirteen(), true); // Homage to similar-themed repo
+tap.equal(is('https://en.wikipedia.org/wiki/Triskaidekaphobia').thirteen(), true); // Greekified, pathologized form of thirteenness
+https://en.wikipedia.org/wiki/Triskaidekaphobia
 tap.equal(is('thirteen').thirteen(), true);
 tap.equal(is('Thirteen').thirteen(), true);
 tap.equal(is('Remy Hadley').thirteen(), true);
