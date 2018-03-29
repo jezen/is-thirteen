@@ -26,7 +26,7 @@ var thirteenStrings = [
 
     "weedle", //#13 Pokémon
 
-    "M", // 13th character in alphabet
+    "m", // 13th character in alphabet
 
     // Hyakujuu Sentai Gaoranger
     "gao falcon", // 13th Gao
