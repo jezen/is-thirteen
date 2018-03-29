@@ -7,6 +7,7 @@ var thirteenStrings = [
     "xiii", // Roman numeral 13
 
     "https://en.wikipedia.org/wiki/This_Is_Thirteen", // Because it is thirteen
+    "http://kingdomhearts.wikia.com/wiki/Organization_XIII", // Oganization 13 in Kingdom Heart
     "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
     "https://www.youtube.com/watch?v=33Kv5D2zwyc", // The best Johny Cash's song
     "remy hadley", // And because she's "Thirteen"
