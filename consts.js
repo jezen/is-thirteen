@@ -272,9 +272,9 @@ var thirteenStrings = [
     // Thirteen pronunciation
     "θərˈtiːn",
     "పదమూడు" //Telugu
-    "shí sān" // Pinyin (formal)
-    "shi san" // Pinyin (without tones)
-    "shísān"  // Pinyin (without spaces)
+    "shí sān", // Pinyin (formal)
+    "shi san", // Pinyin (without tones)
+    "shísān",  // Pinyin (without spaces)
     "shisan"  // Pinyin (without spaces and tones)
 ];
 
