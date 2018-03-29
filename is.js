@@ -136,6 +136,15 @@ var is = function is(x) {
                     return !isNaN(basedNumber) && basedNumber == THIRTEEN;
                 }
             }
+        },
+        binaryThirteen: function() {
+          return x === 0b1101;
+        },
+        octalThirteen: function() {
+          return x === 0o15;
+        },
+        hexThirteen: function() {
+          return x === 0xD;
         }
     }
 };
