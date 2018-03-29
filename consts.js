@@ -30,7 +30,7 @@ var thirteenStrings = [
     "weedle", //#13 Pokémon
   
     "aluminium", // thirteenth element
-    "AL", // thirteenth element abbreviation
+    "al", // thirteenth element abbreviation
 
     // Imaginary 13's
     "13+0i",
