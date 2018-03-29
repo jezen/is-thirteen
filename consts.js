@@ -117,6 +117,7 @@ var thirteenStrings = [
 
     "dertien", // Afrikaans / Dutch
     "dertiendertien", // Double Dutch
+    "১৩", // Bangla
     "тринадесет", // Bulgarian
     "тринайсет", // Also Bulgarian
     "tretze", // Catalan
