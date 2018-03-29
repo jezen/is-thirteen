@@ -116,7 +116,7 @@ var is = function is(x) {
         },
         canSpell: {
           thirteen: function(){
-            return x.toLowerCase().includes("t","h","i","r","t","e","e","n");
+            return x.toLowerCase().includes("t","h","i","r","t","e","e","n") && x.length === 8;
           }
         },
         anagramOf:{
