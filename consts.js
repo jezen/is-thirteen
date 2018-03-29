@@ -238,12 +238,28 @@ var thirteenStrings = [
     "trzynastokrotnością", // Polish
     // End of all Polish variants 🇵🇱
 
+    // Begining of Serbian variants //
+    "тринаест", // Serbian (cyrillic)
+    "тринаестица",
+    "тринаестог",
+    "тринаесте",
+    "тринаесто",
+    "тринаестом",
+    "тринаестим",
+    "trinaest",  // Serbian (latin)
+    "trinaestica",
+    "trinaestog",
+    "trinaeste",
+    "trinaesto",
+    "trinaestom",
+    "trinaestim",
+    // End of Serbian variants //
+
     "treze", // Portuguese
     "ਤੇਰਾਂ", // Punjabi - thirteen
     "੧੩", // Punjabi Numeral - 13
     "treisprezece", // Romanian
     "тринадцать", // Russian
-    "тринаест", // Serbian (cyrillic)
     "trinásť", // Slovak
     "trinajst", // Slovenian
     "trece", // Spanish
