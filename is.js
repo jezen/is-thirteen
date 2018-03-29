@@ -116,7 +116,13 @@ var is = function is(x) {
         },
         canSpell: {
           thirteen: function(){
-            return x.toLowerCase().includes("t","h","i","r","t","e","e","n");
+            if (x === 13) { return true; }
+            for (let [key, value] of Object.entries({"t": 2, "h": 1, "i": 1, "r": 1, "e": 2, "n": 1})) {
+              if ((x.match(new RegExp(key, "g")) || []).length < value) {
+                return false;
+              }
+            }
+            return true;
           }
         },
         anagramOf:{

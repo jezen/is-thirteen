@@ -184,6 +184,11 @@ tap.equal(is(10).minus(1).plus(32).dividedby(4).times(3).thirteen(), false) // (
 
 tap.equal(is(5.3).plus(0.5).times(5).minus(4).dividedby(2).roughly.thirteen(), true) // (((12.5 * 2) + 4) / 5) - .5
 
+tap.equal(is("thirtee").canSpell.thirteen(), false);
+tap.equal(is("truck").canSpell.thirteen(), false);
+tap.equal(is("thirteen").canSpell.thirteen(), true);
+tap.equal(is("thirsty and a teen").canSpell.thirteen(), true);
+
 tap.equal(is(13).base(10).thirteen(), true);
 tap.equal(is(14).base(10).thirteen(), false);
 tap.equal(is("1101").base(2).thirteen(), true);
