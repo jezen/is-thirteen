@@ -100,6 +100,10 @@ var thirteenStrings = [
 
     "dertien", // Afrikaans / Dutch
     "dertiendertien", // Double Dutch
+    "seri-un-teng", // Belter creole
+    "seriunteng",
+    "serí-un-teng",
+    "seríunteng",
     "тринадесет", // Bulgarian
     "тринайсет", // Also Bulgarian
     "tretze", // Catalan

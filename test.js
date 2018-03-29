@@ -53,6 +53,10 @@ tap.equal(is("thirte3n").thirteen(), true);
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch
+tap.equal(is("seri-un-teng").thirteen(), true); // Belter creole
+tap.equal(is("seriunteng").thirteen(), true);
+tap.equal(is("serí-un-teng").thirteen(), true);
+tap.equal(is("seríunteng").thirteen(), true);
 tap.equal(is("тринадесет").thirteen(), true); // Bulgarian
 tap.equal(is("тринайсет").thirteen(), true); // Also Bulgarian
 tap.equal(is("tretze").thirteen(), true); // Catalan
