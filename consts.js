@@ -26,6 +26,14 @@ var thirteenStrings = [
 
     "weedle", //#13 Pokémon
 
+    "M", // 13th character in alphabet
+
+    // Hyakujuu Sentai Gaoranger
+    "gao falcon", // 13th Gao
+    "ガオファルコン", // 13th Gao ( Japanese )
+    "the baby's first cry freezes", // Episodes 13's Name
+    "産声が凍る", // Episode 13's Name (Japanese )
+
     // Images of 13
     "https://raw.githubusercontent.com/jezen/is-thirteen/master/is-thirteen-logo.png", // Our project logo xD
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous Puerto Rican band
