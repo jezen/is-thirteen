@@ -12,7 +12,6 @@ tap.equal(is('IIIIIIIIIIIII').thirteen(), true); //Alternative form of roman num
 tap.equal(is('IlIlIlIlIlIlI').thirteen(), true); //Looks like an alternative form for roman numeral.
 
 tap.equal(is('https://en.wikipedia.org/wiki/This_Is_Thirteen').thirteen(), true); // Because it is thirteen
-tap.equal(is('https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg').thirteen(), true);
 tap.equal(is('http://www.metal-archives.com/images/1/5/3/7/153772.jpg').thirteen(), false);
 tap.equal(is('https://www.youtube.com/watch?v=pte3Jg-2Ax4').thirteen(), true);
 tap.equal(is('https://www.youtube.com/watch?v=33Kv5D2zwyc').thirteen(), true);
