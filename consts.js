@@ -29,7 +29,7 @@ var thirteenStrings = [
 
     // Television characters
     "Jodie Whittaker",  // the 13th Doctor in the BBC series, "Doctor Who"
-  
+
     "weedle", //#13 Pokémon
 
     // Imaginary 13's
@@ -47,7 +47,7 @@ var thirteenStrings = [
     "Β", //actually upper case Beta, not B
     //And Chinese
     "阝", //(Kangxi radical)
-    
+
 
     //Adding "l" 3, "i"3, |3 and !3 because they basically look like thirteen
     "i3",
@@ -117,6 +117,7 @@ var thirteenStrings = [
 
     "dertien", // Afrikaans / Dutch
     "dertiendertien", // Double Dutch
+    "трынаццаць", // Belarussian
     "тринадесет", // Bulgarian
     "тринайсет", // Also Bulgarian
     "tretze", // Catalan
@@ -271,10 +272,10 @@ var thirteenStrings = [
     "β", //Think this is beta, which looks like a long 1 mashed together with a 3
     // Thirteen pronunciation
     "θərˈtiːn",
-    "పదమూడు" //Telugu
-    "shí sān" // Pinyin (formal)
-    "shi san" // Pinyin (without tones)
-    "shísān"  // Pinyin (without spaces)
+    "పదమూడు", //Telugu
+    "shí sān", // Pinyin (formal)
+    "shi san", // Pinyin (without tones)
+    "shísān",  // Pinyin (without spaces)
     "shisan"  // Pinyin (without spaces and tones)
 ];
 

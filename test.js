@@ -54,11 +54,12 @@ tap.equal(is("thirte3n").thirteen(), true);
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("ثلاثة عشر").thirteen(), true); // Arabic
-tap.equal(is("تلطاشر").thirteen(), true); // Arabic Slang 
+tap.equal(is("تلطاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("تلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلطاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch
+tap.equal(is("трынаццаць").thirteen(), true); // Belarussian
 tap.equal(is("тринадесет").thirteen(), true); // Bulgarian
 tap.equal(is("тринайсет").thirteen(), true); // Also Bulgarian
 tap.equal(is("tretze").thirteen(), true); // Catalan
