@@ -268,6 +268,7 @@ var thirteenStrings = [
     "तेह्र", //Nepali
     "१३", //Devanagari
     "तेरह", //Hindi
+    "તેર", //Gujarati
     "β", //Think this is beta, which looks like a long 1 mashed together with a 3
     // Thirteen pronunciation
     "θərˈtiːn",
