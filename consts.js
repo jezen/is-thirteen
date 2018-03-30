@@ -168,6 +168,7 @@ var thirteenStrings = [
     "labintatlo", // Filipino
     "kolmetoista", // Finnish
     "treize", // French
+    "treizième", //French (ordinal form)
     "dreizehn", // German
     "δεκατρία", // Greek
     "drizäh", // Swiss German

@@ -77,6 +77,7 @@ tap.equal(is("thirteen").thirteen(), true); // English
 tap.equal(is("labintatlo").thirteen(), true); // Filipino
 tap.equal(is("kolmetoista").thirteen(), true); // Finnish
 tap.equal(is("treize").thirteen(), true); // French
+tap.equal(is("treizième").thirteen(), true); // French (ordinal form)
 tap.equal(is("dreizehn").thirteen(), true); // German
 tap.equal(is("‘umikūmākolu").thirteen(),true); //Hawaiian
 tap.equal(is('שלוש עשרה').thirteen(), true); // Hebrew
