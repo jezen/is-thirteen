@@ -215,3 +215,7 @@ tap.equal(is("oooooooooooooo").thirteen(), false);
 tap.equal(is("bbbbbbbbbbb").thirteen(), false);
 tap.equal(is("||h||||||||||").thirteen(), false);
 tap.equal(is("///i/////////").thirteen(), false);
+
+// Subscripts and superscripts
+tap.equal(is("¹³").thirteen(), true);
+tap.equal(is("₁₃").thirteen(), true);
