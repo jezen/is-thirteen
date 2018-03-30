@@ -190,6 +190,7 @@ var thirteenStrings = [
     "೧೩",//Kannada (for 13)
     "열셋", // Korean
     "sêzdeh", // Kurdish
+    "он үч", // Kyrgyz
     "tredecim", // Latin
     "trīspadsmit", // Latvian
     "trylika", // Lithuanian
