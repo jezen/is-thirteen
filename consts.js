@@ -280,7 +280,10 @@ var thirteenStrings = [
     "shí sān", // Pinyin (formal)
     "shi san", // Pinyin (without tones)
     "shísān",  // Pinyin (without spaces)
-    "shisan"  // Pinyin (without spaces and tones)
+    "shisan",  // Pinyin (without spaces and tones)
+
+    // geographic
+    "Bouches-du-Rhône", // french 13th department
 ];
 
 module.exports = {
