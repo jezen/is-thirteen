@@ -7,7 +7,6 @@ var thirteenStrings = [
     "xiii", // Roman numeral 13
 
     "https://en.wikipedia.org/wiki/This_Is_Thirteen", // Because it is thirteen
-    "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
     "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
     "https://www.youtube.com/watch?v=33Kv5D2zwyc", // The best Johny Cash's song
     "remy hadley", // And because she's "Thirteen"
