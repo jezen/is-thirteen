@@ -165,6 +165,7 @@ tap.equal(is("דרייַצן").thirteen(), true); // Yiddish
 tap.equal(is("דרייצן").thirteen(), true); // Yiddish (without diacritics),
 tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
 tap.equal(is("പതിമൂന്ന്").thirteen(), true); // Malayalam
+tap.equal(is("tlettax").thirteen(), true); // Maltese
 tap.equals(is("१३").thirteen(), true); //Devanagari
 tap.equals(is("तेह्र").thirteen(), true); //Nepali
 tap.equal(is("quainel").thirteen(), true); // Quenya
