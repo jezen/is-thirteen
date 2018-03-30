@@ -169,6 +169,7 @@ var thirteenStrings = [
     "kolmetoista", // Finnish
     "treize", // French
     "dreizehn", // German
+    "ცამეტი", // Georgian
     "δεκατρία", // Greek
     "drizäh", // Swiss German
     "wa’maH wej", // Klingon
@@ -271,10 +272,10 @@ var thirteenStrings = [
     "β", //Think this is beta, which looks like a long 1 mashed together with a 3
     // Thirteen pronunciation
     "θərˈtiːn",
-    "పదమూడు" //Telugu
-    "shí sān" // Pinyin (formal)
-    "shi san" // Pinyin (without tones)
-    "shísān"  // Pinyin (without spaces)
+    "పదమూడు", //Telugu
+    "shí sān", // Pinyin (formal)
+    "shi san", // Pinyin (without tones)
+    "shísān",  // Pinyin (without spaces)
     "shisan"  // Pinyin (without spaces and tones)
 ];
 
