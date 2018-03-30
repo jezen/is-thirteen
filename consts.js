@@ -280,7 +280,11 @@ var thirteenStrings = [
     "shí sān", // Pinyin (formal)
     "shi san", // Pinyin (without tones)
     "shísān",  // Pinyin (without spaces)
-    "shisan"  // Pinyin (without spaces and tones)
+    "shisan",  // Pinyin (without spaces and tones)
+
+    // subscripts and superscripts
+    "₁₃",
+    "¹³"
 ];
 
 module.exports = {
