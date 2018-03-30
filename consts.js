@@ -77,6 +77,9 @@ var thirteenStrings = [
     // Octal
     "0o15",
 
+    // Hexadecimal
+    "0xd",
+
     // Morse
     ".---- ...--",
     "- .... .. .-. - . . -.",
