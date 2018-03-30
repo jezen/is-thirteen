@@ -27,6 +27,17 @@ var is = function is(x) {
     else if( (typeof x) === "string" && /^[Il1]{13,13}$/.test(x) ) {
         x = THIRTEEN;
     }
+    // the regex is the range of subsripts form 0 - 9
+    else if (typeof x === 'string' && /[\u2080-\u2089]+$/.test(x)) {
+        var matches = /[\u2080-\u2089]+$/.exec(x);
+        //turn the subscripts into a normal number to use it as the base for parseInt
+        var base =  parseInt(matches[0].split('').map(function(char) {
+            return String.fromCharCode(char.charCodeAt(0) - 8272);
+        }).join(''));
+        var parsed = parseInt(x.slice(0, matches.index), base);
+
+        x = parsed !== NaN ? parsed : x;
+    }
     else if (typeof x === 'string') {
         var chars = (x).split('');
         if (chars.length == 13 && chars.every(function(e) { return e === chars[0]})) {

@@ -215,3 +215,12 @@ tap.equal(is("oooooooooooooo").thirteen(), false);
 tap.equal(is("bbbbbbbbbbb").thirteen(), false);
 tap.equal(is("||h||||||||||").thirteen(), false);
 tap.equal(is("///i/////////").thirteen(), false);
+
+// Base subscript test
+tap.equal(is("10₁₃").thirteen(), true);
+tap.equal(is("11₁₂").thirteen(), true);
+tap.equal(is("16₇").thirteen(), true);
+tap.equal(is("D₁₄").thirteen(), true);
+tap.equal(is("10₁₄").thirteen(), false);
+tap.equal(is("10₁₂").thirteen(), false);
+tap.equal(is("13₁₃").thirteen(), false);
