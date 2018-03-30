@@ -47,7 +47,8 @@ var thirteenStrings = [
     "Β", //actually upper case Beta, not B
     //And Chinese
     "阝", //(Kangxi radical)
-    
+    //And Emoji
+    "🅱️",
 
     //Adding "l" 3, "i"3, |3 and !3 because they basically look like thirteen
     "i3",
