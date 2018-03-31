@@ -32,6 +32,11 @@ var is = function is(x) {
         if (chars.length == 13 && chars.every(function(e) { return e === chars[0]})) {
              x = 13;
         }
+        else if (chars.length == 26 && '\ud800' <= chars[0] && chars[0] <= '\udbff'
+                && '\udc00' <= chars[1] && chars[1] <= '\udfff'
+                && chars.every(function(e, idx) { return e === chars[idx % 2]})) {
+            x = 13;
+        }
     }
 
     return {

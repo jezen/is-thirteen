@@ -1,6 +1,7 @@
 'use strict';
 
 const tap = require('tap');
+const fc = require('fast-check');
 const is = require('./');
 
 tap.equal(is(13).thirteen(), true);
@@ -211,7 +212,15 @@ tap.equals(is(function(){return 13;}).returning.thirteen(),true);
 // Same 13 characters tests
 tap.equal(is("|||||||||||||").thirteen(), true);
 tap.equal(is("/////////////").thirteen(), true);
+tap.equal(is("🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱").thirteen(), true);
 tap.equal(is("oooooooooooooo").thirteen(), false);
 tap.equal(is("bbbbbbbbbbb").thirteen(), false);
 tap.equal(is("||h||||||||||").thirteen(), false);
 tap.equal(is("///i/////////").thirteen(), false);
+
+tap.doesNotThrow(
+    fc.assert(fc.property(
+        fc.fullUnicode(),
+        c => is(c.repeat(13)).thirteen()
+    ))
+);
