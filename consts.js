@@ -243,6 +243,13 @@ var thirteenStrings = [
     "trzynastokrotnością", // Polish
     // End of all Polish variants 🇵🇱
 
+    // Bangla/Bengali variants
+    "১৩", // Bengali numeral
+    "তেরো",
+    "তের",
+    "ত্রয়োদশ",
+    // end of Bangla/Bengali variants
+  
     "treze", // Portuguese
     "ਤੇਰਾਂ", // Punjabi - thirteen
     "੧੩", // Punjabi Numeral - 13
