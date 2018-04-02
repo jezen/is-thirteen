@@ -106,6 +106,7 @@ var thirteenStrings = [
 
     // Languages
     "thirteen", // English
+    "thirteenth", // English (ordinal form)
     "ثلاثة عشر", // Arabic
 
     "تلطاشر", // Arabic Slang
