@@ -13,6 +13,7 @@ tap.equal(is('IlIlIlIlIlIlI').thirteen(), true); //Looks like an alternative for
 
 tap.equal(is('https://en.wikipedia.org/wiki/This_Is_Thirteen').thirteen(), true); // Because it is thirteen
 tap.equal(is('https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg').thirteen(), true);
+tap.equal(is('https://raw.githubusercontent.com/jezen/is-thirteen/master/is-thirteen-logo.png').thirteen(), true);
 tap.equal(is('http://www.metal-archives.com/images/1/5/3/7/153772.jpg').thirteen(), false);
 tap.equal(is('https://www.youtube.com/watch?v=pte3Jg-2Ax4').thirteen(), true);
 tap.equal(is('https://www.youtube.com/watch?v=33Kv5D2zwyc').thirteen(), true);
@@ -27,8 +28,10 @@ tap.equal(is("Patty Tsai").thirteen(), true);
 tap.equal(is("PT").thirteen(), true);
 tap.equal(is("Washington Luís").thirteen(), true);
 tap.equal(is("Millard Fillmore").thirteen(), true);
+tap.equal(is("M").thirteen(), true)
+
 //year of birth test
-tap.equal(is("2003").yearOfBirth(), false);
+tap.equal(is("2005").yearOfBirth(), true)
 
 // Imaginary 13's tests
 tap.equal(is("13+0i").thirteen(), true);
@@ -44,12 +47,18 @@ tap.equal(is("El").thirteen(), true);
 tap.equal(is("E|").thirteen(), true);
 
 // Password variations tests
-tap.equal(is("th1rt33n").thirteen(), true);
-tap.equal(is("th1rte3n").thirteen(), true);
-tap.equal(is("th1rteen").thirteen(), true);
-tap.equal(is("thirt3en").thirteen(), true);
-tap.equal(is("thirt33n").thirteen(), true);
-tap.equal(is("thirte3n").thirteen(), true);
+tap.equal(is("thirteen").thirteen(), true),
+tap.equal(is("thirt33n").thirteen(), true),
+tap.equal(is("thirt3en").thirteen(), true),
+tap.equal(is("thirte3n").thirteen(), true),
+tap.equal(is("th1rteen").thirteen(), true),
+tap.equal(is("th1rt33n").thirteen(), true),
+tap.equal(is("th1rte3n").thirteen(), true),
+tap.equal(is("th1rt3en").thirteen(), true),
+tap.equal(is("thjrteen").thirteen(), true),
+tap.equal(is("thjrt33n").thirteen(), true),
+tap.equal(is("thjrte3n").thirteen(), true),
+tap.equal(is("thjrt3en").thirteen(), true),
 
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
@@ -169,6 +178,7 @@ tap.equals(is("१३").thirteen(), true); //Devanagari
 tap.equals(is("तेह्र").thirteen(), true); //Nepali
 tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
+tap.equal(is('mười ba').thirteen(), true); // Vietnamese
 
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), false); // b does not look like 13

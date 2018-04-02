@@ -7,7 +7,7 @@ var thirteenStrings = [
     "xiii", // Roman numeral 13
 
     "https://en.wikipedia.org/wiki/This_Is_Thirteen", // Because it is thirteen
-    "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
+    "http://kingdomhearts.wikia.com/wiki/Organization_XIII", // Oganization 13 in Kingdom Heart
     "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
     "https://www.youtube.com/watch?v=33Kv5D2zwyc", // The best Johny Cash's song
     "remy hadley", // And because she's "Thirteen"
@@ -15,7 +15,6 @@ var thirteenStrings = [
     "baker's dozen", // Bakers gonna bake
     "dr. remy beauregard hadley", // Why not 13's real name?!
     "patty tsai", // 蔡依珊 is a public figure in Taiwan. Her Chinese name sounds like "13".
-    "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous Puerto Rican band
     "jason fly", // XIII of The XX
     "http://www.imdb.com/title/tt0798817/", // 13 (2010)
 
@@ -23,7 +22,6 @@ var thirteenStrings = [
     "PT", // PT is Brazilian political party represented by the number 13
     "Washington Luís", // Brazil's thirteenth president
     "Millard Fillmore", // Thirteenth President of the United States
-    "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
     "sharon carter", // Agent 13
 
@@ -31,6 +29,20 @@ var thirteenStrings = [
     "Jodie Whittaker",  // the 13th Doctor in the BBC series, "Doctor Who"
   
     "weedle", //#13 Pokémon
+
+    "m", // 13th character in alphabet
+
+    // Hyakujuu Sentai Gaoranger
+    "gao falcon", // 13th Gao
+    "ガオファルコン", // 13th Gao ( Japanese )
+    "the baby's first cry freezes", // Episodes 13's Name
+    "産声が凍る", // Episode 13's Name (Japanese )
+
+    // Images of 13
+    "https://raw.githubusercontent.com/jezen/is-thirteen/master/is-thirteen-logo.png", // Our project logo xD
+    "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous Puerto Rican band
+    "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
+    "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
 
     // Imaginary 13's
     "13+0i",
@@ -62,12 +74,18 @@ var thirteenStrings = [
     "e|",
 
     // Password variations
+    "thirteen",
+    "thirt33n",
+    "thirt3en",
+    "thirte3n",
+    "th1rteen",
     "th1rt33n",
     "th1rte3n",
-    "th1rteen",
-    "thirt3en",
-    "thirt33n",
-    "thirte3n",
+    "th1rt3en",
+    "thjrteen",
+    "thjrt33n",
+    "thjrte3n",
+    "thjrt3en",
 
     // code variations
     // binary
@@ -120,6 +138,7 @@ var thirteenStrings = [
 
     "dertien", // Afrikaans / Dutch
     "dertiendertien", // Double Dutch
+    "১৩", // Bangla
     "тринадесет", // Bulgarian
     "тринайсет", // Also Bulgarian
     "tretze", // Catalan
@@ -129,6 +148,7 @@ var thirteenStrings = [
     "拾叁", // Chinese (simplified, upper case)
     "拾叄", // Chinese (variant)
     "拾参", // Chinese (variant)
+    "〸〣", // Chinese (Suzhow numerals)
     "サーティーン", // Japanese
     "１３", // Japanese full-width
     "trinaest", // Croatian / Serbian (latin)
@@ -194,6 +214,8 @@ var thirteenStrings = [
     "ಹದಿಮೂರು", //Kannada (for thirteen)
     "೧೩",//Kannada (for 13)
     "열셋", // Korean
+    "열세", // Korean (Sino-Korean number system)
+    "십삼", // Korean (Sometime when use in a sentence)
     "sêzdeh", // Kurdish
     "tredecim", // Latin
     "trīspadsmit", // Latvian
