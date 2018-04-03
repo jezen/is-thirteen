@@ -280,7 +280,13 @@ var thirteenStrings = [
     "shí sān", // Pinyin (formal)
     "shi san", // Pinyin (without tones)
     "shísān",  // Pinyin (without spaces)
-    "shisan"  // Pinyin (without spaces and tones)
+    "shisan", // Pinyin (without spaces and tones)
+    "он үш", // Kazakh
+    "он уш", // Kazakh
+    "onúsh", // Kazakh latin,
+    "онүш", // Kazakh
+    "онуш", // Kazakh
+    "onúsh" // Kazakh latin
 ];
 
 module.exports = {
