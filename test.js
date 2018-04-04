@@ -195,6 +195,28 @@ tap.equal(is(10).minus(1).plus(32).dividedby(4).times(3).thirteen(), false) // (
 
 tap.equal(is(5.3).plus(0.5).times(5).minus(4).dividedby(2).roughly.thirteen(), true) // (((12.5 * 2) + 4) / 5) - .5
 
+tap.equal(is(39).divisible.by.thirteen(), true); // 39 % 13 === 0
+tap.equal(is(42).divisible.by.thirteen(), false); // 42 % 13 === 3
+
+tap.equal(is(169).square.of.thirteen(), true); // 13 * 13 === 169
+tap.equal(is(42).square.of.thirteen(), false); // 13 * 13 !== 42
+
+tap.equal(is(42).greater.than.thirteen(), true); // 42 > 13
+tap.equal(is(10).greater.than.thirteen(), false); // 10 < 13
+
+tap.equal(is(10).less.than.thirteen(), true); // 10 < 13
+tap.equal(is(42).less.than.thirteen(), false); // 42 > 13
+
+tap.equal(is(42).within(30).of.thirteen(), true); // 42 - 30 < 13
+tap.equal(is(42).within(29).of.thirteen(), false); // 42 - 29 >= 13
+tap.equal(is(42).within(2).of.thirteen(), false); // 42 - 2 >= 13
+
+tap.equal(is("theeirtn").anagramOf.thirteen(), true); // same letters
+tap.equal(is("fourty-two").anagramOf.thirteen(), false); // not the same letters
+
+tap.equal(is(31).backwards.thirteen(), true); // 31 is 13 reversed
+tap.equal(is(42).backwards.thirteen(), false); // 42 is not 13 reversed
+
 tap.equal(is(13).base(10).thirteen(), true);
 tap.equal(is(14).base(10).thirteen(), false);
 tap.equal(is("1101").base(2).thirteen(), true);
