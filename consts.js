@@ -106,7 +106,8 @@ var thirteenStrings = [
 
     // Languages
     "thirteen", // English
-    "ثلاثة عشر", // Arabic
+    "ثلاثة عشر", // Arabic (masculine)
+    "ثلاث عشرة", // Arabic (feminine)
 
     "تلطاشر", // Arabic Slang
     "تلتاشر", // Arabic Slang
