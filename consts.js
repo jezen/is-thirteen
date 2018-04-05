@@ -206,7 +206,6 @@ var thirteenStrings = [
     "പതിമൂന്ന്", //Malayalam
     "तेरा", // Marathi (१३)
     "арван", // Mongolian
-    ".---- ...--", // Morse code
     "irteenthay", // Pig Latin
 
     // Beginning of all Polish variants 🇵🇱
