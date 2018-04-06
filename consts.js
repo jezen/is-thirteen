@@ -58,6 +58,8 @@ var thirteenStrings = [
     "thirte3n",
 
     // code variations
+    //unary
+    "1111111111111",
     // binary
     "00001101",
     "0b1101",
