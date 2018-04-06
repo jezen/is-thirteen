@@ -8,6 +8,7 @@ tap.equal(is('13').thirteen(), true);
 tap.equal(is('۱۳').thirteen(), true); //Arabic
 tap.equal(is('XIII').thirteen(), true);
 tap.equal(is('xiii').thirteen(), true);
+tap.equal(is('rhode island')).thirteen(), true);
 tap.equal(is('IIIIIIIIIIIII').thirteen(), true); //Alternative form of roman numeral.
 tap.equal(is('IlIlIlIlIlIlI').thirteen(), true); //Looks like an alternative form for roman numeral.
 
