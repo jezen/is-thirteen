@@ -116,7 +116,7 @@ var is = function is(x) {
         },
         canSpell: {
           thirteen: function(){
-            return x.toLowerCase().includes("t","h","i","r","t","e","e","n");
+            return x.toLowerCase().replace(/[^thirten]/g, '').split('').sort().join('').trim() == "thirteen".split('').sort().join('').trim();
           }
         },
         anagramOf:{
