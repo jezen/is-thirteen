@@ -19,7 +19,7 @@ npm --save i is-thirteen
 ```javascript
 var isThirteen = require('is-thirteen');
 
-// PLEAS READ THE SOURCE CODE BECAuse we moved fast and broke things
+// PLEASE READ THE SOURCE CODE BECAuse we moved fast and broke things
 
 i̶s̶T̶h̶i̶r̶t̶e̶e̶n̶(̶2̶5̶)̶;̶ ̶/̶/̶ ̶f̶a̶l̶s̶e̶
 i̶s̶T̶h̶i̶r̶t̶e̶e̶n̶(̶1̶3̶)̶;̶ ̶/̶/̶ ̶t̶r̶u̶e̶
