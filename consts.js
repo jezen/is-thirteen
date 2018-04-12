@@ -77,6 +77,9 @@ var thirteenStrings = [
     // Octal
     "0o15",
 
+    // Hexadecimal
+    "0xd",
+
     // Morse
     ".---- ...--",
     "- .... .. .-. - . . -.",
@@ -103,7 +106,8 @@ var thirteenStrings = [
 
     // Languages
     "thirteen", // English
-    "ثلاثة عشر", // Arabic
+    "ثلاثة عشر", // Arabic (masculine)
+    "ثلاث عشرة", // Arabic (feminine)
 
     "تلطاشر", // Arabic Slang
     "تلتاشر", // Arabic Slang
@@ -168,7 +172,9 @@ var thirteenStrings = [
     "labintatlo", // Filipino
     "kolmetoista", // Finnish
     "treize", // French
+    "treizième", //French (ordinal form)
     "dreizehn", // German
+    "ცამეტი", // Georgian
     "δεκατρία", // Greek
     "drizäh", // Swiss German
     "wa’maH wej", // Klingon
@@ -189,6 +195,7 @@ var thirteenStrings = [
     "ಹದಿಮೂರು", //Kannada (for thirteen)
     "೧೩",//Kannada (for 13)
     "열셋", // Korean
+    "십삼", // Korean
     "sêzdeh", // Kurdish
     "tredecim", // Latin
     "trīspadsmit", // Latvian
@@ -196,7 +203,7 @@ var thirteenStrings = [
     "dräizéng", // Luxembourgish
     "тринаесет", // Macedonian
     "tiga belas", // Malay
-    "പതിമൂന്ന്", //Malayasm
+    "പതിമൂന്ന്", //Malayalam
     "तेरा", // Marathi (१३)
     "арван", // Mongolian
     ".---- ...--", // Morse code
@@ -238,6 +245,13 @@ var thirteenStrings = [
     "trzynastokrotnością", // Polish
     // End of all Polish variants 🇵🇱
 
+    // Bangla/Bengali variants
+    "১৩", // Bengali numeral
+    "তেরো",
+    "তের",
+    "ত্রয়োদশ",
+    // end of Bangla/Bengali variants
+  
     "treze", // Portuguese
     "ਤੇਰਾਂ", // Punjabi - thirteen
     "੧੩", // Punjabi Numeral - 13
@@ -275,7 +289,13 @@ var thirteenStrings = [
     "shí sān", // Pinyin (formal)
     "shi san", // Pinyin (without tones)
     "shísān",  // Pinyin (without spaces)
-    "shisan"  // Pinyin (without spaces and tones)
+    "shisan", // Pinyin (without spaces and tones)
+    "он үш", // Kazakh
+    "он уш", // Kazakh
+    "onúsh", // Kazakh latin,
+    "онүш", // Kazakh
+    "онуш", // Kazakh
+    "onúsh" // Kazakh latin
 ];
 
 module.exports = {
