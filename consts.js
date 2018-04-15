@@ -18,6 +18,7 @@ var thirteenStrings = [
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous Puerto Rican band
     "jason fly", // XIII of The XX
     "http://www.imdb.com/title/tt0798817/", // 13 (2010)
+    "http://fridaythe13thfilms.com/", // Friday the 13th Fan Site
 
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
     "PT", // PT is Brazilian political party represented by the number 13
