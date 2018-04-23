@@ -29,7 +29,7 @@ var thirteenStrings = [
 
     // Television characters
     "Jodie Whittaker",  // the 13th Doctor in the BBC series, "Doctor Who"
-  
+
     "weedle", //#13 Pokémon
 
     // Imaginary 13's
@@ -47,7 +47,7 @@ var thirteenStrings = [
     "Β", //actually upper case Beta, not B
     //And Chinese
     "阝", //(Kangxi radical)
-    
+
 
     //Adding "l" 3, "i"3, |3 and !3 because they basically look like thirteen
     "i3",
@@ -203,6 +203,7 @@ var thirteenStrings = [
     "dräizéng", // Luxembourgish
     "тринаесет", // Macedonian
     "tiga belas", // Malay
+    "tilu welas", // Sunda
     "പതിമൂന്ന്", //Malayalam
     "तेरा", // Marathi (१३)
     "арван", // Mongolian
@@ -251,7 +252,7 @@ var thirteenStrings = [
     "তের",
     "ত্রয়োদশ",
     // end of Bangla/Bengali variants
-  
+
     "treze", // Portuguese
     "ਤੇਰਾਂ", // Punjabi - thirteen
     "੧੩", // Punjabi Numeral - 13
