@@ -127,10 +127,15 @@ var thirteenStrings = [
     "tretze", // Catalan
     "napulo ug tulo", // Cebuano
     "十三", // Chinese / Japanese
-    "拾參", // Chinese (traditional, upper case)
-    "拾叁", // Chinese (simplified, upper case)
-    "拾叄", // Chinese (variant)
-    "拾参", // Chinese (variant)
+    "拾參", // Chinese (Traditional, upper case)
+    "拾叁", // Chinese (Simplified, upper case)
+    "拾叄", // Chinese (Variant)
+    "拾参", // Chinese (Variant)
+    "一十三", // Formal Chinese
+    "壹拾參", // Chinese (Formal traditional, upper case)
+    "壹拾叁", // Chinese (Formal simplified, upper case)
+    "壹拾叄", // Chinese (Formal variant)
+    "壹拾参", // Chinese (Formal variant)
     "サーティーン", // Japanese
     "１３", // Japanese full-width
     "trinaest", // Croatian / Serbian (latin)

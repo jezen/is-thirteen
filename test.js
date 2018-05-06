@@ -64,11 +64,16 @@ tap.equal(is("тринайсет").thirteen(), true); // Also Bulgarian
 tap.equal(is("tretze").thirteen(), true); // Catalan
 tap.equal(is("napulo ug tulo").thirteen(), true); // Cebuano
 tap.equal(is("třináct").thirteen(), true); // Czech
-tap.equal(is("十三").thirteen(), true); // Chinese (Traditional)
+tap.equal(is("十三").thirteen(), true); // Chinese / Japanese
+tap.equal(is("一十三").thirteen(), true); // Chinese (Formal)
 tap.equal(is("拾參").thirteen(), true); // Chinese (Traditional, upper case)
-tap.equal(is("拾叁").thirteen(), true); // Chinese (simplified, upper case)
-tap.equal(is("拾叄").thirteen(), true); // Chinese (variant)
-tap.equal(is("拾参").thirteen(), true); // Chinese (variant)
+tap.equal(is("拾叁").thirteen(), true); // Chinese (Simplified, upper case)
+tap.equal(is("拾叄").thirteen(), true); // Chinese (Variant)
+tap.equal(is("拾参").thirteen(), true); // Chinese (Variant)
+tap.equal(is("壹拾參").thirteen(), true); // Chinese (Formal traditional, upper case)
+tap.equal(is("壹拾叁").thirteen(), true); // Chinese (Formal simplified, upper case)
+tap.equal(is("壹拾叄").thirteen(), true); // Chinese (Formal variant)
+tap.equal(is("壹拾参").thirteen(), true); // Chinese (Formal variant)
 tap.equal(is("trinaest").thirteen(), true); // Croatian / Serbian (latin)
 tap.equal(is("tretten").thirteen(), true); // Danish / Norwegian
 tap.equal(is("senthi").thirteen(), true);  //Dothraki
