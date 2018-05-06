@@ -29,7 +29,7 @@ var thirteenStrings = [
     "sharon carter", // Agent 13
 
     // Television characters
-    "Jodie Whittaker",  // the 13th Doctor in the BBC series, "Doctor Who"
+    "Jodie Whittaker", // the 13th Doctor in the BBC series, "Doctor Who"
 
     "weedle", //#13 Pokémon
 
@@ -289,7 +289,7 @@ var thirteenStrings = [
     "పదమూడు", //Telugu
     "shí sān", // Pinyin (formal)
     "shi san", // Pinyin (without tones)
-    "shísān",  // Pinyin (without spaces)
+    "shísān", // Pinyin (without spaces)
     "shisan", // Pinyin (without spaces and tones)
     "он үш", // Kazakh
     "он уш", // Kazakh
