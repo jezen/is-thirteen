@@ -5,11 +5,11 @@ const is = require('./');
 
 tap.equal(is(13).thirteen(), true);
 tap.equal(is('13').thirteen(), true);
-tap.equal(is('۱۳').thirteen(), true); //Arabic
+tap.equal(is('۱۳').thirteen(), true); // Arabic
 tap.equal(is('XIII').thirteen(), true);
 tap.equal(is('xiii').thirteen(), true);
-tap.equal(is('IIIIIIIIIIIII').thirteen(), true); //Alternative form of roman numeral.
-tap.equal(is('IlIlIlIlIlIlI').thirteen(), true); //Looks like an alternative form for roman numeral.
+tap.equal(is('IIIIIIIIIIIII').thirteen(), true); // Alternative form of roman numeral.
+tap.equal(is('IlIlIlIlIlIlI').thirteen(), true); // Looks like an alternative form for roman numeral.
 
 tap.equal(is('https://en.wikipedia.org/wiki/This_Is_Thirteen').thirteen(), true); // Because it is thirteen
 tap.equal(is('https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg').thirteen(), true);
@@ -54,7 +54,7 @@ tap.equal(is("thirte3n").thirteen(), true);
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("ثلاثة عشر").thirteen(), true); // Arabic
-tap.equal(is("تلطاشر").thirteen(), true); // Arabic Slang 
+tap.equal(is("تلطاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("تلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلطاشر").thirteen(), true); // Arabic Slang
@@ -71,7 +71,7 @@ tap.equal(is("拾叄").thirteen(), true); // Chinese (variant)
 tap.equal(is("拾参").thirteen(), true); // Chinese (variant)
 tap.equal(is("trinaest").thirteen(), true); // Croatian / Serbian (latin)
 tap.equal(is("tretten").thirteen(), true); // Danish / Norwegian
-tap.equal(is("senthi").thirteen(), true);  //Dothraki
+tap.equal(is("senthi").thirteen(), true); // Dothraki
 tap.equal(is("kolmteist").thirteen(), true); // Estonian
 tap.equal(is("thirteen").thirteen(), true); // English
 tap.equal(is("labintatlo").thirteen(), true); // Filipino
@@ -79,8 +79,8 @@ tap.equal(is("kolmetoista").thirteen(), true); // Finnish
 tap.equal(is("treize").thirteen(), true); // French
 tap.equal(is("treizième").thirteen(), true); // French (ordinal form)
 tap.equal(is("dreizehn").thirteen(), true); // German
-tap.equal(is("ცამეტი").thirteen(), true);
-tap.equal(is("‘umikūmākolu").thirteen(),true); //Hawaiian
+tap.equal(is("ცამეტი").thirteen(), true); // Georgian
+tap.equal(is("‘umikūmākolu").thirteen(),true); // Hawaiian
 tap.equal(is('שלוש עשרה').thirteen(), true); // Hebrew
 tap.equal(is('שלושעשרה').thirteen(), true); // Hebrew (without space)
 tap.equal(is('ֹשְלֹש- עֶשְֹרֵה').thirteen(), true); // Hebrew (with punctuation)
@@ -94,9 +94,9 @@ tap.equal(is("tizenhárom").thirteen(), true); // Hungarian
 tap.equal(is("trí déag").thirteen(), true); // Irish
 tap.equal(is("tredici").thirteen(), true); // Italian
 tap.equal(is("on üç").thirteen(), true); // Italian
-tap.equal(is("ಹದಿಮೂರು").thirteen(), true); //Kannada (thirteen)
-tap.equal(is("పదమూడు").thirteen(), true); //Telugu
-tap.equal(is("೧೩").thirteen(), true); //Kannada (13)
+tap.equal(is("ಹದಿಮೂರು").thirteen(), true); // Kannada (thirteen)
+tap.equal(is("పదమూడు").thirteen(), true); // Telugu
+tap.equal(is("೧೩").thirteen(), true); // Kannada (13)
 tap.equal(is("열셋").thirteen(), true); // Korean
 tap.equal(is("십삼").thirteen(), true); // Korean
 tap.equal(is("sêzdeh").thirteen(), true); // Kurdish
@@ -166,8 +166,8 @@ tap.equal(is("דרייַצן").thirteen(), true); // Yiddish
 tap.equal(is("דרייצן").thirteen(), true); // Yiddish (without diacritics),
 tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
 tap.equal(is("പതിമൂന്ന്").thirteen(), true); // Malayalam
-tap.equals(is("१३").thirteen(), true); //Devanagari
-tap.equals(is("तेह्र").thirteen(), true); //Nepali
+tap.equals(is("१३").thirteen(), true); // Devanagari
+tap.equals(is("तेह्र").thirteen(), true); // Nepali
 tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
 
@@ -179,12 +179,12 @@ tap.equal(is("Β").thirteen(), true); // Upper case beta, looks like 13
 tap.equal(is("β").thirteen(), true); // lower case beta
 tap.equal(is("阝").thirteen(), true); // Chinese Kangxi radical: Looks like 13
 
-tap.equal(is("i3").thirteen(),true); //i3 looks like 13 when upper case
-tap.equal(is("I3").thirteen(),true); //I3 looks like 13
-tap.equal(is("l3").thirteen(),true); //l3 looks like 13
-tap.equal(is("L3").thirteen(),true); //l3 looks like 13 when lower case
-tap.equal(is("|3").thirteen(),true); //|3 looks like 13
-tap.equal(is("!3").thirteen(),true); //!3 looks like 13
+tap.equal(is("i3").thirteen(),true); // i3 looks like 13 when upper case
+tap.equal(is("I3").thirteen(),true); // I3 looks like 13
+tap.equal(is("l3").thirteen(),true); // l3 looks like 13
+tap.equal(is("L3").thirteen(),true); // l3 looks like 13 when lower case
+tap.equal(is("|3").thirteen(),true); // |3 looks like 13
+tap.equal(is("!3").thirteen(),true); // !3 looks like 13
 
 tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil is 13, amigo
 
@@ -206,7 +206,7 @@ tap.equal(is("d").base(16).thirteen(), true);
 tap.equal(is("D").base(16).thirteen(), true);
 tap.equal(is("A").base(16).thirteen(), false);
 
-//test function that is returning 13
+// test function that is returning 13
 tap.equals(is(function(){return 13;}).returning.thirteen(),true);
 
 // Same 13 characters tests
