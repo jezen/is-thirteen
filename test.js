@@ -109,6 +109,10 @@ tap.equal(is("tiga belas").thirteen(), true); // Malay
 tap.equal(is("арван").thirteen(), true); // Mongolian
 tap.equal(is(".---- ...--").thirteen(), true); // Morse code
 tap.equal(is("irteenthay").thirteen(), true); // Pig Latin
+tap.equal(is("shí sān").thirteen(), true); // Pinyin (formal)
+tap.equal(is("shi san").thirteen(), true); // Pinyin (without tones)
+tap.equal(is("shísān").thirteen(), true); // Pinyin (without spaces)
+tap.equal(is("shisan").thirteen(), true); // Pinyin (without spaces and tones)
 // Beginning of all Polish variants 🇵🇱
 tap.equal(is("trzynaście").thirteen(), true); // Polish
 tap.equal(is("trzynasty").thirteen(), true); // Polish
