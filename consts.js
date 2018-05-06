@@ -164,7 +164,7 @@ var thirteenStrings = [
     "threttandarnir",
     "threttandana",
     "threttandunum",
-    "threttandanna",// end of Icelandic
+    "threttandanna", // end of Icelandic
 
     "threttandum", // end of Icelandic
     "třináct", // Czech
@@ -194,7 +194,7 @@ var thirteenStrings = [
     "trí déag", // Irish
     "tredici", // Italian
     "ಹದಿಮೂರು", //Kannada (for thirteen)
-    "೧೩",//Kannada (for 13)
+    "೧೩", //Kannada (for 13)
     "열셋", // Korean
     "십삼", // Korean
     "sêzdeh", // Kurdish
