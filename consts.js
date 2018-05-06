@@ -20,7 +20,7 @@ var thirteenStrings = [
     "jason fly", // XIII of The XX
     "http://www.imdb.com/title/tt0798817/", // 13 (2010)
 
-    "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
+    "dilma", // Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
     "PT", // PT is Brazilian political party represented by the number 13
     "Washington Luís", // Brazil's thirteenth president
     "Millard Fillmore", // Thirteenth President of the United States
@@ -31,7 +31,7 @@ var thirteenStrings = [
     // Television characters
     "Jodie Whittaker", // the 13th Doctor in the BBC series, "Doctor Who"
 
-    "weedle", //#13 Pokémon
+    "weedle", // #13 Pokémon
 
     // Imaginary 13's
     "13+0i",
@@ -40,23 +40,23 @@ var thirteenStrings = [
 
     // B just looks like 13 written closer
     "B",
-    //For cultural inclusiveness also include German variants
+    // For cultural inclusiveness also include German variants
     "ß",
     "ẞ",
-    //Also greek
+    // Also greek
     "β",
-    "Β", //actually upper case Beta, not B
-    //And Chinese
-    "阝", //(Kangxi radical)
+    "Β", // actually upper case Beta, not B
+    // And Chinese
+    "阝", // (Kangxi radical)
 
 
-    //Adding "l" 3, "i"3, |3 and !3 because they basically look like thirteen
+    // Adding "l" 3, "i"3, |3 and !3 because they basically look like thirteen
     "i3",
     "l3",
     "|3",
     "!3",
 
-    //Looks like 13 (flipped horizontally) - E equal to 3
+    // Looks like 13 (flipped horizontally) - E equal to 3
     "ei",
     "e1",
     "el",
@@ -115,7 +115,7 @@ var thirteenStrings = [
     "طلتاشر", // Arabic Slang
     "طلطاشر", // Arabic Slang
 
-    "يج", //Arabic (gematria)
+    "يج", // Arabic (gematria)
 
     "سیزده", // Persian
     "۱۳", // Persian number
@@ -135,7 +135,7 @@ var thirteenStrings = [
     "１３", // Japanese full-width
     "trinaest", // Croatian / Serbian (latin)
     "tretten", // Danish / Norwegian
-    "senthi", //Dothraki
+    "senthi", // Dothraki
     "þrettán", // Icelandic, following are different inflections
     "þrettándi", // e. thirteenth
     "þrettánda",
@@ -173,7 +173,7 @@ var thirteenStrings = [
     "labintatlo", // Filipino
     "kolmetoista", // Finnish
     "treize", // French
-    "treizième", //French (ordinal form)
+    "treizième", // French (ordinal form)
     "dreizehn", // German
     "ცამეტი", // Georgian
     "δεκατρία", // Greek
@@ -193,8 +193,8 @@ var thirteenStrings = [
     "tizenhárom", // Hungarian
     "trí déag", // Irish
     "tredici", // Italian
-    "ಹದಿಮೂರು", //Kannada (for thirteen)
-    "೧೩", //Kannada (for 13)
+    "ಹದಿಮೂರು", // Kannada (for thirteen)
+    "೧೩", // Kannada (for 13)
     "열셋", // Korean
     "십삼", // Korean
     "sêzdeh", // Kurdish
@@ -204,7 +204,7 @@ var thirteenStrings = [
     "dräizéng", // Luxembourgish
     "тринаесет", // Macedonian
     "tiga belas", // Malay
-    "പതിമൂന്ന്", //Malayalam
+    "പതിമൂന്ന്", // Malayalam
     "तेरा", // Marathi (१३)
     "арван", // Mongolian
     ".---- ...--", // Morse code
@@ -265,7 +265,7 @@ var thirteenStrings = [
     "trese", // Tagalog
     "tredici", // Italian
     "on üç", // Turkish
-    "dektri", //Speranto
+    "dektri", // Speranto
     "tlettax", // Maltese
     "tretton", // Swedish
     "பதின்மூன்று", // Tamil
@@ -280,13 +280,13 @@ var thirteenStrings = [
     "דרייַצן", // Yiddish,
     "דרייצן", // Yiddish (without diacritics),
     "kumi na tatu", // Swahili
-    "तेह्र", //Nepali
-    "१३", //Devanagari
-    "तेरह", //Hindi
-    "β", //Think this is beta, which looks like a long 1 mashed together with a 3
+    "तेह्र", // Nepali
+    "१३", // Devanagari
+    "तेरह", // Hindi
+    "β", // Think this is beta, which looks like a long 1 mashed together with a 3
     // Thirteen pronunciation
     "θərˈtiːn",
-    "పదమూడు", //Telugu
+    "పదమూడు", // Telugu
     "shí sān", // Pinyin (formal)
     "shi san", // Pinyin (without tones)
     "shísān", // Pinyin (without spaces)
