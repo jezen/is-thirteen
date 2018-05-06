@@ -79,7 +79,7 @@ tap.equal(is("kolmetoista").thirteen(), true); // Finnish
 tap.equal(is("treize").thirteen(), true); // French
 tap.equal(is("treizième").thirteen(), true); // French (ordinal form)
 tap.equal(is("dreizehn").thirteen(), true); // German
-tap.equal(is("ცამეტი").thirteen(), true);
+tap.equal(is("ცამეტი").thirteen(), true); // Georgian
 tap.equal(is("‘umikūmākolu").thirteen(),true); // Hawaiian
 tap.equal(is('שלוש עשרה').thirteen(), true); // Hebrew
 tap.equal(is('שלושעשרה').thirteen(), true); // Hebrew (without space)
