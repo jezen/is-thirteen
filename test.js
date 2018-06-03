@@ -54,7 +54,7 @@ tap.equal(is("thirte3n").thirteen(), true);
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("ثلاثة عشر").thirteen(), true); // Arabic
-tap.equal(is("تلطاشر").thirteen(), true); // Arabic Slang 
+tap.equal(is("تلطاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("تلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلطاشر").thirteen(), true); // Arabic Slang
@@ -170,6 +170,10 @@ tap.equals(is("१३").thirteen(), true); //Devanagari
 tap.equals(is("तेह्र").thirteen(), true); //Nepali
 tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
+tap.equal(is("mười ba").thirteen(), true); // Vietnamese
+tap.equal(is("mườiba").thirteen(), true); // Vietnamese (without space)
+tap.equal(is("muoi ba").thirteen(), true); // Vietnamese
+tap.equal(is("muoiba").thirteen(), true); // Vietnamese (without space)
 
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), false); // b does not look like 13
