@@ -181,6 +181,33 @@ tap.equal(is("104 bit").thirteen(), true); // 104 bit is 13 bytes
 tap.equal(is("13312 KB").thirteen(), true); // 13312 KB is 13 MB
 tap.equal(is("13312 MB").thirteen(), true); // 13312 MB is 13 GB
 
+// Beginning of all hash
+tap.equal(is("50EC4E7ABB494E8B7825C5AC93A8E90D").thirteen(), true) // NTLM
+tap.equal(is("4f352f25539dea0dd1c53ea76e4e4497").thirteen(), true) // MD2
+tap.equal(is("b3c42ed6c4a7c65ca2b47aa8fbbc4899").thirteen(), true) // MD4
+tap.equal(is("c51ce410c124a10e0db5e4b97fc2af39").thirteen(), true) // MD5
+tap.equal(is("ec280f4ccebac54029b49fbc572a2c3a").thirteen(), true) // MD6-128
+tap.equal(is("cb0ce30f3f9ef7b1823fcf061295ad2f2dee1b30ea343153b10d59757f8aa416").thirteen(), true) // MD6-256
+tap.equal(is("5c3cc0c6b268f11f90f8f61c106577d810bfd9c78ebba07042bdc74704bd27ea1d78c439263eb0d2599626b695f39051cfd732f08aca2d7c33a4faa3cad9df9a").thirteen(), true) // MD6-512
+tap.equal(is("b44d1d1f5a01c2010bae12cce9294143").thirteen(), true) // RipeMD-128
+tap.equal(is("afd9b473ee433177b08d9451c001d82194dce6bc").thirteen(), true) // RipeMD-160
+tap.equal(is("a839bbcc1939645847aea281a572af631be2ebf85c7482d6f701e2cf20b5976e").thirteen(), true) // RipeMD-256
+tap.equal(is("dff41e7804b9dcd157f9bdfbf4be21dc25f1df6e28b873bfe34c0e707a719e5cb199ddb0503a793e").thirteen(), true) // RipeMD-320
+tap.equal(is("bd307a3ec329e10a2cff8fb87480823da114f8f4").thirteen(), true) // SHA1
+tap.equal(is("bc8051b292ac5a79786863b882a757d9614c51c15bb015d411f0819a").thirteen(), true) // SHA3-224
+tap.equal(is("1ad7a51ebb6db8cfd0f40d83e398f0a8ad6e7fd4b98e6623b92cfc7c18c4325a").thirteen(), true) // SHA3-256
+tap.equal(is("d9aec7dbbea064aedc2d2d3793bcc76d42a137a1284d7c19504a2078d178b1fbd77a5a7a29f2e342ef2045fe54cb796e").thirteen(), true) // SHA3-384
+tap.equal(is("bff373da29b813caa0465f6ee58b77ee4ebfe66b00b0b2517767cff0cd8e657376f9a066f31e18f6dbe08754d213451b0e14426c3b950e32fac3c90d81967bd7").thirteen(), true) // SHA3-512
+tap.equal(is("86730f0dd6381286d3b5f0dfb897ce4895480ce97564c6be4f1543b8").thirteen(), true) // SHA-224
+tap.equal(is("3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278").thirteen(), true) // SHA-256
+tap.equal(is("6356fbb43627033e886785c2a9c16980336df008b720d23f98b35e06ee69246287739c9d7458b39356c3bdb1e4e2c7fc").thirteen(), true) // SHA-384
+tap.equal(is("413f2ba78c7ed4ccefbe0cc4f51d3eb5cb15f13fec999de4884be925076746663aa5d34476a3df4a8729fd8eea01defa4f3f66e99bf943f4d84382d64bbbfa9e").thirteen(), true) // SHA-512
+tap.equal(is("8555").thirteen(), true) // CRC16
+tap.equal(is("3854745b").thirteen(), true) // CRC32
+tap.equal(is("00970065").thirteen(), true) // Adler32
+tap.equal(is("72135fa8697eae1c9002bad98bc07d44abc9180794dfa54ed68a1a23d750e505426b9ed67510e16f778e3cecf74770692498d6b7d964856f041b7cc7c1c96a9d").thirteen(), true) // Whirlpool
+// End of all hash
+
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), false); // b does not look like 13
 tap.equal(is("ß").thirteen(), true); // German: looks like 13
