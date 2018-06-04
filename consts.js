@@ -54,6 +54,11 @@ var thirteenStrings = [
     "1PM", // 1PM is 13 o'clock
     "một giờ trưa", // Vietnamese translate 1PM and 1PM is 13 o'clock
 
+    // Digital Storage
+    "104 bit", // 104 bit is 13 bytes
+    "13312 KB", // 13312 KB is 13 MB
+    "13312 MB", // 13312 MB is 13 GB
+
     //Adding "l" 3, "i"3, |3 and !3 because they basically look like thirteen
     "i3",
     "l3",

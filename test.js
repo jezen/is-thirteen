@@ -170,9 +170,16 @@ tap.equals(is("१३").thirteen(), true); //Devanagari
 tap.equals(is("तेह्र").thirteen(), true); //Nepali
 tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
+
+// Beginning of all Vietnamese variants
 tap.equal(is("thớt tin").thirteen(), true); // Vietnamese pronunciation
 tap.equal(is("ư ơ i ươi mờ ươi mươi huyền mười bờ a ba").thirteen(), true); // Vietnamese spell
 tap.equal(is("một ba").thirteen(), true); // Vietnamese translate "one three"
+// End of all Vietnamese variants
+
+tap.equal(is("104 bit").thirteen(), true); // 104 bit is 13 bytes
+tap.equal(is("13312 KB").thirteen(), true); // 13312 KB is 13 MB
+tap.equal(is("13312 MB").thirteen(), true); // 13312 MB is 13 GB
 
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), false); // b does not look like 13
