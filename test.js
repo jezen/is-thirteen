@@ -80,7 +80,7 @@ tap.equal(is("treize").thirteen(), true); // French
 tap.equal(is("treizième").thirteen(), true); // French (ordinal form)
 tap.equal(is("dreizehn").thirteen(), true); // German
 tap.equal(is("ცამეტი").thirteen(), true);
-tap.equal(is("‘umikūmākolu").thirteen(),true); //Hawaiian
+tap.equal(is("‘umikūmākolu").thirteen(), true); //Hawaiian
 tap.equal(is('שלוש עשרה').thirteen(), true); // Hebrew
 tap.equal(is('שלושעשרה').thirteen(), true); // Hebrew (without space)
 tap.equal(is('ֹשְלֹש- עֶשְֹרֵה').thirteen(), true); // Hebrew (with punctuation)
@@ -172,6 +172,7 @@ tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
 tap.equal(is("thớt tin").thirteen(), true); // Vietnamese pronunciation
 tap.equal(is("ư ơ i ươi mờ ươi mươi huyền mười bờ a ba").thirteen(), true); // Vietnamese spell
+tap.equal(is("một ba").thirteen(), true); // Vietnamese translate "one three"
 
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), false); // b does not look like 13
@@ -180,18 +181,22 @@ tap.equal(is("ẞ").thirteen(), true); // German: looks like 13
 tap.equal(is("Β").thirteen(), true); // Upper case beta, looks like 13
 tap.equal(is("β").thirteen(), true); // lower case beta
 tap.equal(is("阝").thirteen(), true); // Chinese Kangxi radical: Looks like 13
+tap.equal(is("Bờ").thirteen(), true); // // Vietnamese spell "B" and B look like 13
 
-tap.equal(is("i3").thirteen(),true); //i3 looks like 13 when upper case
-tap.equal(is("I3").thirteen(),true); //I3 looks like 13
-tap.equal(is("l3").thirteen(),true); //l3 looks like 13
-tap.equal(is("L3").thirteen(),true); //l3 looks like 13 when lower case
-tap.equal(is("|3").thirteen(),true); //|3 looks like 13
-tap.equal(is("!3").thirteen(),true); //!3 looks like 13
+tap.equal(is("1PM").thirteen(), true); // 1PM is 13 o'clock
+tap.equal(is("một giờ trưa").thirteen(), true); // Vietnamese translate 1PM and 1PM is 13 o'clock
+
+tap.equal(is("i3").thirteen(), true); //i3 looks like 13 when upper case
+tap.equal(is("I3").thirteen(), true); //I3 looks like 13
+tap.equal(is("l3").thirteen(), true); //l3 looks like 13
+tap.equal(is("L3").thirteen(), true); //l3 looks like 13 when lower case
+tap.equal(is("|3").thirteen(), true); //|3 looks like 13
+tap.equal(is("!3").thirteen(), true); //!3 looks like 13
 
 tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil is 13, amigo
 
-tap.equal(is(25).minus(12).thirteen(),true); // 25 - 12 === 13
-tap.equal(is(1).plus(12).thirteen(),true);   // 1  + 12 === 13
+tap.equal(is(25).minus(12).thirteen(), true); // 25 - 12 === 13
+tap.equal(is(1).plus(12).thirteen(), true);   // 1  + 12 === 13
 
 tap.equal(is(2).times(8).plus(11).minus(1).dividedby(2).thirteen(), true) // (((2 * 8) + 11) - 1) / 2 === 13
 tap.equal(is(10).minus(1).plus(32).dividedby(4).times(3).thirteen(), false) // (((10 - 1) + 32) / 4) * 3 === 30.75
@@ -209,7 +214,7 @@ tap.equal(is("D").base(16).thirteen(), true);
 tap.equal(is("A").base(16).thirteen(), false);
 
 //test function that is returning 13
-tap.equals(is(function(){return 13;}).returning.thirteen(),true);
+tap.equals(is(function () { return 13; }).returning.thirteen(), true);
 
 // Same 13 characters tests
 tap.equal(is("|||||||||||||").thirteen(), true);

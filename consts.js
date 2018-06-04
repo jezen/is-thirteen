@@ -48,7 +48,11 @@ var thirteenStrings = [
     "Β", //actually upper case Beta, not B
     //And Chinese
     "阝", //(Kangxi radical)
+    "Bờ", // Vietnamese spell "B" and B look like 13
 
+    // Time
+    "1PM", // 1PM is 13 o'clock
+    "một giờ trưa", // Vietnamese translate 1PM and 1PM is 13 o'clock
 
     //Adding "l" 3, "i"3, |3 and !3 because they basically look like thirteen
     "i3",
@@ -278,6 +282,7 @@ var thirteenStrings = [
     "mười ba", // Vietnamese
     "thớt tin", // Vietnamese pronunciation
     "ư ơ i ươi mờ ươi mươi huyền mười bờ a ba", // Vietnamese spell
+    "một ba", // Vietnamese translate "one three"
     "tri ar ddeg", // Welsh
     "דרייַצן", // Yiddish,
     "דרייצן", // Yiddish (without diacritics),
