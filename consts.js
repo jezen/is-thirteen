@@ -6,7 +6,7 @@ const THIRTEEN_FUZZ = 0.5;
 var thirteenStrings = [
     "xiii", // Roman numeral 13
     "1️⃣3️⃣", // emoji sequence of 1 and 3
-  
+
     "https://en.wikipedia.org/wiki/This_Is_Thirteen", // Because it is thirteen
     "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
     "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
@@ -30,7 +30,7 @@ var thirteenStrings = [
 
     // Television characters
     "Jodie Whittaker",  // the 13th Doctor in the BBC series, "Doctor Who"
-  
+
     "weedle", //#13 Pokémon
 
     // Imaginary 13's
@@ -48,7 +48,7 @@ var thirteenStrings = [
     "Β", //actually upper case Beta, not B
     //And Chinese
     "阝", //(Kangxi radical)
-    
+
 
     //Adding "l" 3, "i"3, |3 and !3 because they basically look like thirteen
     "i3",
@@ -116,6 +116,8 @@ var thirteenStrings = [
     "طلطاشر", // Arabic Slang
 
     "يج", //Arabic (gematria)
+
+    "трынаццаць", // Belarusian
 
     "سیزده", // Persian
     "۱۳", // Persian number
@@ -252,7 +254,7 @@ var thirteenStrings = [
     "তের",
     "ত্রয়োদশ",
     // end of Bangla/Bengali variants
-  
+
     "treze", // Portuguese
     "ਤੇਰਾਂ", // Punjabi - thirteen
     "੧੩", // Punjabi Numeral - 13
