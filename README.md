@@ -40,7 +40,7 @@ is(12).plus(1).thirteen();    // true
 is(4).minus(12).thirteen();    // false
 is(14).minus(1).thirteen();    // true
 is(1).times(8).thirteen();    // false
-is(26).divideby(2).thirteen();  //true
+is(26).divideby(2).thirteen();  // true
 ```
 
 ## Test
