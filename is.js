@@ -111,7 +111,7 @@ var is = function is(x) {
         times: function(y) {
             return is(x * y);
         },
-        dividedby: function(y) {
+        dividedBy: function(y) {
           return is(x / y);
         },
         canSpell: {
