@@ -190,6 +190,7 @@ var thirteenStrings = [
     "י״ג", // Hebrew (gematria - apostrophes)
     "quainel", // Quenya
     "mînuiug", // Sindarin
+    "dektri", // Esperanto
     "tizenhárom", // Hungarian
     "trí déag", // Irish
     "tredici", // Italian
