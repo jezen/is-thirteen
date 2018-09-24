@@ -170,6 +170,14 @@ tap.equals(is("१३").thirteen(), true); //Devanagari
 tap.equals(is("तेह्र").thirteen(), true); //Nepali
 tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
+// Start of Myanmar variants 🇲🇲
+tap.equal(is("၁၃").thirteen(), true);
+tap.equal(is("တစ်ဆယ့်သုံး").thirteen(), true);
+tap.equal(is("ဆယ့်သုံး").thirteen(), true);
+tap.equal(is("၁ ၃").thirteen(), true);
+tap.equal(is("တစ္ဆယ့္သုံး").thirteen(), true);
+tap.equal(is("ဆယ့္သုံး").thirteen(), true);
+// End of all Myanmar variants 🇲🇲
 
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), false); // b does not look like 13
