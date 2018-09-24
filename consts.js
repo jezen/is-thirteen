@@ -296,7 +296,8 @@ var thirteenStrings = [
     "onúsh", // Kazakh latin,
     "онүш", // Kazakh
     "онуш", // Kazakh
-    "onúsh" // Kazakh latin
+    "onúsh", // Kazakh latin
+    "paci" // lojban
 ];
 
 module.exports = {
