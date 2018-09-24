@@ -144,7 +144,7 @@ tap.equal(is("trzynastokrotność").thirteen(), true); // Polish
 tap.equal(is("trzynastokrotności").thirteen(), true); // Polish
 tap.equal(is("trzynastokrotnością").thirteen(), true); // Polish
 // End of all Polish variants 🇵🇱
-tap.equal(is("treze").thirteen(), true); // Portoguese
+tap.equal(is("treze").thirteen(), true); // Portuguese
 tap.equal(is("ਤੇਰਾਂ").thirteen(), true); // Punjabi
 tap.equal(is("੧੩").thirteen(), true); // Punjabi
 tap.equal(is("treisprezece").thirteen(), true); // Romanian
