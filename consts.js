@@ -296,7 +296,14 @@ var thirteenStrings = [
     "onúsh", // Kazakh latin,
     "онүш", // Kazakh
     "онуш", // Kazakh
-    "onúsh" // Kazakh latin
+    "onúsh", // Kazakh latin
+  
+    "၁၃", // Myanmar
+    "တစ်ဆယ့်သုံး", // Myanmar
+    "ဆယ့်သုံး", // Myanmar
+    "၁ ၃", // Myanmar (with space) 
+    "တစ္ဆယ့္သုံး", // Myanmar (Zawgyi)
+    "ဆယ့္သုံး" // Myanmar (Zawgyi)
 ];
 
 module.exports = {
