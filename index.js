@@ -178,4 +178,5 @@ function is(x) {
     }
 }
 
+var is = require('./is');
 module.exports = is;
