@@ -216,3 +216,11 @@ tap.equal(is("oooooooooooooo").thirteen(), false);
 tap.equal(is("bbbbbbbbbbb").thirteen(), false);
 tap.equal(is("||h||||||||||").thirteen(), false);
 tap.equal(is("///i/////////").thirteen(), false);
+
+// hash tests (with empty-string salt)
+tap.equal(is("c51ce410c124a10e0db5e4b97fc2af39").thirteen(), true)
+tap.equal(is("xRzkEMEkoQ4NteS5f8KvOQ==").thirteen(), true)
+tap.equal(is("bd307a3ec329e10a2cff8fb87480823da114f8f4").thirteen(), true)
+tap.equal(is("vTB6PsMp4Qos/4+4dICCPaEU+PQ=").thirteen(), true)
+tap.equal(is("3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278").thirteen(), true)
+tap.equal(is("P9ujXwTcjEYphsmSvPh1VGJXETByqQnBYvfkcOWB4ng=").thirteen(), true)

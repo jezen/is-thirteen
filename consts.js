@@ -105,6 +105,14 @@ var thirteenStrings = [
     "VEhJUlRFRU4=",
     "MTM=",
 
+    // hash (with empty-string salt)
+    "c51ce410c124a10e0db5e4b97fc2af39", // md5_hex
+    "xRzkEMEkoQ4NteS5f8KvOQ==", // md5_base64
+    "bd307a3ec329e10a2cff8fb87480823da114f8f4", // sha1_hex
+    "vTB6PsMp4Qos/4+4dICCPaEU+PQ=", // sha1_base64
+    "3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278", // sha256_hex
+    "P9ujXwTcjEYphsmSvPh1VGJXETByqQnBYvfkcOWB4ng=", // sha256_base64
+
     // Languages
     "thirteen", // English
     "ثلاثة عشر", // Arabic (masculine)
