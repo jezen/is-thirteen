@@ -95,6 +95,11 @@ var is = function is(x) {
                 }
             }
         },
+        today: {
+          thirteen: function () {
+            return is((new Date()).getDate()).thirteen();
+          }
+        },
         yearOfBirth: function() {
             var currYear = new Date().getFullYear()
             if(isNaN(x)) {
