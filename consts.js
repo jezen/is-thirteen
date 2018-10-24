@@ -32,7 +32,7 @@ var thirteenStrings = [
     "Jodie Whittaker",  // the 13th Doctor in the BBC series, "Doctor Who"
 
     "weedle", // #13 Pokémon
-    "aisha" // #13 Neopet
+    "aisha", // #13 Neopet
 
     // Imaginary 13's
     "13+0i",
