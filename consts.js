@@ -42,6 +42,9 @@ var thirteenStrings = [
     "NC_000013", // RefSeq
     "https://www.ncbi.nlm.nih.gov/nuccore/NC_000013?report=fasta", // 13th human chromosome
 
+    "CM000675", // GenBank
+    "https://www.ncbi.nlm.nih.gov/nuccore/CM000675?report=fasta",
+
     // B just looks like 13 written closer
     "B",
     //For cultural inclusiveness also include German variants
