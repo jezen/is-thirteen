@@ -10,7 +10,7 @@
 function insert_tittle_here (n) {
   var array = [];
   for (var i = 0; i < n; i++) {
-    if (13 == Math.floor(Math.random() * 10)) {
+    if (13 == Math.floor(Math.random() * 100)) {
       return true
     }
   }
