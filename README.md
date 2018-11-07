@@ -14,10 +14,14 @@ An npm package to check if a number is equal to 13.
 npm --save i is-thirteen
 ```
 
+```sh
+yarn add is-thirteen
+```
+
 ## Usage
 
 ```javascript
-var isThirteen = require('is-thirteen');
+const isThirteen = require('is-thirteen');
 
 // PLEAS READ THE SOURCE CODE BECAuse we moved fast and broke things
 
@@ -26,7 +30,7 @@ i̶s̶T̶h̶i̶r̶t̶e̶e̶n̶(̶1̶3̶)̶;̶ ̶/̶/̶ ̶t̶r̶u̶e̶
 ```
 
 ```javascript
-var is = require('is-thirteen');
+const is = require('is-thirteen');
 // Now with elegant syntax.
 
 is(13).thirteen(); // true
