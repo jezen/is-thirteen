@@ -14,6 +14,8 @@ An npm package to check if a number is equal to 13.
 npm --save i is-thirteen
 ```
 
+or
+
 ```sh
 yarn add is-thirteen
 ```
