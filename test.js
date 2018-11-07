@@ -148,7 +148,7 @@ tap.equal(is("treze").thirteen(), true); // Portuguese
 tap.equal(is("ਤੇਰਾਂ").thirteen(), true); // Punjabi
 tap.equal(is("੧੩").thirteen(), true); // Punjabi
 tap.equal(is("treisprezece").thirteen(), true); // Romanian
-tap.equal(is("тринадцать").thirteen(), true); // Russia
+tap.equal(is("тринадцать").thirteen(), true); // Russian
 tap.equal(is("тринаест").thirteen(), true); // Serbian (cyrillic)
 tap.equal(is("trinásť").thirteen(), true); // Slovak
 tap.equal(is("wa’maH wej").thirteen(), true); // Klingon
