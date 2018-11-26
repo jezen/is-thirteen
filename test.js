@@ -60,6 +60,10 @@ tap.equal(is("تلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلطاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch
+tap.equal(is("seri-un-teng").thirteen(), true); // Belter creole
+tap.equal(is("seriunteng").thirteen(), true);
+tap.equal(is("serí-un-teng").thirteen(), true);
+tap.equal(is("seríunteng").thirteen(), true);
 tap.equal(is("тринадесет").thirteen(), true); // Bulgarian
 tap.equal(is("тринайсет").thirteen(), true); // Also Bulgarian
 tap.equal(is("tretze").thirteen(), true); // Catalan
