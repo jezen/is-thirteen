@@ -27,6 +27,7 @@ tap.equal(is("Patty Tsai").thirteen(), true);
 tap.equal(is("PT").thirteen(), true);
 tap.equal(is("Washington Luís").thirteen(), true);
 tap.equal(is("Millard Fillmore").thirteen(), true);
+tap.equal(is('https://en.wikipedia.org/wiki/XIII_(video_game)').thirteen(), true);
 //year of birth test
 tap.equal(is("2003").yearOfBirth(), false);
 
@@ -59,6 +60,10 @@ tap.equal(is("تلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلطاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch
+tap.equal(is("seri-un-teng").thirteen(), true); // Belter creole
+tap.equal(is("seriunteng").thirteen(), true);
+tap.equal(is("serí-un-teng").thirteen(), true);
+tap.equal(is("seríunteng").thirteen(), true);
 tap.equal(is("тринадесет").thirteen(), true); // Bulgarian
 tap.equal(is("тринайсет").thirteen(), true); // Also Bulgarian
 tap.equal(is("tretze").thirteen(), true); // Catalan
@@ -93,7 +98,7 @@ tap.equal(is("तेरह").thirteen(), true); // Hindi
 tap.equal(is("tizenhárom").thirteen(), true); // Hungarian
 tap.equal(is("trí déag").thirteen(), true); // Irish
 tap.equal(is("tredici").thirteen(), true); // Italian
-tap.equal(is("on üç").thirteen(), true); // Italian
+tap.equal(is("on üç").thirteen(), true); // Turkish
 tap.equal(is("ಹದಿಮೂರು").thirteen(), true); //Kannada (thirteen)
 tap.equal(is("పదమూడు").thirteen(), true); //Telugu
 tap.equal(is("೧೩").thirteen(), true); //Kannada (13)
@@ -144,11 +149,11 @@ tap.equal(is("trzynastokrotność").thirteen(), true); // Polish
 tap.equal(is("trzynastokrotności").thirteen(), true); // Polish
 tap.equal(is("trzynastokrotnością").thirteen(), true); // Polish
 // End of all Polish variants 🇵🇱
-tap.equal(is("treze").thirteen(), true); // Portoguese
+tap.equal(is("treze").thirteen(), true); // Portuguese
 tap.equal(is("ਤੇਰਾਂ").thirteen(), true); // Punjabi
 tap.equal(is("੧੩").thirteen(), true); // Punjabi
 tap.equal(is("treisprezece").thirteen(), true); // Romanian
-tap.equal(is("тринадцать").thirteen(), true); // Russia
+tap.equal(is("тринадцать").thirteen(), true); // Russian
 tap.equal(is("тринаест").thirteen(), true); // Serbian (cyrillic)
 tap.equal(is("trinásť").thirteen(), true); // Slovak
 tap.equal(is("wa’maH wej").thirteen(), true); // Klingon

@@ -12,7 +12,7 @@ const thirteenStrings = consts.thirteenStrings;
  * @returns {object}
  */
 var is = function is(x) {
-    // this line calls the noop function
+    // the next line calls the noop function
     noop();
 
     // Every element should be lower case
