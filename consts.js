@@ -25,6 +25,8 @@ var thirteenStrings = [
     "Washington Luís", // Brazil's thirteenth president
     "Millard Fillmore", // Thirteenth President of the United States
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
+    "13 reasons why", // Self-explanatory
+    "thirteen reasons why", // Self-explanatory
 
     "sharon carter", // Agent 13
 
