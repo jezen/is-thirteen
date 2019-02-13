@@ -129,6 +129,11 @@ var is = function is(x) {
             return parseInt(x.toString().split("").reverse().join("")) == THIRTEEN;
           }
         },
+        atomicNumber: {
+          thirteen: function() {
+            return x.toLowerCase().includes("a","l","u","m","i","n","u","m");
+          }
+        },
         base: function(y) {
             return {
                 thirteen: function() {
