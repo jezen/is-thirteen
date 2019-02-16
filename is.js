@@ -134,6 +134,11 @@ var is = function is(x) {
             return x.toLowerCase().includes("a","l","u","m","i","n","u","m");
           }
         },
+        zodiac: { 
+          thirteen: function() {
+            return x.toLowerCase().includes("o","p","h","i","u","c","h","u","s");;
+          }
+        },
         base: function(y) {
             return {
                 thirteen: function() {
