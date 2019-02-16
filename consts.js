@@ -163,13 +163,11 @@ var thirteenStrings = [
     "threttandans",
     "threttandar",
     "threttandu",
-
     "threttandum",
     "threttandarnir",
     "threttandana",
     "threttandunum",
-    "threttandanna",// end of Icelandic
-
+    "threttandanna",
     "threttandum", // end of Icelandic
     "třináct", // Czech
 
@@ -264,6 +262,8 @@ var thirteenStrings = [
     "treisprezece", // Romanian
     "treispe", // Romanian
     "тринадцать", // Russian
+    "тринадцатью", // Russian too
+    "тринадцати", // also Russian
     "тринаест", // Serbian (cyrillic)
     "trinásť", // Slovak
     "trinajst", // Slovenian
@@ -280,6 +280,8 @@ var thirteenStrings = [
     "SipSam", // Thai Transcription
     "Sip Sam", // Thai Transcription with space
     "тринадцять", // Ukrainian
+    "тринадцяти", // Ukrainian too
+    "тринадцятьма", // also Ukrainian
     "تیرہ", // Urdu
     "mười ba", // Vietnamese
     "tri ar ddeg", // Welsh
