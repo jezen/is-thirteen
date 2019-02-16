@@ -134,7 +134,7 @@ var is = function is(x) {
             return x.toLowerCase().includes("a","l","u","m","i","n","u","m");
           }
         },
-        president: { 
+        presidentOfAmerica: { 
           thirteen: function() {
             return x == "Millard Fillmore";
           }
