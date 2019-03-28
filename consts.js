@@ -27,6 +27,7 @@ var thirteenStrings = [
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
     "sharon carter", // Agent 13
+    "b13", // Banlieue 13, famous american film
 
     // Television characters
     "Jodie Whittaker",  // the 13th Doctor in the BBC series, "Doctor Who"
