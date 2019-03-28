@@ -28,6 +28,9 @@ tap.equal(is("PT").thirteen(), true);
 tap.equal(is("Washington Luís").thirteen(), true);
 tap.equal(is("Millard Fillmore").thirteen(), true);
 tap.equal(is('https://en.wikipedia.org/wiki/XIII_(video_game)').thirteen(), true);
+tap.equal(is("galo").thirteen(), true); // "Jogo do Bicho" game
+tap.equal(is("rooster").thirteen(), true); // "Jogo do Bicho" game
+
 //year of birth test
 tap.equal(is("2003").yearOfBirth(), false);
 
@@ -55,7 +58,7 @@ tap.equal(is("thirte3n").thirteen(), true);
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("ثلاثة عشر").thirteen(), true); // Arabic
-tap.equal(is("تلطاشر").thirteen(), true); // Arabic Slang 
+tap.equal(is("تلطاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("تلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلطاشر").thirteen(), true); // Arabic Slang
