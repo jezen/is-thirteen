@@ -211,6 +211,11 @@ tap.equal(is("d").base(16).thirteen(), true);
 tap.equal(is("D").base(16).thirteen(), true);
 tap.equal(is("A").base(16).thirteen(), false);
 
+tap.equal(is(2).thirteenthRoot.of(8192),true) // 2 ** 13 = 8192
+tap.equal(is(4).thirteenthRoot.of(67108863),false) //  4 ** 13 = 67,108,863 + 1
+tap.equal(is(3).thirteenthRoot.of('1594323'),true) // (cast string to number) then (3 ** 13 = 1594323)
+tap.equal(is(6).thirteenthRoot.of("abcd"),false) // Because it's not
+
 //test function that is returning 13
 tap.equals(is(function(){return 13;}).returning.thirteen(),true);
 
