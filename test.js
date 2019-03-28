@@ -193,9 +193,11 @@ tap.equal(is("!3").thirteen(),true); //!3 looks like 13
 
 tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil is 13, amigo
 
+//Math variations
 tap.equal(is(25).minus(12).thirteen(),true); // 25 - 12 === 13
 tap.equal(is(1).plus(12).thirteen(),true);   // 1  + 12 === 13
-
+tap.equal(is(0).derivative.of.thirteen(), true)
+tap.equal(is(1).derivative.of.thirteen(), false)
 tap.equal(is(2).times(8).plus(11).minus(1).dividedby(2).thirteen(), true) // (((2 * 8) + 11) - 1) / 2 === 13
 tap.equal(is(10).minus(1).plus(32).dividedby(4).times(3).thirteen(), false) // (((10 - 1) + 32) / 4) * 3 === 30.75
 
