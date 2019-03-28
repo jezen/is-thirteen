@@ -94,6 +94,7 @@ tap.equal(is('שלושהעשר').thirteen(), true); // Hebrew (male form, withou
 tap.equal(is('ֹשְלֹשָה- עָשָֹר').thirteen(), true); // Hebrew (male form, with punctuation)
 tap.equal(is('יג').thirteen(), true); // Hebrew (gematria)
 tap.equal(is('י״ג').thirteen(), true); // Hebrew (gematria - apostrophes)
+tap.equal(is('hāre ampā').thirteen(), true); // High Valyrian
 tap.equal(is("तेरह").thirteen(), true); // Hindi
 tap.equal(is("tizenhárom").thirteen(), true); // Hungarian
 tap.equal(is("trí déag").thirteen(), true); // Irish

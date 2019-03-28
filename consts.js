@@ -289,6 +289,7 @@ var thirteenStrings = [
     "तेह्र", //Nepali
     "१३", //Devanagari
     "तेरह", //Hindi
+    "hāre ampā", // High Valyrian
     // Thirteen pronunciation
     "θərˈtiːn",
     "పదమూడు", //Telugu
