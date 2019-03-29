@@ -192,6 +192,16 @@ tap.equal(is("|3").thirteen(),true); //|3 looks like 13
 tap.equal(is("!3").thirteen(),true); //!3 looks like 13
 
 tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil is 13, amigo
+tap.equal(is("zagalloetreze").thirteen(), true); // Because Zagallo é Treze
+tap.equal(is("triscaidecafobia").thirteen(), true); // Because triscaidecafobia is the fear of 13
+tap.equal(is("Giulio Masetti").thirteen(), true); // Because Giulio Masetti used the #13 car
+tap.equal(is("Treze Futebol Clube").thirteen(), true); // Because Treze FC is Thirteen FC
+tap.equal(is("Apollo 13").thirteen(), true); // Because Apollo was 13
+tap.equal(is("M").thirteen(), true); // Because M is the 13th letter of the alphabet
+tap.equal(is("Beckham Jr").thirteen(), true); // Because #13 is the jersey
+tap.equal(is("Steve Nash").thirteen(), true); // Because #13 is the jersey
+tap.equal(is("Wilt Chamberlain").thirteen(), true); // Because #13 is the jersey
+
 
 tap.equal(is(25).minus(12).thirteen(),true); // 25 - 12 === 13
 tap.equal(is(1).plus(12).thirteen(),true);   // 1  + 12 === 13
