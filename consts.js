@@ -271,6 +271,42 @@ var thirteenStrings = [
     "trese", // Tagalog
     "tredici", // Italian
     "on üç", // Turkish
+    "onüç", // Turkish - 13
+    "onüççe", // Turkish - according to 13
+    "onüççü", // Turkish - for 13
+    "onüççük", // Turkish - for 13
+    "onüçe", // Turkish - to 13
+    "onüçer", // Turkish - with pairs of 13  
+    "onüçgen", // Turkish - trisdecagon
+    "onüçle", // Turkish - with 13
+    "onüçleme", // Turkish - making 13
+    "onüçlemek", // Turkish - to make 13
+    "onüçler", // Turkish - 13s
+    "onüçlerde", // Turkish - in 13s
+    "onüçlere", // Turkish - to 13s
+    "onüçleri", // Turkish - their 13s
+    "onüçlerim", // Turkish - my 13s
+    "onüçlerimiz", // Turkish - our 13s
+    "onüçlerin", // Turkish - of their 13s, your 13s
+    "onüçleriniz", // Turkish - your 13s (plural)
+    "onüçlü", // Turkish - with 13
+    "onüçlük", // Turkish - 13 point
+    "onüçse", // Turkish - if it is 13
+    "onüçsüz", // Turkish - without 13
+    "onüçtaş", // Turkish - sharing same 13
+    "onüçte", // Turkish - in 13
+    "onüçten", // Turkish - from 13
+    "onüçü", // Turkish - of 13, his/her 13
+    "onüçüm", // Turkish - my 13
+    "onüçüm", // Turkish - like 13
+    "onüçümüz", // Turkish - our 13
+    "onüçün", // Turkish - of 13, your 13
+    "onüçünüz", // Turkish - Your 13 (plural)
+    "onüçümsü", // Turkish - like 13
+    "onüçüncü", // Turkish - 13th
+    "onüçsü", // Turkish - like 13
+    "onüçüyle", // Turkish - with its 13
+    "onüçüz", // Turkish - 13 at the time
     "dektri", //Speranto
     "tlettax", // Maltese
     "tretton", // Swedish
