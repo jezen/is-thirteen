@@ -268,6 +268,7 @@ var thirteenStrings = [
     "trinásť", // Slovak
     "trinajst", // Slovenian
     "trece", // Spanish
+    "uno tres," //Spanish 
     "trese", // Tagalog
     "tredici", // Italian
     "on üç", // Turkish
