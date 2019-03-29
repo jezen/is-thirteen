@@ -213,6 +213,9 @@ var thirteenStrings = [
     "तेरा", // Marathi (१३)
     "арван", // Mongolian
     ".---- ...--", // Morse code
+    "matlactlihuan yei", // Classical Nahuatl (Aztec)
+    "mahtlactli omei", // Nahuatl variant
+    "mahtlactli ihuan yei", // Nahuatl variant
     "irteenthay", // Pig Latin
 
     // Beginning of all Polish variants 🇵🇱
