@@ -20,6 +20,8 @@ var thirteenStrings = [
     "jason fly", // XIII of The XX
     "http://www.imdb.com/title/tt0798817/", // 13 (2010)
     "https://en.wikipedia.org/wiki/XIII_(video_game)", // Because video games are also culture
+    "lula", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
+    "lula-livre", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
     "PT", // PT is Brazilian political party represented by the number 13
     "Washington Luís", // Brazil's thirteenth president
