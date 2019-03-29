@@ -292,19 +292,19 @@ var thirteenStrings = [
     "onüçlü", // Turkish - with 13
     "onüçlük", // Turkish - 13 point
     "onüçse", // Turkish - if it is 13
+    "onüçsü", // Turkish - like 13    
     "onüçsüz", // Turkish - without 13
     "onüçtaş", // Turkish - sharing same 13
     "onüçte", // Turkish - in 13
     "onüçten", // Turkish - from 13
     "onüçü", // Turkish - of 13, his/her 13
     "onüçüm", // Turkish - my 13
-    "onüçüm", // Turkish - like 13
+    "onüçümsü", // Turkish - like 13  
+    "onüçümü", // Turkish - to my 13
     "onüçümüz", // Turkish - our 13
     "onüçün", // Turkish - of 13, your 13
-    "onüçünüz", // Turkish - Your 13 (plural)
-    "onüçümsü", // Turkish - like 13
     "onüçüncü", // Turkish - 13th
-    "onüçsü", // Turkish - like 13
+    "onüçünüz", // Turkish - Your 13 (plural)
     "onüçüyle", // Turkish - with its 13
     "onüçüz", // Turkish - 13 at the time
     "dektri", //Speranto
