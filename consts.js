@@ -263,7 +263,8 @@ var thirteenStrings = [
     "੧੩", // Punjabi Numeral - 13
     "treisprezece", // Romanian
     "treispe", // Romanian
-    "тринадцать", // Russian
+    "тринадцать", // Russian (cyrillic)
+    "ⱅⱃⰺⱀⰰⰴⱌⰰⱅⱐ", // Russian (glagolitic)
     "тринаест", // Serbian (cyrillic)
     "trinásť", // Slovak
     "trinajst", // Slovenian
