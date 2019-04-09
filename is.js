@@ -134,6 +134,11 @@ var is = function is(x) {
             return x.toLowerCase().includes("a","l","u","m","i","n","u","m");
           }
         },
+        today: {
+          thirteen: function() {
+            return new Date().getDate() == THIRTEEN
+          }
+        },
         base: function(y) {
             return {
                 thirteen: function() {
