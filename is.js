@@ -136,7 +136,7 @@ var is = function is(x) {
         },
         today: {
           thirteen: function() {
-            return new Date().getDate() == THIRTEEN
+            return new Date().getDate() == THIRTEEN;
           }
         },
         base: function(y) {
