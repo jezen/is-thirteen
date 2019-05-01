@@ -4,7 +4,6 @@
   "description": "Check if a number is equal to 13",
   "main": "index.js",
   "devDependencies": {
-    "fast-check": "0.0.13",
     "tap": "5.7.0"
   },
   "scripts": {
