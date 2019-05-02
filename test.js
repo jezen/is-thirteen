@@ -217,7 +217,9 @@ tap.equals(is(function(){return 13;}).returning.thirteen(),true);
 // Same 13 characters tests
 tap.equal(is("|||||||||||||").thirteen(), true);
 tap.equal(is("/////////////").thirteen(), true);
+tap.equal(is("🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱").thirteen(), true);
 tap.equal(is("oooooooooooooo").thirteen(), false);
 tap.equal(is("bbbbbbbbbbb").thirteen(), false);
 tap.equal(is("||h||||||||||").thirteen(), false);
 tap.equal(is("///i/////////").thirteen(), false);
+
