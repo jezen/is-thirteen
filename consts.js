@@ -176,6 +176,7 @@ var thirteenStrings = [
     "kolmteist", // Estonian
     "labintatlo", // Filipino
     "kolmetoista", // Finnish
+    "kulmânubáloh", // Inari Sami
     "treize", // French
     "treizième", //French (ordinal form)
     "dreizehn", // German
@@ -253,9 +254,9 @@ var thirteenStrings = [
 
     // Bangla/Bengali variants
     "১৩", // Bengali numeral
-    "তেরো",
+    "তেরো",
     "তের",
-    "ত্রয়োদশ",
+    "ত্রয়োদশ",
     // end of Bangla/Bengali variants
   
     "treze", // Portuguese
