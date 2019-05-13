@@ -44,6 +44,10 @@ tap.equal(is("E1").thirteen(), true);
 tap.equal(is("El").thirteen(), true);
 tap.equal(is("E|").thirteen(), true);
 
+// Flipped characters
+tap.equal(is("ƖƐ").thirteen(), true);
+tap.equal(is("ƐƖ").thirteen(), true);
+
 // Password variations tests
 tap.equal(is("th1rt33n").thirteen(), true);
 tap.equal(is("th1rte3n").thirteen(), true);
