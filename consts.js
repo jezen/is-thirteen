@@ -302,7 +302,8 @@ var thirteenStrings = [
     "онүш", // Kazakh
     "онуш", // Kazakh
     "onúsh", // Kazakh latin
-    "ishumi nantathu" // isiZulu
+    "ishumi nantathu", // isiZulu
+    "trättôn" // 13 in the swedish dialect värmländska
 ];
 
 module.exports = {
