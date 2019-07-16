@@ -62,6 +62,10 @@ var thirteenStrings = [
     "e1",
     "el",
     "e|",
+  
+    // Flipped characters
+    "ƖƐ",
+    "ƐƖ",
 
     // Password variations
     "th1rt33n",
