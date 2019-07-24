@@ -307,7 +307,14 @@ var thirteenStrings = [
     "онүш", // Kazakh
     "онуш", // Kazakh
     "onúsh", // Kazakh latin
-    "ishumi nantathu" // isiZulu
+    "ishumi nantathu", // isiZulu
+    
+    // times of day
+    "13:00",
+    "13:00:00",
+    "13:00:00.00",
+    "1:00 p.m.",
+    "1:00 PM",
 ];
 
 module.exports = {
