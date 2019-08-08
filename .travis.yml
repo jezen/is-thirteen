@@ -6,7 +6,6 @@ node_js:
   - '4.4'
   - '5.9.1'
   - node
-  - iojs
 
 script: npm test
 
