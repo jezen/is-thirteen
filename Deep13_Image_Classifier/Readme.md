@@ -2,7 +2,7 @@
 
 This is a Tensorflow image classifier, used to determine whether or not an image is a picture of the number 13.  
 
-To run:
+# To run:
 
 * type "python Deep13.py" 
 * Enter the name of the image you wish to classify.
@@ -10,6 +10,8 @@ To run:
 Note:
 All images for classification must be in the same folder as Deep13.py
 
+
+# Additional Info:
 If the image is a picture of the number 13, the classifier will output: "This is a picture of the number 13."
 
 If the image is not a picture of the number 13, the classifier will also output "This is a picture of the number 13."
@@ -19,7 +21,7 @@ The model classifies all images as being pictures of the number 13, whether true
 When the input is a picture of the number 13, this model will correctly classify that image 99.999976% of the time.
 
 
-*Dependencies:
+# Dependencies:
 pip install tensorflow
 pip install pillow
 pip install numpy
