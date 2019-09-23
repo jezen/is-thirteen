@@ -16,7 +16,7 @@ If the image is a picture of the number 13, the classifier will output: "This is
 
 If the image is not a picture of the number 13, the classifier will also output "This is a picture of the number 13."
 
-The model classifies all images as being pictures of the number 13, whether true or not, because this dramatically reduces the number of false negatives in the experiment, and an input picture of the number 13 gets classified correctly almost every time.
+The model classifies all images as being pictures of the number 13, whether true or not, because this dramatically reduces the number of false negatives in the experiment, so an input picture of the number 13 gets classified correctly almost every time.
 
 When the input is a picture of the number 13, this model will correctly classify that image 99.999976% of the time.
 
