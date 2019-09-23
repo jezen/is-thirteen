@@ -1,3 +1,5 @@
+##DEEP13 Image Classifier
+
 This is a Tensorflow image classifier, used to determine whether or not an image is a picture of the number 13.  
 
 To run, type "python Deep13.py" and enter the name of the image you wish to classify.
