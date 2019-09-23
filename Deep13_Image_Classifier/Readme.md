@@ -22,10 +22,10 @@ When the input is a picture of the number 13, this model will correctly classify
 
 
 ## Dependencies:
-pip install tensorflow
+tensorflow
 
-pip install pillow
+pillow
 
-pip install numpy
+numpy
 
-pip install opencv-python
+opencv-python
