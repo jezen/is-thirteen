@@ -4,8 +4,9 @@ This is a Tensorflow image classifier, used to determine whether or not an image
 
 To run:
 
-*type "python Deep13.py" 
-*Enter the name of the image you wish to classify.
+* type "python Deep13.py" 
+* Enter the name of the image you wish to classify.
+
 Note:
 All images for classification must be in the same folder as Deep13.py
 
