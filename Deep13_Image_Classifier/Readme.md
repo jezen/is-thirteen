@@ -1,4 +1,4 @@
-## DEEP13 Image Classifier
+## Deep13 Image Classifier
 
 This is a Tensorflow image classifier, used to determine whether or not an image is a picture of the number 13.  
 
