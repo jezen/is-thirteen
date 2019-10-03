@@ -287,6 +287,9 @@ var thirteenStrings = [
     "тринадцять", // Ukrainian
     "تیرہ", // Urdu
     "mười ba", // Vietnamese
+    "muoi ba", // Vietnamese (without diacritical mark)
+    "thập tam", // Vietnamese (Han-Viet)
+    "thap tam", // Vietnamese (Han-Viet) (without diacritical mark)
     "tri ar ddeg", // Welsh
     "דרייַצן", // Yiddish,
     "דרייצן", // Yiddish (without diacritics),
