@@ -184,6 +184,11 @@ tap.equals(is("१३").thirteen(), true); //Devanagari
 tap.equals(is("तेह्र").thirteen(), true); //Nepali
 tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
+tap.equal(is("十三").thirteen(), true); // Japanese (kanji)
+tap.equal(is("じゅうさん").thirteen(), true); // Japanese (kana)
+tap.equal(is("juusan").thirteen(), true); // Japanese (romanji)
+tap.equal(is("jūsan").thirteen(), true); // Japanese (romanji (variant))
+
 
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), false); // b does not look like 13
