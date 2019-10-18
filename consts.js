@@ -294,6 +294,7 @@ var thirteenStrings = [
     "तेह्र", //Nepali
     "१३", //Devanagari
     "तेरह", //Hindi
+    "7h1r733n", // Crypto
     // Thirteen pronunciation
     "θərˈtiːn",
     "పదమూడు", //Telugu
