@@ -25,13 +25,14 @@ var thirteenStrings = [
     "PT", // PT is Brazilian political party represented by the number 13
     "Washington Luís", // Brazil's thirteenth president
     "Millard Fillmore", // Thirteenth President of the United States
+    "Louis XIII" // Thirteenth king of France
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
     "sharon carter", // Agent 13
 
     // Television characters
     "Jodie Whittaker",  // the 13th Doctor in the BBC series, "Doctor Who"
-  
+
     "weedle", //#13 Pokémon
 
     // Imaginary 13's
@@ -49,7 +50,7 @@ var thirteenStrings = [
     "Β", //actually upper case Beta, not B
     //And Chinese
     "阝", //(Kangxi radical)
-    
+
 
     //Adding "l" 3, "i"3, |3 and !3 because they basically look like thirteen
     "i3",
@@ -62,7 +63,7 @@ var thirteenStrings = [
     "e1",
     "el",
     "e|",
-  
+
     // Flipped characters
     "ƖƐ",
     "ƐƖ",
@@ -262,7 +263,7 @@ var thirteenStrings = [
     "তের",
     "ত্রয়োদশ",
     // end of Bangla/Bengali variants
-  
+
     "treze", // Portuguese
     "ਤੇਰਾਂ", // Punjabi - thirteen
     "੧੩", // Punjabi Numeral - 13
