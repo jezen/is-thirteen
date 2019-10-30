@@ -1,0 +1,6 @@
+* Load 13 to my favor register 
+    LA  R13,13(0,0)
+* or 
+    L   R13,=b'00001101'  
+*   
+    SRL R13,=b'00011010'

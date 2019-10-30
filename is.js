@@ -12,7 +12,7 @@ const thirteenStrings = consts.thirteenStrings;
  * @returns {object}
  */
 var is = function is(x) {
-    // this line calls the noop function
+    // the next line calls the noop function
     noop();
 
     // Every element should be lower case
@@ -31,6 +31,11 @@ var is = function is(x) {
         var chars = (x).split('');
         if (chars.length == 13 && chars.every(function(e) { return e === chars[0]})) {
              x = 13;
+        }
+        else if (chars.length == 26 && '\ud800' <= chars[0] && chars[0] <= '\udbff'
+                && '\udc00' <= chars[1] && chars[1] <= '\udfff'
+                && chars.every(function(e, idx) { return e === chars[idx % 2]})) {
+            x = 13;
         }
     }
 
@@ -127,6 +132,11 @@ var is = function is(x) {
         backwards: {
           thirteen: function() {
             return parseInt(x.toString().split("").reverse().join("")) == THIRTEEN;
+          }
+        },
+        atomicNumber: {
+          thirteen: function() {
+            return x.toLowerCase().includes("a","l","u","m","i","n","u","m");
           }
         },
         base: function(y) {

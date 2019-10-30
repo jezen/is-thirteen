@@ -5,8 +5,8 @@ const THIRTEEN_FUZZ = 0.5;
 
 var thirteenStrings = [
     "xiii", // Roman numeral 13
+    "1.3", // Basically 13, see proof in #420
     "1️⃣3️⃣", // emoji sequence of 1 and 3
-  
     "https://en.wikipedia.org/wiki/This_Is_Thirteen", // Because it is thirteen
     "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
     "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
@@ -19,7 +19,8 @@ var thirteenStrings = [
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous Puerto Rican band
     "jason fly", // XIII of The XX
     "http://www.imdb.com/title/tt0798817/", // 13 (2010)
-
+	"https://www.imdb.com/title/tt2991516/", // 13/13/13 (2013)
+    "https://en.wikipedia.org/wiki/XIII_(video_game)", // Because video games are also culture
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
     "PT", // PT is Brazilian political party represented by the number 13
     "Washington Luís", // Brazil's thirteenth president
@@ -61,6 +62,10 @@ var thirteenStrings = [
     "e1",
     "el",
     "e|",
+  
+    // Flipped characters
+    "ƖƐ",
+    "ƐƖ",
 
     // Password variations
     "th1rt33n",
@@ -122,6 +127,10 @@ var thirteenStrings = [
 
     "dertien", // Afrikaans / Dutch
     "dertiendertien", // Double Dutch
+    "seri-un-teng", // Belter creole
+    "seriunteng",
+    "serí-un-teng",
+    "seríunteng",
     "тринадесет", // Bulgarian
     "тринайсет", // Also Bulgarian
     "tretze", // Catalan
@@ -190,6 +199,7 @@ var thirteenStrings = [
     "י״ג", // Hebrew (gematria - apostrophes)
     "quainel", // Quenya
     "mînuiug", // Sindarin
+    "dektri", // Esperanto
     "tizenhárom", // Hungarian
     "trí déag", // Irish
     "tredici", // Italian
@@ -257,13 +267,14 @@ var thirteenStrings = [
     "ਤੇਰਾਂ", // Punjabi - thirteen
     "੧੩", // Punjabi Numeral - 13
     "treisprezece", // Romanian
-    "тринадцать", // Russian
+    "treispe", // Romanian
+    "тринадцать", // Russian (cyrillic)
+    "ⱅⱃⰺⱀⰰⰴⱌⰰⱅⱐ", // Russian (glagolitic)
     "тринаест", // Serbian (cyrillic)
     "trinásť", // Slovak
     "trinajst", // Slovenian
     "trece", // Spanish
     "trese", // Tagalog
-    "tredici", // Italian
     "on üç", // Turkish
     "dektri", //Speranto
     "tlettax", // Maltese
@@ -283,7 +294,7 @@ var thirteenStrings = [
     "तेह्र", //Nepali
     "१३", //Devanagari
     "तेरह", //Hindi
-    "β", //Think this is beta, which looks like a long 1 mashed together with a 3
+    "7h1r733n", // Crypto
     // Thirteen pronunciation
     "θərˈtiːn",
     "పదమూడు", //Telugu
@@ -296,7 +307,8 @@ var thirteenStrings = [
     "onúsh", // Kazakh latin,
     "онүш", // Kazakh
     "онуш", // Kazakh
-    "onúsh" // Kazakh latin
+    "onúsh", // Kazakh latin
+    "ishumi nantathu" // isiZulu
 ];
 
 module.exports = {
