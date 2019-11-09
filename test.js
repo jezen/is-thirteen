@@ -168,6 +168,8 @@ tap.equal(is("trinásť").thirteen(), true); // Slovak
 tap.equal(is("wa’maH wej").thirteen(), true); // Klingon
 tap.equal(is("trinajst").thirteen(), true); // Slovenian
 tap.equal(is("trece").thirteen(), true); // Spanish
+tap.equal(is("3ce").thirteen(), true); // Spanish
+tap.equal(is("3C").thirteen(), true); // Spanish
 tap.equal(is("dektri").thirteen(), true); // Speranto
 tap.equal(is("trese").thirteen(), true); // Tagalog
 tap.equal(is("tretton").thirteen(), true); // Swedish
