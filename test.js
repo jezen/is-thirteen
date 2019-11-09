@@ -36,6 +36,12 @@ tap.equal(is("https://www.imdb.com/title/tt2991516/").thirteen(), true);
 //year of birth test
 tap.equal(is("2003").yearOfBirth(), false);
 
+// Television characters
+tap.equal(is("Jodie Whittaker").thirteen(),true);
+
+// Movie characters
+tap.equal(is("Rufus").thirteen(),true);
+
 // Imaginary 13's tests
 tap.equal(is("13+0i").thirteen(), true);
 tap.equal(is("13i").thirteen(), true);
@@ -64,7 +70,7 @@ tap.equal(is("thirte3n").thirteen(), true);
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("ثلاثة عشر").thirteen(), true); // Arabic
-tap.equal(is("تلطاشر").thirteen(), true); // Arabic Slang 
+tap.equal(is("تلطاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("تلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلطاشر").thirteen(), true); // Arabic Slang
