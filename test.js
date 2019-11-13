@@ -28,6 +28,11 @@ tap.equal(is("PT").thirteen(), true);
 tap.equal(is("Washington Luís").thirteen(), true);
 tap.equal(is("Millard Fillmore").thirteen(), true);
 tap.equal(is('https://en.wikipedia.org/wiki/XIII_(video_game)').thirteen(), true);
+
+// imdbs
+tap.equal(is("http://www.imdb.com/title/tt0798817/").thirteen(), true);
+tap.equal(is("https://www.imdb.com/title/tt2991516/").thirteen(), true);
+
 //year of birth test
 tap.equal(is("2003").yearOfBirth(), false);
 
@@ -43,6 +48,10 @@ tap.equal(is("EI").thirteen(), true);
 tap.equal(is("E1").thirteen(), true);
 tap.equal(is("El").thirteen(), true);
 tap.equal(is("E|").thirteen(), true);
+
+// Flipped characters
+tap.equal(is("ƖƐ").thirteen(), true);
+tap.equal(is("ƐƖ").thirteen(), true);
 
 // Password variations tests
 tap.equal(is("th1rt33n").thirteen(), true);
@@ -176,6 +185,8 @@ tap.equals(is("१३").thirteen(), true); //Devanagari
 tap.equals(is("तेह्र").thirteen(), true); //Nepali
 tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
+tap.equal(is("7h1r733n").thirteen(), true); // Crypto
+
 
 tap.equal(is("B").thirteen(), true); // B looks like 13
 tap.equal(is("b").thirteen(), false); // b does not look like 13
@@ -218,7 +229,9 @@ tap.equals(is(function(){return 13;}).returning.thirteen(),true);
 // Same 13 characters tests
 tap.equal(is("|||||||||||||").thirteen(), true);
 tap.equal(is("/////////////").thirteen(), true);
+tap.equal(is("🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱🐱").thirteen(), true);
 tap.equal(is("oooooooooooooo").thirteen(), false);
 tap.equal(is("bbbbbbbbbbb").thirteen(), false);
 tap.equal(is("||h||||||||||").thirteen(), false);
 tap.equal(is("///i/////////").thirteen(), false);
+
