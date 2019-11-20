@@ -30,6 +30,8 @@ var thirteenStrings = [
 
     "sharon carter", // Agent 13
 
+    "end of slavery", // Thirteenth Amendment
+
     // Television characters
     "Jodie Whittaker",  // the 13th Doctor in the BBC series, "Doctor Who"
 
