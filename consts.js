@@ -213,6 +213,7 @@ var thirteenStrings = [
     "sêzdeh", // Kurdish
     "tredecim", // Latin
     "trīspadsmit", // Latvian
+    "trispadsmit", // Latvian (with only latin characters)
     "trylika", // Lithuanian
     "dräizéng", // Luxembourgish
     "тринаесет", // Macedonian
