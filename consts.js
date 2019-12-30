@@ -19,7 +19,7 @@ var thirteenStrings = [
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous Puerto Rican band
     "jason fly", // XIII of The XX
     "http://www.imdb.com/title/tt0798817/", // 13 (2010)
-	"https://www.imdb.com/title/tt2991516/", // 13/13/13 (2013)
+	  "https://www.imdb.com/title/tt2991516/", // 13/13/13 (2013)
     "https://en.wikipedia.org/wiki/XIII_(video_game)", // Because video games are also culture
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
     "PT", // PT is Brazilian political party represented by the number 13
@@ -27,16 +27,15 @@ var thirteenStrings = [
     "Millard Fillmore", // Thirteenth President of the United States
     "Louis XIII", // Thirteenth king of France
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
-
     "sharon carter", // Agent 13
-
     "end of slavery", // Thirteenth Amendment
-
+    
+  
+  
     // Television characters
     "Jodie Whittaker",  // the 13th Doctor in the BBC series, "Doctor Who"
-
     "weedle", //#13 Pokémon
-
+  
     // Imaginary 13's
     "13+0i",
     "13 + 13i",
@@ -114,6 +113,7 @@ var thirteenStrings = [
     "MTM=",
 
     // Languages
+    "දහතුන", // Sinhalese
     "thirteen", // English
     "ثلاثة عشر", // Arabic (masculine)
     "ثلاث عشرة", // Arabic (feminine)
