@@ -29,13 +29,13 @@ var is = function is(x) {
     }
     else if (typeof x === 'string') {
         var chars = (x).split('');
-        if (chars.length == 13 && chars.every(function(e) { return e === chars[0]})) {
-             x = 13;
+        if (chars.length == THIRTEEN && chars.every(function(e) { return e === chars[0]})) {
+             x = THIRTEEN;
         }
         else if (chars.length == 26 && '\ud800' <= chars[0] && chars[0] <= '\udbff'
                 && '\udc00' <= chars[1] && chars[1] <= '\udfff'
                 && chars.every(function(e, idx) { return e === chars[idx % 2]})) {
-            x = 13;
+            x = THIRTEEN;
         }
     }
 
