@@ -312,7 +312,8 @@ var thirteenStrings = [
     "онүш", // Kazakh
     "онуш", // Kazakh
     "onúsh", // Kazakh latin
-    "ishumi nantathu" // isiZulu
+    "ishumi nantathu", // isiZulu
+    "lishumi elinesithathu" // isiXhosa
 ];
 
 module.exports = {
