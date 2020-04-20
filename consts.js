@@ -208,8 +208,6 @@ var thirteenStrings = [
     "tredici", // Italian
     "ಹದಿಮೂರು", //Kannada (for thirteen)
     "೧೩",//Kannada (for 13)
-    "열셋", // Korean
-    "십삼", // Korean
     "sêzdeh", // Kurdish
     "tredecim", // Latin
     "trīspadsmit", // Latvian
@@ -222,6 +220,29 @@ var thirteenStrings = [
     "арван", // Mongolian
     ".---- ...--", // Morse code
     "irteenthay", // Pig Latin
+  
+    // Beginning of some Korean variants 🇰🇷
+    "열셋", // Korean
+    "십삼", // Korean
+  
+    "써틴", // Korean
+    "썰틴", // Korean
+    "떠틴", // Korean
+    "떨틴", // Korean
+  
+    "씹쌈", // Korean
+    "십쌈", // Korean
+    "씹삼", // Korean
+  
+    "10삼", // Korean
+    "십3", // Korean
+  
+    "시입삼", // Korean
+    "시이입삼", // Korean (TODO: Anything that matches "^(십|(시이*입))(삼|(사아*암))$" is 13)
+  
+    "여얼세엣", // Korean
+    "열세엣", // Korean (TODO: Also, Anything that matches "^(열|(여어*얼))(셋|(세에*엣))$" is 13)
+    // End of some Korean variants 🇰🇷
 
     // Beginning of all Polish variants 🇵🇱
     "trzynaście", // Polish
@@ -261,9 +282,9 @@ var thirteenStrings = [
 
     // Bangla/Bengali variants
     "১৩", // Bengali numeral
-    "তেরো",
+    "তেরো",
     "তের",
-    "ত্রয়োদশ",
+    "ত্রয়োদশ",
     // end of Bangla/Bengali variants
 
     "treze", // Portuguese
