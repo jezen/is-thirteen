@@ -311,7 +311,12 @@ var thirteenStrings = [
     "Sip Sam", // Thai Transcription with space
     "тринадцять", // Ukrainian
     "تیرہ", // Urdu
-    "mười ba", // Vietnamese
+  
+    // Vietnamese variants
+    "mười ba", // formal
+    "thập tam", // Sino-Vietnamese
+    // End of all Vietnamese variants  
+  
     "tri ar ddeg", // Welsh
     "דרייַצן", // Yiddish,
     "דרייצן", // Yiddish (without diacritics),
