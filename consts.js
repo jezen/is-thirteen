@@ -29,6 +29,8 @@ var thirteenStrings = [
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
     "sharon carter", // Agent 13
+  
+    "Triskaidekaphobia" // extreme superstition regarding the number 13.
 
     "end of slavery", // Thirteenth Amendment
 
