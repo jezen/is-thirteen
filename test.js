@@ -122,6 +122,9 @@ tap.equal(is("тринаесет").thirteen(), true); // Macedonian
 tap.equal(is("tiga belas").thirteen(), true); // Malay
 tap.equal(is("арван").thirteen(), true); // Mongolian
 tap.equal(is(".---- ...--").thirteen(), true); // Morse code
+tap.equal(is("matlactlihuan yei").thirteen(), true); // Classical Nahuatl (Aztec)
+tap.equal(is("mahtlactli omei").thirteen(), true); // Nahuatl variant
+tap.equal(is("mahtlactli ihuan yei").thirteen(), true); // Nahuatl variant
 tap.equal(is("irteenthay").thirteen(), true); // Pig Latin
 // Beginning of all Polish variants 🇵🇱
 tap.equal(is("trzynaście").thirteen(), true); // Polish
