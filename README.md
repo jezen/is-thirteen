@@ -39,6 +39,7 @@ is(13).thirteen(); // true
 is(12.8).roughly.thirteen(); // true
 is(6).within(10).of.thirteen(); // true
 is(2007).yearOfBirth(); // true
+is(new Date("2020-03-13")).friday13th(); // true
 
 // check your math skillz
 is(4).plus(5).thirteen();      // false
