@@ -336,6 +336,7 @@ var thirteenStrings = [
     "онүш", // Kazakh
     "онуш", // Kazakh
     "onúsh", // Kazakh latin
+    "paci", // lojban
     "ishumi nantathu", // isiZulu
     "lishumi elinesithathu" // isiXhosa
 ];
