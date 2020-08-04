@@ -37,6 +37,8 @@ var thirteenStrings = [
   
   
     "sharon carter", // Agent 13
+  
+    "Triskaidekaphobia" // extreme superstition regarding the number 13.
 
     "end of slavery", // Thirteenth Amendment
 
@@ -322,7 +324,12 @@ var thirteenStrings = [
     "Sip Sam", // Thai Transcription with space
     "тринадцять", // Ukrainian
     "تیرہ", // Urdu
-    "mười ba", // Vietnamese
+  
+    // Vietnamese variants
+    "mười ba", // formal
+    "thập tam", // Sino-Vietnamese
+    // End of all Vietnamese variants  
+  
     "tri ar ddeg", // Welsh
     "דרייַצן", // Yiddish,
     "דרייצן", // Yiddish (without diacritics),
