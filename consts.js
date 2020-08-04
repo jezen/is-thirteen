@@ -28,6 +28,14 @@ var thirteenStrings = [
     "Louis XIII", // Thirteenth king of France
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
+  
+  
+    // ALL HAIL ZALGO
+    "1̵̧̨̡̢̡̧̨̪͍̮̗̯̮̲͖̥̳̲̯͔͉̬̘͍͔͙̳͚̠͓̳̪̯̣͚͍͎͇̦̗͙͕̬̭̝͕̱̺̮̼̞̤̙̹̙̘̗̘͔͎̼͙̤̝̖̝̫̝̲̼̫̙͚̗͖̳̱̳͕͙̜̖̘͎̖̭̝̖͔̠̦̜̎̀͌̈́̇͜͜͠ͅͅ3̷̧̢̡̛͖̘͎͎̥̼͙̱̜͖̩̪̼̫̭̙̓̽͆̌̀̈́͗̈͗̿̀̔̏͂́̏̅͛͒̓̐́͗̋̎̓̄͛̇͋̊̇́̅̔̇̉͌̈́̊̍͗̑̌̈͆̉͐̂́̉̓̇͛̃͑̾̌̄͐̀̔́̈̐͛̈́͛̇́̍́͊͛̐́̇͆͆́͒͑̃̾̿̏̀́͆̾̀̀̆̚̕͘͘̚͜͝͝͝͝͝͝͝͝",
+  
+  
+  
+  
     "sharon carter", // Agent 13
 
     "end of slavery", // Thirteenth Amendment
