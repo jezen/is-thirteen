@@ -226,6 +226,10 @@ tap.equal(is("d").base(16).thirteen(), true);
 tap.equal(is("D").base(16).thirteen(), true);
 tap.equal(is("A").base(16).thirteen(), false);
 
+//nvn
+tap.equal(is("mười ba").thirteen(), true); // Vietnam
+tap.equal(is("muoi ba").thirteen(), true); // Vietnam
+
 //test function that is returning 13
 tap.equals(is(function(){return 13;}).returning.thirteen(),true);
 
