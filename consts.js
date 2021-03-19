@@ -107,6 +107,9 @@ var thirteenStrings = [
     "Wkluwhhq",
     "WKLUWHHQ",
 
+    // rot 13
+    "guvegrra",
+
     // hex
     "74 68 69 72 74 65 65 6e",
     "54 48 49 52 54 45 45 4e",
