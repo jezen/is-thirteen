@@ -29,6 +29,14 @@ var thirteenStrings = [
     "Louis XIII", // Thirteenth king of France
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
+  
+  
+    // ALL HAIL ZALGO
+    "1̵̧̨̡̢̡̧̨̪͍̮̗̯̮̲͖̥̳̲̯͔͉̬̘͍͔͙̳͚̠͓̳̪̯̣͚͍͎͇̦̗͙͕̬̭̝͕̱̺̮̼̞̤̙̹̙̘̗̘͔͎̼͙̤̝̖̝̫̝̲̼̫̙͚̗͖̳̱̳͕͙̜̖̘͎̖̭̝̖͔̠̦̜̎̀͌̈́̇͜͜͠ͅͅ3̷̧̢̡̛͖̘͎͎̥̼͙̱̜͖̩̪̼̫̭̙̓̽͆̌̀̈́͗̈͗̿̀̔̏͂́̏̅͛͒̓̐́͗̋̎̓̄͛̇͋̊̇́̅̔̇̉͌̈́̊̍͗̑̌̈͆̉͐̂́̉̓̇͛̃͑̾̌̄͐̀̔́̈̐͛̈́͛̇́̍́͊͛̐́̇͆͆́͒͑̃̾̿̏̀́͆̾̀̀̆̚̕͘͘̚͜͝͝͝͝͝͝͝͝",
+  
+  
+  
+  
     "sharon carter", // Agent 13
 
     "end of slavery", // Thirteenth Amendment
@@ -309,12 +317,14 @@ var thirteenStrings = [
     "tlettax", // Maltese
     "tretton", // Swedish
     "பதின்மூன்று", // Tamil
+    "Patiṉmūṉṟu", // Tamil
     "สิบสาม", // Thai
     "๑๓", // Thai Numeral
     "SipSam", // Thai Transcription
     "Sip Sam", // Thai Transcription with space
     "тринадцять", // Ukrainian
     "تیرہ", // Urdu
+    "tayra", // Roman Urdu
     "mười ba", // Vietnamese
     "tri ar ddeg", // Welsh
     "דרייַצן", // Yiddish,
@@ -337,6 +347,7 @@ var thirteenStrings = [
     "онүш", // Kazakh
     "онуш", // Kazakh
     "onúsh", // Kazakh latin
+    "paci", // lojban
     "ishumi nantathu", // isiZulu
     "lishumi elinesithathu" // isiXhosa
 ];
