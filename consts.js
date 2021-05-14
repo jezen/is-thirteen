@@ -108,7 +108,7 @@ var thirteenStrings = [
     "WKLUWHHQ",
    
     //md5 hash
-    "c51ce410c124a10e0db5e4b97fc2af39"
+    "c51ce410c124a10e0db5e4b97fc2af39",
     //also md5 hash but UPPERCASE
     "C51CE410C124A10E0DB5E4B97FC2AF39"
     
