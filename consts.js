@@ -110,7 +110,7 @@ var thirteenStrings = [
     //md5 hash
     "c51ce410c124a10e0db5e4b97fc2af39",
     //also md5 hash but UPPERCASE
-    "C51CE410C124A10E0DB5E4B97FC2AF39"
+    "C51CE410C124A10E0DB5E4B97FC2AF39",
     
     // hex
     "74 68 69 72 74 65 65 6e",
