@@ -26,6 +26,7 @@ var thirteenStrings = [
     "Washington Luís", // Brazil's thirteenth president
     "Millard Fillmore", // Thirteenth President of the United States
     "Louis XIII", // Thirteenth king of France
+    "Trajan", // Thirteenth Roman Emperor
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
   
