@@ -20,6 +20,7 @@ function is(x) {
         "remy hadley", // And because he's 13
         "olivia wilde", // AND because SHE's 13
         "baker's dozen", // Bakers gonna bake
+        "devil's dozen", // Ain't no code without the devil
         "dr. remy beauregard hadley", // Why not 13's real name?!
 
         // Imaginary 13's
@@ -51,8 +52,8 @@ function is(x) {
         "kolmetoista", // Finnish
         "treize", // French
         "dreizehn", // German
-      "שלוש עשרה", // Hebrew
-      "तेरह", //Hindi
+        "שלוש עשרה", // Hebrew
+        "तेरह", //Hindi
         "tizenhárom", // Hungarian
         "déag", // Irish
         "tredici", // Italian
