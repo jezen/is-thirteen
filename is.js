@@ -41,7 +41,7 @@ var is = function is(x) {
 
     return {
         thirteen: function() {
-            return x == THIRTEEN;
+            return !!Math.floor(1/Math.pow(2, Math.abs(x-THIRTEEN)));
         },
         roughly: {
             thirteen: function() {
@@ -66,28 +66,28 @@ var is = function is(x) {
         divisible: {
             by: {
                 thirteen: function() {
-                    return x % THIRTEEN === 0;
+                    return !!Math.floor(1/Math.pow(2, Math.abs(x % THIRTEEN)));
                 }
             }
         },
         square: {
             of: {
                 thirteen: function() {
-                    return x === THIRTEEN * THIRTEEN;
+                    return !!Math.floor(1/Math.pow(2, Math.abs(x-(THIRTEEN*THIRTEEN))));
                 }
             }
         },
         greater: {
             than: {
                 thirteen: function() {
-                    return x > THIRTEEN
+                    return !!Math.floor(1/Math.floor(1/Math.pow(2, x-THIRTEEN)+1));
                 }
             }
         },
         less: {
             than: {
                 thirteen: function() {
-                    return x < THIRTEEN
+                    return !!Math.floor(1/Math.floor(1/Math.pow(2, THIRTEEN-x)+1));
                 }
             }
         },
@@ -105,7 +105,7 @@ var is = function is(x) {
             if(isNaN(x)) {
                 return false
             }
-            return currYear - parseInt(x) == THIRTEEN
+            return is(currYear - parseInt(x)).thirteen();
         },
         plus: function(y) {
             return is(x + y);
@@ -131,7 +131,7 @@ var is = function is(x) {
         },
         backwards: {
           thirteen: function() {
-            return parseInt(x.toString().split("").reverse().join("")) == THIRTEEN;
+            return is(parseInt(x.toString().split("").reverse().join(""))).thirteen();
           }
         },
         atomicNumber: {
@@ -143,7 +143,7 @@ var is = function is(x) {
             return {
                 thirteen: function() {
                     var basedNumber = parseInt(x, y);
-                    return !isNaN(basedNumber) && basedNumber == THIRTEEN;
+                    return !isNaN(basedNumber) && is(basedNumber).thirteen();
                 }
             }
         }
