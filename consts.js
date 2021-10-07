@@ -355,6 +355,9 @@ var thirteenStrings = [
     "paci", // lojban
     "ishumi nantathu", // isiZulu
     "lishumi elinesithathu" // isiXhosa
+    ,"muoi ba" // Vietnam
+    ,"thập tam" // Vietnam
+    ,"thap tam" // Vietnam
 ];
 
 module.exports = {
