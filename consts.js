@@ -4,6 +4,7 @@ const THIRTEEN = 13;
 const THIRTEEN_FUZZ = 0.5;
 
 var thirteenStrings = [
+    "bad luck",
     "xiii", // Roman numeral 13
     "1.3", // Basically 13, see proof in #420
     "1️⃣3️⃣", // emoji sequence of 1 and 3
