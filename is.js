@@ -146,6 +146,13 @@ var is = function is(x) {
                     return !isNaN(basedNumber) && basedNumber == THIRTEEN;
                 }
             }
+        },
+        multiple: {
+            of: {
+                thirteen: function() {
+                    return x % 13 == 0;
+                }
+            }
         }
     }
 };
