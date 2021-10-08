@@ -138,6 +138,8 @@ var thirteenStrings = [
     "طلطاشر", // Arabic Slang
 
     "يج", //Arabic (gematria)
+    
+    "তের", //Bengali
 
     "سیزده", // Persian
     "۱۳", // Persian number
