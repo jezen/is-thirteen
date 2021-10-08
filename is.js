@@ -20,7 +20,7 @@ var is = function is(x) {
     if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
         x = THIRTEEN;
     }
-    // check agin without lower case
+    // check again without lower case
     else if (thirteenStrings.indexOf(('' + x)) > -1) {
         x = THIRTEEN;
     }
