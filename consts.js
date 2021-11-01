@@ -9,6 +9,7 @@ var thirteenStrings = [
     "1.3", // Basically 13, see proof in #420
     "1️⃣3️⃣", // emoji sequence of 1 and 3
     "https://en.wikipedia.org/wiki/This_Is_Thirteen", // Because it is thirteen
+    "https://www.google.com/search?q=13" // it's just 13 in google!
     "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
     "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
     "https://www.youtube.com/watch?v=33Kv5D2zwyc", // The best Johny Cash's song
