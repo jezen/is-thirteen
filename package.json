@@ -4,7 +4,7 @@
   "description": "Check if a number is equal to 13",
   "main": "index.js",
   "devDependencies": {
-    "tap": "5.7.0"
+    "tap": "^12.0.1"
   },
   "scripts": {
     "test": "tap test.js",
