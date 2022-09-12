@@ -28,6 +28,15 @@ var thirteenStrings = [
     "Millard Fillmore", // Thirteenth President of the United States
     "Louis XIII", // Thirteenth king of France
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
+    "zagalloetreze", // Zagallo is a former brazilian footballer that played as a striker with the #13 jersey
+    "triscaidecafobia", // Is the name (in Portuguese) of the #13 phobia (https://pt.wikipedia.org/wiki/Triscaidecafobia)
+    "giulio masetti", // Former F1 pilot, used the #13 in his car (died in 1926)
+    "treze futebol clube", // Brazilian football team (https://pt.wikipedia.org/wiki/Treze_Futebol_Clube)
+    "apollo 13", // (https://en.wikipedia.org/wiki/Apollo_13)
+    "m", // 13th letter of the alphabet
+    "beckham jr", // Odell Beckham Jr, New York Giants #13
+    "steve nash", // Steve Nash, Phoenix Suns #13
+    "wilt chamberlain", // Wilt Chamberlain, Harlem Globetrotters #13
 
 
 
