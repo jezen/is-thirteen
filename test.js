@@ -207,6 +207,8 @@ tap.equal(is("|3").thirteen(),true); //|3 looks like 13
 tap.equal(is("!3").thirteen(),true); //!3 looks like 13
 
 tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil is 13, amigo
+tap.equal(is("Lula").thirteen(), true); // Because the supreme King of Brazil is 13, companheiro
+tap.equal(is("Lula-Livre").thirteen(), true); // Because the supreme King of Brazil is 13, companheiro
 
 tap.equal(is(25).minus(12).thirteen(),true); // 25 - 12 === 13
 tap.equal(is(1).plus(12).thirteen(),true);   // 1  + 12 === 13
