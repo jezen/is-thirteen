@@ -150,8 +150,39 @@ var thirteenStrings = [
     "seriunteng",
     "serí-un-teng",
     "seríunteng",
-    "тринадесет", // Bulgarian
-    "тринайсет", // Also Bulgarian
+
+    // Beginning of all Bulgarian variants 🇧🇬
+    "тринадесет", // Official Bulgarian
+
+    "тринадесетте", // Plural form (base)
+    "тринадесетима", // Countable plural form (for people)
+    "тринадесетки", // Plural form (for pairs)
+
+    "тринадесети", // Action not being performed by the main subject (masculine)
+    "тринадесетия", // Action not being performed by the main subject (feminine)
+    "тринадесета", // Action not being performed by the main subject (gender neutral)
+    "тринадесето", // Action not being performed by the main subject (plural)
+    
+    "тринадесетият", // Action being performed by the main subject (masculine)
+    "тринадесетата", // Action being performed by the main subject (feminine)
+    "тринадесетото", // Action being performed by the main subject (gender neutral)
+    "тринадесетите", // Action being performed by the main subject (plural)
+
+    "тринайсет", // Bulgarian slang (still official)
+    
+    "тринайсетима", // Countable form
+    "тринайсетте", //  Countable form (again)
+
+    "тринайсети", //  Countable conjugation form (masculine + plural)
+    "тринайсетия", // Action not being performed by the main subject (masculine)
+    "тринайсета", //  Action not being performed by the main subject (feminine)
+    "тринайсето", //  Action not being perfomed by the main subject (gender neutral)
+
+    "тринайсетият", // Action being performed by the main subject (masculine)
+    "тринайсетата", // Action being performed by the main subject (feminine)
+    "тринайсетото", // Action being performed by the maub subject (gender neutral)
+    // End of all Bulgarian variants 🇧🇬
+
     "tretze", // Catalan
     "napulo ug tulo", // Cebuano
     "十三", // Chinese / Japanese
