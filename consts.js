@@ -55,7 +55,7 @@ var thirteenStrings = [
 
     // B just looks like 13 written closer
     "B",
-    //For cultural inclusiveness also include German variants
+    //For cultural inclusiveness also include German Eszet
     "ß",
     "ẞ",
     //Also greek
