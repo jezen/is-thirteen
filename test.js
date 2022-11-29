@@ -240,3 +240,5 @@ tap.equal(is("bbbbbbbbbbb").thirteen(), false);
 tap.equal(is("||h||||||||||").thirteen(), false);
 tap.equal(is("///i/////////").thirteen(), false);
 
+//Base (x) to text to 13 tests
+tap.equal(is("164 150 151 162 164 145 145 156").thirteen(), true);//Octal
