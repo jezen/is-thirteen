@@ -17,6 +17,7 @@
   "author": "Jezen Thomas <jezen@jezenthomas.com>",
   "license": "WTFPL",
   "dependencies": {
+    "is-thirteen-core": "^1.0.1",
     "noop3": "^13.7.2"
   }
 }
