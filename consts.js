@@ -221,6 +221,14 @@ var thirteenStrings = [
     "dektri", // Esperanto
     "tizenhárom", // Hungarian
     "trí déag", // Irish
+     // Beginning of all indonesi varian
+    "Tiga Belas", // indo
+    "tilu belas", // sundannese
+    "Fele Dӧlu", // Nias
+    "tilu welas", // Javanese 
+    "telulas", // anothrr javanese 
+     // more to come. 
+     // end of indonesia varian 
     "tredici", // Italian
     "ಹದಿಮೂರು", //Kannada (for thirteen)
     "೧೩",//Kannada (for 13)
