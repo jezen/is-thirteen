@@ -19,6 +19,7 @@ var thirteenStrings = [
     "patty tsai", // 蔡依珊 is a public figure in Taiwan. Her Chinese name sounds like "13".
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous Puerto Rican band
     "jason fly", // XIII of The XX
+    "https://www.imdb.com/title/tt0328538/", // Thirteen (2003)
     "http://www.imdb.com/title/tt0798817/", // 13 (2010)
     "https://www.imdb.com/title/tt2991516/", // 13/13/13 (2013)
     "https://en.wikipedia.org/wiki/XIII_(video_game)", // Because video games are also culture
