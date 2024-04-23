@@ -48,6 +48,20 @@ var thirteenStrings = [
 
     "weedle", //#13 Pokémon
 
+    // Elements from periodic table
+    "Aluminium", // Atomic number
+    "Al",
+    "Boron", // Group 13
+    "B",
+    "Gallium", // Group 13
+    "Ga",
+    "Indium", // Group 13
+    "In",
+    "Thallium", // Group 13
+    "Tl",
+    "Ununtrium", // Group 13
+    "Uut",
+
     // Imaginary 13's
     "13+0i",
     "13 + 13i",
