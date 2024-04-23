@@ -343,6 +343,7 @@ var thirteenStrings = [
     "7h1r733n", // Crypto
     // Thirteen pronunciation
     "θərˈtiːn",
+    "त्रयोदश" // Sanskrit
     "పదమూడు", //Telugu
     "shí sān", // Pinyin (formal)
     "shi san", // Pinyin (without tones)
