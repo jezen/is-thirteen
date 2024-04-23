@@ -206,6 +206,9 @@ tap.equal(is("L3").thirteen(),true); //l3 looks like 13 when lower case
 tap.equal(is("|3").thirteen(),true); //|3 looks like 13
 tap.equal(is("!3").thirteen(),true); //!3 looks like 13
 
+tap.equal(is("LE").thirteen(),true); //LE is the first half of LEET
+tap.equal(is("le").thirteen(),true); //le is the first half of leet
+
 tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil is 13, amigo
 tap.equal(is("Lula").thirteen(), true); // Because the supreme King of Brazil is 13, companheiro
 tap.equal(is("Lula-Livre").thirteen(), true); // Because the supreme King of Brazil is 13, companheiro

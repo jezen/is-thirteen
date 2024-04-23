@@ -71,6 +71,10 @@ var thirteenStrings = [
     "|3",
     "!3",
 
+    // Since LEET == 1337 LE is obviously 13
+    "LE",
+    "le",
+
     //Looks like 13 (flipped horizontally) - E equal to 3
     "ei",
     "e1",
