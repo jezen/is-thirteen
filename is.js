@@ -1,4 +1,4 @@
-var noop = require('noop3');
+gvar noop = require('noop3');
 var consts = require('./consts');
 
 const THIRTEEN = consts.THIRTEEN;
@@ -145,6 +145,16 @@ var is = function is(x) {
                     var basedNumber = parseInt(x, y);
                     return !isNaN(basedNumber) && basedNumber == THIRTEEN;
                 }
+            }
+        },
+        negative: {
+            thirteen: function() {
+                return is(x + 26).thirteen();
+            }
+        },
+        absolutely: {
+            thirteen: function() {
+                return is(x).thirteen() || is(x).negative.thirteen();
             }
         }
     }
