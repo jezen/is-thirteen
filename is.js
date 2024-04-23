@@ -146,8 +146,15 @@ var is = function is(x) {
                     return !isNaN(basedNumber) && basedNumber == THIRTEEN;
                 }
             }
+        },
+        thirteenthRoot:  {
+                of: function(y) {
+                            y = Number(y)
+                            return !isNaN(y) ? Math.pow(y,1/THIRTEEN) === x : false
+                    }
         }
     }
 };
 
+is('3').thirteenthRoot.of(13);
 module.exports = is;
