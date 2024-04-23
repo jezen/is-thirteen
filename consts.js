@@ -30,6 +30,7 @@ var thirteenStrings = [
     "Millard Fillmore", // Thirteenth President of the United States
     "Louis XIII", // Thirteenth king of France
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
+    "http://nintendo.wikia.com/wiki/The_Legend_of_Zelda:_The_Minish_Cap", //13th Legend of Zelda Game
 
 
 
