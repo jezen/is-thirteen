@@ -222,6 +222,7 @@ var thirteenStrings = [
     "tizenhárom", // Hungarian
     "trí déag", // Irish
     "tredici", // Italian
+    "tridece", "trirece" // Neapolitan ISO 639-2
     "ಹದಿಮೂರು", //Kannada (for thirteen)
     "೧೩",//Kannada (for 13)
     "sêzdeh", // Kurdish
