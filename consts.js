@@ -1,9 +1,11 @@
 'use strict';
 
-const THIRTEEN = 13;
+const { THIRTEEN } = require('is-thirteen-core');
+
 const THIRTEEN_FUZZ = 0.5;
 
 var thirteenStrings = [
+    `${THIRTEEN}`,
     "bad luck",
     "xiii", // Roman numeral 13
     "1.3", // Basically 13, see proof in #420
@@ -364,7 +366,6 @@ var thirteenStrings = [
 ];
 
 module.exports = {
-    THIRTEEN: THIRTEEN,
     THIRTEEN_FUZZ: THIRTEEN_FUZZ,
     thirteenStrings: thirteenStrings
 };
