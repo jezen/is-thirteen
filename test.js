@@ -207,6 +207,8 @@ tap.equal(is("|3").thirteen(),true); //|3 looks like 13
 tap.equal(is("!3").thirteen(),true); //!3 looks like 13
 
 tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil is 13, amigo
+
+tap.equal(is("Luiz Inácio Lula da Silva").thirteen(), true); // Because the brazilian president Luiz Inácio Lula da Silva is always 13, companheiro
 tap.equal(is("Lula").thirteen(), true); // Because the supreme King of Brazil is 13, companheiro
 tap.equal(is("Lula-Livre").thirteen(), true); // Because the supreme King of Brazil is 13, companheiro
 
