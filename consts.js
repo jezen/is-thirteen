@@ -297,6 +297,7 @@ var thirteenStrings = [
     "trzynastokrotność", // Polish
     "trzynastokrotności", // Polish
     "trzynastokrotnością", // Polish
+    "trzinŏście", // Polish - Silesian 
     // End of all Polish variants 🇵🇱
 
     // Bangla/Bengali variants
