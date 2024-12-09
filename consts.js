@@ -357,7 +357,10 @@ var thirteenStrings = [
     "paci", // lojban
     "ishumi nantathu", // isiZulu
     "lishumi elinesithathu", // isiXhosa
-
+    "on uch" // Uzbek
+    "o'n uch" // Uzbek
+    "o'nnuch" // Uzbek
+    "он уч" // Uzbek Cyrllic
     // Toki Pona
     "tu tu tu tu tu tu wan",
     "luka luka tu wan",
