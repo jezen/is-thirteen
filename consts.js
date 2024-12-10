@@ -14,6 +14,7 @@ var thirteenStrings = [
     "https://www.youtube.com/watch?v=33Kv5D2zwyc", // The best Johny Cash's song
     "remy hadley", // And because she's "Thirteen"
     "olivia wilde", // AND because SHE's "Thirteen"
+    "millie bobby brown" // And Because she's "Thirteen"
     "baker's dozen", // Bakers gonna bake
     "dr. remy beauregard hadley", // Why not 13's real name?!
     "patty tsai", // 蔡依珊 is a public figure in Taiwan. Her Chinese name sounds like "13".
