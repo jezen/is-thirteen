@@ -30,6 +30,7 @@ var thirteenStrings = [
     "Millard Fillmore", // Thirteenth President of the United States
     "Louis XIII", // Thirteenth king of France
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
+    "ophiuchus" // Thirteenth zodiac sign
 
 
 
