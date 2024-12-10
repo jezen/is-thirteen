@@ -358,7 +358,7 @@ var thirteenStrings = [
     "ishumi nantathu", // isiZulu
     "lishumi elinesithathu", // isiXhosa
 
-    "سیزده",    // Farsi
+    "سیزده",    //Farsi
     "سیزده‌بدر", //Farsi
     "سه و ده",  //Farsi
     "سیزدهم",   //Farsi
