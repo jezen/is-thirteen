@@ -12,15 +12,11 @@ const thirteenStrings = consts.thirteenStrings;
  * @returns {object}
  */
 var is = function is(x) {
-    // the next line calls the noop function
     noop();
-
-    // Every element should be lower case
 
     if (thirteenStrings.indexOf(('' + x).toLowerCase()) > -1) {
         x = THIRTEEN;
     }
-    // check agin without lower case
     else if (thirteenStrings.indexOf(('' + x)) > -1) {
         x = THIRTEEN;
     }
@@ -33,7 +29,7 @@ var is = function is(x) {
              x = THIRTEEN;
         }
         else if (chars.length == 26 && '\ud800' <= chars[0] && chars[0] <= '\udbff'
-                && '\udc00' <= chars[1] && chars[1] <= '\udfff'
+                && '\udc00' <= chars[1] && '\udc00' <= '\udfff'
                 && chars.every(function(e, idx) { return e === chars[idx % 2]})) {
             x = THIRTEEN;
         }
@@ -146,8 +142,14 @@ var is = function is(x) {
                     return !isNaN(basedNumber) && basedNumber == THIRTEEN;
                 }
             }
+        },
+        multiplesOf: {
+            thirteen: function() {
+                return x % THIRTEEN === 0;
+            }
         }
     }
 };
 
 module.exports = is;
+
