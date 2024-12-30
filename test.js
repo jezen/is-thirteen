@@ -26,6 +26,10 @@ tap.equal(is("Dr. Remy Beauregard Hadley").thirteen(), true);
 tap.equal(is("Patty Tsai").thirteen(), true);
 tap.equal(is("PT").thirteen(), true);
 tap.equal(is("Washington Luís").thirteen(), true);
+tap.equal(is("Shri Pranab Mukherjee").thirteen(), true);
+tap.equal(is("Manmohan Singh").thirteen(), true);
+tap.equal(is("Tiramisu").thirteen(), true);
+tap.equal(is("Ventura").thirteen(), true);
 tap.equal(is("Millard Fillmore").thirteen(), true);
 tap.equal(is('https://en.wikipedia.org/wiki/XIII_(video_game)').thirteen(), true);
 
