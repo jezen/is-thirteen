@@ -254,3 +254,5 @@ tap.equal(is(69).less.than.thirteen(), false);
 tap.equal(is(4).less.than.or.equal.thirteen(), true);
 tap.equal(is(13).less.than.or.equal.thirteen(), true);
 tap.equal(is(420).less.than.or.equal.thirteen(), false);
+
+tap.equal(is(13).not.thirteen(), false);
