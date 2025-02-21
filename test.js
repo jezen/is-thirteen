@@ -240,3 +240,17 @@ tap.equal(is("bbbbbbbbbbb").thirteen(), false);
 tap.equal(is("||h||||||||||").thirteen(), false);
 tap.equal(is("///i/////////").thirteen(), false);
 
+// Equality Tests
+tap.equal(is(4).greater.than.thirteen(), false);
+tap.equal(is(13).greater.than.thirteen(), false);
+tap.equal(is(69).greater.than.thirteen(), true);
+tap.equal(is(4).greater.than.or.equal.thirteen(), false);
+tap.equal(is(13).greater.than.or.equal.thirteen(), true);
+tap.equal(is(1989).greater.than.or.equal.thirteen(), true);
+
+tap.equal(is(4.13).less.than.thirteen(), true);
+tap.equal(is(13).less.than.thirteen(), false);
+tap.equal(is(69).less.than.thirteen(), false);
+tap.equal(is(4).less.than.or.equal.thirteen(), true);
+tap.equal(is(13).less.than.or.equal.thirteen(), true);
+tap.equal(is(420).less.than.or.equal.thirteen(), false);
