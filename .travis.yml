@@ -5,6 +5,8 @@ node_js:
   - '0.12'
   - '4.4'
   - '5.9.1'
+  - '8'
+  - '10'
   - node
 
 script: npm test
