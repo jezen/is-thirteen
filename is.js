@@ -1,7 +1,7 @@
+const { THIRTEEN, isThirteen } = require('is-thirteen-core');
 var noop = require('noop3');
 var consts = require('./consts');
 
-const THIRTEEN = consts.THIRTEEN;
 const THIRTEEN_FUZZ = consts.THIRTEEN_FUZZ;
 const thirteenStrings = consts.thirteenStrings;
 
@@ -41,7 +41,7 @@ var is = function is(x) {
 
     return {
         thirteen: function() {
-            return x == THIRTEEN;
+            return isThirteen(x);
         },
         roughly: {
             thirteen: function() {
