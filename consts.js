@@ -361,6 +361,9 @@ var thirteenStrings = [
     // Toki Pona
     "tu tu tu tu tu tu wan",
     "luka luka tu wan",
+
+    // Sinhala(si-LK)
+    "දහතුන"
 ];
 
 module.exports = {
