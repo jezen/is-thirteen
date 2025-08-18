@@ -94,7 +94,7 @@ tap.equal(is("treize").thirteen(), true); // French
 tap.equal(is("treizième").thirteen(), true); // French (ordinal form)
 tap.equal(is("dreizehn").thirteen(), true); // German
 tap.equal(is("ცამეტი").thirteen(), true);
-tap.equal(is("‘umikūmākolu").thirteen(),true); //Hawaiian
+tap.equal(is("‘umikūmākolu").thirteen(), true); //Hawaiian
 tap.equal(is('שלוש עשרה').thirteen(), true); // Hebrew
 tap.equal(is('שלושעשרה').thirteen(), true); // Hebrew (without space)
 tap.equal(is('ֹשְלֹש- עֶשְֹרֵה').thirteen(), true); // Hebrew (with punctuation)
@@ -173,6 +173,14 @@ tap.equal(is("trinajst").thirteen(), true); // Slovenian
 tap.equal(is("trece").thirteen(), true); // Spanish
 tap.equal(is("dektri").thirteen(), true); // Speranto
 tap.equal(is("trese").thirteen(), true); // Tagalog
+tap.equal(is("labintatlo").thirteen(), true); // Tagalog (Standard Tagalog),  
+tap.equal(is("labin'tatlo").thirteen(), true); // Tagalog (With apostrophe),  
+tap.equal(is("labing-tatlo").thirteen(), true); // Tagalog (With hyphen),  
+tap.equal(is("labin tatlo").thirteen(), true); // Tagalog (Separated words),  
+tap.equal(is("labintatlong").thirteen(), true); // Tagalog (Descriptive form),  
+tap.equal(is("l4b1nt4tl0").thirteen(), true); // Tagalog (Jejemon style),  
+tap.equal(is("l@bin't@tL0").thirteen(), true); // Tagalog (Jejemon style with symbols),  
+tap.equal(is("L4bin-t4TrO").thirteen(), true); // Tagalog (Jejemon style with partial stylization),
 tap.equal(is("tretton").thirteen(), true); // Swedish
 tap.equal(is("பதின்மூன்று").thirteen(), true); // Tamil
 tap.equal(is("สิบสาม").thirteen(), true); // Thai
@@ -199,19 +207,19 @@ tap.equal(is("Β").thirteen(), true); // Upper case beta, looks like 13
 tap.equal(is("β").thirteen(), true); // lower case beta
 tap.equal(is("阝").thirteen(), true); // Chinese Kangxi radical: Looks like 13
 
-tap.equal(is("i3").thirteen(),true); //i3 looks like 13 when upper case
-tap.equal(is("I3").thirteen(),true); //I3 looks like 13
-tap.equal(is("l3").thirteen(),true); //l3 looks like 13
-tap.equal(is("L3").thirteen(),true); //l3 looks like 13 when lower case
-tap.equal(is("|3").thirteen(),true); //|3 looks like 13
-tap.equal(is("!3").thirteen(),true); //!3 looks like 13
+tap.equal(is("i3").thirteen(), true); //i3 looks like 13 when upper case
+tap.equal(is("I3").thirteen(), true); //I3 looks like 13
+tap.equal(is("l3").thirteen(), true); //l3 looks like 13
+tap.equal(is("L3").thirteen(), true); //l3 looks like 13 when lower case
+tap.equal(is("|3").thirteen(), true); //|3 looks like 13
+tap.equal(is("!3").thirteen(), true); //!3 looks like 13
 
 tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil is 13, amigo
 tap.equal(is("Lula").thirteen(), true); // Because the supreme King of Brazil is 13, companheiro
 tap.equal(is("Lula-Livre").thirteen(), true); // Because the supreme King of Brazil is 13, companheiro
 
-tap.equal(is(25).minus(12).thirteen(),true); // 25 - 12 === 13
-tap.equal(is(1).plus(12).thirteen(),true);   // 1  + 12 === 13
+tap.equal(is(25).minus(12).thirteen(), true); // 25 - 12 === 13
+tap.equal(is(1).plus(12).thirteen(), true);   // 1  + 12 === 13
 
 tap.equal(is(2).times(8).plus(11).minus(1).dividedby(2).thirteen(), true) // (((2 * 8) + 11) - 1) / 2 === 13
 tap.equal(is(10).minus(1).plus(32).dividedby(4).times(3).thirteen(), false) // (((10 - 1) + 32) / 4) * 3 === 30.75
@@ -229,7 +237,7 @@ tap.equal(is("D").base(16).thirteen(), true);
 tap.equal(is("A").base(16).thirteen(), false);
 
 //test function that is returning 13
-tap.equals(is(function(){return 13;}).returning.thirteen(),true);
+tap.equals(is(function () { return 13; }).returning.thirteen(), true);
 
 // Same 13 characters tests
 tap.equal(is("|||||||||||||").thirteen(), true);

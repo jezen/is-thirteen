@@ -319,6 +319,14 @@ var thirteenStrings = [
     "trece", // Spanish
     "diez-y-tres", // Spanglish
     "trese", // Tagalog
+    "labintatlo", // Tagalog (Standard Tagalog),  
+    "labin'tatlo", // Tagalog (With apostrophe),  
+    "labing-tatlo", // Tagalog (With hyphen),  
+    "labin tatlo", // Tagalog (Separated words),  
+    "labintatlong", // Tagalog (Descriptive form),  
+    "l4b1nt4tl0", // Tagalog (Jejemon style),  
+    "l@bin't@tL0", // Tagalog (Jejemon style with symbols),  
+    "L4bin-t4TrO", // Tagalog (Jejemon style with partial stylization),
     "on üç", // Turkish
     "dektri", //Speranto
     "tlettax", // Maltese
