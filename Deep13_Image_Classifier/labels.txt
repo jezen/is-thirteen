@@ -1,2 +1,0 @@
-is_not_thirteen
-is_thirteen
