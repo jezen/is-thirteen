@@ -4,7 +4,6 @@ _Special thanks to [@casdr](https://github.com/casdr) for the logo_
 # is-thirteen
 
 [![Build Status](https://travis-ci.org/jezen/is-thirteen.svg?branch=master)](https://travis-ci.org/jezen/is-thirteen) 
-[![Join us on Gitter](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/gytdau/is-thirteen)
 
 An npm package to check if a number is equal to 13.
 
@@ -38,7 +37,7 @@ const is = require('is-thirteen');
 is(13).thirteen(); // true
 is(12.8).roughly.thirteen(); // true
 is(6).within(10).of.thirteen(); // true
-is(2008).yearOfBirth(); // true
+is(2011).yearOfBirth(); // true
 is(new Date("2020-03-13")).friday13th(); // true
 
 // check your math skillz

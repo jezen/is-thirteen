@@ -5,6 +5,7 @@ const THIRTEEN_FUZZ = 0.5;
 const FRIDAY = 5;
 
 var thirteenStrings = [
+    "bad luck",
     "xiii", // Roman numeral 13
     "1.3", // Basically 13, see proof in #420
     "1️⃣3️⃣", // emoji sequence of 1 and 3
@@ -20,8 +21,10 @@ var thirteenStrings = [
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous Puerto Rican band
     "jason fly", // XIII of The XX
     "http://www.imdb.com/title/tt0798817/", // 13 (2010)
-	"https://www.imdb.com/title/tt2991516/", // 13/13/13 (2013)
+    "https://www.imdb.com/title/tt2991516/", // 13/13/13 (2013)
     "https://en.wikipedia.org/wiki/XIII_(video_game)", // Because video games are also culture
+    "lula", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
+    "lula-livre", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
     "PT", // PT is Brazilian political party represented by the number 13
     "Washington Luís", // Brazil's thirteenth president
@@ -29,14 +32,14 @@ var thirteenStrings = [
     "Louis XIII", // Thirteenth king of France
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
 
-  
-  
+
+
     // ALL HAIL ZALGO
     "1̵̧̨̡̢̡̧̨̪͍̮̗̯̮̲͖̥̳̲̯͔͉̬̘͍͔͙̳͚̠͓̳̪̯̣͚͍͎͇̦̗͙͕̬̭̝͕̱̺̮̼̞̤̙̹̙̘̗̘͔͎̼͙̤̝̖̝̫̝̲̼̫̙͚̗͖̳̱̳͕͙̜̖̘͎̖̭̝̖͔̠̦̜̎̀͌̈́̇͜͜͠ͅͅ3̷̧̢̡̛͖̘͎͎̥̼͙̱̜͖̩̪̼̫̭̙̓̽͆̌̀̈́͗̈͗̿̀̔̏͂́̏̅͛͒̓̐́͗̋̎̓̄͛̇͋̊̇́̅̔̇̉͌̈́̊̍͗̑̌̈͆̉͐̂́̉̓̇͛̃͑̾̌̄͐̀̔́̈̐͛̈́͛̇́̍́͊͛̐́̇͆͆́͒͑̃̾̿̏̀́͆̾̀̀̆̚̕͘͘̚͜͝͝͝͝͝͝͝͝",
-  
-  
-  
-  
+
+
+
+
     "sharon carter", // Agent 13
 
     "end of slavery", // Thirteenth Amendment
@@ -107,6 +110,11 @@ var thirteenStrings = [
     "wkluwhhq",
     "Wkluwhhq",
     "WKLUWHHQ",
+
+    //md5 hash
+    "c51ce410c124a10e0db5e4b97fc2af39",
+    //also md5 hash but UPPERCASE
+    "C51CE410C124A10E0DB5E4B97FC2AF39",
 
     // hex
     "74 68 69 72 74 65 65 6e",
@@ -232,26 +240,26 @@ var thirteenStrings = [
     "mahtlactli omei", // Nahuatl variant
     "mahtlactli ihuan yei", // Nahuatl variant
     "irteenthay", // Pig Latin
-  
+
     // Beginning of some Korean variants 🇰🇷
     "열셋", // Korean
     "십삼", // Korean
-  
+
     "써틴", // Korean
     "썰틴", // Korean
     "떠틴", // Korean
     "떨틴", // Korean
-  
+
     "씹쌈", // Korean
     "십쌈", // Korean
     "씹삼", // Korean
-  
+
     "10삼", // Korean
     "십3", // Korean
-  
+
     "시입삼", // Korean
     "시이입삼", // Korean (TODO: Anything that matches "^(십|(시이*입))(삼|(사아*암))$" is 13)
-  
+
     "여얼세엣", // Korean
     "열세엣", // Korean (TODO: Also, Anything that matches "^(열|(여어*얼))(셋|(세에*엣))$" is 13)
     // End of some Korean variants 🇰🇷
@@ -349,7 +357,11 @@ var thirteenStrings = [
     "onúsh", // Kazakh latin
     "paci", // lojban
     "ishumi nantathu", // isiZulu
-    "lishumi elinesithathu" // isiXhosa
+    "lishumi elinesithathu", // isiXhosa
+
+    // Toki Pona
+    "tu tu tu tu tu tu wan",
+    "luka luka tu wan",
 ];
 
 module.exports = {
