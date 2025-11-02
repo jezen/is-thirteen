@@ -81,6 +81,13 @@ var is = function is(x) {
             than: {
                 thirteen: function() {
                     return x > THIRTEEN
+                },
+                or: {
+                    equal: {
+                        thirteen: function () {
+                            return x >= THIRTEEN;
+                        }
+                    }
                 }
             }
         },
@@ -88,6 +95,13 @@ var is = function is(x) {
             than: {
                 thirteen: function() {
                     return x < THIRTEEN
+                },
+                or: {
+                    equal: {
+                        thirteen: function () {
+                            return x <= THIRTEEN;
+                        }
+                    }
                 }
             }
         },
