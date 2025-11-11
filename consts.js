@@ -31,6 +31,10 @@ var thirteenStrings = [
     "Louis XIII", // Thirteenth king of France
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
     "Epiphany", // Thirteen music of folklore, album by Taylor Swift
+    "https://www.youtube.com/watch?v=Y4D-7YAgx7Y", // This is thirteen video of Vinicius13
+    "Vinicius13", // Brazilian YouTuber with 13 in his name
+
+
 
 
     // ALL HAIL ZALGO
