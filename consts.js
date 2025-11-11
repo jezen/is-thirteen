@@ -2,6 +2,7 @@
 
 const THIRTEEN = 13;
 const THIRTEEN_FUZZ = 0.5;
+const FRIDAY = 5;
 
 var thirteenStrings = [
     "bad luck",
@@ -371,5 +372,6 @@ var thirteenStrings = [
 module.exports = {
     THIRTEEN: THIRTEEN,
     THIRTEEN_FUZZ: THIRTEEN_FUZZ,
+    FRIDAY: FRIDAY,
     thirteenStrings: thirteenStrings
 };

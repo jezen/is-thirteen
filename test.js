@@ -36,6 +36,11 @@ tap.equal(is("https://www.imdb.com/title/tt2991516/").thirteen(), true);
 //year of birth test
 tap.equal(is("2003").yearOfBirth(), false);
 
+// Friday 13th test
+tap.equal(is("not a date").friday13th(), false);
+tap.equal(is(new Date("2020-06-13")).friday13th(), false);
+tap.equal(is(new Date("2018-07-13")).friday13th(), true);
+
 // Imaginary 13's tests
 tap.equal(is("13+0i").thirteen(), true);
 tap.equal(is("13i").thirteen(), true);
