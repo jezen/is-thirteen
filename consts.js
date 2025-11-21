@@ -366,6 +366,9 @@ var thirteenStrings = [
     // Toki Pona
     "tu tu tu tu tu tu wan",
     "luka luka tu wan",
+  
+    // 13 Dots
+    ".............",
 ];
 
 module.exports = {
