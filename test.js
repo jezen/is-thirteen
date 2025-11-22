@@ -28,6 +28,13 @@ tap.equal(is("PT").thirteen(), true);
 tap.equal(is("Washington Luís").thirteen(), true);
 tap.equal(is("Millard Fillmore").thirteen(), true);
 tap.equal(is('https://en.wikipedia.org/wiki/XIII_(video_game)').thirteen(), true);
+tap.equal(is("Taylor Swift").thirteen(), true);
+tap.equal(is("Apollo 13").thirteen(), true);
+tap.equal(is("Bar Mitzvah").thirteen(), true);
+tap.equal(is("Friday the 13th").thirteen(), true);
+tap.equal(is("Ocean's Thirteen").thirteen(), true);
+tap.equal(is("Colgate University").thirteen(), true);
+tap.equal(is("Aluminum").thirteen(), true);
 
 // imdbs
 tap.equal(is("http://www.imdb.com/title/tt0798817/").thirteen(), true);
@@ -68,6 +75,9 @@ tap.equal(is("تلطاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("تلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلتاشر").thirteen(), true); // Arabic Slang
 tap.equal(is("طلطاشر").thirteen(), true); // Arabic Slang
+tap.equal(is("ثلطعشر").thirteen(), true); // Arabic Slang
+tap.equal(is("تلطعشر").thirteen(), true); // Arabic Slang
+tap.equal(is("طلطعشر").thirteen(), true); // Arabic Slang
 tap.equal(is("dertiendertien").thirteen(), true); // Double Dutch
 tap.equal(is("seri-un-teng").thirteen(), true); // Belter creole
 tap.equal(is("seriunteng").thirteen(), true);
@@ -184,8 +194,8 @@ tap.equal(is("דרייַצן").thirteen(), true); // Yiddish
 tap.equal(is("דרייצן").thirteen(), true); // Yiddish (without diacritics),
 tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
 tap.equal(is("പതിമൂന്ന്").thirteen(), true); // Malayalam
-tap.equals(is("१३").thirteen(), true); //Devanagari
-tap.equals(is("तेह्र").thirteen(), true); //Nepali
+tap.equal(is("१३").thirteen(), true); //Devanagari
+tap.equal(is("तेह्र").thirteen(), true); //Nepali
 tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
 tap.equal(is("7h1r733n").thirteen(), true); // Crypto
@@ -229,7 +239,7 @@ tap.equal(is("D").base(16).thirteen(), true);
 tap.equal(is("A").base(16).thirteen(), false);
 
 //test function that is returning 13
-tap.equals(is(function(){return 13;}).returning.thirteen(),true);
+tap.equal(is(function(){return 13;}).returning.thirteen(),true);
 
 // Same 13 characters tests
 tap.equal(is("|||||||||||||").thirteen(), true);

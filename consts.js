@@ -33,6 +33,13 @@ var thirteenStrings = [
     "https://www.youtube.com/watch?v=Y4D-7YAgx7Y", // This is thirteen video of Vinicius13
     "Vinicius13", // Brazilian YouTuber with 13 in his name
 
+    "Taylor Swift", // Considers 13 to be her lucky number, and has a tattoo on her hand
+    "Apollo 13", // NASA mission that suffered a critical failure but returned safely to Earth
+    "Bar Mitzvah", // Orthodox Jewish boys celebrate their coming of age at 13
+    "Friday the 13th", // Superstitious day considered unlucky in some cultures
+    "Ocean's Thirteen", // 13 accomplices in this heist film (MAKES SENSE???)
+    "Colgate University", // Founded by 13 men, each pledged $13, 13 prayers and 13 articles. Address is 13 oak drive. They consider 13 their lucky number
+    "Aluminum", // Atomic number 13
 
 
 
@@ -109,6 +116,11 @@ var thirteenStrings = [
     "- .... .. .-. - . . -.",
     "- .... .. .-. - . . -.",
 
+    // Braille
+    "⠹⠊⠗⠞⠑⠢",   // "Thirteen" in Braille
+    "⠼⠁⠉",       // "13" in Braille
+
+
     // Caesar shift
     "wkluwhhq",
     "Wkluwhhq",
@@ -142,6 +154,9 @@ var thirteenStrings = [
     "تلتاشر", // Arabic Slang
     "طلتاشر", // Arabic Slang
     "طلطاشر", // Arabic Slang
+    "ثلطعشر", // Arabic Slang
+    "تلطعشر", // Arabic Slang
+    "طلطعشر", // Arabic Slang
 
     "يج", //Arabic (gematria)
 
@@ -369,6 +384,12 @@ var thirteenStrings = [
   
     // 13 Dots
     ".............",
+
+    // 13 Dashes
+    "-------------",
+
+    // 13 Stars
+    "*************",
 ];
 
 module.exports = {
