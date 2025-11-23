@@ -32,7 +32,7 @@ var thirteenStrings = [
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
     "https://www.youtube.com/watch?v=Y4D-7YAgx7Y", // This is thirteen video of Vinicius13
     "Vinicius13", // Brazilian YouTuber with 13 in his name
-
+    "Death 13", // Stand from JoJo's Bizarre Adventure
 
 
 
