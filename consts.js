@@ -168,6 +168,7 @@ var thirteenStrings = [
     "trinaest", // Croatian / Serbian (latin)
     "tretten", // Danish / Norwegian
     "senthi", //Dothraki
+    "ތޭރަ" //Dhivehi
     "þrettán", // Icelandic, following are different inflections
     "þrettándi", // e. thirteenth
     "þrettánda",
