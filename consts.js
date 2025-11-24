@@ -29,6 +29,10 @@ var thirteenStrings = [
     "Washington Luís", // Brazil's thirteenth president
     "Millard Fillmore", // Thirteenth President of the United States
     "Louis XIII", // Thirteenth king of France
+    "Shri Pranab Mukherjee", // Thirteenth President of india
+    "Manmohan Singh", // Thirteenth Prime Minister of india
+    "Tiramisu", // Android 13 codename 
+    "Ventura", // // macOS 13 codename 
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
     "https://www.youtube.com/watch?v=Y4D-7YAgx7Y", // This is thirteen video of Vinicius13
     "Vinicius13", // Brazilian YouTuber with 13 in his name
