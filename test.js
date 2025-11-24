@@ -210,6 +210,33 @@ tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil 
 tap.equal(is("Lula").thirteen(), true); // Because the supreme King of Brazil is 13, companheiro
 tap.equal(is("Lula-Livre").thirteen(), true); // Because the supreme King of Brazil is 13, companheiro
 
+// Doctor Who tests
+// Source: https://en.wikipedia.org/wiki/List_of_actors_who_have_played_the_Doctor
+tap.equal(is("Jodie Whittaker").thirteen(), true); // Thirteenth Doctor
+tap.equal(is("Peter Capaldi").thirteen(), false); // Twelfth Doctor
+tap.equal(is("Matt Smith").thirteen(), false); // Eleventh Doctor
+tap.equal(is("David Tennant").thirteen(), false); // Tenth Doctor
+tap.equal(is("Christopher Eccleston").thirteen(), false); // Ninth Doctor (reboot)
+tap.equal(is("Richard E. Grant").thirteen(), false); // Ninth Doctor (animated series)
+tap.equal(is("John Hurt").thirteen(), false); // 8.5th Doctor (aka "War Doctor")
+tap.equal(is("Paul McGann").thirteen(), false); // Eighth Doctor
+tap.equal(is("Sylvester McCoy").thirteen(), false); // Seventh Doctor (Also briefly played the sixth Doctor)
+tap.equal(is("Colin Baker").thirteen(), false); // Sixth Doctor
+tap.equal(is("Peter Davison").thirteen(), false); // Fifth Doctor
+tap.equal(is("Tom Baker").thirteen(), false); // Fourth Doctor
+tap.equal(is("Trevor Martin").thirteen(), false); // Alternate fourth Doctor in "The Seven Keys to Doomsday"
+tap.equal(is("Michael Sagar").thirteen(), false); // Alternate fourth Doctor in "The Seven Keys to Doomsday"
+tap.equal(is("Jon Pertwee").thirteen(), false); // Third Doctor
+tap.equal(is("David Banks").thirteen(), false); // Third Doctor ("The Ultimate Adventure", while Pertwee was ill)
+tap.equal(is("Patrick Troughton").thirteen(), false); // Second Doctor
+tap.equal(is("Nick Scovell").thirteen(), false); // Second & first Doctor in several stage productions
+tap.equal(is("Nicholas Briggs").thirteen(), false); // Regenerated from Nick Scovell in "The Dalek Masterplan"
+tap.equal(is("William Hartnell").thirteen(), false); // First Doctor
+tap.equal(is("Richard Hurndall").thirteen(), false); // First Doctor in "The Five Doctors"
+tap.equal(is("David Bradley").thirteen(), false); // First Doctor in "The Doctor Falls" and "Twice Upon a Time"
+tap.equal(is("Michael Jones").thirteen(), false); // First Doctor (as a child)
+tap.equal(is("Peter Cushing").thirteen(), false); // Non-canon Doctor 1965-1966
+
 tap.equal(is(25).minus(12).thirteen(),true); // 25 - 12 === 13
 tap.equal(is(1).plus(12).thirteen(),true);   // 1  + 12 === 13
 
