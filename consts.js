@@ -15,6 +15,7 @@ var thirteenStrings = [
     "remy hadley", // And because she's "Thirteen"
     "olivia wilde", // AND because SHE's "Thirteen"
     "baker's dozen", // Bakers gonna bake
+    "devil's dozen", // Ain't no code without the devil
     "dr. remy beauregard hadley", // Why not 13's real name?!
     "patty tsai", // 蔡依珊 is a public figure in Taiwan. Her Chinese name sounds like "13".
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous Puerto Rican band
