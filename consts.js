@@ -145,6 +145,8 @@ var thirteenStrings = [
 
     "يج", //Arabic (gematria)
 
+    "ܬܠ ܳܬܰܥܣܰܪ", //ṭuroyo (Neo-aramaic language)
+
     "سیزده", // Persian
     "۱۳", // Persian number
 
