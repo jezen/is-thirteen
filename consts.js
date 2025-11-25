@@ -29,6 +29,7 @@ var thirteenStrings = [
     "Washington Luís", // Brazil's thirteenth president
     "Millard Fillmore", // Thirteenth President of the United States
     "Louis XIII", // Thirteenth king of France
+    "Helmut Kohl", // chancellor of Germany during the legislative period of the 13th Bundestag: https://en.wikipedia.org/wiki/1994_German_federal_election
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
     "https://www.youtube.com/watch?v=Y4D-7YAgx7Y", // This is thirteen video of Vinicius13
     "Vinicius13", // Brazilian YouTuber with 13 in his name
