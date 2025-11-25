@@ -45,6 +45,9 @@ var thirteenStrings = [
     "sharon carter", // Agent 13
 
     "end of slavery", // Thirteenth Amendment
+    "M", // 13th letter of the alphabet
+    "m", // 13th letter of the alphabet
+    "Aryan Circle" // Hate group. I don't like them either, but we're trying to be accurate here.
 
     // Television characters
     "Jodie Whittaker",  // the 13th Doctor in the BBC series, "Doctor Who"
