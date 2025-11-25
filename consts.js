@@ -25,6 +25,9 @@ var thirteenStrings = [
     "lula", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "lula-livre", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
+    "lula", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
+    "Luiz Inácio Lula da Silva", // Because the brazilian president Luiz Inácio Lula da Silva is always 13, companheiro
+    "luiz inacio lula da silva", // Because the brazilian president Luiz Inácio Lula da Silva is always 13, companheiro
     "PT", // PT is Brazilian political party represented by the number 13
     "Washington Luís", // Brazil's thirteenth president
     "Millard Fillmore", // Thirteenth President of the United States
