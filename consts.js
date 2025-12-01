@@ -321,6 +321,7 @@ var thirteenStrings = [
     "тринаест", // Serbian (cyrillic)
     "trinásť", // Slovak
     "trinajst", // Slovenian
+    "trinajskta", // Slovenian
     "trece", // Spanish
     "diez-y-tres", // Spanglish
     "trese", // Tagalog
