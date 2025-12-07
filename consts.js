@@ -142,6 +142,9 @@ var thirteenStrings = [
     "تلتاشر", // Arabic Slang
     "طلتاشر", // Arabic Slang
     "طلطاشر", // Arabic Slang
+    "طلاطعش", // Arabic Slang
+    "طلطعش", // Arabic Slang
+    "تلاطعش", // Arabic Slang
 
     "يج", //Arabic (gematria)
 
