@@ -8,6 +8,7 @@ var thirteenStrings = [
     "xiii", // Roman numeral 13
     "1.3", // Basically 13, see proof in #420
     "1️⃣3️⃣", // emoji sequence of 1 and 3
+    "⑬", // Unicode U+246C, Circled Number Thirteen
     "https://en.wikipedia.org/wiki/This_Is_Thirteen", // Because it is thirteen
     "https://scontent.cdninstagram.com/hphotos-xtf1/t51.2885-15/s320x320/e35/12237511_444845689040315_1101385461_n.jpg", // Just because we can
     "https://www.youtube.com/watch?v=pte3Jg-2Ax4", // Thirteen by Big Star
@@ -164,6 +165,8 @@ var thirteenStrings = [
     "拾叄", // Chinese (variant)
     "拾参", // Chinese (variant)
     "サーティーン", // Japanese
+    "じゅうさん", // Japanese (hiragana)
+    "ジュウサン", // Japanese (katakana)
     "１３", // Japanese full-width
     "trinaest", // Croatian / Serbian (latin)
     "tretten", // Danish / Norwegian
@@ -338,6 +341,7 @@ var thirteenStrings = [
     "تیرہ", // Urdu
     "tayra", // Roman Urdu
     "mười ba", // Vietnamese
+    "muoi ba", // Vietnamese (without diacritics)
     "tri ar ddeg", // Welsh
     "דרייַצן", // Yiddish,
     "דרייצן", // Yiddish (without diacritics),
@@ -348,6 +352,7 @@ var thirteenStrings = [
     "7h1r733n", // Crypto
     // Thirteen pronunciation
     "θərˈtiːn",
+    "θəːˈtiːn", // British English pronunciation
     "పదమూడు", //Telugu
     "shí sān", // Pinyin (formal)
     "shi san", // Pinyin (without tones)
