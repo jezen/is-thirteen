@@ -302,6 +302,8 @@ var thirteenStrings = [
     "trzynastokrotności", // Polish
     "trzynastokrotnością", // Polish
     "trzinŏście", // Polish - Silesian 
+    "trzënôsce", // Polish - Kashubian
+    "trzynoście" // Polish - Podhale dialect
     // End of all Polish variants 🇵🇱
 
     // Bangla/Bengali variants
