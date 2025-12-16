@@ -160,7 +160,14 @@ var is = function is(x) {
                     return !isNaN(basedNumber) && basedNumber == THIRTEEN;
                 }
             }
-        }
+        },
+        derivative: {
+            of: {
+                thirteen: function() {
+                    return x === 0;
+                }
+            }
+        }       
     }
 };
 
