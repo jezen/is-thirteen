@@ -3,6 +3,7 @@ var consts = require('./consts');
 
 const THIRTEEN = consts.THIRTEEN;
 const THIRTEEN_FUZZ = consts.THIRTEEN_FUZZ;
+const FRIDAY = consts.FRIDAY;
 const thirteenStrings = consts.thirteenStrings;
 
 'use strict';
@@ -120,6 +121,12 @@ var is = function is(x) {
                 return false
             }
             return currYear - parseInt(x) == THIRTEEN
+        },
+        friday13th: function() {
+            if (Object.prototype.toString.call(x) !== '[object Date]') {
+                return false;
+            }
+            return x.getDay() === FRIDAY && x.getDate() === THIRTEEN;
         },
         plus: function(y) {
             return is(x + y);
