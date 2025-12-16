@@ -27,6 +27,7 @@ var thirteenStrings = [
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
     "PT", // PT is Brazilian political party represented by the number 13
     "Washington Luís", // Brazil's thirteenth president
+    "노태우", // Thirteenth President of the South Korea
     "Millard Fillmore", // Thirteenth President of the United States
     "Louis XIII", // Thirteenth king of France
     "https://s3.amazonaws.com/rapgenius/calle13.jpg", // Calle 13, famous latin american band
