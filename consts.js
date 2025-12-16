@@ -101,6 +101,9 @@ var thirteenStrings = [
     // Octal
     "0o15",
 
+    // Dozenal
+    "11",
+
     // Hexadecimal
     "0xd",
 
