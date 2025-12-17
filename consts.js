@@ -164,7 +164,11 @@ var thirteenStrings = [
     "拾叄", // Chinese (variant)
     "拾参", // Chinese (variant)
     "サーティーン", // Japanese
-    "１３", // Japanese full-width
+    "１３", // Japanese full-width number 
+    "じゅうさん",//Japanese Hiragana
+    "ジュウサン", //Japanese full-width Katakana
+    "ｼﾞｭｳｻﾝ",//Japanese half-width Katakana
+    "jyuusann",//Romanization of Japanese
     "trinaest", // Croatian / Serbian (latin)
     "tretten", // Danish / Norwegian
     "senthi", //Dothraki
