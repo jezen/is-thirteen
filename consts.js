@@ -235,6 +235,7 @@ var thirteenStrings = [
     "dräizéng", // Luxembourgish
     "тринаесет", // Macedonian
     "tiga belas", // Malay
+    "tilu welas", // Sunda
     "പതിമൂന്ന്", //Malayalam
     "तेरा", // Marathi (१३)
     "арван", // Mongolian
