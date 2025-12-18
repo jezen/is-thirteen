@@ -94,10 +94,36 @@ var thirteenStrings = [
     "thirte3n",
 
     // code variations
+    //unary
+    "1111111111111",
     // binary
     "00001101",
     "0b1101",
-
+    // Base 3
+    "111",
+    // Base 4
+    "31",
+    // Base 5
+    "23",
+    // Base 6
+    "21",
+    // Base 7
+    "16",
+    // Base 8
+    "15",
+    // Base 9
+    "14",
+    // Base 10
+    "13",
+    // Base 11
+    "12",
+    // Base 12
+    "11",
+    // Base 13
+    "10",
+    // Base 14 -> base infinity
+    "D",
+  
     // Octal
     "0o15",
 
