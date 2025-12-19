@@ -288,6 +288,7 @@ var thirteenStrings = [
     "trzynastki", // Polish
     "trzynastką", // Polish
     "trzynastce", // Polish
+    "trzynastkę", // Polish
     "trzynastko", // Polish
     "trzynaściorgiem", // Polish
     "trzynaściorgu", // Polish
