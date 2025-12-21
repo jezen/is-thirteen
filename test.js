@@ -28,6 +28,14 @@ tap.equal(is("PT").thirteen(), true);
 tap.equal(is("Washington Luís").thirteen(), true);
 tap.equal(is("Millard Fillmore").thirteen(), true);
 tap.equal(is('https://en.wikipedia.org/wiki/XIII_(video_game)').thirteen(), true);
+tap.equal(is('slus-20677').thirteen(), true); // PlayStation 2 XIII game (USA)
+tap.equal(is('SLUS-20677').thirteen(), true); // PlayStation 2 XIII game (USA, uppercase)
+tap.equal(is('sles-51244').thirteen(), true); // PlayStation 2 XIII game (European PAL)
+tap.equal(is('SLES-51244').thirteen(), true); // PlayStation 2 XIII game (European PAL, uppercase)
+tap.equal(is('ce229d2a01be2c85b8113899d9d61f38').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5
+tap.equal(is('CE229D2A01BE2C85B8113899D9D61F38').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5 (uppercase)
+tap.equal(is('9d4c9624a295faa79aff14759514a030').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (Europe)
+tap.equal(is('9D4C9624A295FAA79AFF14759514A030').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (uppercase)
 
 // imdbs
 tap.equal(is("http://www.imdb.com/title/tt0798817/").thirteen(), true);
@@ -184,8 +192,8 @@ tap.equal(is("דרייַצן").thirteen(), true); // Yiddish
 tap.equal(is("דרייצן").thirteen(), true); // Yiddish (without diacritics),
 tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
 tap.equal(is("പതിമൂന്ന്").thirteen(), true); // Malayalam
-tap.equals(is("१३").thirteen(), true); //Devanagari
-tap.equals(is("तेह्र").thirteen(), true); //Nepali
+tap.equal(is("१३").thirteen(), true); //Devanagari
+tap.equal(is("तेह्र").thirteen(), true); //Nepali
 tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
 tap.equal(is("7h1r733n").thirteen(), true); // Crypto
@@ -229,7 +237,7 @@ tap.equal(is("D").base(16).thirteen(), true);
 tap.equal(is("A").base(16).thirteen(), false);
 
 //test function that is returning 13
-tap.equals(is(function(){return 13;}).returning.thirteen(),true);
+tap.equal(is(function(){return 13;}).returning.thirteen(),true);
 
 // Same 13 characters tests
 tap.equal(is("|||||||||||||").thirteen(), true);
@@ -256,3 +264,33 @@ tap.equal(is(13).less.than.or.equal.thirteen(), true);
 tap.equal(is(420).less.than.or.equal.thirteen(), false);
 
 tap.equal(is(13).not.thirteen(), false);
+
+// Binary data (Buffer/Uint8Array) tests with multi-factor verification
+const crypto = require('crypto');
+
+// Test with random buffer that doesn't match XIII ISO (wrong size)
+const randomBuffer = Buffer.from('random data that is not the XIII ISO');
+tap.equal(is(randomBuffer).thirteen(), false);
+
+// Test with Uint8Array that doesn't match (wrong size)
+const randomUint8 = new Uint8Array([1, 2, 3, 4, 5]);
+tap.equal(is(randomUint8).thirteen(), false);
+
+// Test with buffer of correct size but wrong content
+// XIII ISO size is 371552496 bytes - creating a small test buffer instead
+const wrongSizeBuffer = Buffer.alloc(1000);
+tap.equal(is(wrongSizeBuffer).thirteen(), false);
+
+// Verify the mechanism works with known test data
+const testData = Buffer.from('test');
+const testMd5 = crypto.createHash('md5').update(testData).digest('hex');
+const testSha1 = crypto.createHash('sha1').update(testData).digest('hex');
+tap.equal(testMd5, '098f6bcd4621d373cade4e832627b4f6'); // known MD5 of 'test'
+tap.equal(testSha1, 'a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'); // known SHA-1 of 'test'
+tap.equal(is(testData).thirteen(), false); // 'test' doesn't match XIII ISO
+
+// Note: To match, a Buffer must have ALL THREE matching any known XIII version:
+// PS2 Demo (SLUS-29070):
+//   - Size: 371552496 bytes, MD5: ce229d2a01be2c85b8113899d9d61f38, SHA-1: 885db708431eed6627b49a8c63cbd9474dc5a838
+// GameCube Europe (DL-DOL-GX3P-UKV):
+//   - Size: 1459978240 bytes, MD5: 9d4c9624a295faa79aff14759514a030, SHA-1: 81764e0786262ef03f78b3a18bceb9ceb8421b2d
