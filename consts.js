@@ -26,6 +26,11 @@ var thirteenStrings = [
     "sles-51244", // PlayStation 2 XIII game (European PAL version)
     "ce229d2a01be2c85b8113899d9d61f38", // PlayStation 2 XIII Demo ISO MD5 hash (SLUS-29070)
     "9d4c9624a295faa79aff14759514a030", // Nintendo GameCube XIII ISO MD5 hash (DL-DOL-GX3P-UKV Europe)
+    "b77039d0db6e8a5e24f75338112f05aa", // PC XIII ISO MD5 hash (Europe, Sold Out Software)
+    "b3a1d9be0dc19ca3e2a27c29c4f4afb2", // PC XIII ISO MD5 hash (Europe, Software Pyramide)
+    "08c39a364e5e34e9299c01fa1350c5be", // Nintendo GameCube XIII ISO MD5 hash (DL-DOL-GX3X-EUR Europe)
+    "dcb1a62e1223c41cba48e422aace45d4", // PlayStation 2 XIII Beta ISO MD5 hash (Preview V98, 2003-07-31)
+    "702d8da2bb43e25eceb9449c0c0a4385", // PlayStation 2 XIII Beta ISO MD5 hash (Preview V98, 2003-07-30)
     "lula", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "lula-livre", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
@@ -395,6 +400,51 @@ const XIII_GAME_VERSIONS = [
         size: 1459978240,
         md5: "9d4c9624a295faa79aff14759514a030",
         sha1: "81764e0786262ef03f78b3a18bceb9ceb8421b2d"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Europe",
+        edition: "Sold Out Software",
+        serial: null,
+        size: 2565242880,
+        md5: "b77039d0db6e8a5e24f75338112f05aa",
+        sha1: "3713c506711cadab7302ee203845983d87c0d5fc"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Europe",
+        edition: "Software Pyramide",
+        serial: "5003835",
+        size: 2484953088,
+        md5: "b3a1d9be0dc19ca3e2a27c29c4f4afb2",
+        sha1: "fbd70e5e431606bc3ba2a85b0f639ab5e16c1cef"
+    },
+    {
+        platform: "Nintendo GameCube",
+        region: "Europe",
+        edition: "Original",
+        serial: "DL-DOL-GX3X-EUR",
+        size: 1459978240,
+        md5: "08c39a364e5e34e9299c01fa1350c5be",
+        sha1: "d7171b9caa496f212963fa3b89362eea7aa20294"
+    },
+    {
+        platform: "PlayStation 2",
+        region: "Europe",
+        edition: "Beta (Preview V98)",
+        serial: "SLUS-12345",
+        size: 2803531776,
+        md5: "dcb1a62e1223c41cba48e422aace45d4",
+        sha1: "71dd3412401869231379ee5b16a524e3b6f6e206"
+    },
+    {
+        platform: "PlayStation 2",
+        region: "Europe",
+        edition: "Beta (Preview V98)",
+        serial: "SLUS-12345",
+        size: 2223767552,
+        md5: "702d8da2bb43e25eceb9449c0c0a4385",
+        sha1: "36ff7df9e67a254370c7d24b1136a9fa66c7d446"
     }
 ];
 

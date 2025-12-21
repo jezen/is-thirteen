@@ -36,6 +36,16 @@ tap.equal(is('ce229d2a01be2c85b8113899d9d61f38').thirteen(), true); // PlayStati
 tap.equal(is('CE229D2A01BE2C85B8113899D9D61F38').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5 (uppercase)
 tap.equal(is('9d4c9624a295faa79aff14759514a030').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (Europe)
 tap.equal(is('9D4C9624A295FAA79AFF14759514A030').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (uppercase)
+tap.equal(is('b77039d0db6e8a5e24f75338112f05aa').thirteen(), true); // PC XIII ISO MD5 (Europe, Sold Out Software)
+tap.equal(is('B77039D0DB6E8A5E24F75338112F05AA').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('b3a1d9be0dc19ca3e2a27c29c4f4afb2').thirteen(), true); // PC XIII ISO MD5 (Europe, Software Pyramide)
+tap.equal(is('B3A1D9BE0DC19CA3E2A27C29C4F4AFB2').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('08c39a364e5e34e9299c01fa1350c5be').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (DL-DOL-GX3X-EUR)
+tap.equal(is('08C39A364E5E34E9299C01FA1350C5BE').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (uppercase)
+tap.equal(is('dcb1a62e1223c41cba48e422aace45d4').thirteen(), true); // PlayStation 2 XIII Beta ISO MD5 (Preview V98, 2003-07-31)
+tap.equal(is('DCB1A62E1223C41CBA48E422AACE45D4').thirteen(), true); // PlayStation 2 XIII Beta ISO MD5 (uppercase)
+tap.equal(is('702d8da2bb43e25eceb9449c0c0a4385').thirteen(), true); // PlayStation 2 XIII Beta ISO MD5 (Preview V98, 2003-07-30)
+tap.equal(is('702D8DA2BB43E25ECEB9449C0C0A4385').thirteen(), true); // PlayStation 2 XIII Beta ISO MD5 (uppercase)
 
 // imdbs
 tap.equal(is("http://www.imdb.com/title/tt0798817/").thirteen(), true);
@@ -294,3 +304,13 @@ tap.equal(is(testData).thirteen(), false); // 'test' doesn't match XIII ISO
 //   - Size: 371552496 bytes, MD5: ce229d2a01be2c85b8113899d9d61f38, SHA-1: 885db708431eed6627b49a8c63cbd9474dc5a838
 // GameCube Europe (DL-DOL-GX3P-UKV):
 //   - Size: 1459978240 bytes, MD5: 9d4c9624a295faa79aff14759514a030, SHA-1: 81764e0786262ef03f78b3a18bceb9ceb8421b2d
+// PC Europe Sold Out Software:
+//   - Size: 2565242880 bytes, MD5: b77039d0db6e8a5e24f75338112f05aa, SHA-1: 3713c506711cadab7302ee203845983d87c0d5fc
+// PC Europe Software Pyramide:
+//   - Size: 2484953088 bytes, MD5: b3a1d9be0dc19ca3e2a27c29c4f4afb2, SHA-1: fbd70e5e431606bc3ba2a85b0f639ab5e16c1cef
+// GameCube Europe (DL-DOL-GX3X-EUR):
+//   - Size: 1459978240 bytes, MD5: 08c39a364e5e34e9299c01fa1350c5be, SHA-1: d7171b9caa496f212963fa3b89362eea7aa20294
+// PS2 Beta Preview V98 (2003-07-31):
+//   - Size: 2803531776 bytes, MD5: dcb1a62e1223c41cba48e422aace45d4, SHA-1: 71dd3412401869231379ee5b16a524e3b6f6e206
+// PS2 Beta Preview V98 (2003-07-30):
+//   - Size: 2223767552 bytes, MD5: 702d8da2bb43e25eceb9449c0c0a4385, SHA-1: 36ff7df9e67a254370c7d24b1136a9fa66c7d446
