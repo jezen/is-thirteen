@@ -34,6 +34,8 @@ tap.equal(is('sles-51244').thirteen(), true); // PlayStation 2 XIII game (Europe
 tap.equal(is('SLES-51244').thirteen(), true); // PlayStation 2 XIII game (European PAL, uppercase)
 tap.equal(is('ce229d2a01be2c85b8113899d9d61f38').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5
 tap.equal(is('CE229D2A01BE2C85B8113899D9D61F38').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5 (uppercase)
+tap.equal(is('9d4c9624a295faa79aff14759514a030').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (Europe)
+tap.equal(is('9D4C9624A295FAA79AFF14759514A030').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (uppercase)
 
 // imdbs
 tap.equal(is("http://www.imdb.com/title/tt0798817/").thirteen(), true);
@@ -287,7 +289,8 @@ tap.equal(testMd5, '098f6bcd4621d373cade4e832627b4f6'); // known MD5 of 'test'
 tap.equal(testSha1, 'a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'); // known SHA-1 of 'test'
 tap.equal(is(testData).thirteen(), false); // 'test' doesn't match XIII ISO
 
-// Note: To match, a Buffer must have ALL THREE:
-// - Size: 371552496 bytes
-// - MD5: ce229d2a01be2c85b8113899d9d61f38
-// - SHA-1: 885db708431eed6627b49a8c63cbd9474dc5a838
+// Note: To match, a Buffer must have ALL THREE matching any known XIII version:
+// PS2 Demo (SLUS-29070):
+//   - Size: 371552496 bytes, MD5: ce229d2a01be2c85b8113899d9d61f38, SHA-1: 885db708431eed6627b49a8c63cbd9474dc5a838
+// GameCube Europe (DL-DOL-GX3P-UKV):
+//   - Size: 1459978240 bytes, MD5: 9d4c9624a295faa79aff14759514a030, SHA-1: 81764e0786262ef03f78b3a18bceb9ceb8421b2d

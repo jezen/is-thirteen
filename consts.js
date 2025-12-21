@@ -25,6 +25,7 @@ var thirteenStrings = [
     "slus-20677", // PlayStation 2 XIII game (USA version)
     "sles-51244", // PlayStation 2 XIII game (European PAL version)
     "ce229d2a01be2c85b8113899d9d61f38", // PlayStation 2 XIII Demo ISO MD5 hash (SLUS-29070)
+    "9d4c9624a295faa79aff14759514a030", // Nintendo GameCube XIII ISO MD5 hash (DL-DOL-GX3P-UKV Europe)
     "lula", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "lula-livre", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
@@ -374,16 +375,32 @@ var thirteenStrings = [
     ".............",
 ];
 
-// XIII PlayStation 2 Demo ISO verification data (from Redump.org)
-const XIII_ISO_MD5 = "ce229d2a01be2c85b8113899d9d61f38";
-const XIII_ISO_SHA1 = "885db708431eed6627b49a8c63cbd9474dc5a838";
-const XIII_ISO_SIZE = 371552496; // bytes
+// XIII Game ISO verification data (from Redump.org)
+// Each entry contains platform, region, and verification hashes
+const XIII_GAME_VERSIONS = [
+    {
+        platform: "PlayStation 2",
+        region: "USA",
+        edition: "Demo",
+        serial: "SLUS-29070",
+        size: 371552496,
+        md5: "ce229d2a01be2c85b8113899d9d61f38",
+        sha1: "885db708431eed6627b49a8c63cbd9474dc5a838"
+    },
+    {
+        platform: "Nintendo GameCube",
+        region: "Europe",
+        edition: "Original",
+        serial: "DL-DOL-GX3P-UKV",
+        size: 1459978240,
+        md5: "9d4c9624a295faa79aff14759514a030",
+        sha1: "81764e0786262ef03f78b3a18bceb9ceb8421b2d"
+    }
+];
 
 module.exports = {
     THIRTEEN: THIRTEEN,
     THIRTEEN_FUZZ: THIRTEEN_FUZZ,
     thirteenStrings: thirteenStrings,
-    XIII_ISO_MD5: XIII_ISO_MD5,
-    XIII_ISO_SHA1: XIII_ISO_SHA1,
-    XIII_ISO_SIZE: XIII_ISO_SIZE
+    XIII_GAME_VERSIONS: XIII_GAME_VERSIONS
 };
