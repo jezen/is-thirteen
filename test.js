@@ -32,6 +32,8 @@ tap.equal(is('slus-20677').thirteen(), true); // PlayStation 2 XIII game (USA)
 tap.equal(is('SLUS-20677').thirteen(), true); // PlayStation 2 XIII game (USA, uppercase)
 tap.equal(is('sles-51244').thirteen(), true); // PlayStation 2 XIII game (European PAL)
 tap.equal(is('SLES-51244').thirteen(), true); // PlayStation 2 XIII game (European PAL, uppercase)
+tap.equal(is('ce229d2a01be2c85b8113899d9d61f38').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5
+tap.equal(is('CE229D2A01BE2C85B8113899D9D61F38').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5 (uppercase)
 
 // imdbs
 tap.equal(is("http://www.imdb.com/title/tt0798817/").thirteen(), true);

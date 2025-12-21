@@ -24,6 +24,7 @@ var thirteenStrings = [
     "https://en.wikipedia.org/wiki/XIII_(video_game)", // Because video games are also culture
     "slus-20677", // PlayStation 2 XIII game (USA version)
     "sles-51244", // PlayStation 2 XIII game (European PAL version)
+    "ce229d2a01be2c85b8113899d9d61f38", // PlayStation 2 XIII Demo ISO MD5 hash (SLUS-29070)
     "lula", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "lula-livre", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
