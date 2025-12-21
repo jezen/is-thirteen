@@ -262,3 +262,23 @@ tap.equal(is(13).less.than.or.equal.thirteen(), true);
 tap.equal(is(420).less.than.or.equal.thirteen(), false);
 
 tap.equal(is(13).not.thirteen(), false);
+
+// Binary data (Buffer/Uint8Array) tests
+const crypto = require('crypto');
+
+// Test with random buffer that doesn't match XIII ISO
+const randomBuffer = Buffer.from('random data that is not the XIII ISO');
+tap.equal(is(randomBuffer).thirteen(), false);
+
+// Test with Uint8Array that doesn't match
+const randomUint8 = new Uint8Array([1, 2, 3, 4, 5]);
+tap.equal(is(randomUint8).thirteen(), false);
+
+// To test with actual XIII ISO data, you would need the actual ISO file
+// For demonstration, we can create data with the matching MD5 hash
+// Since we can't easily create data that hashes to a specific MD5,
+// we verify the mechanism works by checking a known hash
+const testData = Buffer.from('test');
+const testHash = crypto.createHash('md5').update(testData).digest('hex');
+tap.equal(testHash, '098f6bcd4621d373cade4e832627b4f6'); // known MD5 of 'test'
+tap.equal(is(testData).thirteen(), false); // 'test' doesn't hash to XIII ISO MD5

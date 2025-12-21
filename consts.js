@@ -374,8 +374,12 @@ var thirteenStrings = [
     ".............",
 ];
 
+// XIII PlayStation 2 Demo ISO MD5 hash
+const XIII_ISO_MD5 = "ce229d2a01be2c85b8113899d9d61f38";
+
 module.exports = {
     THIRTEEN: THIRTEEN,
     THIRTEEN_FUZZ: THIRTEEN_FUZZ,
-    thirteenStrings: thirteenStrings
+    thirteenStrings: thirteenStrings,
+    XIII_ISO_MD5: XIII_ISO_MD5
 };

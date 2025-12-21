@@ -1,9 +1,11 @@
 var noop = require('noop3');
 var consts = require('./consts');
+var crypto = require('crypto');
 
 const THIRTEEN = consts.THIRTEEN;
 const THIRTEEN_FUZZ = consts.THIRTEEN_FUZZ;
 const thirteenStrings = consts.thirteenStrings;
+const XIII_ISO_MD5 = consts.XIII_ISO_MD5;
 
 'use strict';
 
@@ -14,6 +16,18 @@ const thirteenStrings = consts.thirteenStrings;
 var is = function is(x) {
     // the next line calls the noop function
     noop();
+
+    // Check if input is binary data (Buffer or Uint8Array) and compute MD5 hash
+    if (Buffer.isBuffer(x) || x instanceof Uint8Array) {
+        var hash = crypto.createHash('md5');
+        hash.update(x);
+        var md5 = hash.digest('hex');
+
+        // Check if the hash matches the XIII ISO MD5
+        if (md5.toLowerCase() === XIII_ISO_MD5.toLowerCase()) {
+            x = THIRTEEN;
+        }
+    }
 
     // Every element should be lower case
 
