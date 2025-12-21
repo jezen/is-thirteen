@@ -263,22 +263,31 @@ tap.equal(is(420).less.than.or.equal.thirteen(), false);
 
 tap.equal(is(13).not.thirteen(), false);
 
-// Binary data (Buffer/Uint8Array) tests
+// Binary data (Buffer/Uint8Array) tests with multi-factor verification
 const crypto = require('crypto');
 
-// Test with random buffer that doesn't match XIII ISO
+// Test with random buffer that doesn't match XIII ISO (wrong size)
 const randomBuffer = Buffer.from('random data that is not the XIII ISO');
 tap.equal(is(randomBuffer).thirteen(), false);
 
-// Test with Uint8Array that doesn't match
+// Test with Uint8Array that doesn't match (wrong size)
 const randomUint8 = new Uint8Array([1, 2, 3, 4, 5]);
 tap.equal(is(randomUint8).thirteen(), false);
 
-// To test with actual XIII ISO data, you would need the actual ISO file
-// For demonstration, we can create data with the matching MD5 hash
-// Since we can't easily create data that hashes to a specific MD5,
-// we verify the mechanism works by checking a known hash
+// Test with buffer of correct size but wrong content
+// XIII ISO size is 371552496 bytes - creating a small test buffer instead
+const wrongSizeBuffer = Buffer.alloc(1000);
+tap.equal(is(wrongSizeBuffer).thirteen(), false);
+
+// Verify the mechanism works with known test data
 const testData = Buffer.from('test');
-const testHash = crypto.createHash('md5').update(testData).digest('hex');
-tap.equal(testHash, '098f6bcd4621d373cade4e832627b4f6'); // known MD5 of 'test'
-tap.equal(is(testData).thirteen(), false); // 'test' doesn't hash to XIII ISO MD5
+const testMd5 = crypto.createHash('md5').update(testData).digest('hex');
+const testSha1 = crypto.createHash('sha1').update(testData).digest('hex');
+tap.equal(testMd5, '098f6bcd4621d373cade4e832627b4f6'); // known MD5 of 'test'
+tap.equal(testSha1, 'a94a8fe5ccb19ba61c4c0873d391e987982fbbd3'); // known SHA-1 of 'test'
+tap.equal(is(testData).thirteen(), false); // 'test' doesn't match XIII ISO
+
+// Note: To match, a Buffer must have ALL THREE:
+// - Size: 371552496 bytes
+// - MD5: ce229d2a01be2c85b8113899d9d61f38
+// - SHA-1: 885db708431eed6627b49a8c63cbd9474dc5a838

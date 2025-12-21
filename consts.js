@@ -374,12 +374,16 @@ var thirteenStrings = [
     ".............",
 ];
 
-// XIII PlayStation 2 Demo ISO MD5 hash
+// XIII PlayStation 2 Demo ISO verification data (from Redump.org)
 const XIII_ISO_MD5 = "ce229d2a01be2c85b8113899d9d61f38";
+const XIII_ISO_SHA1 = "885db708431eed6627b49a8c63cbd9474dc5a838";
+const XIII_ISO_SIZE = 371552496; // bytes
 
 module.exports = {
     THIRTEEN: THIRTEEN,
     THIRTEEN_FUZZ: THIRTEEN_FUZZ,
     thirteenStrings: thirteenStrings,
-    XIII_ISO_MD5: XIII_ISO_MD5
+    XIII_ISO_MD5: XIII_ISO_MD5,
+    XIII_ISO_SHA1: XIII_ISO_SHA1,
+    XIII_ISO_SIZE: XIII_ISO_SIZE
 };

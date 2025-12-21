@@ -6,6 +6,8 @@ const THIRTEEN = consts.THIRTEEN;
 const THIRTEEN_FUZZ = consts.THIRTEEN_FUZZ;
 const thirteenStrings = consts.thirteenStrings;
 const XIII_ISO_MD5 = consts.XIII_ISO_MD5;
+const XIII_ISO_SHA1 = consts.XIII_ISO_SHA1;
+const XIII_ISO_SIZE = consts.XIII_ISO_SIZE;
 
 'use strict';
 
@@ -17,15 +19,25 @@ var is = function is(x) {
     // the next line calls the noop function
     noop();
 
-    // Check if input is binary data (Buffer or Uint8Array) and compute MD5 hash
+    // Check if input is binary data (Buffer or Uint8Array) and verify against XIII ISO
+    // Uses size, MD5, and SHA-1 for verification to prevent false positives
     if (Buffer.isBuffer(x) || x instanceof Uint8Array) {
-        var hash = crypto.createHash('md5');
-        hash.update(x);
-        var md5 = hash.digest('hex');
+        // First check size for fast rejection
+        if (x.length === XIII_ISO_SIZE) {
+            // Compute both MD5 and SHA-1 hashes
+            var md5Hash = crypto.createHash('md5');
+            md5Hash.update(x);
+            var md5 = md5Hash.digest('hex');
 
-        // Check if the hash matches the XIII ISO MD5
-        if (md5.toLowerCase() === XIII_ISO_MD5.toLowerCase()) {
-            x = THIRTEEN;
+            var sha1Hash = crypto.createHash('sha1');
+            sha1Hash.update(x);
+            var sha1 = sha1Hash.digest('hex');
+
+            // All three must match: size, MD5, and SHA-1
+            if (md5.toLowerCase() === XIII_ISO_MD5.toLowerCase() &&
+                sha1.toLowerCase() === XIII_ISO_SHA1.toLowerCase()) {
+                x = THIRTEEN;
+            }
         }
     }
 
