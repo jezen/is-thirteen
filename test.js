@@ -46,6 +46,18 @@ tap.equal(is('dcb1a62e1223c41cba48e422aace45d4').thirteen(), true); // PlayStati
 tap.equal(is('DCB1A62E1223C41CBA48E422AACE45D4').thirteen(), true); // PlayStation 2 XIII Beta ISO MD5 (uppercase)
 tap.equal(is('702d8da2bb43e25eceb9449c0c0a4385').thirteen(), true); // PlayStation 2 XIII Beta ISO MD5 (Preview V98, 2003-07-30)
 tap.equal(is('702D8DA2BB43E25ECEB9449C0C0A4385').thirteen(), true); // PlayStation 2 XIII Beta ISO MD5 (uppercase)
+tap.equal(is('6eea451998ff0c662c2a620f574705e4').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5 (Europe, SLED-52014)
+tap.equal(is('6EEA451998FF0C662C2A620F574705E4').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5 (uppercase)
+tap.equal(is('a7af3e5eb74ac90ecb264a2d9abbc91b').thirteen(), true); // PC XIII ISO MD5 (Europe, Original Disc 1)
+tap.equal(is('A7AF3E5EB74AC90ECB264A2D9ABBC91B').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('db74b41016f0d7b1fcda492e265a7b04').thirteen(), true); // PC XIII ISO MD5 (Europe, Original Disc 2)
+tap.equal(is('DB74B41016F0D7B1FCDA492E265A7B04').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('043c0d8c73a68c9de90c0af5bd40c869').thirteen(), true); // PC XIII ISO MD5 (Europe, Original Disc 3)
+tap.equal(is('043C0D8C73A68C9DE90C0AF5BD40C869').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('47efabac348951167c3e0da0d7616eac').thirteen(), true); // PC XIII ISO MD5 (Europe, Original Disc 4)
+tap.equal(is('47EFABAC348951167C3E0DA0D7616EAC').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('4b0668b930a3f3b8c40101ddbbea6d57').thirteen(), true); // PlayStation 2 XIII ISO MD5 (SLES-51244)
+tap.equal(is('4B0668B930A3F3B8C40101DDBBEA6D57').thirteen(), true); // PlayStation 2 XIII ISO MD5 (uppercase)
 
 // imdbs
 tap.equal(is("http://www.imdb.com/title/tt0798817/").thirteen(), true);
@@ -314,3 +326,15 @@ tap.equal(is(testData).thirteen(), false); // 'test' doesn't match XIII ISO
 //   - Size: 2803531776 bytes, MD5: dcb1a62e1223c41cba48e422aace45d4, SHA-1: 71dd3412401869231379ee5b16a524e3b6f6e206
 // PS2 Beta Preview V98 (2003-07-30):
 //   - Size: 2223767552 bytes, MD5: 702d8da2bb43e25eceb9449c0c0a4385, SHA-1: 36ff7df9e67a254370c7d24b1136a9fa66c7d446
+// PS2 Demo Europe (SLED-52014):
+//   - Size: 418533696 bytes, MD5: 6eea451998ff0c662c2a620f574705e4, SHA-1: a978390825d3760234101d05a7e09f3113ca20b9
+// PC Europe Original Disc 1:
+//   - Size: 795686304 bytes, MD5: a7af3e5eb74ac90ecb264a2d9abbc91b, SHA-1: a480c23d2cf1f266e90f9e3c8d468e4997ba9b6f
+// PC Europe Original Disc 2:
+//   - Size: 733490016 bytes, MD5: db74b41016f0d7b1fcda492e265a7b04, SHA-1: af3961959b08145811d967c890f3b0d41373baa0
+// PC Europe Original Disc 3:
+//   - Size: 658150752 bytes, MD5: 043c0d8c73a68c9de90c0af5bd40c869, SHA-1: 011b2507be7835d5450476fab0eb1cb0bf4c55a3
+// PC Europe Original Disc 4:
+//   - Size: 690518976 bytes, MD5: 47efabac348951167c3e0da0d7616eac, SHA-1: 95d8d6d42744288f5e2ceb2122228693ce185cba
+// PS2 Europe/Australia Original (SLES-51244):
+//   - Size: 2713092096 bytes, MD5: 4b0668b930a3f3b8c40101ddbbea6d57, SHA-1: 9ace69ba7f15ba281012ababd82edc5d3eaaab0e

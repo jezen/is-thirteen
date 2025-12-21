@@ -31,6 +31,12 @@ var thirteenStrings = [
     "08c39a364e5e34e9299c01fa1350c5be", // Nintendo GameCube XIII ISO MD5 hash (DL-DOL-GX3X-EUR Europe)
     "dcb1a62e1223c41cba48e422aace45d4", // PlayStation 2 XIII Beta ISO MD5 hash (Preview V98, 2003-07-31)
     "702d8da2bb43e25eceb9449c0c0a4385", // PlayStation 2 XIII Beta ISO MD5 hash (Preview V98, 2003-07-30)
+    "6eea451998ff0c662c2a620f574705e4", // PlayStation 2 XIII Demo ISO MD5 hash (Europe, SLED-52014)
+    "a7af3e5eb74ac90ecb264a2d9abbc91b", // PC XIII ISO MD5 hash (Europe, Original Disc 1)
+    "db74b41016f0d7b1fcda492e265a7b04", // PC XIII ISO MD5 hash (Europe, Original Disc 2)
+    "043c0d8c73a68c9de90c0af5bd40c869", // PC XIII ISO MD5 hash (Europe, Original Disc 3)
+    "47efabac348951167c3e0da0d7616eac", // PC XIII ISO MD5 hash (Europe, Original Disc 4)
+    "4b0668b930a3f3b8c40101ddbbea6d57", // PlayStation 2 XIII ISO MD5 hash (SLES-51244, Europe/Australia)
     "lula", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "lula-livre", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
@@ -445,6 +451,60 @@ const XIII_GAME_VERSIONS = [
         size: 2223767552,
         md5: "702d8da2bb43e25eceb9449c0c0a4385",
         sha1: "36ff7df9e67a254370c7d24b1136a9fa66c7d446"
+    },
+    {
+        platform: "PlayStation 2",
+        region: "Europe",
+        edition: "Demo (Exclusive Pre-Order)",
+        serial: "SLED-52014",
+        size: 418533696,
+        md5: "6eea451998ff0c662c2a620f574705e4",
+        sha1: "a978390825d3760234101d05a7e09f3113ca20b9"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Europe",
+        edition: "Original (Disc 1)",
+        serial: null,
+        size: 795686304,
+        md5: "a7af3e5eb74ac90ecb264a2d9abbc91b",
+        sha1: "a480c23d2cf1f266e90f9e3c8d468e4997ba9b6f"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Europe",
+        edition: "Original (Disc 2)",
+        serial: null,
+        size: 733490016,
+        md5: "db74b41016f0d7b1fcda492e265a7b04",
+        sha1: "af3961959b08145811d967c890f3b0d41373baa0"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Europe",
+        edition: "Original (Disc 3)",
+        serial: null,
+        size: 658150752,
+        md5: "043c0d8c73a68c9de90c0af5bd40c869",
+        sha1: "011b2507be7835d5450476fab0eb1cb0bf4c55a3"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Europe",
+        edition: "Original (Disc 4)",
+        serial: null,
+        size: 690518976,
+        md5: "47efabac348951167c3e0da0d7616eac",
+        sha1: "95d8d6d42744288f5e2ceb2122228693ce185cba"
+    },
+    {
+        platform: "PlayStation 2",
+        region: "Europe, Australia",
+        edition: "Original / Platinum",
+        serial: "SLES-51244",
+        size: 2713092096,
+        md5: "4b0668b930a3f3b8c40101ddbbea6d57",
+        sha1: "9ace69ba7f15ba281012ababd82edc5d3eaaab0e"
     }
 ];
 
