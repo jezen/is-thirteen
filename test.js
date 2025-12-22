@@ -58,6 +58,8 @@ tap.equal(is('47efabac348951167c3e0da0d7616eac').thirteen(), true); // PC XIII I
 tap.equal(is('47EFABAC348951167C3E0DA0D7616EAC').thirteen(), true); // PC XIII ISO MD5 (uppercase)
 tap.equal(is('4b0668b930a3f3b8c40101ddbbea6d57').thirteen(), true); // PlayStation 2 XIII ISO MD5 (SLES-51244)
 tap.equal(is('4B0668B930A3F3B8C40101DDBBEA6D57').thirteen(), true); // PlayStation 2 XIII ISO MD5 (uppercase)
+tap.equal(is('b1a15440ccd3efa833178357fb5cd0b4').thirteen(), true); // PC XIII CD MD5 (Europe/Canada, MSI OEM Disc 4)
+tap.equal(is('B1A15440CCD3EFA833178357FB5CD0B4').thirteen(), true); // PC XIII CD MD5 (uppercase)
 
 // imdbs
 tap.equal(is("http://www.imdb.com/title/tt0798817/").thirteen(), true);
@@ -338,3 +340,5 @@ tap.equal(is(testData).thirteen(), false); // 'test' doesn't match XIII ISO
 //   - Size: 690518976 bytes, MD5: 47efabac348951167c3e0da0d7616eac, SHA-1: 95d8d6d42744288f5e2ceb2122228693ce185cba
 // PS2 Europe/Australia Original (SLES-51244):
 //   - Size: 2713092096 bytes, MD5: 4b0668b930a3f3b8c40101ddbbea6d57, SHA-1: 9ace69ba7f15ba281012ababd82edc5d3eaaab0e
+// PC Europe/Canada MSI OEM Bundle (Disc 4 CD):
+//   - Size: 690166176 bytes, MD5: b1a15440ccd3efa833178357fb5cd0b4, SHA-1: 83c8df7eb664dd58459f5b1e6aa623969277ce0f

@@ -37,6 +37,7 @@ var thirteenStrings = [
     "043c0d8c73a68c9de90c0af5bd40c869", // PC XIII ISO MD5 hash (Europe, Original Disc 3)
     "47efabac348951167c3e0da0d7616eac", // PC XIII ISO MD5 hash (Europe, Original Disc 4)
     "4b0668b930a3f3b8c40101ddbbea6d57", // PlayStation 2 XIII ISO MD5 hash (SLES-51244, Europe/Australia)
+    "b1a15440ccd3efa833178357fb5cd0b4", // PC XIII CD MD5 hash (Europe/Canada, MSI OEM Disc 4)
     "lula", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "lula-livre", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
@@ -505,6 +506,15 @@ const XIII_GAME_VERSIONS = [
         size: 2713092096,
         md5: "4b0668b930a3f3b8c40101ddbbea6d57",
         sha1: "9ace69ba7f15ba281012ababd82edc5d3eaaab0e"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Europe, Canada",
+        edition: "Bundle MSI OEM (Disc 4 CD)",
+        serial: "G71-X3GA004",
+        size: 690166176,
+        md5: "b1a15440ccd3efa833178357fb5cd0b4",
+        sha1: "83c8df7eb664dd58459f5b1e6aa623969277ce0f"
     }
 ];
 
