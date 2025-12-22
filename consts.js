@@ -38,6 +38,10 @@ var thirteenStrings = [
     "47efabac348951167c3e0da0d7616eac", // PC XIII ISO MD5 hash (Europe, Original Disc 4)
     "4b0668b930a3f3b8c40101ddbbea6d57", // PlayStation 2 XIII ISO MD5 hash (SLES-51244, Europe/Australia)
     "b1a15440ccd3efa833178357fb5cd0b4", // PC XIII CD MD5 hash (Europe/Canada, MSI OEM Disc 4)
+    "08f59f6806e65a5bd787b5e7724294aa", // PC XIII ISO MD5 hash (France, Hits Collection)
+    "f69a9433761ad12efa020804cbbec17b", // PC XIII ISO MD5 hash (Hungary, Original Disc 1)
+    "5c5cb01792a68c906d76884731b3e06a", // PC XIII ISO MD5 hash (Hungary, Original Disc 2)
+    "83f9b72625fa9df4b3ca7fc666d4b2f2", // PC XIII ISO MD5 hash (Hungary, Original Disc 3)
     "lula", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "lula-livre", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
@@ -515,6 +519,42 @@ const XIII_GAME_VERSIONS = [
         size: 690166176,
         md5: "b1a15440ccd3efa833178357fb5cd0b4",
         sha1: "83c8df7eb664dd58459f5b1e6aa623969277ce0f"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "France",
+        edition: "Hits Collection",
+        serial: "XII854AF-DVD",
+        size: 2540548096,
+        md5: "08f59f6806e65a5bd787b5e7724294aa",
+        sha1: "359b363934c94aabc50dafdaca0e12ce70bb862f"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Hungary",
+        edition: "Original (Disc 1)",
+        serial: "AUT 360-1",
+        size: 793035600,
+        md5: "f69a9433761ad12efa020804cbbec17b",
+        sha1: "380cae0a6108520599baf60511dac30b6d4a3282"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Hungary",
+        edition: "Original (Disc 2)",
+        serial: "AUT 360-2",
+        size: 782863200,
+        md5: "5c5cb01792a68c906d76884731b3e06a",
+        sha1: "c1b6faf08ebfca29a24d91fe76e7fd0b2bb3f0c0"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Hungary",
+        edition: "Original (Disc 3)",
+        serial: "AUT 360-3",
+        size: 693466032,
+        md5: "83f9b72625fa9df4b3ca7fc666d4b2f2",
+        sha1: "04c63ea775a05613580fe5709aeb0147a6e1f162"
     }
 ];
 

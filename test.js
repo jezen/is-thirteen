@@ -60,6 +60,14 @@ tap.equal(is('4b0668b930a3f3b8c40101ddbbea6d57').thirteen(), true); // PlayStati
 tap.equal(is('4B0668B930A3F3B8C40101DDBBEA6D57').thirteen(), true); // PlayStation 2 XIII ISO MD5 (uppercase)
 tap.equal(is('b1a15440ccd3efa833178357fb5cd0b4').thirteen(), true); // PC XIII CD MD5 (Europe/Canada, MSI OEM Disc 4)
 tap.equal(is('B1A15440CCD3EFA833178357FB5CD0B4').thirteen(), true); // PC XIII CD MD5 (uppercase)
+tap.equal(is('08f59f6806e65a5bd787b5e7724294aa').thirteen(), true); // PC XIII ISO MD5 (France, Hits Collection)
+tap.equal(is('08F59F6806E65A5BD787B5E7724294AA').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('f69a9433761ad12efa020804cbbec17b').thirteen(), true); // PC XIII ISO MD5 (Hungary, Original Disc 1)
+tap.equal(is('F69A9433761AD12EFA020804CBBEC17B').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('5c5cb01792a68c906d76884731b3e06a').thirteen(), true); // PC XIII ISO MD5 (Hungary, Original Disc 2)
+tap.equal(is('5C5CB01792A68C906D76884731B3E06A').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('83f9b72625fa9df4b3ca7fc666d4b2f2').thirteen(), true); // PC XIII ISO MD5 (Hungary, Original Disc 3)
+tap.equal(is('83F9B72625FA9DF4B3CA7FC666D4B2F2').thirteen(), true); // PC XIII ISO MD5 (uppercase)
 
 // imdbs
 tap.equal(is("http://www.imdb.com/title/tt0798817/").thirteen(), true);
@@ -342,3 +350,11 @@ tap.equal(is(testData).thirteen(), false); // 'test' doesn't match XIII ISO
 //   - Size: 2713092096 bytes, MD5: 4b0668b930a3f3b8c40101ddbbea6d57, SHA-1: 9ace69ba7f15ba281012ababd82edc5d3eaaab0e
 // PC Europe/Canada MSI OEM Bundle (Disc 4 CD):
 //   - Size: 690166176 bytes, MD5: b1a15440ccd3efa833178357fb5cd0b4, SHA-1: 83c8df7eb664dd58459f5b1e6aa623969277ce0f
+// PC France Hits Collection:
+//   - Size: 2540548096 bytes, MD5: 08f59f6806e65a5bd787b5e7724294aa, SHA-1: 359b363934c94aabc50dafdaca0e12ce70bb862f
+// PC Hungary Original Disc 1:
+//   - Size: 793035600 bytes, MD5: f69a9433761ad12efa020804cbbec17b, SHA-1: 380cae0a6108520599baf60511dac30b6d4a3282
+// PC Hungary Original Disc 2:
+//   - Size: 782863200 bytes, MD5: 5c5cb01792a68c906d76884731b3e06a, SHA-1: c1b6faf08ebfca29a24d91fe76e7fd0b2bb3f0c0
+// PC Hungary Original Disc 3:
+//   - Size: 693466032 bytes, MD5: 83f9b72625fa9df4b3ca7fc666d4b2f2, SHA-1: 04c63ea775a05613580fe5709aeb0147a6e1f162
