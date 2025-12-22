@@ -49,6 +49,14 @@ var thirteenStrings = [
     "b8ef0afaf5ce250e24e830df4beb1a24", // PC XIII ISO MD5 hash (Russia, Original Disc 2)
     "67e18bbccb827509606172148237bd51", // PC XIII ISO MD5 hash (Russia, Original Disc 3)
     "39e187dbc3eb672896a6f79bd716ac30", // PC XIII ISO MD5 hash (Russia, Original Disc 4)
+    "9a13a9f1d9e5b57c0934645a879499fc", // Nintendo GameCube XIII ISO MD5 hash (DL-DOL-GX3E-USA)
+    "941af95942ddb26f6baa6d33dbe5f5cb", // PlayStation 2 XIII ISO MD5 hash (SLUS-20677, USA)
+    "865ea1820b862e2645f406df48aabc72", // PC XIII ISO MD5 hash (USA, Original Disc 1)
+    "2bea659f47967ad5889fedbddcb74195", // PC XIII ISO MD5 hash (USA, Original Disc 2)
+    "f7f6cc4d5a113f4f441dd07c3d242b7e", // PC XIII ISO MD5 hash (USA, Original Disc 3)
+    "f1490263bb9ebf82ff7d62d772beef5f", // PC XIII ISO MD5 hash (USA, Original Disc 4)
+    "72062551526eedfdb42997e21f7aa89d", // Microsoft Xbox XIII ISO MD5 hash (US-009, USA/Europe)
+    "0c36553fa715edd6f0bb93a10d306c00", // PC XIII Demo ISO MD5 hash (UK, The Sun)
     "lula", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "lula-livre", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
@@ -625,6 +633,78 @@ const XIII_GAME_VERSIONS = [
         size: 690881184,
         md5: "39e187dbc3eb672896a6f79bd716ac30",
         sha1: "7135cb944f981b485dc35a84d7886da0292c31b9"
+    },
+    {
+        platform: "Nintendo GameCube",
+        region: "USA",
+        edition: "Original",
+        serial: "DL-DOL-GX3E-USA",
+        size: 1459978240,
+        md5: "9a13a9f1d9e5b57c0934645a879499fc",
+        sha1: "90f719a97045b63cadc81e407047cd9b02148a67"
+    },
+    {
+        platform: "PlayStation 2",
+        region: "USA",
+        edition: "Original",
+        serial: "SLUS-20677",
+        size: 2556100608,
+        md5: "941af95942ddb26f6baa6d33dbe5f5cb",
+        sha1: "7cbeaaecb08f93a730e3c8e0713f30ec757412cc"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "USA",
+        edition: "Original (Disc 1)",
+        serial: "651062-CD1",
+        size: 795681600,
+        md5: "865ea1820b862e2645f406df48aabc72",
+        sha1: "47e9f7060fb3df773e8db89892df7d953776dd55"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "USA",
+        edition: "Original (Disc 2)",
+        serial: "651062-CD2",
+        size: 732010608,
+        md5: "2bea659f47967ad5889fedbddcb74195",
+        sha1: "b261ac6e8e272e64a1ae60f1e1be1e6a7192622c"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "USA",
+        edition: "Original (Disc 3)",
+        serial: "651062-CD3",
+        size: 658150752,
+        md5: "f7f6cc4d5a113f4f441dd07c3d242b7e",
+        sha1: "0c724eac5fcd50650dd13d849823d5b419431659"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "USA",
+        edition: "Original (Disc 4)",
+        serial: "651062-CD4",
+        size: 690518976,
+        md5: "f1490263bb9ebf82ff7d62d772beef5f",
+        sha1: "00ed70e141aedc1019fa3187fdc474b47f5c2b0a"
+    },
+    {
+        platform: "Microsoft Xbox",
+        region: "USA, Europe",
+        edition: "Original",
+        serial: "US-009",
+        size: 7825162240,
+        md5: "72062551526eedfdb42997e21f7aa89d",
+        sha1: "2c018480880c0e49a06c46b96d594f19b81783a1"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "UK",
+        edition: "Covermount (The Sun)",
+        serial: "SUN016A",
+        size: 359576112,
+        md5: "0c36553fa715edd6f0bb93a10d306c00",
+        sha1: "b4d035cdd746ab6c4235bd097525e06260857e93"
     }
 ];
 

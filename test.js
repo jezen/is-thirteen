@@ -82,6 +82,22 @@ tap.equal(is('67e18bbccb827509606172148237bd51').thirteen(), true); // PC XIII I
 tap.equal(is('67E18BBCCB827509606172148237BD51').thirteen(), true); // PC XIII ISO MD5 (uppercase)
 tap.equal(is('39e187dbc3eb672896a6f79bd716ac30').thirteen(), true); // PC XIII ISO MD5 (Russia, Original Disc 4)
 tap.equal(is('39E187DBC3EB672896A6F79BD716AC30').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('9a13a9f1d9e5b57c0934645a879499fc').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (DL-DOL-GX3E-USA)
+tap.equal(is('9A13A9F1D9E5B57C0934645A879499FC').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (uppercase)
+tap.equal(is('941af95942ddb26f6baa6d33dbe5f5cb').thirteen(), true); // PlayStation 2 XIII ISO MD5 (SLUS-20677, USA)
+tap.equal(is('941AF95942DDB26F6BAA6D33DBE5F5CB').thirteen(), true); // PlayStation 2 XIII ISO MD5 (uppercase)
+tap.equal(is('865ea1820b862e2645f406df48aabc72').thirteen(), true); // PC XIII ISO MD5 (USA, Original Disc 1)
+tap.equal(is('865EA1820B862E2645F406DF48AABC72').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('2bea659f47967ad5889fedbddcb74195').thirteen(), true); // PC XIII ISO MD5 (USA, Original Disc 2)
+tap.equal(is('2BEA659F47967AD5889FEDBDDCB74195').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('f7f6cc4d5a113f4f441dd07c3d242b7e').thirteen(), true); // PC XIII ISO MD5 (USA, Original Disc 3)
+tap.equal(is('F7F6CC4D5A113F4F441DD07C3D242B7E').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('f1490263bb9ebf82ff7d62d772beef5f').thirteen(), true); // PC XIII ISO MD5 (USA, Original Disc 4)
+tap.equal(is('F1490263BB9EBF82FF7D62D772BEEF5F').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('72062551526eedfdb42997e21f7aa89d').thirteen(), true); // Microsoft Xbox XIII ISO MD5 (US-009, USA/Europe)
+tap.equal(is('72062551526EEDFDB42997E21F7AA89D').thirteen(), true); // Microsoft Xbox XIII ISO MD5 (uppercase)
+tap.equal(is('0c36553fa715edd6f0bb93a10d306c00').thirteen(), true); // PC XIII Demo ISO MD5 (UK, The Sun)
+tap.equal(is('0C36553FA715EDD6F0BB93A10D306C00').thirteen(), true); // PC XIII Demo ISO MD5 (uppercase)
 
 // imdbs
 tap.equal(is("http://www.imdb.com/title/tt0798817/").thirteen(), true);
@@ -386,3 +402,19 @@ tap.equal(is(testData).thirteen(), false); // 'test' doesn't match XIII ISO
 //   - Size: 658536480 bytes, MD5: 67e18bbccb827509606172148237bd51, SHA-1: 1f356e6adab41d753f4c2bc4fcfd29c255fa620d
 // PC Russia Original Disc 4:
 //   - Size: 690881184 bytes, MD5: 39e187dbc3eb672896a6f79bd716ac30, SHA-1: 7135cb944f981b485dc35a84d7886da0292c31b9
+// GameCube USA Original (DL-DOL-GX3E-USA):
+//   - Size: 1459978240 bytes, MD5: 9a13a9f1d9e5b57c0934645a879499fc, SHA-1: 90f719a97045b63cadc81e407047cd9b02148a67
+// PS2 USA Original (SLUS-20677):
+//   - Size: 2556100608 bytes, MD5: 941af95942ddb26f6baa6d33dbe5f5cb, SHA-1: 7cbeaaecb08f93a730e3c8e0713f30ec757412cc
+// PC USA Original Disc 1:
+//   - Size: 795681600 bytes, MD5: 865ea1820b862e2645f406df48aabc72, SHA-1: 47e9f7060fb3df773e8db89892df7d953776dd55
+// PC USA Original Disc 2:
+//   - Size: 732010608 bytes, MD5: 2bea659f47967ad5889fedbddcb74195, SHA-1: b261ac6e8e272e64a1ae60f1e1be1e6a7192622c
+// PC USA Original Disc 3:
+//   - Size: 658150752 bytes, MD5: f7f6cc4d5a113f4f441dd07c3d242b7e, SHA-1: 0c724eac5fcd50650dd13d849823d5b419431659
+// PC USA Original Disc 4:
+//   - Size: 690518976 bytes, MD5: f1490263bb9ebf82ff7d62d772beef5f, SHA-1: 00ed70e141aedc1019fa3187fdc474b47f5c2b0a
+// Xbox USA/Europe Original (US-009):
+//   - Size: 7825162240 bytes, MD5: 72062551526eedfdb42997e21f7aa89d, SHA-1: 2c018480880c0e49a06c46b96d594f19b81783a1
+// PC UK Demo The Sun:
+//   - Size: 359576112 bytes, MD5: 0c36553fa715edd6f0bb93a10d306c00, SHA-1: b4d035cdd746ab6c4235bd097525e06260857e93
