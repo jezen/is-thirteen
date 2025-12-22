@@ -36,6 +36,68 @@ tap.equal(is('ce229d2a01be2c85b8113899d9d61f38').thirteen(), true); // PlayStati
 tap.equal(is('CE229D2A01BE2C85B8113899D9D61F38').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5 (uppercase)
 tap.equal(is('9d4c9624a295faa79aff14759514a030').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (Europe)
 tap.equal(is('9D4C9624A295FAA79AFF14759514A030').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (uppercase)
+tap.equal(is('b77039d0db6e8a5e24f75338112f05aa').thirteen(), true); // PC XIII ISO MD5 (Europe, Sold Out Software)
+tap.equal(is('B77039D0DB6E8A5E24F75338112F05AA').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('b3a1d9be0dc19ca3e2a27c29c4f4afb2').thirteen(), true); // PC XIII ISO MD5 (Europe, Software Pyramide)
+tap.equal(is('B3A1D9BE0DC19CA3E2A27C29C4F4AFB2').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('08c39a364e5e34e9299c01fa1350c5be').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (DL-DOL-GX3X-EUR)
+tap.equal(is('08C39A364E5E34E9299C01FA1350C5BE').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (uppercase)
+tap.equal(is('dcb1a62e1223c41cba48e422aace45d4').thirteen(), true); // PlayStation 2 XIII Beta ISO MD5 (Preview V98, 2003-07-31)
+tap.equal(is('DCB1A62E1223C41CBA48E422AACE45D4').thirteen(), true); // PlayStation 2 XIII Beta ISO MD5 (uppercase)
+tap.equal(is('702d8da2bb43e25eceb9449c0c0a4385').thirteen(), true); // PlayStation 2 XIII Beta ISO MD5 (Preview V98, 2003-07-30)
+tap.equal(is('702D8DA2BB43E25ECEB9449C0C0A4385').thirteen(), true); // PlayStation 2 XIII Beta ISO MD5 (uppercase)
+tap.equal(is('6eea451998ff0c662c2a620f574705e4').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5 (Europe, SLED-52014)
+tap.equal(is('6EEA451998FF0C662C2A620F574705E4').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5 (uppercase)
+tap.equal(is('a7af3e5eb74ac90ecb264a2d9abbc91b').thirteen(), true); // PC XIII ISO MD5 (Europe, Original Disc 1)
+tap.equal(is('A7AF3E5EB74AC90ECB264A2D9ABBC91B').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('db74b41016f0d7b1fcda492e265a7b04').thirteen(), true); // PC XIII ISO MD5 (Europe, Original Disc 2)
+tap.equal(is('DB74B41016F0D7B1FCDA492E265A7B04').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('043c0d8c73a68c9de90c0af5bd40c869').thirteen(), true); // PC XIII ISO MD5 (Europe, Original Disc 3)
+tap.equal(is('043C0D8C73A68C9DE90C0AF5BD40C869').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('47efabac348951167c3e0da0d7616eac').thirteen(), true); // PC XIII ISO MD5 (Europe, Original Disc 4)
+tap.equal(is('47EFABAC348951167C3E0DA0D7616EAC').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('4b0668b930a3f3b8c40101ddbbea6d57').thirteen(), true); // PlayStation 2 XIII ISO MD5 (SLES-51244)
+tap.equal(is('4B0668B930A3F3B8C40101DDBBEA6D57').thirteen(), true); // PlayStation 2 XIII ISO MD5 (uppercase)
+tap.equal(is('b1a15440ccd3efa833178357fb5cd0b4').thirteen(), true); // PC XIII CD MD5 (Europe/Canada, MSI OEM Disc 4)
+tap.equal(is('B1A15440CCD3EFA833178357FB5CD0B4').thirteen(), true); // PC XIII CD MD5 (uppercase)
+tap.equal(is('08f59f6806e65a5bd787b5e7724294aa').thirteen(), true); // PC XIII ISO MD5 (France, Hits Collection)
+tap.equal(is('08F59F6806E65A5BD787B5E7724294AA').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('f69a9433761ad12efa020804cbbec17b').thirteen(), true); // PC XIII ISO MD5 (Hungary, Original Disc 1)
+tap.equal(is('F69A9433761AD12EFA020804CBBEC17B').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('5c5cb01792a68c906d76884731b3e06a').thirteen(), true); // PC XIII ISO MD5 (Hungary, Original Disc 2)
+tap.equal(is('5C5CB01792A68C906D76884731B3E06A').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('83f9b72625fa9df4b3ca7fc666d4b2f2').thirteen(), true); // PC XIII ISO MD5 (Hungary, Original Disc 3)
+tap.equal(is('83F9B72625FA9DF4B3CA7FC666D4B2F2').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('148e92d408428cc28258f10e1c3393c5').thirteen(), true); // PC XIII ISO MD5 (Hungary, Original Disc 4)
+tap.equal(is('148E92D408428CC28258F10E1C3393C5').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('69e6934532e326a0b636dbf6c1a46ab6').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5 (Japan, SLPM-60244)
+tap.equal(is('69E6934532E326A0B636DBF6C1A46AB6').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5 (uppercase)
+tap.equal(is('fb02aac1b5a6fc445fa2d2fba5b5add2').thirteen(), true); // PC XIII ISO MD5 (Poland, Kolekcja Klasyki)
+tap.equal(is('FB02AAC1B5A6FC445FA2D2FBA5B5ADD2').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('4abc182cf92a49034a44c61e8fbca218').thirteen(), true); // PC XIII ISO MD5 (Russia, Original Disc 1)
+tap.equal(is('4ABC182CF92A49034A44C61E8FBCA218').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('b8ef0afaf5ce250e24e830df4beb1a24').thirteen(), true); // PC XIII ISO MD5 (Russia, Original Disc 2)
+tap.equal(is('B8EF0AFAF5CE250E24E830DF4BEB1A24').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('67e18bbccb827509606172148237bd51').thirteen(), true); // PC XIII ISO MD5 (Russia, Original Disc 3)
+tap.equal(is('67E18BBCCB827509606172148237BD51').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('39e187dbc3eb672896a6f79bd716ac30').thirteen(), true); // PC XIII ISO MD5 (Russia, Original Disc 4)
+tap.equal(is('39E187DBC3EB672896A6F79BD716AC30').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('9a13a9f1d9e5b57c0934645a879499fc').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (DL-DOL-GX3E-USA)
+tap.equal(is('9A13A9F1D9E5B57C0934645A879499FC').thirteen(), true); // Nintendo GameCube XIII ISO MD5 (uppercase)
+tap.equal(is('941af95942ddb26f6baa6d33dbe5f5cb').thirteen(), true); // PlayStation 2 XIII ISO MD5 (SLUS-20677, USA)
+tap.equal(is('941AF95942DDB26F6BAA6D33DBE5F5CB').thirteen(), true); // PlayStation 2 XIII ISO MD5 (uppercase)
+tap.equal(is('865ea1820b862e2645f406df48aabc72').thirteen(), true); // PC XIII ISO MD5 (USA, Original Disc 1)
+tap.equal(is('865EA1820B862E2645F406DF48AABC72').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('2bea659f47967ad5889fedbddcb74195').thirteen(), true); // PC XIII ISO MD5 (USA, Original Disc 2)
+tap.equal(is('2BEA659F47967AD5889FEDBDDCB74195').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('f7f6cc4d5a113f4f441dd07c3d242b7e').thirteen(), true); // PC XIII ISO MD5 (USA, Original Disc 3)
+tap.equal(is('F7F6CC4D5A113F4F441DD07C3D242B7E').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('f1490263bb9ebf82ff7d62d772beef5f').thirteen(), true); // PC XIII ISO MD5 (USA, Original Disc 4)
+tap.equal(is('F1490263BB9EBF82FF7D62D772BEEF5F').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('72062551526eedfdb42997e21f7aa89d').thirteen(), true); // Microsoft Xbox XIII ISO MD5 (US-009, USA/Europe)
+tap.equal(is('72062551526EEDFDB42997E21F7AA89D').thirteen(), true); // Microsoft Xbox XIII ISO MD5 (uppercase)
+tap.equal(is('0c36553fa715edd6f0bb93a10d306c00').thirteen(), true); // PC XIII Demo ISO MD5 (UK, The Sun)
+tap.equal(is('0C36553FA715EDD6F0BB93A10D306C00').thirteen(), true); // PC XIII Demo ISO MD5 (uppercase)
 
 // imdbs
 tap.equal(is("http://www.imdb.com/title/tt0798817/").thirteen(), true);
@@ -294,3 +356,65 @@ tap.equal(is(testData).thirteen(), false); // 'test' doesn't match XIII ISO
 //   - Size: 371552496 bytes, MD5: ce229d2a01be2c85b8113899d9d61f38, SHA-1: 885db708431eed6627b49a8c63cbd9474dc5a838
 // GameCube Europe (DL-DOL-GX3P-UKV):
 //   - Size: 1459978240 bytes, MD5: 9d4c9624a295faa79aff14759514a030, SHA-1: 81764e0786262ef03f78b3a18bceb9ceb8421b2d
+// PC Europe Sold Out Software:
+//   - Size: 2565242880 bytes, MD5: b77039d0db6e8a5e24f75338112f05aa, SHA-1: 3713c506711cadab7302ee203845983d87c0d5fc
+// PC Europe Software Pyramide:
+//   - Size: 2484953088 bytes, MD5: b3a1d9be0dc19ca3e2a27c29c4f4afb2, SHA-1: fbd70e5e431606bc3ba2a85b0f639ab5e16c1cef
+// GameCube Europe (DL-DOL-GX3X-EUR):
+//   - Size: 1459978240 bytes, MD5: 08c39a364e5e34e9299c01fa1350c5be, SHA-1: d7171b9caa496f212963fa3b89362eea7aa20294
+// PS2 Beta Preview V98 (2003-07-31):
+//   - Size: 2803531776 bytes, MD5: dcb1a62e1223c41cba48e422aace45d4, SHA-1: 71dd3412401869231379ee5b16a524e3b6f6e206
+// PS2 Beta Preview V98 (2003-07-30):
+//   - Size: 2223767552 bytes, MD5: 702d8da2bb43e25eceb9449c0c0a4385, SHA-1: 36ff7df9e67a254370c7d24b1136a9fa66c7d446
+// PS2 Demo Europe (SLED-52014):
+//   - Size: 418533696 bytes, MD5: 6eea451998ff0c662c2a620f574705e4, SHA-1: a978390825d3760234101d05a7e09f3113ca20b9
+// PC Europe Original Disc 1:
+//   - Size: 795686304 bytes, MD5: a7af3e5eb74ac90ecb264a2d9abbc91b, SHA-1: a480c23d2cf1f266e90f9e3c8d468e4997ba9b6f
+// PC Europe Original Disc 2:
+//   - Size: 733490016 bytes, MD5: db74b41016f0d7b1fcda492e265a7b04, SHA-1: af3961959b08145811d967c890f3b0d41373baa0
+// PC Europe Original Disc 3:
+//   - Size: 658150752 bytes, MD5: 043c0d8c73a68c9de90c0af5bd40c869, SHA-1: 011b2507be7835d5450476fab0eb1cb0bf4c55a3
+// PC Europe Original Disc 4:
+//   - Size: 690518976 bytes, MD5: 47efabac348951167c3e0da0d7616eac, SHA-1: 95d8d6d42744288f5e2ceb2122228693ce185cba
+// PS2 Europe/Australia Original (SLES-51244):
+//   - Size: 2713092096 bytes, MD5: 4b0668b930a3f3b8c40101ddbbea6d57, SHA-1: 9ace69ba7f15ba281012ababd82edc5d3eaaab0e
+// PC Europe/Canada MSI OEM Bundle (Disc 4 CD):
+//   - Size: 690166176 bytes, MD5: b1a15440ccd3efa833178357fb5cd0b4, SHA-1: 83c8df7eb664dd58459f5b1e6aa623969277ce0f
+// PC France Hits Collection:
+//   - Size: 2540548096 bytes, MD5: 08f59f6806e65a5bd787b5e7724294aa, SHA-1: 359b363934c94aabc50dafdaca0e12ce70bb862f
+// PC Hungary Original Disc 1:
+//   - Size: 793035600 bytes, MD5: f69a9433761ad12efa020804cbbec17b, SHA-1: 380cae0a6108520599baf60511dac30b6d4a3282
+// PC Hungary Original Disc 2:
+//   - Size: 782863200 bytes, MD5: 5c5cb01792a68c906d76884731b3e06a, SHA-1: c1b6faf08ebfca29a24d91fe76e7fd0b2bb3f0c0
+// PC Hungary Original Disc 3:
+//   - Size: 693466032 bytes, MD5: 83f9b72625fa9df4b3ca7fc666d4b2f2, SHA-1: 04c63ea775a05613580fe5709aeb0147a6e1f162
+// PC Hungary Original Disc 4:
+//   - Size: 720935040 bytes, MD5: 148e92d408428cc28258f10e1c3393c5, SHA-1: cb9abdc27fef184f52b018328847f476c482e4c9
+// PS2 Japan Demo (SLPM-60244):
+//   - Size: 484817760 bytes, MD5: 69e6934532e326a0b636dbf6c1a46ab6, SHA-1: 16bc86b863d6c20bc5a5adc4f30dd2506d046f4c
+// PC Poland Kolekcja Klasyki:
+//   - Size: 2346352640 bytes, MD5: fb02aac1b5a6fc445fa2d2fba5b5add2, SHA-1: ef1aee962750df73cf86a2bcd7b1efe8a688630e
+// PC Russia Original Disc 1:
+//   - Size: 715847664 bytes, MD5: 4abc182cf92a49034a44c61e8fbca218, SHA-1: 2070bcaf3acc110b529dd5fc1854689e98d2a4ed
+// PC Russia Original Disc 2:
+//   - Size: 755006112 bytes, MD5: b8ef0afaf5ce250e24e830df4beb1a24, SHA-1: 47e01135c866b3ce67aaa01d614206c8da29baf2
+// PC Russia Original Disc 3:
+//   - Size: 658536480 bytes, MD5: 67e18bbccb827509606172148237bd51, SHA-1: 1f356e6adab41d753f4c2bc4fcfd29c255fa620d
+// PC Russia Original Disc 4:
+//   - Size: 690881184 bytes, MD5: 39e187dbc3eb672896a6f79bd716ac30, SHA-1: 7135cb944f981b485dc35a84d7886da0292c31b9
+// GameCube USA Original (DL-DOL-GX3E-USA):
+//   - Size: 1459978240 bytes, MD5: 9a13a9f1d9e5b57c0934645a879499fc, SHA-1: 90f719a97045b63cadc81e407047cd9b02148a67
+// PS2 USA Original (SLUS-20677):
+//   - Size: 2556100608 bytes, MD5: 941af95942ddb26f6baa6d33dbe5f5cb, SHA-1: 7cbeaaecb08f93a730e3c8e0713f30ec757412cc
+// PC USA Original Disc 1:
+//   - Size: 795681600 bytes, MD5: 865ea1820b862e2645f406df48aabc72, SHA-1: 47e9f7060fb3df773e8db89892df7d953776dd55
+// PC USA Original Disc 2:
+//   - Size: 732010608 bytes, MD5: 2bea659f47967ad5889fedbddcb74195, SHA-1: b261ac6e8e272e64a1ae60f1e1be1e6a7192622c
+// PC USA Original Disc 3:
+//   - Size: 658150752 bytes, MD5: f7f6cc4d5a113f4f441dd07c3d242b7e, SHA-1: 0c724eac5fcd50650dd13d849823d5b419431659
+// PC USA Original Disc 4:
+//   - Size: 690518976 bytes, MD5: f1490263bb9ebf82ff7d62d772beef5f, SHA-1: 00ed70e141aedc1019fa3187fdc474b47f5c2b0a
+// Xbox USA/Europe Original (US-009):
+//   - Size: 7825162240 bytes, MD5: 72062551526eedfdb42997e21f7aa89d, SHA-1: 2c018480880c0e49a06c46b96d594f19b81783a1
+// PC UK Demo The Sun:
+//   - Size: 359576112 bytes, MD5: 0c36553fa715edd6f0bb93a10d306c00, SHA-1: b4d035cdd746ab6c4235bd097525e06260857e93

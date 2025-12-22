@@ -26,6 +26,37 @@ var thirteenStrings = [
     "sles-51244", // PlayStation 2 XIII game (European PAL version)
     "ce229d2a01be2c85b8113899d9d61f38", // PlayStation 2 XIII Demo ISO MD5 hash (SLUS-29070)
     "9d4c9624a295faa79aff14759514a030", // Nintendo GameCube XIII ISO MD5 hash (DL-DOL-GX3P-UKV Europe)
+    "b77039d0db6e8a5e24f75338112f05aa", // PC XIII ISO MD5 hash (Europe, Sold Out Software)
+    "b3a1d9be0dc19ca3e2a27c29c4f4afb2", // PC XIII ISO MD5 hash (Europe, Software Pyramide)
+    "08c39a364e5e34e9299c01fa1350c5be", // Nintendo GameCube XIII ISO MD5 hash (DL-DOL-GX3X-EUR Europe)
+    "dcb1a62e1223c41cba48e422aace45d4", // PlayStation 2 XIII Beta ISO MD5 hash (Preview V98, 2003-07-31)
+    "702d8da2bb43e25eceb9449c0c0a4385", // PlayStation 2 XIII Beta ISO MD5 hash (Preview V98, 2003-07-30)
+    "6eea451998ff0c662c2a620f574705e4", // PlayStation 2 XIII Demo ISO MD5 hash (Europe, SLED-52014)
+    "a7af3e5eb74ac90ecb264a2d9abbc91b", // PC XIII ISO MD5 hash (Europe, Original Disc 1)
+    "db74b41016f0d7b1fcda492e265a7b04", // PC XIII ISO MD5 hash (Europe, Original Disc 2)
+    "043c0d8c73a68c9de90c0af5bd40c869", // PC XIII ISO MD5 hash (Europe, Original Disc 3)
+    "47efabac348951167c3e0da0d7616eac", // PC XIII ISO MD5 hash (Europe, Original Disc 4)
+    "4b0668b930a3f3b8c40101ddbbea6d57", // PlayStation 2 XIII ISO MD5 hash (SLES-51244, Europe/Australia)
+    "b1a15440ccd3efa833178357fb5cd0b4", // PC XIII CD MD5 hash (Europe/Canada, MSI OEM Disc 4)
+    "08f59f6806e65a5bd787b5e7724294aa", // PC XIII ISO MD5 hash (France, Hits Collection)
+    "f69a9433761ad12efa020804cbbec17b", // PC XIII ISO MD5 hash (Hungary, Original Disc 1)
+    "5c5cb01792a68c906d76884731b3e06a", // PC XIII ISO MD5 hash (Hungary, Original Disc 2)
+    "83f9b72625fa9df4b3ca7fc666d4b2f2", // PC XIII ISO MD5 hash (Hungary, Original Disc 3)
+    "148e92d408428cc28258f10e1c3393c5", // PC XIII ISO MD5 hash (Hungary, Original Disc 4)
+    "69e6934532e326a0b636dbf6c1a46ab6", // PlayStation 2 XIII Demo ISO MD5 hash (Japan, SLPM-60244)
+    "fb02aac1b5a6fc445fa2d2fba5b5add2", // PC XIII ISO MD5 hash (Poland, Kolekcja Klasyki)
+    "4abc182cf92a49034a44c61e8fbca218", // PC XIII ISO MD5 hash (Russia, Original Disc 1)
+    "b8ef0afaf5ce250e24e830df4beb1a24", // PC XIII ISO MD5 hash (Russia, Original Disc 2)
+    "67e18bbccb827509606172148237bd51", // PC XIII ISO MD5 hash (Russia, Original Disc 3)
+    "39e187dbc3eb672896a6f79bd716ac30", // PC XIII ISO MD5 hash (Russia, Original Disc 4)
+    "9a13a9f1d9e5b57c0934645a879499fc", // Nintendo GameCube XIII ISO MD5 hash (DL-DOL-GX3E-USA)
+    "941af95942ddb26f6baa6d33dbe5f5cb", // PlayStation 2 XIII ISO MD5 hash (SLUS-20677, USA)
+    "865ea1820b862e2645f406df48aabc72", // PC XIII ISO MD5 hash (USA, Original Disc 1)
+    "2bea659f47967ad5889fedbddcb74195", // PC XIII ISO MD5 hash (USA, Original Disc 2)
+    "f7f6cc4d5a113f4f441dd07c3d242b7e", // PC XIII ISO MD5 hash (USA, Original Disc 3)
+    "f1490263bb9ebf82ff7d62d772beef5f", // PC XIII ISO MD5 hash (USA, Original Disc 4)
+    "72062551526eedfdb42997e21f7aa89d", // Microsoft Xbox XIII ISO MD5 hash (US-009, USA/Europe)
+    "0c36553fa715edd6f0bb93a10d306c00", // PC XIII Demo ISO MD5 hash (UK, The Sun)
     "lula", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "lula-livre", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
@@ -395,6 +426,285 @@ const XIII_GAME_VERSIONS = [
         size: 1459978240,
         md5: "9d4c9624a295faa79aff14759514a030",
         sha1: "81764e0786262ef03f78b3a18bceb9ceb8421b2d"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Europe",
+        edition: "Sold Out Software",
+        serial: null,
+        size: 2565242880,
+        md5: "b77039d0db6e8a5e24f75338112f05aa",
+        sha1: "3713c506711cadab7302ee203845983d87c0d5fc"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Europe",
+        edition: "Software Pyramide",
+        serial: "5003835",
+        size: 2484953088,
+        md5: "b3a1d9be0dc19ca3e2a27c29c4f4afb2",
+        sha1: "fbd70e5e431606bc3ba2a85b0f639ab5e16c1cef"
+    },
+    {
+        platform: "Nintendo GameCube",
+        region: "Europe",
+        edition: "Original",
+        serial: "DL-DOL-GX3X-EUR",
+        size: 1459978240,
+        md5: "08c39a364e5e34e9299c01fa1350c5be",
+        sha1: "d7171b9caa496f212963fa3b89362eea7aa20294"
+    },
+    {
+        platform: "PlayStation 2",
+        region: "Europe",
+        edition: "Beta (Preview V98)",
+        serial: "SLUS-12345",
+        size: 2803531776,
+        md5: "dcb1a62e1223c41cba48e422aace45d4",
+        sha1: "71dd3412401869231379ee5b16a524e3b6f6e206"
+    },
+    {
+        platform: "PlayStation 2",
+        region: "Europe",
+        edition: "Beta (Preview V98)",
+        serial: "SLUS-12345",
+        size: 2223767552,
+        md5: "702d8da2bb43e25eceb9449c0c0a4385",
+        sha1: "36ff7df9e67a254370c7d24b1136a9fa66c7d446"
+    },
+    {
+        platform: "PlayStation 2",
+        region: "Europe",
+        edition: "Demo (Exclusive Pre-Order)",
+        serial: "SLED-52014",
+        size: 418533696,
+        md5: "6eea451998ff0c662c2a620f574705e4",
+        sha1: "a978390825d3760234101d05a7e09f3113ca20b9"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Europe",
+        edition: "Original (Disc 1)",
+        serial: null,
+        size: 795686304,
+        md5: "a7af3e5eb74ac90ecb264a2d9abbc91b",
+        sha1: "a480c23d2cf1f266e90f9e3c8d468e4997ba9b6f"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Europe",
+        edition: "Original (Disc 2)",
+        serial: null,
+        size: 733490016,
+        md5: "db74b41016f0d7b1fcda492e265a7b04",
+        sha1: "af3961959b08145811d967c890f3b0d41373baa0"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Europe",
+        edition: "Original (Disc 3)",
+        serial: null,
+        size: 658150752,
+        md5: "043c0d8c73a68c9de90c0af5bd40c869",
+        sha1: "011b2507be7835d5450476fab0eb1cb0bf4c55a3"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Europe",
+        edition: "Original (Disc 4)",
+        serial: null,
+        size: 690518976,
+        md5: "47efabac348951167c3e0da0d7616eac",
+        sha1: "95d8d6d42744288f5e2ceb2122228693ce185cba"
+    },
+    {
+        platform: "PlayStation 2",
+        region: "Europe, Australia",
+        edition: "Original / Platinum",
+        serial: "SLES-51244",
+        size: 2713092096,
+        md5: "4b0668b930a3f3b8c40101ddbbea6d57",
+        sha1: "9ace69ba7f15ba281012ababd82edc5d3eaaab0e"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Europe, Canada",
+        edition: "Bundle MSI OEM (Disc 4 CD)",
+        serial: "G71-X3GA004",
+        size: 690166176,
+        md5: "b1a15440ccd3efa833178357fb5cd0b4",
+        sha1: "83c8df7eb664dd58459f5b1e6aa623969277ce0f"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "France",
+        edition: "Hits Collection",
+        serial: "XII854AF-DVD",
+        size: 2540548096,
+        md5: "08f59f6806e65a5bd787b5e7724294aa",
+        sha1: "359b363934c94aabc50dafdaca0e12ce70bb862f"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Hungary",
+        edition: "Original (Disc 1)",
+        serial: "AUT 360-1",
+        size: 793035600,
+        md5: "f69a9433761ad12efa020804cbbec17b",
+        sha1: "380cae0a6108520599baf60511dac30b6d4a3282"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Hungary",
+        edition: "Original (Disc 2)",
+        serial: "AUT 360-2",
+        size: 782863200,
+        md5: "5c5cb01792a68c906d76884731b3e06a",
+        sha1: "c1b6faf08ebfca29a24d91fe76e7fd0b2bb3f0c0"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Hungary",
+        edition: "Original (Disc 3)",
+        serial: "AUT 360-3",
+        size: 693466032,
+        md5: "83f9b72625fa9df4b3ca7fc666d4b2f2",
+        sha1: "04c63ea775a05613580fe5709aeb0147a6e1f162"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Hungary",
+        edition: "Original (Disc 4)",
+        serial: "AUT 360-4",
+        size: 720935040,
+        md5: "148e92d408428cc28258f10e1c3393c5",
+        sha1: "cb9abdc27fef184f52b018328847f476c482e4c9"
+    },
+    {
+        platform: "PlayStation 2",
+        region: "Japan",
+        edition: "Demo (Taikenban)",
+        serial: "SLPM-60244",
+        size: 484817760,
+        md5: "69e6934532e326a0b636dbf6c1a46ab6",
+        sha1: "16bc86b863d6c20bc5a5adc4f30dd2506d046f4c"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Poland",
+        edition: "Kolekcja Klasyki",
+        serial: "CENEGA 399/PCDVD-ROM/2006",
+        size: 2346352640,
+        md5: "fb02aac1b5a6fc445fa2d2fba5b5add2",
+        sha1: "ef1aee962750df73cf86a2bcd7b1efe8a688630e"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Russia",
+        edition: "Original (Disc 1)",
+        serial: null,
+        size: 715847664,
+        md5: "4abc182cf92a49034a44c61e8fbca218",
+        sha1: "2070bcaf3acc110b529dd5fc1854689e98d2a4ed"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Russia",
+        edition: "Original (Disc 2)",
+        serial: null,
+        size: 755006112,
+        md5: "b8ef0afaf5ce250e24e830df4beb1a24",
+        sha1: "47e01135c866b3ce67aaa01d614206c8da29baf2"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Russia",
+        edition: "Original (Disc 3)",
+        serial: null,
+        size: 658536480,
+        md5: "67e18bbccb827509606172148237bd51",
+        sha1: "1f356e6adab41d753f4c2bc4fcfd29c255fa620d"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Russia",
+        edition: "Original (Disc 4)",
+        serial: null,
+        size: 690881184,
+        md5: "39e187dbc3eb672896a6f79bd716ac30",
+        sha1: "7135cb944f981b485dc35a84d7886da0292c31b9"
+    },
+    {
+        platform: "Nintendo GameCube",
+        region: "USA",
+        edition: "Original",
+        serial: "DL-DOL-GX3E-USA",
+        size: 1459978240,
+        md5: "9a13a9f1d9e5b57c0934645a879499fc",
+        sha1: "90f719a97045b63cadc81e407047cd9b02148a67"
+    },
+    {
+        platform: "PlayStation 2",
+        region: "USA",
+        edition: "Original",
+        serial: "SLUS-20677",
+        size: 2556100608,
+        md5: "941af95942ddb26f6baa6d33dbe5f5cb",
+        sha1: "7cbeaaecb08f93a730e3c8e0713f30ec757412cc"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "USA",
+        edition: "Original (Disc 1)",
+        serial: "651062-CD1",
+        size: 795681600,
+        md5: "865ea1820b862e2645f406df48aabc72",
+        sha1: "47e9f7060fb3df773e8db89892df7d953776dd55"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "USA",
+        edition: "Original (Disc 2)",
+        serial: "651062-CD2",
+        size: 732010608,
+        md5: "2bea659f47967ad5889fedbddcb74195",
+        sha1: "b261ac6e8e272e64a1ae60f1e1be1e6a7192622c"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "USA",
+        edition: "Original (Disc 3)",
+        serial: "651062-CD3",
+        size: 658150752,
+        md5: "f7f6cc4d5a113f4f441dd07c3d242b7e",
+        sha1: "0c724eac5fcd50650dd13d849823d5b419431659"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "USA",
+        edition: "Original (Disc 4)",
+        serial: "651062-CD4",
+        size: 690518976,
+        md5: "f1490263bb9ebf82ff7d62d772beef5f",
+        sha1: "00ed70e141aedc1019fa3187fdc474b47f5c2b0a"
+    },
+    {
+        platform: "Microsoft Xbox",
+        region: "USA, Europe",
+        edition: "Original",
+        serial: "US-009",
+        size: 7825162240,
+        md5: "72062551526eedfdb42997e21f7aa89d",
+        sha1: "2c018480880c0e49a06c46b96d594f19b81783a1"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "UK",
+        edition: "Covermount (The Sun)",
+        serial: "SUN016A",
+        size: 359576112,
+        md5: "0c36553fa715edd6f0bb93a10d306c00",
+        sha1: "b4d035cdd746ab6c4235bd097525e06260857e93"
     }
 ];
 
