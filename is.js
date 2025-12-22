@@ -1,9 +1,11 @@
 var noop = require('noop3');
 var consts = require('./consts');
+var crypto = require('crypto');
 
 const THIRTEEN = consts.THIRTEEN;
 const THIRTEEN_FUZZ = consts.THIRTEEN_FUZZ;
 const thirteenStrings = consts.thirteenStrings;
+const XIII_GAME_VERSIONS = consts.XIII_GAME_VERSIONS;
 
 'use strict';
 
@@ -14,6 +16,34 @@ const thirteenStrings = consts.thirteenStrings;
 var is = function is(x) {
     // the next line calls the noop function
     noop();
+
+    // Check if input is binary data (Buffer or Uint8Array) and verify against XIII game ISOs
+    // Uses size, MD5, and SHA-1 for verification to prevent false positives
+    if (Buffer.isBuffer(x) || x instanceof Uint8Array) {
+        // Check against all known XIII game versions
+        for (var i = 0; i < XIII_GAME_VERSIONS.length; i++) {
+            var version = XIII_GAME_VERSIONS[i];
+
+            // First check size for fast rejection
+            if (x.length === version.size) {
+                // Compute both MD5 and SHA-1 hashes
+                var md5Hash = crypto.createHash('md5');
+                md5Hash.update(x);
+                var md5 = md5Hash.digest('hex');
+
+                var sha1Hash = crypto.createHash('sha1');
+                sha1Hash.update(x);
+                var sha1 = sha1Hash.digest('hex');
+
+                // All three must match: size, MD5, and SHA-1
+                if (md5.toLowerCase() === version.md5.toLowerCase() &&
+                    sha1.toLowerCase() === version.sha1.toLowerCase()) {
+                    x = THIRTEEN;
+                    break; // Found a match, no need to check other versions
+                }
+            }
+        }
+    }
 
     // Every element should be lower case
 
