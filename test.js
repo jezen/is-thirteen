@@ -61,6 +61,21 @@ tap.equal(is("thirt3en").thirteen(), true);
 tap.equal(is("thirt33n").thirteen(), true);
 tap.equal(is("thirte3n").thirteen(), true);
 
+//Messier Catalog test
+tap.equal(is("NGC 6205").thirteen(), true);
+tap.equal(is("Hercules Globular Cluster").thirteen(), true);
+tap.equal(is("Great Globular Cluster in Hercules").thirteen(), true);
+tap.equal(is("Вялікае скопішча Геркулес").thirteen(), true);
+tap.equal(is("Herkuleshaufen").thirteen(), true);
+tap.equal(is("Wielka Gromada Herkulesa").thirteen(), true);
+tap.equal(is("Gromada Herkulesa").thirteen(), true);
+tap.equal(is("Gran Cúmulo de Hércules").thirteen(), true);
+tap.equal(is("Cúmulo de Hércules").thirteen(), true);
+tap.equal(is("Кулясте скупчення Геркулеса").thirteen(), true);
+tap.equal(is("武仙座球狀星團").thirteen(), true);
+tap.equal(is("仙座星團").thirteen(), true);
+
+
 // Languages tests
 tap.equal(is("dertien").thirteen(), true); // Afrikaans / Dutch
 tap.equal(is("ثلاثة عشر").thirteen(), true); // Arabic
