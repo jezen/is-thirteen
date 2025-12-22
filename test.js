@@ -68,6 +68,20 @@ tap.equal(is('5c5cb01792a68c906d76884731b3e06a').thirteen(), true); // PC XIII I
 tap.equal(is('5C5CB01792A68C906D76884731B3E06A').thirteen(), true); // PC XIII ISO MD5 (uppercase)
 tap.equal(is('83f9b72625fa9df4b3ca7fc666d4b2f2').thirteen(), true); // PC XIII ISO MD5 (Hungary, Original Disc 3)
 tap.equal(is('83F9B72625FA9DF4B3CA7FC666D4B2F2').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('148e92d408428cc28258f10e1c3393c5').thirteen(), true); // PC XIII ISO MD5 (Hungary, Original Disc 4)
+tap.equal(is('148E92D408428CC28258F10E1C3393C5').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('69e6934532e326a0b636dbf6c1a46ab6').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5 (Japan, SLPM-60244)
+tap.equal(is('69E6934532E326A0B636DBF6C1A46AB6').thirteen(), true); // PlayStation 2 XIII Demo ISO MD5 (uppercase)
+tap.equal(is('fb02aac1b5a6fc445fa2d2fba5b5add2').thirteen(), true); // PC XIII ISO MD5 (Poland, Kolekcja Klasyki)
+tap.equal(is('FB02AAC1B5A6FC445FA2D2FBA5B5ADD2').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('4abc182cf92a49034a44c61e8fbca218').thirteen(), true); // PC XIII ISO MD5 (Russia, Original Disc 1)
+tap.equal(is('4ABC182CF92A49034A44C61E8FBCA218').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('b8ef0afaf5ce250e24e830df4beb1a24').thirteen(), true); // PC XIII ISO MD5 (Russia, Original Disc 2)
+tap.equal(is('B8EF0AFAF5CE250E24E830DF4BEB1A24').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('67e18bbccb827509606172148237bd51').thirteen(), true); // PC XIII ISO MD5 (Russia, Original Disc 3)
+tap.equal(is('67E18BBCCB827509606172148237BD51').thirteen(), true); // PC XIII ISO MD5 (uppercase)
+tap.equal(is('39e187dbc3eb672896a6f79bd716ac30').thirteen(), true); // PC XIII ISO MD5 (Russia, Original Disc 4)
+tap.equal(is('39E187DBC3EB672896A6F79BD716AC30').thirteen(), true); // PC XIII ISO MD5 (uppercase)
 
 // imdbs
 tap.equal(is("http://www.imdb.com/title/tt0798817/").thirteen(), true);
@@ -358,3 +372,17 @@ tap.equal(is(testData).thirteen(), false); // 'test' doesn't match XIII ISO
 //   - Size: 782863200 bytes, MD5: 5c5cb01792a68c906d76884731b3e06a, SHA-1: c1b6faf08ebfca29a24d91fe76e7fd0b2bb3f0c0
 // PC Hungary Original Disc 3:
 //   - Size: 693466032 bytes, MD5: 83f9b72625fa9df4b3ca7fc666d4b2f2, SHA-1: 04c63ea775a05613580fe5709aeb0147a6e1f162
+// PC Hungary Original Disc 4:
+//   - Size: 720935040 bytes, MD5: 148e92d408428cc28258f10e1c3393c5, SHA-1: cb9abdc27fef184f52b018328847f476c482e4c9
+// PS2 Japan Demo (SLPM-60244):
+//   - Size: 484817760 bytes, MD5: 69e6934532e326a0b636dbf6c1a46ab6, SHA-1: 16bc86b863d6c20bc5a5adc4f30dd2506d046f4c
+// PC Poland Kolekcja Klasyki:
+//   - Size: 2346352640 bytes, MD5: fb02aac1b5a6fc445fa2d2fba5b5add2, SHA-1: ef1aee962750df73cf86a2bcd7b1efe8a688630e
+// PC Russia Original Disc 1:
+//   - Size: 715847664 bytes, MD5: 4abc182cf92a49034a44c61e8fbca218, SHA-1: 2070bcaf3acc110b529dd5fc1854689e98d2a4ed
+// PC Russia Original Disc 2:
+//   - Size: 755006112 bytes, MD5: b8ef0afaf5ce250e24e830df4beb1a24, SHA-1: 47e01135c866b3ce67aaa01d614206c8da29baf2
+// PC Russia Original Disc 3:
+//   - Size: 658536480 bytes, MD5: 67e18bbccb827509606172148237bd51, SHA-1: 1f356e6adab41d753f4c2bc4fcfd29c255fa620d
+// PC Russia Original Disc 4:
+//   - Size: 690881184 bytes, MD5: 39e187dbc3eb672896a6f79bd716ac30, SHA-1: 7135cb944f981b485dc35a84d7886da0292c31b9

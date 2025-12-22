@@ -42,6 +42,13 @@ var thirteenStrings = [
     "f69a9433761ad12efa020804cbbec17b", // PC XIII ISO MD5 hash (Hungary, Original Disc 1)
     "5c5cb01792a68c906d76884731b3e06a", // PC XIII ISO MD5 hash (Hungary, Original Disc 2)
     "83f9b72625fa9df4b3ca7fc666d4b2f2", // PC XIII ISO MD5 hash (Hungary, Original Disc 3)
+    "148e92d408428cc28258f10e1c3393c5", // PC XIII ISO MD5 hash (Hungary, Original Disc 4)
+    "69e6934532e326a0b636dbf6c1a46ab6", // PlayStation 2 XIII Demo ISO MD5 hash (Japan, SLPM-60244)
+    "fb02aac1b5a6fc445fa2d2fba5b5add2", // PC XIII ISO MD5 hash (Poland, Kolekcja Klasyki)
+    "4abc182cf92a49034a44c61e8fbca218", // PC XIII ISO MD5 hash (Russia, Original Disc 1)
+    "b8ef0afaf5ce250e24e830df4beb1a24", // PC XIII ISO MD5 hash (Russia, Original Disc 2)
+    "67e18bbccb827509606172148237bd51", // PC XIII ISO MD5 hash (Russia, Original Disc 3)
+    "39e187dbc3eb672896a6f79bd716ac30", // PC XIII ISO MD5 hash (Russia, Original Disc 4)
     "lula", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "lula-livre", //Lula, former president of Brazil. His number is 13: https://www.google.com/search?q=lula+13
     "dilma", //Dilma, former president of Brazil. Her number is 13: https://www.google.com/search?q=dilma+13
@@ -555,6 +562,69 @@ const XIII_GAME_VERSIONS = [
         size: 693466032,
         md5: "83f9b72625fa9df4b3ca7fc666d4b2f2",
         sha1: "04c63ea775a05613580fe5709aeb0147a6e1f162"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Hungary",
+        edition: "Original (Disc 4)",
+        serial: "AUT 360-4",
+        size: 720935040,
+        md5: "148e92d408428cc28258f10e1c3393c5",
+        sha1: "cb9abdc27fef184f52b018328847f476c482e4c9"
+    },
+    {
+        platform: "PlayStation 2",
+        region: "Japan",
+        edition: "Demo (Taikenban)",
+        serial: "SLPM-60244",
+        size: 484817760,
+        md5: "69e6934532e326a0b636dbf6c1a46ab6",
+        sha1: "16bc86b863d6c20bc5a5adc4f30dd2506d046f4c"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Poland",
+        edition: "Kolekcja Klasyki",
+        serial: "CENEGA 399/PCDVD-ROM/2006",
+        size: 2346352640,
+        md5: "fb02aac1b5a6fc445fa2d2fba5b5add2",
+        sha1: "ef1aee962750df73cf86a2bcd7b1efe8a688630e"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Russia",
+        edition: "Original (Disc 1)",
+        serial: null,
+        size: 715847664,
+        md5: "4abc182cf92a49034a44c61e8fbca218",
+        sha1: "2070bcaf3acc110b529dd5fc1854689e98d2a4ed"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Russia",
+        edition: "Original (Disc 2)",
+        serial: null,
+        size: 755006112,
+        md5: "b8ef0afaf5ce250e24e830df4beb1a24",
+        sha1: "47e01135c866b3ce67aaa01d614206c8da29baf2"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Russia",
+        edition: "Original (Disc 3)",
+        serial: null,
+        size: 658536480,
+        md5: "67e18bbccb827509606172148237bd51",
+        sha1: "1f356e6adab41d753f4c2bc4fcfd29c255fa620d"
+    },
+    {
+        platform: "IBM PC compatible",
+        region: "Russia",
+        edition: "Original (Disc 4)",
+        serial: null,
+        size: 690881184,
+        md5: "39e187dbc3eb672896a6f79bd716ac30",
+        sha1: "7135cb944f981b485dc35a84d7886da0292c31b9"
     }
 ];
 
