@@ -140,7 +140,7 @@ var is = function is(x) {
         },
         anagramOf:{
           thirteen:function(){
-            return x.toLowerCase().split('').sort().join('').trim() == "thirteen".split('').sort().join('').trim();
+            return x.toLowerCase().split('').sort().join('').trim() === "eehinrtt";
           }
         },
         backwards: {
