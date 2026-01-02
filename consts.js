@@ -338,6 +338,9 @@ var thirteenStrings = [
     "تیرہ", // Urdu
     "tayra", // Roman Urdu
     "mười ba", // Vietnamese
+    "thập tam", // Sino-Vietnamese
+    "mườiba", // Vietnamese without space
+    "thậptam", // Sino-Vietnamese without space
     "tri ar ddeg", // Welsh
     "דרייַצן", // Yiddish,
     "דרייצן", // Yiddish (without diacritics),
