@@ -4,7 +4,7 @@ _Special thanks to [@casdr](https://github.com/casdr) for the logo_
 
 # is-thirteen
 
-[![Build Status](https://travis-ci.org/jezen/is-thirteen.svg?branch=master)](https://travis-ci.org/jezen/is-thirteen) [![CI](https://github.com/jezen/is-thirteen/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/jezen/is-thirteen/actions/workflows/ci.yml)
+[![Build Status](https://travis-ci.org/jezen/is-thirteen.svg?branch=master)](https://travis-ci.org/jezen/is-thirteen) [![CI](https://github.com/davidsalasin/is-thirteen/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/davidsalasin/is-thirteen/actions/workflows/ci.yml)
 
 An npm package to check if a number is equal to 13.
 
