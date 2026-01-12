@@ -1,9 +1,10 @@
 <img src="is-thirteen-logo.png">
 
 _Special thanks to [@casdr](https://github.com/casdr) for the logo_
+
 # is-thirteen
 
-[![Build Status](https://travis-ci.org/jezen/is-thirteen.svg?branch=master)](https://travis-ci.org/jezen/is-thirteen) 
+[![Build Status](https://travis-ci.org/jezen/is-thirteen.svg?branch=master)](https://travis-ci.org/jezen/is-thirteen) [![CI](https://github.com/jezen/is-thirteen/actions/workflows/ci.yml/badge.svg?branch=ci/github-actions)](https://github.com/jezen/is-thirteen/actions/workflows/ci.yml)
 
 An npm package to check if a number is equal to 13.
 
@@ -31,7 +32,7 @@ i̶s̶T̶h̶i̶r̶t̶e̶e̶n̶(̶1̶3̶)̶;̶ ̶/̶/̶ ̶t̶r̶u̶e̶
 ```
 
 ```javascript
-const is = require('is-thirteen');
+const is = require("is-thirteen");
 // Now with elegant syntax.
 
 is(13).thirteen(); // true
@@ -40,12 +41,12 @@ is(6).within(10).of.thirteen(); // true
 is(2011).yearOfBirth(); // true
 
 // check your math skillz
-is(4).plus(5).thirteen();      // false
-is(12).plus(1).thirteen();    // true
-is(4).minus(12).thirteen();    // false
-is(14).minus(1).thirteen();    // true
-is(1).times(8).thirteen();    // false
-is(26).divideby(2).thirteen();  // true
+is(4).plus(5).thirteen(); // false
+is(12).plus(1).thirteen(); // true
+is(4).minus(12).thirteen(); // false
+is(14).minus(1).thirteen(); // true
+is(1).times(8).thirteen(); // false
+is(26).divideby(2).thirteen(); // true
 ```
 
 ## Test
