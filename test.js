@@ -184,8 +184,8 @@ tap.equal(is("דרייַצן").thirteen(), true); // Yiddish
 tap.equal(is("דרייצן").thirteen(), true); // Yiddish (without diacritics),
 tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
 tap.equal(is("പതിമൂന്ന്").thirteen(), true); // Malayalam
-tap.equals(is("१३").thirteen(), true); //Devanagari
-tap.equals(is("तेह्र").thirteen(), true); //Nepali
+tap.equal(is("१३").thirteen(), true); //Devanagari
+tap.equal(is("तेह्र").thirteen(), true); //Nepali
 tap.equal(is("quainel").thirteen(), true); // Quenya
 tap.equal(is("mînuiug").thirteen(), true); // Sindarin
 tap.equal(is("7h1r733n").thirteen(), true); // Crypto
@@ -229,7 +229,7 @@ tap.equal(is("D").base(16).thirteen(), true);
 tap.equal(is("A").base(16).thirteen(), false);
 
 //test function that is returning 13
-tap.equals(is(function(){return 13;}).returning.thirteen(),true);
+tap.equal(is(function(){return 13;}).returning.thirteen(),true);
 
 // Same 13 characters tests
 tap.equal(is("|||||||||||||").thirteen(), true);
