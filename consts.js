@@ -220,6 +220,24 @@ var thirteenStrings = [
     "ֹשְלֹשָה- עָשָֹר", // Hebrew (male form, with punctuation)
     "יג", // Hebrew (gematria)
     "י״ג", // Hebrew (gematria - apostrophes)
+    "ܬܠܬܥܣܪ", // Aramaic (Syriac script without vowel marks)
+    "𐡋𐡊", // Aramaic (Imperial Aramaic numerals)
+    "תְּלַתְעֶסְרֵה", // Aramaic (Hebrew square script - feminine)
+    "תְּלַתְעֶסְרֵי", // Aramaic (Hebrew square script - masculine)
+    "תלתעשרה", // Aramaic (Hebrew square script - feminine, without space)
+    "תלתעשרי", // Aramaic (Hebrew square script - masculine, without space)
+    "תְּלַת- עֶשְרֵה", // Aramaic (Hebrew square script - feminine, with punctuation)
+    "תְּלַת- עֶשְרֵי", // Aramaic (Hebrew square script - masculine, with punctuation)
+    "תלת עשר", // Aramaic (Hebrew square script - variant)
+    "תלתה עשר", // Aramaic (Hebrew square script - variant)
+    "trelthasar", // Aramaic (transliteration)
+    "telath'esre", // Aramaic (feminine transliteration)
+    "telath'esrei", // Aramaic (masculine transliteration)
+    "tlāṯʿesrē", // Aramaic (feminine transliteration - alternative)
+    "tlāṯʿesrēy", // Aramaic (masculine transliteration - alternative)
+    "tlat esre", // Aramaic (simplified transliteration - feminine)
+    "tlat esrei", // Aramaic (simplified transliteration - masculine)
+    "trellathasar", // Aramaic (variant transliteration)
     "quainel", // Quenya
     "mînuiug", // Sindarin
     "dektri", // Esperanto
@@ -366,7 +384,7 @@ var thirteenStrings = [
     // Toki Pona
     "tu tu tu tu tu tu wan",
     "luka luka tu wan",
-  
+
     // 13 Dots
     ".............",
 ];
