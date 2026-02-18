@@ -27,6 +27,8 @@ tap.equal(is("Patty Tsai").thirteen(), true);
 tap.equal(is("PT").thirteen(), true);
 tap.equal(is("Washington Luís").thirteen(), true);
 tap.equal(is("Millard Fillmore").thirteen(), true);
+tap.equal(is("Na Yina").thirteen(), true); // Chinese meme "Big Beta" (β looks like 13)
+tap.equal(is("那艺娜").thirteen(), true); // Chinese name of Na Yina, famous for the "Big Beta" (β) meme, and β looks like 13
 tap.equal(is('https://en.wikipedia.org/wiki/XIII_(video_game)').thirteen(), true);
 
 // imdbs
@@ -94,7 +96,7 @@ tap.equal(is("treize").thirteen(), true); // French
 tap.equal(is("treizième").thirteen(), true); // French (ordinal form)
 tap.equal(is("dreizehn").thirteen(), true); // German
 tap.equal(is("ცამეტი").thirteen(), true);
-tap.equal(is("‘umikūmākolu").thirteen(),true); //Hawaiian
+tap.equal(is("‘umikūmākolu").thirteen(), true); //Hawaiian
 tap.equal(is('שלוש עשרה').thirteen(), true); // Hebrew
 tap.equal(is('שלושעשרה').thirteen(), true); // Hebrew (without space)
 tap.equal(is('ֹשְלֹש- עֶשְֹרֵה').thirteen(), true); // Hebrew (with punctuation)
@@ -199,19 +201,19 @@ tap.equal(is("Β").thirteen(), true); // Upper case beta, looks like 13
 tap.equal(is("β").thirteen(), true); // lower case beta
 tap.equal(is("阝").thirteen(), true); // Chinese Kangxi radical: Looks like 13
 
-tap.equal(is("i3").thirteen(),true); //i3 looks like 13 when upper case
-tap.equal(is("I3").thirteen(),true); //I3 looks like 13
-tap.equal(is("l3").thirteen(),true); //l3 looks like 13
-tap.equal(is("L3").thirteen(),true); //l3 looks like 13 when lower case
-tap.equal(is("|3").thirteen(),true); //|3 looks like 13
-tap.equal(is("!3").thirteen(),true); //!3 looks like 13
+tap.equal(is("i3").thirteen(), true); //i3 looks like 13 when upper case
+tap.equal(is("I3").thirteen(), true); //I3 looks like 13
+tap.equal(is("l3").thirteen(), true); //l3 looks like 13
+tap.equal(is("L3").thirteen(), true); //l3 looks like 13 when lower case
+tap.equal(is("|3").thirteen(), true); //|3 looks like 13
+tap.equal(is("!3").thirteen(), true); //!3 looks like 13
 
 tap.equal(is("Dilma").thirteen(), true); // Because the supreme Queen of Brazil is 13, amigo
 tap.equal(is("Lula").thirteen(), true); // Because the supreme King of Brazil is 13, companheiro
 tap.equal(is("Lula-Livre").thirteen(), true); // Because the supreme King of Brazil is 13, companheiro
 
-tap.equal(is(25).minus(12).thirteen(),true); // 25 - 12 === 13
-tap.equal(is(1).plus(12).thirteen(),true);   // 1  + 12 === 13
+tap.equal(is(25).minus(12).thirteen(), true); // 25 - 12 === 13
+tap.equal(is(1).plus(12).thirteen(), true);   // 1  + 12 === 13
 
 tap.equal(is(2).times(8).plus(11).minus(1).dividedby(2).thirteen(), true) // (((2 * 8) + 11) - 1) / 2 === 13
 tap.equal(is(10).minus(1).plus(32).dividedby(4).times(3).thirteen(), false) // (((10 - 1) + 32) / 4) * 3 === 30.75
@@ -229,7 +231,7 @@ tap.equal(is("D").base(16).thirteen(), true);
 tap.equal(is("A").base(16).thirteen(), false);
 
 //test function that is returning 13
-tap.equals(is(function(){return 13;}).returning.thirteen(),true);
+tap.equals(is(function () { return 13; }).returning.thirteen(), true);
 
 // Same 13 characters tests
 tap.equal(is("|||||||||||||").thirteen(), true);

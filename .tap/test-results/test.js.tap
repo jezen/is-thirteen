@@ -1,0 +1,189 @@
+TAP version 14
+ok 1 - should be equal
+ok 2 - should be equal
+ok 3 - should be equal
+ok 4 - should be equal
+ok 5 - should be equal
+ok 6 - should be equal
+ok 7 - should be equal
+ok 8 - should be equal
+ok 9 - should be equal
+ok 10 - should be equal
+ok 11 - should be equal
+ok 12 - should be equal
+ok 13 - should be equal
+ok 14 - should be equal
+ok 15 - should be equal
+ok 16 - should be equal
+ok 17 - should be equal
+ok 18 - should be equal
+ok 19 - should be equal
+ok 20 - should be equal
+ok 21 - should be equal
+ok 22 - should be equal
+ok 23 - should be equal
+ok 24 - should be equal
+ok 25 - should be equal
+ok 26 - should be equal
+ok 27 - should be equal
+ok 28 - should be equal
+ok 29 - should be equal
+ok 30 - should be equal
+ok 31 - should be equal
+ok 32 - should be equal
+ok 33 - should be equal
+ok 34 - should be equal
+ok 35 - should be equal
+ok 36 - should be equal
+ok 37 - should be equal
+ok 38 - should be equal
+ok 39 - should be equal
+ok 40 - should be equal
+ok 41 - should be equal
+ok 42 - should be equal
+ok 43 - should be equal
+ok 44 - should be equal
+ok 45 - should be equal
+ok 46 - should be equal
+ok 47 - should be equal
+ok 48 - should be equal
+ok 49 - should be equal
+ok 50 - should be equal
+ok 51 - should be equal
+ok 52 - should be equal
+ok 53 - should be equal
+ok 54 - should be equal
+ok 55 - should be equal
+ok 56 - should be equal
+ok 57 - should be equal
+ok 58 - should be equal
+ok 59 - should be equal
+ok 60 - should be equal
+ok 61 - should be equal
+ok 62 - should be equal
+ok 63 - should be equal
+ok 64 - should be equal
+ok 65 - should be equal
+ok 66 - should be equal
+ok 67 - should be equal
+ok 68 - should be equal
+ok 69 - should be equal
+ok 70 - should be equal
+ok 71 - should be equal
+ok 72 - should be equal
+ok 73 - should be equal
+ok 74 - should be equal
+ok 75 - should be equal
+ok 76 - should be equal
+ok 77 - should be equal
+ok 78 - should be equal
+ok 79 - should be equal
+ok 80 - should be equal
+ok 81 - should be equal
+ok 82 - should be equal
+ok 83 - should be equal
+ok 84 - should be equal
+ok 85 - should be equal
+ok 86 - should be equal
+ok 87 - should be equal
+ok 88 - should be equal
+ok 89 - should be equal
+ok 90 - should be equal
+ok 91 - should be equal
+ok 92 - should be equal
+ok 93 - should be equal
+ok 94 - should be equal
+ok 95 - should be equal
+ok 96 - should be equal
+ok 97 - should be equal
+ok 98 - should be equal
+ok 99 - should be equal
+ok 100 - should be equal
+ok 101 - should be equal
+ok 102 - should be equal
+ok 103 - should be equal
+ok 104 - should be equal
+ok 105 - should be equal
+ok 106 - should be equal
+ok 107 - should be equal
+ok 108 - should be equal
+ok 109 - should be equal
+ok 110 - should be equal
+ok 111 - should be equal
+ok 112 - should be equal
+ok 113 - should be equal
+ok 114 - should be equal
+ok 115 - should be equal
+ok 116 - should be equal
+ok 117 - should be equal
+ok 118 - should be equal
+ok 119 - should be equal
+ok 120 - should be equal
+ok 121 - should be equal
+ok 122 - should be equal
+ok 123 - should be equal
+ok 124 - should be equal
+ok 125 - should be equal
+ok 126 - should be equal
+ok 127 - should be equal
+ok 128 - should be equal
+ok 129 - should be equal
+ok 130 - should be equal
+ok 131 - should be equal
+ok 132 - should be equal
+ok 133 - should be equal
+ok 134 - should be equal
+ok 135 - should be equal
+ok 136 - should be equal
+ok 137 - should be equal
+ok 138 - should be equal
+ok 139 - should be equal
+ok 140 - should be equal
+ok 141 - should be equal
+ok 142 - should be equal
+ok 143 - should be equal
+ok 144 - should be equal
+ok 145 - should be equal
+ok 146 - should be equal
+ok 147 - should be equal
+ok 148 - should be equal
+ok 149 - should be equal
+ok 150 - should be equal
+ok 151 - should be equal
+ok 152 - should be equal
+ok 153 - should be equal
+ok 154 - should be equal
+ok 155 - should be equal
+ok 156 - should be equal
+ok 157 - should be equal
+ok 158 - should be equal
+ok 159 - should be equal
+ok 160 - should be equal
+ok 161 - should be equal
+ok 162 - should be equal
+ok 163 - should be equal
+ok 164 - should be equal
+not ok 165 - tap.equals is not a function
+  ---
+  stack: |
+    Object.<anonymous> (test.js:187:5)
+  at:
+    fileName: test.js
+    lineNumber: 187
+    columnNumber: 5
+    typeName: Object
+    methodName: <anonymous>
+    functionName: Object.<anonymous>
+  type: TypeError
+  tapCaught: unhandledRejection
+  test: TAP
+  source: |
+    tap.equal(is("kumi na tatu").thirteen(), true); // Swahili
+    tap.equal(is("പതിമൂന്ന്").thirteen(), true); // Malayalam
+    tap.equals(is("१३").thirteen(), true); //Devanagari
+    ----^
+    tap.equals(is("तेह्र").thirteen(), true); //Nepali
+    tap.equal(is("quainel").thirteen(), true); // Quenya
+  ...
+
+1..165

@@ -366,9 +366,12 @@ var thirteenStrings = [
     // Toki Pona
     "tu tu tu tu tu tu wan",
     "luka luka tu wan",
-  
+
     // 13 Dots
     ".............",
+
+    "Na Yina", // Famous for the "Big Beta" (β) meme, and β looks like 13
+    "那艺娜", // Chinese name of Na Yina, famous for the "Big Beta" (β) meme, and β looks like 13
 ];
 
 module.exports = {

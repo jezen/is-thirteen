@@ -1,0 +1,253 @@
+{
+  "date": "2026-02-18T16:09:09.119Z",
+  "argv": [
+    "/opt/homebrew/Cellar/node/25.6.1/bin/node",
+    "/Users/mike/Documents/tools/is-thirteen/test.js"
+  ],
+  "execArgv": [
+    "--import=file:///Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/typescript/dist/esm/import.mjs",
+    "--import=file:///Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/import.mjs",
+    "--enable-source-maps",
+    "--import=file:///Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/processinfo/dist/esm/import.mjs"
+  ],
+  "NODE_OPTIONS": "\"--import=file:///Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/processinfo/dist/esm/import.mjs\"",
+  "cwd": "/Users/mike/Documents/tools/is-thirteen",
+  "pid": 42070,
+  "ppid": 42062,
+  "parent": null,
+  "uuid": "a8189060-b9c5-4151-8db1-7b4aabb23c26",
+  "files": [
+    "/Users/mike/Documents/tools/is-thirteen/test.js",
+    "/Users/mike/Documents/tools/is-thirteen/index.js",
+    "/Users/mike/Documents/tools/is-thirteen/is.js",
+    "/Users/mike/Documents/tools/is-thirteen/consts.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/typescript/dist/esm/import.mjs",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import.mjs",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import-loader.mjs",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/import.mjs",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/mock-service.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/stack/dist/esm/index.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/stack/dist/esm/call-site-like.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/stack/dist/esm/parse.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/stack/dist/esm/require-resolve.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/index.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/get-all-conditional-values.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/get-conditional-values-list.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/get-all-conditions.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/get-unique-condition-sets.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/is-relative-require.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/is-windows.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/resolve-all-exports.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/errors.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/resolve-import.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/file-exists.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/resolve-dependency-export.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/find-dep-package.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/walk-up-path/dist/esm/index.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/read-pkg.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/read-json.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/resolve-export.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/find-star-match.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/resolve-conditional-value.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/resolve-package-import.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/to-file-url.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/to-path.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/get-named-exports-list.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/star-glob.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/dist/esm/index.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/dist/esm/index.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@isaacs/brace-expansion/dist/esm/index.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@isaacs/balanced-match/dist/esm/index.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/dist/esm/assert-valid-pattern.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/dist/esm/ast.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/dist/esm/brace-expressions.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/dist/esm/unescape.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/dist/esm/escape.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/dist/esm/glob.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/path-scurry/dist/esm/index.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/lru-cache/dist/esm/index.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/minipass/dist/esm/index.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/dist/esm/pattern.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/dist/esm/walker.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/dist/esm/ignore.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/dist/esm/processor.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/dist/esm/has-magic.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/resolve-all-local-imports.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/export-line.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/munge-mocks.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/resolve-mock-entry-point.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/service-key.js",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/loader.mjs",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/hooks.mjs",
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/mock-service-client.js"
+  ],
+  "sources": {
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/typescript/dist/esm/import.mjs": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/typescript/src/import.mts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/import.mjs": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/src/import.mts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/mock-service.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/src/mock-service.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/stack/dist/esm/index.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/stack/src/index.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/stack/dist/esm/call-site-like.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/stack/src/call-site-like.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/stack/dist/esm/parse.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/stack/src/parse.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/stack/dist/esm/require-resolve.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/stack/src/require-resolve.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/index.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/index.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/get-all-conditional-values.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/get-all-conditional-values.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/get-conditional-values-list.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/get-conditional-values-list.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/get-all-conditions.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/get-all-conditions.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/get-unique-condition-sets.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/get-unique-condition-sets.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/is-relative-require.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/is-relative-require.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/is-windows.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/is-windows.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/resolve-all-exports.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/resolve-all-exports.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/errors.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/errors.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/resolve-import.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/resolve-import.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/file-exists.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/file-exists.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/resolve-dependency-export.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/resolve-dependency-export.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/find-dep-package.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/find-dep-package.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/walk-up-path/dist/esm/index.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/walk-up-path/src/index.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/read-pkg.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/read-pkg.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/read-json.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/read-json.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/resolve-export.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/resolve-export.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/find-star-match.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/find-star-match.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/resolve-conditional-value.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/resolve-conditional-value.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/resolve-package-import.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/resolve-package-import.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/to-file-url.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/to-file-url.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/to-path.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/to-path.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/get-named-exports-list.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/get-named-exports-list.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/star-glob.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/star-glob.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/dist/esm/index.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/src/index.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/dist/esm/index.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/src/index.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@isaacs/brace-expansion/dist/esm/index.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/@isaacs/brace-expansion/src/index.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@isaacs/balanced-match/dist/esm/index.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/@isaacs/balanced-match/src/index.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/dist/esm/assert-valid-pattern.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/src/assert-valid-pattern.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/dist/esm/ast.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/src/ast.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/dist/esm/brace-expressions.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/src/brace-expressions.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/dist/esm/unescape.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/src/unescape.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/dist/esm/escape.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/minimatch/src/escape.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/dist/esm/glob.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/src/glob.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/path-scurry/dist/esm/index.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/path-scurry/src/index.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/lru-cache/dist/esm/index.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/lru-cache/src/index.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/minipass/dist/esm/index.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/minipass/src/index.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/dist/esm/pattern.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/src/pattern.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/dist/esm/walker.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/src/walker.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/dist/esm/ignore.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/src/ignore.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/dist/esm/processor.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/src/processor.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/dist/esm/has-magic.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/glob/src/has-magic.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/dist/esm/resolve-all-local-imports.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/resolve-import/src/resolve-all-local-imports.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/export-line.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/src/export-line.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/munge-mocks.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/src/munge-mocks.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/resolve-mock-entry-point.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/src/resolve-mock-entry-point.ts"
+    ],
+    "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/dist/esm/service-key.js": [
+      "/Users/mike/Documents/tools/is-thirteen/node_modules/@tapjs/mock/src/service-key.ts"
+    ]
+  },
+  "root": "a8189060-b9c5-4151-8db1-7b4aabb23c26",
+  "externalID": "test.js",
+  "code": 1,
+  "signal": null,
+  "runtime": 468.503958
+}
