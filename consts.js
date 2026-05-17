@@ -148,6 +148,10 @@ var thirteenStrings = [
     "سیزده", // Persian
     "۱۳", // Persian number
 
+    "ⵎⵔⴰⵡ ⴷ ⴽⵕⴰⴹ", // Kabyle (tifinagh literal form)
+    "ⵜⵍⴻⵟⵟⴰⵛ", // Kabyle (tifinagh)
+    "tleṭṭac", // Kabyle (romanized)
+  
     "dertien", // Afrikaans / Dutch
     "dertiendertien", // Double Dutch
     "seri-un-teng", // Belter creole
